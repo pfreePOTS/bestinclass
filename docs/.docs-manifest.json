@@ -77,17 +77,35 @@
       "id": "audit-software-resale",
       "title": "Software Resale & SaaS Rationalization",
       "files": [
-        "docs/analysis/PulseOne_Software_Classification_Findings.md",
-        "docs/analysis/PulseOne_Software_Reconciliation.md",
-        "docs/analysis/PulseOne_Software_Allocation_Overpayment_Analysis.md",
-        "docs/analysis/PulseOne_Software_Optimization_Plan_Revised.md",
-        "docs/analysis/PulseOne_Software_Pricing_Correction_Plan.md",
-        "docs/analysis/PulseOne_SaaS_Rationalization_Matrix.md"
+        "docs/analysis/Audit_Software_Resale.md"
+      ],
+      "data": [
+        "data/financial/Software_COGS_Classified.xlsx",
+        "docs/analysis/software_classification_summary.json"
       ],
       "type": "operational-audit",
-      "status": "active-needs-consolidation",
-      "description": "Six overlapping documents covering the -9.4% software resale margin failure. Should be consolidated into a single Audit_Software_Resale.md using the 9-section format.",
-      "consolidation_priority": "HIGH"
+      "status": "active",
+      "version": "1.0",
+      "last_updated": "2026-04-20",
+      "supersedes": [
+        "docs/archive/PulseOne_Software_Classification_Findings.md",
+        "docs/archive/PulseOne_Software_Reconciliation.md",
+        "docs/archive/PulseOne_Software_Allocation_Overpayment_Analysis.md",
+        "docs/archive/PulseOne_Software_Optimization_Plan_Revised.md",
+        "docs/archive/PulseOne_Software_Pricing_Correction_Plan.md",
+        "docs/archive/PulseOne_SaaS_Rationalization_Matrix.md"
+      ],
+      "description": "Consolidated software resale and SaaS rationalization audit. Covers the -9.4% standalone software resale margin failure, three-bucket COGS/SGA classification of all 1,068 transactions across 57 vendors, Barracuda cost escalation (87% in CY2025), TD Synnex billing transparency issue, and $194,092 COGS/SGA misallocation. Includes 11 prioritized action items and 5 ConnectWise follow-up requests.",
+      "key_findings": {
+        "software_resale_gm": "-9.4% (BiC target: 24.3%-26.3%)",
+        "profit_recovery_opportunity": "$185,000",
+        "cogs_misclassified_as_sga": "$194,092",
+        "barracuda_cost_escalation": "87% in CY2025 (+$41,713/year run-rate)",
+        "true_internal_sga_software": "$58,539",
+        "immediate_cancellation_savings": "$1,561/year",
+        "transactions_classified": 1068,
+        "unique_vendors": 57
+      }
     },
     {
       "id": "audit-utilization-billing",
