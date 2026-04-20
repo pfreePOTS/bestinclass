@@ -1,0 +1,2 @@
+GITHUB_REPO=pfreePOTS/bestinclass
+GITHUB_BRANCH=main

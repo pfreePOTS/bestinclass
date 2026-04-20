@@ -1,0 +1,13 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Temp files
+*.tmp
+*.bak
+extract_multiyear.py
