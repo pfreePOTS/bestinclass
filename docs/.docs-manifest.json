@@ -1,0 +1,90 @@
+{
+  "version": "1.0",
+  "project": "PulseOne Best In Class Audit",
+  "repo": "pfreePOTS/bestinclass",
+  "last_updated": "2026-04-20",
+  "documents": [
+    {
+      "id": "definitive-pl-analysis",
+      "title": "PulseOne Definitive P&L Analysis",
+      "file": "docs/analysis/PulseOne_Definitive_PL_Analysis.md",
+      "pdf": "docs/analysis/PulseOne_Definitive_PL_Analysis.pdf",
+      "status": "active",
+      "version": "3.0",
+      "created": "2026-04-20",
+      "last_updated": "2026-04-20",
+      "supersedes": "refined-analysis-upwork",
+      "description": "Definitive corrected P&L using confirmed CY 2025 Upwork data. All 12 freelancers classified. Reconciled to $0.30. This is the authoritative version.",
+      "key_findings": {
+        "corrected_gross_margin": "37.4%",
+        "bic_target_gross_margin": "50.0%",
+        "gap_to_bic": "-12.6 pts = -$652,537",
+        "normalized_ebitda": "12.9%",
+        "total_reclassified": "$1,113,902"
+      }
+    },
+    {
+      "id": "refined-analysis-upwork",
+      "title": "PulseOne Refined Analysis — Upwork Data",
+      "file": "docs/archive/PulseOne_Refined_Analysis_Upwork.md",
+      "pdf": "docs/archive/PulseOne_Refined_Analysis_Upwork.pdf",
+      "status": "archived",
+      "version": "2.0",
+      "created": "2026-04-20",
+      "last_updated": "2026-04-20",
+      "superseded_by": "definitive-pl-analysis",
+      "description": "Intermediate version using estimated Upwork proportions. Superseded by definitive version with confirmed CY 2025 data."
+    },
+    {
+      "id": "final-reclassification-pl",
+      "title": "PulseOne Final Reclassification and P&L",
+      "file": "docs/archive/PulseOne_Final_Reclassification_and_PL.md",
+      "pdf": "docs/archive/PulseOne_Final_Reclassification_and_PL.pdf",
+      "status": "archived",
+      "version": "1.1",
+      "created": "2026-04-17",
+      "last_updated": "2026-04-17",
+      "superseded_by": "definitive-pl-analysis",
+      "description": "First complete reclassification with confirmed personnel classifications. Superseded by versions incorporating Upwork actuals."
+    },
+    {
+      "id": "cogs-classification-analysis",
+      "title": "PulseOne COGS Classification Analysis — Person by Person",
+      "file": "docs/analysis/PulseOne_COGS_Classification_Analysis.md",
+      "pdf": "docs/analysis/PulseOne_COGS_Classification_Analysis.pdf",
+      "status": "active",
+      "version": "1.0",
+      "created": "2026-04-17",
+      "last_updated": "2026-04-17",
+      "description": "Complete person-by-person COGS vs. SG&A classification for all 38 PulseOne personnel. Confirmed by Paul Freeman April 17, 2026."
+    },
+    {
+      "id": "normalized-pl-preliminary",
+      "title": "PulseOne Normalized P&L — Preliminary",
+      "file": "docs/archive/PulseOne_Normalized_PL_Preliminary.md",
+      "pdf": "docs/archive/PulseOne_Normalized_PL_Preliminary.pdf",
+      "status": "archived",
+      "version": "1.0",
+      "created": "2026-04-17",
+      "last_updated": "2026-04-17",
+      "superseded_by": "definitive-pl-analysis",
+      "description": "Initial preliminary P&L rebuild before personnel classifications were confirmed. Historical reference only."
+    }
+  ],
+  "data_sources": [
+    {
+      "name": "Upwork CY 2025 Time by Freelancer",
+      "file": "docs/reference/Upwork_CY2025_Freelancers.csv",
+      "period": "Full CY 2025",
+      "total": "$299,923.75",
+      "confirmed": true
+    },
+    {
+      "name": "Upwork YTD 2026 Time by Freelancer",
+      "file": "docs/reference/Upwork_YTD2026_Freelancers.csv",
+      "period": "Jan–Apr 2026",
+      "total": "$92,270.67",
+      "confirmed": true
+    }
+  ]
+}
