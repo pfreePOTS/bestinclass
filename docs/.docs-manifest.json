@@ -1,20 +1,56 @@
 {
-  "version": "1.0",
+  "version": "2.0",
   "project": "PulseOne Best In Class Audit",
   "repo": "pfreePOTS/bestinclass",
   "last_updated": "2026-04-20",
-  "documents": [
+  "framework_documents": [
+    {
+      "id": "bic-master-scorecard",
+      "title": "PulseOne BiC Master Scorecard",
+      "file": "docs/analysis/PulseOne_BiC_Master_Scorecard.md",
+      "type": "scorecard",
+      "status": "active",
+      "version": "1.0",
+      "created": "2026-04-20",
+      "last_updated": "2026-04-20",
+      "description": "Single source of truth for PulseOne's current performance metrics mapped against Service Leadership BiC benchmarks. Updated iteratively as new data is reconciled."
+    },
+    {
+      "id": "action-register",
+      "title": "PulseOne BiC Action Register",
+      "file": "docs/analysis/PulseOne_Action_Register.md",
+      "type": "action-register",
+      "status": "active",
+      "version": "1.0",
+      "created": "2026-04-20",
+      "last_updated": "2026-04-20",
+      "description": "Centralized, prioritized register of all 42 actionable recommendations extracted from BiC audit analyses. Includes 8 blocking ConnectWise data requests."
+    },
+    {
+      "id": "consolidation-plan",
+      "title": "PulseOne BiC Standardized Documentation Plan",
+      "file": "docs/analysis/PulseOne_BiC_Standardized_Documentation_Plan.md",
+      "type": "governance",
+      "status": "active",
+      "version": "1.0",
+      "created": "2026-04-20",
+      "last_updated": "2026-04-20",
+      "description": "Master plan defining the 4-part standardized documentation architecture: Scorecard, Financial Model, Operational Audits, and Action Register."
+    }
+  ],
+  "financial_model": [
     {
       "id": "definitive-pl-analysis",
       "title": "PulseOne Definitive P&L Analysis",
       "file": "docs/analysis/PulseOne_Definitive_PL_Analysis.md",
       "pdf": "docs/analysis/PulseOne_Definitive_PL_Analysis.pdf",
+      "type": "financial-model",
       "status": "active",
       "version": "3.0",
       "created": "2026-04-20",
       "last_updated": "2026-04-20",
       "supersedes": "refined-analysis-upwork",
-      "description": "Definitive corrected P&L using confirmed CY 2025 Upwork data. All 12 freelancers classified. Reconciled to $0.30. This is the authoritative version.",
+      "description": "Definitive corrected P&L using confirmed CY 2025 Upwork data. All 12 freelancers classified. Reconciled to $0.30. This is the authoritative P&L version.",
       "key_findings": {
         "corrected_gross_margin": "37.4%",
         "bic_target_gross_margin": "50.0%",
@@ -24,51 +60,158 @@
       }
     },
     {
-      "id": "refined-analysis-upwork",
-      "title": "PulseOne Refined Analysis — Upwork Data",
-      "file": "docs/archive/PulseOne_Refined_Analysis_Upwork.md",
-      "pdf": "docs/archive/PulseOne_Refined_Analysis_Upwork.pdf",
-      "status": "archived",
-      "version": "2.0",
-      "created": "2026-04-20",
-      "last_updated": "2026-04-20",
-      "superseded_by": "definitive-pl-analysis",
-      "description": "Intermediate version using estimated Upwork proportions. Superseded by definitive version with confirmed CY 2025 data."
-    },
-    {
-      "id": "final-reclassification-pl",
-      "title": "PulseOne Final Reclassification and P&L",
-      "file": "docs/archive/PulseOne_Final_Reclassification_and_PL.md",
-      "pdf": "docs/archive/PulseOne_Final_Reclassification_and_PL.pdf",
-      "status": "archived",
-      "version": "1.1",
-      "created": "2026-04-17",
-      "last_updated": "2026-04-17",
-      "superseded_by": "definitive-pl-analysis",
-      "description": "First complete reclassification with confirmed personnel classifications. Superseded by versions incorporating Upwork actuals."
-    },
-    {
       "id": "cogs-classification-analysis",
       "title": "PulseOne COGS Classification Analysis — Person by Person",
       "file": "docs/analysis/PulseOne_COGS_Classification_Analysis.md",
       "pdf": "docs/analysis/PulseOne_COGS_Classification_Analysis.pdf",
+      "type": "financial-model",
       "status": "active",
       "version": "1.0",
       "created": "2026-04-17",
       "last_updated": "2026-04-17",
       "description": "Complete person-by-person COGS vs. SG&A classification for all 38 PulseOne personnel. Confirmed by Paul Freeman April 17, 2026."
+    }
+  ],
+  "operational_audits": [
+    {
+      "id": "audit-software-resale",
+      "title": "Software Resale & SaaS Rationalization",
+      "files": [
+        "docs/analysis/PulseOne_Software_Classification_Findings.md",
+        "docs/analysis/PulseOne_Software_Reconciliation.md",
+        "docs/analysis/PulseOne_Software_Allocation_Overpayment_Analysis.md",
+        "docs/analysis/PulseOne_Software_Optimization_Plan_Revised.md",
+        "docs/analysis/PulseOne_Software_Pricing_Correction_Plan.md",
+        "docs/analysis/PulseOne_SaaS_Rationalization_Matrix.md"
+      ],
+      "type": "operational-audit",
+      "status": "active-needs-consolidation",
+      "description": "Six overlapping documents covering the -9.4% software resale margin failure. Should be consolidated into a single Audit_Software_Resale.md using the 9-section format.",
+      "consolidation_priority": "HIGH"
+    },
+    {
+      "id": "audit-utilization-billing",
+      "title": "Utilization & Billing Efficiency",
+      "files": [
+        "docs/analysis/PulseOne_Utilization_Findings.md",
+        "docs/analysis/PulseOne_Billing_Efficiency_Report.md",
+        "docs/analysis/PulseOne_Corrected_Findings_and_Utilization.md"
+      ],
+      "type": "operational-audit",
+      "status": "active-needs-consolidation",
+      "description": "Three overlapping documents covering technician utilization and billing leakage. Should be consolidated into a single Audit_Utilization_and_Billing.md using the 9-section format.",
+      "consolidation_priority": "HIGH"
+    },
+    {
+      "id": "audit-profit-leakage-sga",
+      "title": "Profit Leakage & SG&A Analysis",
+      "files": [
+        "docs/analysis/PulseOne_Profit_Leakage_Map.md",
+        "docs/analysis/PulseOne_Granular_Dept_Analysis.md",
+        "docs/analysis/PulseOne_Fully_Reconciled_PL.md",
+        "docs/analysis/PulseOne_Unified_Labor_Model.md"
+      ],
+      "type": "operational-audit",
+      "status": "active-needs-consolidation",
+      "description": "Four overlapping documents covering profit leakage decomposition, departmental SG&A, and labor model reconciliation. Should be consolidated into a single Audit_Profitability_and_SGA.md using the 9-section format.",
+      "consolidation_priority": "MEDIUM"
+    },
+    {
+      "id": "audit-client-profitability",
+      "title": "Client Profitability & Revenue Quality",
+      "files": [
+        "docs/analysis/pulseone-client-profitability-analysis.md"
+      ],
+      "type": "operational-audit",
+      "status": "active",
+      "description": "Client concentration analysis and revenue quality assessment. Blocked on ConnectWise hours-by-client data for completion."
+    },
+    {
+      "id": "audit-bic-comprehensive",
+      "title": "Revised Comprehensive BiC Audit Report",
+      "files": [
+        "docs/analysis/PulseOne_Revised_BIC_Audit_Report.md"
+      ],
+      "type": "operational-audit",
+      "status": "active",
+      "description": "Comprehensive BiC audit incorporating expense tracking and partner compensation allocation. Supersedes the original BIC Audit Report (now archived)."
+    },
+    {
+      "id": "audit-service-utilization",
+      "title": "Service Utilization (Incoming)",
+      "files": [
+        "docs/analysis/Audit_Service_Utilization_TEMPLATE.md"
+      ],
+      "type": "operational-audit",
+      "status": "placeholder",
+      "description": "Template for the incoming service utilization analysis from a separate conversation. Will be populated when data is available."
+    },
+    {
+      "id": "audit-project-costing",
+      "title": "Project Costing & Margin (Incoming)",
+      "files": [
+        "docs/analysis/Audit_Project_Costing_TEMPLATE.md"
+      ],
+      "type": "operational-audit",
+      "status": "placeholder",
+      "description": "Template for the incoming project margin and costing analysis. Will be populated when the updated project report is provided."
+    }
+  ],
+  "archived_documents": [
+    {
+      "id": "refined-analysis-upwork",
+      "title": "PulseOne Refined Analysis — Upwork Data",
+      "file": "docs/archive/PulseOne_Refined_Analysis_Upwork.md",
+      "status": "archived",
+      "superseded_by": "definitive-pl-analysis",
+      "description": "Intermediate version using estimated Upwork proportions."
+    },
+    {
+      "id": "final-reclassification-pl",
+      "title": "PulseOne Final Reclassification and P&L",
+      "file": "docs/archive/PulseOne_Final_Reclassification_and_PL.md",
+      "status": "archived",
+      "superseded_by": "definitive-pl-analysis",
+      "description": "First complete reclassification with confirmed personnel classifications."
     },
     {
       "id": "normalized-pl-preliminary",
       "title": "PulseOne Normalized P&L — Preliminary",
       "file": "docs/archive/PulseOne_Normalized_PL_Preliminary.md",
-      "pdf": "docs/archive/PulseOne_Normalized_PL_Preliminary.pdf",
       "status": "archived",
-      "version": "1.0",
-      "created": "2026-04-17",
-      "last_updated": "2026-04-17",
       "superseded_by": "definitive-pl-analysis",
-      "description": "Initial preliminary P&L rebuild before personnel classifications were confirmed. Historical reference only."
+      "description": "Initial preliminary P&L rebuild before personnel classifications were confirmed."
+    },
+    {
+      "id": "software-optimization-plan-final",
+      "title": "PulseOne Software Optimization Plan — Final",
+      "file": "docs/archive/PulseOne_Software_Optimization_Plan_Final.md",
+      "status": "archived",
+      "superseded_by": "audit-software-resale",
+      "description": "Earlier software optimization plan. Superseded by the consolidated software resale audit cluster."
+    },
+    {
+      "id": "bic-audit-report-original",
+      "title": "PulseOne BIC Audit Report (Original)",
+      "file": "docs/archive/PulseOne_BIC_Audit_Report.md",
+      "status": "archived",
+      "superseded_by": "audit-bic-comprehensive",
+      "description": "Original comprehensive BiC audit. Superseded by the Revised BIC Audit Report."
+    },
+    {
+      "id": "initial-observations",
+      "title": "PulseOne Initial Observations",
+      "file": "docs/archive/PulseOne_Initial_Observations.md",
+      "status": "archived",
+      "superseded_by": "audit-bic-comprehensive",
+      "description": "Early strategic review. Fully superseded by later comprehensive analyses."
+    },
+    {
+      "id": "new-docs-findings",
+      "title": "New Docs Findings (Working Notes)",
+      "file": "docs/archive/new_docs_findings.md",
+      "status": "archived",
+      "description": "Informal working notes on staffing costs and target model. Consolidated into the Action Register and Scorecard."
     }
   ],
   "data_sources": [
