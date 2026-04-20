@@ -77,7 +77,8 @@
       "id": "audit-software-resale",
       "title": "Software Resale & SaaS Rationalization",
       "files": [
-        "docs/analysis/Audit_Software_Resale.md"
+        "docs/analysis/Audit_Software_Resale.md",
+        "docs/analysis/Audit_Software_Resale_Addendum.md"
       ],
       "data": [
         "data/financial/Software_COGS_Classified.xlsx",
