@@ -32,3 +32,28 @@ Paul Freeman, Charlie Batsford, and Rod (total $423,000) are in SG&A as Partner 
 ## Invariant 7: Confirmed Classifications Are Final
 
 The personnel classifications confirmed by Paul Freeman on April 17, 2026 are final. Do not re-open these without explicit instruction. See `docs/meta/interaction-rules.md` for the full confirmed list.
+
+## Invariant 8: Software Vendor Classifications (Confirmed April 20, 2026)
+
+The following software vendor COGS/SGA classifications were confirmed by Paul Freeman on April 20, 2026 and must not be re-questioned:
+
+| Vendor | Confirmed Bucket | Confirmed By |
+|--------|-----------------|-------------|
+| Flexis ($64,009) | COGS — Agreement Licenses | Owner, 2026-04-20 |
+| Amazon Web Services ($73,982) | COGS — Agreement Licenses (client-specific) | Owner, 2026-04-20 |
+| Samurai Sync ($9,450) | COGS — Agreement Licenses (move from SGA) | Owner, 2026-04-20 |
+| Wasabi Technologies ($7,353) | COGS — Agreement Licenses (move from SGA) | Analysis (backup delivery) |
+| Duo Security ($2,068) | COGS — Agreement Licenses (move from SGA) | Analysis (client MFA) |
+| Qualys ($1,024) | COGS — Agreement Licenses (move from SGA) | Analysis (client vuln scanning) |
+| Barracuda/Skout ($72,960) | COGS — Agreement Licenses | Analysis (delivery platform) |
+| ConnectWise ($89,800) | COGS — Agreement Licenses | Analysis (PSA/RMM) |
+
+**Confirmed SGA (correct as-is):** Avalara, Adobe, Eversign, Cursor, OpenAI, Anthropic, Railway, Monday.com
+
+**Still needs confirmation:** Atlassian ($2,962), GoDaddy ($2,880), Microsoft small COGS item ($2,644) — internal vs. client-facing unknown.
+
+## Invariant 9: TD Synnex and Barracuda Are Active Investigation Items
+
+- **TD Synnex combined spend: $552,841** (Agreement Licenses $301,813 + Standalone Resale $251,028). The Agreement Licenses portion is billed as a consolidated "Estimate" with no line-item product detail and no client attribution. Monthly variance of 44.5% ($20,947–$30,277) is unexplained.
+- **Barracuda cost grew 87% in CY 2025** (Jan: $3,996/mo → Dec: $7,472/mo). Annualized run rate at Dec pace: $89,662 vs. $47,949 at Jan pace. The $41,713/year increase has no client attribution in QuickBooks.
+- Do not treat these as resolved. Both require ConnectWise cross-reference before the cost picture is clean.
