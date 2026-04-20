@@ -1,0 +1,10 @@
+Category,Source Section,Key Vendors/Personnel,Amount ($),Classification Bucket,Confidence,Rationale
+Software COGS,Purchases - Software for Resale,ALL,570987,Client-Delivered Software COGS,HIGH,Purchased for resale to specific clients
+Software COGS,Agreement License Cost,"Synnex Corp, Barracuda, AWS, Microsoft",571692,Service Delivery Tool COGS,HIGH,Managed service delivery platform/tool
+Software COGS,Computer and Internet Expenses,"ConnectWise, Flexis, Kaseya, Samurai Sync, etc.",197693,Service Delivery Tool COGS,HIGH,Service delivery/client management tool
+Software COGS,Computer and Internet Expenses,"Microsoft Azure, GoDaddy, Pivotal Crew, AI MAD FZCO",24281,UNCLASSIFIED,NEEDS CONFIRMATION,Could be client infrastructure (COGS) or internal
+Software COGS,Computer and Internet Expenses,"Adobe, Cursor, OpenAI, Zapier, Anthropic, etc.",58539,Internal SG&A,HIGH,Internal operations tool
+Labor COGS,W-2 Payroll,Dept 100 (Services) - 13 employees,708663,Service Delivery Labor COGS,HIGH,Matches Definitive P&L Adjustment A
+Contractor COGS,Upwork,"Vincent Williams, Matthew Barnett, Omar Avalos, etc.",293125,Service Delivery Contractor COGS,HIGH,Based on CY2025 actuals (97.7% of total)
+Contractor SG&A,Upwork,"Kirill Hovansky, Sabah Razaq, Yana Kosenko",6798,Internal SG&A,HIGH,Based on CY2025 actuals (2.3% of total)
+Contractor COGS,Non-Upwork,"Blue Pisces, David Fredrick, Basim Mashni, etc.",846793,Service Delivery Contractor COGS,MEDIUM,"Based on budgeted Expense Tracker, needs actuals confirmation"
