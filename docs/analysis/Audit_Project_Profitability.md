@@ -7,7 +7,7 @@
 ---
 
 ## A. Objective
-Conduct a deep profitability audit of the PulseOne Consulting/Projects division to identify the structural root causes of the segment’s underperformance. The Master Scorecard reports Project/Consulting Gross Margin at 24.2%, which is roughly half of the Service Leadership Best in Class (BiC) target of 48–52%. This audit decomposes revenue, allocates project-related labor costs, and reclassifies engagements into three distinct service delivery models—Staff Augmentation, True Consulting/Projects, and Managed Services—to determine the exact source of margin leakage.
+Conduct a deep profitability audit of the PulseOne Consulting/Projects division to identify the structural root causes of the segment’s underperformance. The Master Scorecard reports Project/Consulting Gross Margin at 24.2%, which is roughly half of the Service Leadership Best in Class (BiC) target of 48–52%. This audit decomposes revenue, isolates discrete project delivery from staff augmentation, and quantifies the impact of untracked internal W-2 labor on the true cost of project delivery.
 
 ## B. Evidence Reviewed
 This analysis synthesizes data from the following authoritative project files and knowledge base documents:
@@ -19,17 +19,30 @@ This analysis synthesizes data from the following authoritative project files an
 - `PulseOne_Corrected_Findings_and_Utilization.md` (Prior utilization hypotheses)
 
 ## C. Current Understanding
-The Definitive P&L establishes that PulseOne generated $1,175,036 in consulting/project revenue in CY 2025 at a 24.2% gross margin. Concurrently, the total service delivery labor cost across the company is approximately 35.6% of revenue, which is 5–10 points higher than the BiC target of 25–30%. 
+The Definitive P&L establishes that PulseOne generated $1,175,036 in consulting/project revenue in CY 2025 at a fully-loaded 24.2% gross margin. Concurrently, the total service delivery labor cost across the company is approximately 35.6% of revenue, which is 5–10 points higher than the BiC target of 25–30%. 
 
-However, the operational data in QuickBase logs $1,949,344 in completed project revenue for CY 2025 at a blended direct margin of 45.6%. This $774K revenue gap and 21.4-point margin paradox is driven by classification differences between the operational tracker (QuickBase) and the financial system (P&L). To resolve this, this audit reclassifies the QuickBase data into three distinct business models based on the nature of the engagements.
+However, the operational data in QuickBase logs $1,949,344 in completed project revenue for CY 2025 at a blended direct margin of 45.6%. This massive gap between the operational tracking tool (QuickBase) and the financial reality (P&L) is driven by two structural issues: (1) the inclusion of staff augmentation and managed services revenue in the QuickBase project tracker, and (2) the "invisible subsidy" of untracked internal W-2 labor consumed by projects.
 
 ## D. Findings
 
-### 1. The Three-Segment Reclassification
+### 1. The Primary Root Cause: The "Invisible Subsidy" of W-2 Labor
+The central finding of this audit is that QuickBase project margins are artificially inflated because they only capture external subcontractor invoices as COGS. When PulseOne deploys internal W-2 staff (e.g., Hagen McDonell, James Froio, Joel Alvarez, Eric Anzalone) to execute project work, their labor cost is not recorded against the project in QuickBase.
+
+This creates an "invisible subsidy":
+- **Project margins look artificially high (47.1% in QB)** because they receive "free" labor from the internal W-2 pool.
+- **Help Desk/Managed Services margins look artificially low** because that division absorbs the payroll cost for work actually performed for projects.
+- **The P&L catches everything**, which is why the fully-loaded project margin drops all the way down to **24.2%**.
+
+The 24.2% is the *real* project margin. The 47.1% in QuickBase is a cash margin that only measures the markup on external subcontractors.
+
+**Quantifying the Hidden Cost:**
+There is a pool of approximately $375,000 in W-2 service delivery payroll capable of being deployed to projects. If these internal resources spend just 33% of their time on project delivery, that represents ~$124,000 in hidden project COGS. Adding $124K in hidden labor to the true project base ($691K revenue) drops the direct margin from 47.1% down to 29.1% — very close to the P&L's fully-loaded 24.2%.
+
+### 2. The Three-Segment Reclassification
 The $1.95M in QuickBase "project" revenue actually consists of three distinct service delivery models that must be evaluated against different BiC benchmarks:
 
 **Segment 1: Staff Augmentation (ARC Research)**
-ARC Research represents a managed pool of contractors (David Fredrick, Blue Pisces/Ruben, Basim Mashni, and Matthew Barnett) provided by PulseOne at a negotiated monthly rate. This is staff augmentation, not project delivery. In CY 2025, ARC generated $1,103,649 (56.6% of the QuickBase total) at a 43.3% direct margin. This represents a 76.3% markup on cost, which is exceptionally strong for staff augmentation (where BiC is typically 15–25% markup).
+ARC Research represents a managed pool of contractors provided by PulseOne at a negotiated monthly rate. This is staff augmentation, not project delivery. In CY 2025, ARC generated $1,103,649 (56.6% of the QuickBase total) at a 43.3% direct margin. This represents a 76.3% markup on cost, which is exceptionally strong for staff augmentation (where BiC is typically 15–25% markup).
 
 **Segment 2: True Consulting/Projects (Bunzl Parent, AvePoint, etc.)**
 Excluding staff augmentation and recurring managed services, true project delivery generated $690,839 (35.4% of the total) across 61 engagements. These discrete projects operated at a 47.1% direct margin (before internal W-2 labor loading). The Bunzl parent company accounted for 79.4% of this true project revenue ($548,639).
@@ -37,20 +50,17 @@ Excluding staff augmentation and recurring managed services, true project delive
 **Segment 3: Managed Services (Bunzl Subsidiaries)**
 Work performed for Bunzl subsidiaries (Bunzl De Mexico, Cool Pak, Monte Package, Intergro) consists of recurring managed service relationships, not discrete projects. These engagements generated $154,855 (7.9% of the total) at a 55.8% direct margin.
 
-### 2. The True Margin Paradox
-The P&L reports a fully-loaded consulting/project margin of 24.2% on $1.175M in revenue. If the $1.1M in highly profitable ARC staff augmentation revenue is included in that P&L consulting line, the remaining $75,000 in true project revenue must be operating at a deeply negative margin to drag the blended average down to 24.2%. 
-
-Conversely, if ARC is classified as Managed Services in the P&L, then the 24.2% margin applies primarily to the $690K in true projects. Because these true projects achieved a 47.1% direct margin in QuickBase using only subcontractor COGS, the 22.9-point drop to 24.2% in the P&L means that massive amounts of unbilled or untracked internal W-2 labor are being consumed by these projects.
-
 ### 3. Project-Level Margin Failures
-Within the $690K true project portfolio, 98% of projects beat their internal target margins. However, the single failure had a disproportionate impact due to its size. The Bunzl AD Migration project was priced at $252,400 but incurred $173,923 in direct COGS, yielding a 31.1% margin against a 35.6% target. This single 4.5-point miss represented an $11,333 profit shortfall.
+Within the $690K true project portfolio, 98% of projects beat their internal target margins. However, the internal targets themselves are set at 35–39%, which is structurally below the BiC target of 48–52%. PulseOne is consistently hitting its goals, but the goals are set too low to achieve Best in Class profitability.
+
+The single failure against internal targets had a disproportionate impact due to its size. The Bunzl AD Migration project was priced at $252,400 but incurred $173,923 in direct subcontractor COGS, yielding a 31.1% direct margin against a 35.6% target. This single 4.5-point miss represented an $11,333 profit shortfall, *before* any internal W-2 labor was applied.
 
 Conversely, small projects (under $5K) are highly efficient. The 42 projects in this tier generated $91,050 in revenue at an 82.8% direct margin, demonstrating that the pricing and delivery model works well for discrete, transactional scopes.
 
-### 4. Contractor Efficiency and Cost Allocation
+### 4. Contractor Efficiency and Escalation Dependency
 PulseOne relies heavily on external contractors. The CY 2025 Expenses Tracker budgets $560,236 annually for the four core COGS contractors dedicated to the ARC staff augmentation pool. QuickBase recorded $625,919 in ARC COGS, which aligns closely with the budget plus Matthew Barnett's $74K net cost.
 
-However, the Upwork analysis identified Vincent Williams billing $104,740 (1,706 hours at $61/hr) for IT/Network escalations and ITMS projects. His cost is not explicitly tracked in QuickBase COGS. If his escalation hours are not being billed to clients at $150+/hr, or if they are being absorbed into flat-rate agreements, he represents a significant, untracked margin leak.
+However, the Upwork analysis identified Vincent Williams billing $104,740 (1,706 hours at $61/hr) for IT/Network escalations and ITMS projects. His cost is not explicitly tracked in QuickBase COGS. If his escalation hours are not being billed to clients at $150+/hr, or if they are being absorbed into flat-rate agreements, he represents a significant, untracked margin leak outside the QuickBase system.
 
 ## E. Service Leadership Best in Class Alignment
 
@@ -67,38 +77,38 @@ However, the Upwork analysis identified Vincent Williams billing $104,740 (1,706
 ## F. Risks and Opportunities
 
 **Risks:**
-- **Hidden W-2 Labor Costs:** True projects are achieving 47.1% direct margin using only subcontractor COGS. The drop to 24.2% fully-loaded margin means internal W-2 staff are likely performing unbilled or underpriced project work.
-- **P&L Classification Dependency:** If ARC staff augmentation revenue is masking deep losses in true project delivery on the P&L, the structural health of the consulting division is much worse than the 24.2% blended margin suggests.
-- **Escalation Dependency:** Vincent Williams costs $104K/year at $61/hr. If his escalation hours are not being billed to clients at sufficient rates, he represents a major margin leak outside the QuickBase tracking system.
+- **The Invisible Subsidy:** The use of internal W-2 staff on projects without tracking their cost in QuickBase means project pricing is structurally flawed. If project quotes are built expecting a 35% margin based *only* on subcontractor costs, the fully-loaded margin will always be severely below BiC when W-2 labor is applied.
+- **P&L Classification Dependency:** If the highly profitable ARC staff augmentation revenue ($1.1M) is mapped to the Consulting line on the P&L, it is masking deep losses in true project delivery. If ARC is removed, the remaining true projects may be operating at a negative fully-loaded margin.
+- **Escalation Dependency:** Vincent Williams costs $104K/year at $61/hr. If his escalation hours are not being billed to clients at sufficient rates, he represents a major margin leak.
 
 **Opportunities:**
+- **Target Margin Recalibration:** QuickBase data proves PulseOne consistently hits its internal margin targets (98% success rate). Simply raising the internal pricing target to the BiC standard of 50% (and accounting for W-2 labor in the quote) would likely result in execution at that higher level.
 - **Small Project Expansion:** True projects under $5K operate at 83% direct margin. Standardizing and increasing the volume of these transactional projects could rapidly lift the segment average.
-- **Target Margin Recalibration:** QuickBase data proves PulseOne consistently hits its internal margin targets (98% success rate). However, the targets are set at 35–39%. Simply raising the internal pricing target to the BiC standard of 50% would likely result in execution at that higher level.
 
 ## G. Recommended Actions
 
-1. **Reconcile the Revenue Classification:** Finance must definitively map the $1.1M ARC staff augmentation revenue to the P&L to determine if it is inflating the Consulting margin or the Managed Services margin.
-2. **Audit Vincent Williams' Billing:** Trace the 1,706 hours billed by Vincent Williams in CY 2025 to specific client invoices to ensure his $61/hr cost is generating at least $125/hr in revenue.
-3. **Review the Bunzl AD Migration:** Conduct a post-mortem on the $252K AD Migration to identify why COGS overran the target by $11K. Was it scope creep, underpricing, or inefficient labor?
-4. **Recalibrate Project Pricing Targets:** Update the quoting and estimation tools to require a minimum 50% target gross margin on all true project work, abandoning the current 35–39% baseline.
+1. **Implement Fully-Loaded Project Costing:** QuickBase (or ConnectWise) must be updated to track internal W-2 labor hours applied to projects. Every hour a W-2 employee works on a project must carry a burdened hourly cost rate to calculate true project margin.
+2. **Recalibrate Project Pricing Targets:** Update the quoting and estimation tools to require a minimum 50% target gross margin on all true project work, abandoning the current 35–39% baseline. Quotes must include the estimated cost of internal W-2 labor.
+3. **Reconcile the Revenue Classification:** Finance must definitively map the $1.1M ARC staff augmentation revenue to the P&L to determine if it is inflating the Consulting margin or the Managed Services margin.
+4. **Audit Vincent Williams' Billing:** Trace the 1,706 hours billed by Vincent Williams in CY 2025 to specific client invoices to ensure his $61/hr cost is generating at least $125/hr in revenue.
 
 ## H. Suggested ConnectWise Follow-Up
 
-To definitively resolve the margin paradox and the P&L classification ambiguity, the following specific data pulls are required from the ConnectWise AI interface:
+To definitively resolve the "invisible subsidy" and prove exactly how much W-2 labor is consumed by projects, the following specific data pulls are required from the ConnectWise AI interface:
 
-1. **Agreement vs. Project Revenue Classification** (Updates CW-05)
+1. **Technician Time Entries by Board Type** (Updates CW-05)
+   *Request:* "For CY 2025, pull time entries for all internal W-2 technicians (e.g., Hagen McDonell, James Froio, Joel Alvarez, Eric Anzalone, Kaitlin Harris). Break down their total logged hours by board type: Help Desk/ITMS (agreements) versus Projects versus Internal/Admin. Include the burdened hourly cost for each technician."
+   *Why:* This will precisely quantify the "invisible subsidy" — the exact dollar amount of W-2 labor that projects consumed but did not pay for.
+
+2. **Agreement vs. Project Revenue Classification**
    *Request:* "For CY 2025, please provide the total revenue billed under Managed Services Agreements versus the total revenue billed under discrete Projects. Specifically, how is the ARC Research monthly revenue classified in ConnectWise?"
    *Why:* Determines whether ARC staff augmentation is masking losses in true projects or inflating the Managed Services margin.
 
-2. **Vincent Williams Time Entries** (Updates CW-03)
+3. **Vincent Williams Time Entries** (Updates CW-03)
    *Request:* "For CY 2025, how many of Vincent Williams' hours were billed to clients as T&M project work versus how many were applied to fixed-fee Managed Services agreements?"
    *Why:* Determines if the highest-cost Upwork contractor is a profit center or a margin leak.
-
-3. **Technician Utilization by Person**
-   *Request:* "Pull a technician utilization report for CY 2025. What is the billable utilization percentage for each internal W-2 technician in the Services/Projects department?"
-   *Why:* Identifies if internal staff are sitting idle or performing unbilled project work, which would explain the massive drop from 47.1% direct margin to 24.2% fully-loaded margin.
 
 ## I. Clarifying Questions
 
 1. Is the ARC staff augmentation revenue ($1.1M) currently mapped to the "Consulting Services" revenue line on the P&L, or is it mapped to Managed Services?
-2. When internal W-2 engineers (e.g., Eric Anzalone, Laura Walsh) work on a true project, is their labor cost added to the QuickBase COGS column, or does QuickBase only track external subcontractor invoices?
+2. When quoting a new project for a client, does the sales team currently include the estimated cost of internal W-2 labor in the margin calculation, or do they only calculate margin based on external subcontractor costs?
