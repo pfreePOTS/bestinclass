@@ -3,7 +3,7 @@
 **Document Type:** Focused Operational Audit  
 **Version:** 1.0 (Consolidated)  
 **Date:** April 20, 2026  
-**Supersedes:** `PulseOne_Software_Classification_Findings.md`, `PulseOne_Software_Reconciliation.md`, `PulseOne_Software_Allocation_Overpayment_Analysis.md`, `PulseOne_Software_Optimization_Plan_Revised.md`, `PulseOne_Software_Pricing_Correction_Plan.md`, `PulseOne_SaaS_Rationalization_Matrix.md`  
+**Supersedes:** `pulseone-software-classification-findings.md`, `pulseone-software-reconciliation.md`, `pulseone-software-allocation-overpayment-analysis.md`, `pulseone-software-optimization-plan-revised.md`, `pulseone-software-pricing-correction-plan.md`, `pulseone-saas-rationalization-matrix.md`  
 **Classification Workbook:** `data/financial/Software_COGS_Classified.xlsx`
 
 ---
@@ -25,11 +25,11 @@ The secondary objective is to identify SaaS tool sprawl within the SGA line and 
 | Source | Period | Notes |
 |--------|--------|-------|
 | `2025 PulseOne Software COGS and Expense.xlsx` | CY 2025 | 1,068 transactions across 3 QB line items; 57 unique vendors |
-| `PulseOne_Definitive_PL_Analysis.md` v3.0 | CY 2025 | Authoritative corrected P&L; corrected GM = 37.4% |
-| `PulseOne_BiC_Master_Scorecard.md` v1.0 | CY 2025 | BiC benchmark targets |
+| `pulseone-definitive-pl-analysis.md` v3.0 | CY 2025 | Authoritative corrected P&L; corrected GM = 37.4% |
+| `pulseone-bic-master-scorecard.md` v1.0 | CY 2025 | BiC benchmark targets |
 | `docs/meta/architectural-invariants.md` | — | Owner-confirmed vendor classifications |
-| `docs/reference/Service_Leadership_BIC_Reference.md` | — | BiC product GM target: 24.3%–26.3% |
-| `PulseOne_Software_Reconciliation.md` | CY 2025 | Three-way reconciliation: P&L vs. detail file vs. expense tracker |
+| `docs/reference/service-leadership-bic-reference.md` | — | BiC product GM target: 24.3%–26.3% |
+| `pulseone-software-reconciliation.md` | CY 2025 | Three-way reconciliation: P&L vs. detail file vs. expense tracker |
 | Six prior software analysis documents | CY 2025 | Consolidated into this document |
 
 **Data quality:** The detail file reconciles to within 1.3% of the P&L totals ($15,733 variance on $1.2M spend). The Computer and Internet SGA line matches to the penny. The data is reliable for decision-making.

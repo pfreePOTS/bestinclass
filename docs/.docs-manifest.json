@@ -1,43 +1,36 @@
 {
-  "version": "3.0",
+  "version": "4.0",
   "project": "PulseOne Best In Class Audit",
   "repo": "pfreePOTS/bestinclass",
   "last_updated": "2026-04-20",
+  "naming_convention": "lowercase-kebab-case",
   "framework_documents": [
     {
       "id": "bic-master-scorecard",
       "title": "PulseOne BiC Master Scorecard",
-      "file": "docs/analysis/PulseOne_BiC_Master_Scorecard.md",
+      "file": "docs/analysis/pulseone-bic-master-scorecard.md",
       "type": "scorecard",
       "status": "active",
-      "version": "2.0",
+      "version": "2.1",
       "created": "2026-04-20",
       "last_updated": "2026-04-20",
-      "description": "Single source of truth for PulseOne's current performance metrics mapped against Service Leadership BiC benchmarks. v2.0 integrates Technician Efficiency Audit, Software Resale Addendum (resolving -9.4% margin mystery), COGS/SGA reclassification, and client concentration analysis.",
-      "key_changes_v2": [
-        "Software resale GM reclassified from CRITICAL FAILURE to REVENUE MAPPING ISSUE (true GM 68.1%)",
-        "Added corrected GM (33.6%) and corrected SGA (29.4%) after $194K reclassification",
-        "Added client concentration metrics: Top 1 = 23.9%, Top 2 = 41.8%",
-        "Added Bunzl ticket anomaly: 46.9% tickets / 17.9% revenue",
-        "Populated service utilization section with Technician Efficiency findings",
-        "Identified Microsoft M365 (16.4% GM) and Adobe (4.3% GM) as structural issues"
-      ]
+      "description": "Single source of truth for PulseOne's current performance metrics mapped against Service Leadership BiC benchmarks. v2.1 integrates Technician Efficiency Audit, Software Resale Addendum, COGS/SGA reclassification, client concentration analysis, and Bunzl portfolio reframe."
     },
     {
       "id": "action-register",
       "title": "PulseOne BiC Action Register",
-      "file": "docs/analysis/PulseOne_Action_Register.md",
+      "file": "docs/analysis/pulseone-action-register.md",
       "type": "action-register",
       "status": "active",
       "version": "2.0",
       "created": "2026-04-20",
       "last_updated": "2026-04-20",
-      "description": "Centralized, prioritized register of actionable recommendations. v2.0 reframes software actions around revenue mapping (not pricing failure), adds client concentration and Bunzl anomaly actions, integrates Technician Efficiency findings, and updates ConnectWise data requests."
+      "description": "Centralized, prioritized register of actionable recommendations. v2.0 reframes software actions around revenue mapping, adds client concentration and Bunzl anomaly actions, integrates Technician Efficiency findings."
     },
     {
       "id": "consolidation-plan",
       "title": "PulseOne BiC Standardized Documentation Plan",
-      "file": "docs/analysis/PulseOne_BiC_Standardized_Documentation_Plan.md",
+      "file": "docs/analysis/pulseone-bic-standardized-documentation-plan.md",
       "type": "governance",
       "status": "active",
       "version": "1.0",
@@ -50,8 +43,8 @@
     {
       "id": "definitive-pl-analysis",
       "title": "PulseOne Definitive P&L Analysis",
-      "file": "docs/analysis/PulseOne_Definitive_PL_Analysis.md",
-      "pdf": "docs/analysis/PulseOne_Definitive_PL_Analysis.pdf",
+      "file": "docs/analysis/pulseone-definitive-pl-analysis.md",
+      "pdf": "docs/analysis/pulseone-definitive-pl-analysis.pdf",
       "type": "financial-model",
       "status": "active",
       "version": "3.0",
@@ -70,8 +63,8 @@
     {
       "id": "cogs-classification-analysis",
       "title": "PulseOne COGS Classification Analysis — Person by Person",
-      "file": "docs/analysis/PulseOne_COGS_Classification_Analysis.md",
-      "pdf": "docs/analysis/PulseOne_COGS_Classification_Analysis.pdf",
+      "file": "docs/analysis/pulseone-cogs-classification-analysis.md",
+      "pdf": "docs/analysis/pulseone-cogs-classification-analysis.pdf",
       "type": "financial-model",
       "status": "active",
       "version": "1.0",
@@ -85,41 +78,56 @@
       "id": "audit-software-resale",
       "title": "Software Resale & SaaS Rationalization",
       "files": [
-        "docs/analysis/Audit_Software_Resale.md",
-        "docs/analysis/Audit_Software_Resale_Addendum.md"
+        "docs/analysis/audit-software-resale.md",
+        "docs/analysis/audit-software-resale-addendum.md"
       ],
       "data": [
         "data/financial/Software_COGS_Classified.xlsx",
-        "docs/analysis/software_classification_summary.json"
+        "docs/analysis/software-classification-summary.json"
       ],
       "type": "operational-audit",
       "status": "active",
       "version": "1.0",
       "last_updated": "2026-04-20",
       "supersedes": [
-        "docs/archive/PulseOne_Software_Classification_Findings.md",
-        "docs/archive/PulseOne_Software_Reconciliation.md",
-        "docs/archive/PulseOne_Software_Allocation_Overpayment_Analysis.md",
-        "docs/archive/PulseOne_Software_Optimization_Plan_Revised.md",
-        "docs/archive/PulseOne_Software_Pricing_Correction_Plan.md",
-        "docs/archive/PulseOne_SaaS_Rationalization_Matrix.md"
+        "docs/archive/pulseone-software-classification-findings.md",
+        "docs/archive/pulseone-software-reconciliation.md",
+        "docs/archive/pulseone-software-allocation-overpayment-analysis.md",
+        "docs/archive/pulseone-software-optimization-plan-revised.md",
+        "docs/archive/pulseone-software-pricing-correction-plan.md",
+        "docs/archive/pulseone-saas-rationalization-matrix.md"
       ],
-      "description": "Consolidated software resale and SaaS rationalization audit. Addendum resolves the -9.4% margin as a revenue mapping issue (true CW margin 68.1%). Identifies structural issues with Microsoft M365 (16.4% GM) and Adobe (4.3% GM). Covers $194,092 COGS/SGA misallocation, Barracuda cost escalation, and TD Synnex billing transparency.",
-      "key_findings": {
-        "software_resale_gm_qb": "-9.4% (revenue mapping artifact)",
-        "software_resale_gm_cw": "68.1% (true transaction-level margin)",
-        "microsoft_m365_gm": "16.4% (below BiC 24.3% floor)",
-        "adobe_gm": "4.3% (critical)",
-        "cogs_misclassified_as_sga": "$194,092",
-        "barracuda_cost_escalation": "+$41,713/year run-rate",
-        "true_internal_sga_software": "$58,539"
-      }
+      "description": "Consolidated software resale and SaaS rationalization audit. Addendum resolves the -9.4% margin as a revenue mapping issue (true CW margin 68.1%). Identifies structural issues with Microsoft M365 (16.4% GM) and Adobe (4.3% GM)."
+    },
+    {
+      "id": "audit-software-cogs-gap",
+      "title": "Software COGS Gap Analysis",
+      "files": [
+        "docs/analysis/audit-software-cogs-gap-analysis.md"
+      ],
+      "type": "operational-audit",
+      "status": "active",
+      "version": "1.0",
+      "last_updated": "2026-04-20",
+      "description": "Gap analysis between QuickBooks software COGS and ConnectWise Cost/Sell data."
+    },
+    {
+      "id": "audit-cogs-validation",
+      "title": "COGS Validation Audit",
+      "files": [
+        "docs/analysis/audit-cogs-validation.md"
+      ],
+      "type": "operational-audit",
+      "status": "active",
+      "version": "1.0",
+      "last_updated": "2026-04-20",
+      "description": "Line-item COGS validation audit covering software, labor, and contractor classifications."
     },
     {
       "id": "audit-technician-efficiency",
       "title": "Technician Utilization, Cost Efficiency & Client Profitability",
       "files": [
-        "docs/analysis/PulseOne_Technician_Efficiency_Audit.md"
+        "docs/analysis/pulseone-technician-efficiency-audit.md"
       ],
       "charts": [
         "docs/charts/chart_bic_scorecard.png",
@@ -132,42 +140,33 @@
       "status": "active",
       "version": "1.0",
       "last_updated": "2026-04-20",
-      "description": "Strategic audit of technician utilization, service delivery workload distribution, labor cost efficiency, and client-level profitability. Confirms Help Desk operating at 5.41x Service Multiple of Labor (BiC target 2.80x). Identifies severe client concentration risk (Arc 23.9%, Bunzl 17.9%, combined 41.8%) and Bunzl ticket anomaly (46.9% of tickets, 17.9% of revenue).",
-      "key_findings": {
-        "service_multiple_of_labor": "5.41x (BiC target 2.80x)",
-        "managed_services_gm": "52.0%",
-        "total_service_labor_pct": "35.6% (BiC target 25-30%)",
-        "top_client_concentration": "23.9% (Arc Research)",
-        "top_2_concentration": "41.8% (Arc + Bunzl)",
-        "bunzl_ticket_share": "46.9% of all tickets",
-        "key_person_risk": "S. Calkins handles 24% of all tickets"
-      }
+      "description": "Strategic audit of technician utilization, service delivery workload distribution, labor cost efficiency, and client-level profitability. Confirms Help Desk at 5.41x Service Multiple. Identifies severe client concentration risk and Bunzl ticket anomaly."
     },
     {
       "id": "audit-utilization-billing",
       "title": "Utilization & Billing Efficiency",
       "files": [
-        "docs/analysis/PulseOne_Utilization_Findings.md",
-        "docs/analysis/PulseOne_Billing_Efficiency_Report.md",
-        "docs/analysis/PulseOne_Corrected_Findings_and_Utilization.md"
+        "docs/analysis/pulseone-utilization-findings.md",
+        "docs/analysis/pulseone-billing-efficiency-report.md",
+        "docs/analysis/pulseone-corrected-findings-and-utilization.md"
       ],
       "type": "operational-audit",
       "status": "active-needs-consolidation",
-      "description": "Three overlapping documents covering technician utilization and billing leakage. Partially superseded by the Technician Efficiency Audit. Should be consolidated into a single Audit_Utilization_and_Billing.md using the 9-section format.",
-      "consolidation_priority": "MEDIUM"
+      "description": "Three overlapping documents covering technician utilization and billing leakage. Partially superseded by the Technician Efficiency Audit. Should be consolidated into a single audit-utilization-and-billing.md.",
+      "consolidation_priority": "HIGH"
     },
     {
       "id": "audit-profit-leakage-sga",
       "title": "Profit Leakage & SG&A Analysis",
       "files": [
-        "docs/analysis/PulseOne_Profit_Leakage_Map.md",
-        "docs/analysis/PulseOne_Granular_Dept_Analysis.md",
-        "docs/analysis/PulseOne_Fully_Reconciled_PL.md",
-        "docs/analysis/PulseOne_Unified_Labor_Model.md"
+        "docs/analysis/pulseone-profit-leakage-map.md",
+        "docs/analysis/pulseone-granular-dept-analysis.md",
+        "docs/analysis/pulseone-fully-reconciled-pl.md",
+        "docs/analysis/pulseone-unified-labor-model.md"
       ],
       "type": "operational-audit",
       "status": "active-needs-consolidation",
-      "description": "Four overlapping documents covering profit leakage decomposition, departmental SG&A, and labor model reconciliation. Should be consolidated into a single Audit_Profitability_and_SGA.md using the 9-section format.",
+      "description": "Four overlapping documents covering profit leakage decomposition, departmental SG&A, and labor model reconciliation. Should be consolidated into a single audit-profitability-and-sga.md.",
       "consolidation_priority": "MEDIUM"
     },
     {
@@ -179,117 +178,138 @@
       ],
       "type": "operational-audit",
       "status": "active",
-      "description": "Client concentration analysis, revenue quality assessment, and product sales breakdown. Confirms 73.8% recurring revenue. Blocked on ConnectWise hours-by-client data for full completion."
+      "description": "Client concentration analysis, revenue quality assessment, and product sales breakdown. Confirms 73.8% recurring revenue."
     },
     {
       "id": "audit-bic-comprehensive",
       "title": "Revised Comprehensive BiC Audit Report",
       "files": [
-        "docs/analysis/PulseOne_Revised_BIC_Audit_Report.md"
+        "docs/analysis/pulseone-revised-bic-audit-report.md"
       ],
       "type": "operational-audit",
       "status": "active",
-      "description": "Comprehensive BiC audit incorporating expense tracking and partner compensation allocation. Supersedes the original BIC Audit Report (now archived)."
+      "description": "Comprehensive BiC audit incorporating expense tracking and partner compensation allocation."
     },
     {
       "id": "audit-project-costing",
       "title": "Project Costing & Margin (Incoming)",
       "files": [
-        "docs/analysis/Audit_Project_Costing_TEMPLATE.md"
+        "docs/analysis/audit-project-costing-template.md"
       ],
       "type": "operational-audit",
       "status": "placeholder",
-      "description": "Template for the incoming project margin and costing analysis. Will be populated when the updated project report is provided."
+      "description": "Template for the incoming project margin and costing analysis."
+    }
+  ],
+  "reference_documents": [
+    {
+      "id": "ref-bic-framework",
+      "title": "Service Leadership BIC Framework Reference",
+      "file": "docs/reference/service-leadership-bic-framework-reference.md",
+      "type": "reference",
+      "status": "active",
+      "description": "Primary BIC framework reference document with benchmark definitions, peer group logic, and scoring methodology."
+    },
+    {
+      "id": "ref-bic-reference",
+      "title": "Service Leadership BIC Reference (Summary)",
+      "file": "docs/reference/service-leadership-bic-reference.md",
+      "type": "reference",
+      "status": "active",
+      "description": "Summary reference of BIC benchmarks and thresholds."
+    },
+    {
+      "id": "ref-bic-benchmarks-raw",
+      "title": "BIC Benchmarks Raw Data",
+      "file": "docs/reference/bic-benchmarks-raw.md",
+      "type": "reference",
+      "status": "active",
+      "description": "Raw benchmark data extracted from Service Leadership publications."
+    },
+    {
+      "id": "ref-research-notes",
+      "title": "Research Notes",
+      "file": "docs/reference/research-notes.md",
+      "type": "reference",
+      "status": "active",
+      "description": "Working research notes from initial BIC framework investigation."
     }
   ],
   "archived_documents": [
     {
       "id": "refined-analysis-upwork",
-      "title": "PulseOne Refined Analysis — Upwork Data",
-      "file": "docs/archive/PulseOne_Refined_Analysis_Upwork.md",
+      "file": "docs/archive/pulseone-refined-analysis-upwork.md",
       "status": "archived",
       "superseded_by": "definitive-pl-analysis"
     },
     {
       "id": "final-reclassification-pl",
-      "title": "PulseOne Final Reclassification and P&L",
-      "file": "docs/archive/PulseOne_Final_Reclassification_and_PL.md",
+      "file": "docs/archive/pulseone-final-reclassification-and-pl.md",
       "status": "archived",
       "superseded_by": "definitive-pl-analysis"
     },
     {
       "id": "normalized-pl-preliminary",
-      "title": "PulseOne Normalized P&L — Preliminary",
-      "file": "docs/archive/PulseOne_Normalized_PL_Preliminary.md",
+      "file": "docs/archive/pulseone-normalized-pl-preliminary.md",
       "status": "archived",
       "superseded_by": "definitive-pl-analysis"
     },
     {
       "id": "software-optimization-plan-final",
-      "title": "PulseOne Software Optimization Plan — Final",
-      "file": "docs/archive/PulseOne_Software_Optimization_Plan_Final.md",
+      "file": "docs/archive/pulseone-software-optimization-plan-final.md",
       "status": "archived",
       "superseded_by": "audit-software-resale"
     },
     {
       "id": "bic-audit-report-original",
-      "title": "PulseOne BIC Audit Report (Original)",
-      "file": "docs/archive/PulseOne_BIC_Audit_Report.md",
+      "file": "docs/archive/pulseone-bic-audit-report.md",
       "status": "archived",
       "superseded_by": "audit-bic-comprehensive"
     },
     {
       "id": "initial-observations",
-      "title": "PulseOne Initial Observations",
-      "file": "docs/archive/PulseOne_Initial_Observations.md",
+      "file": "docs/archive/pulseone-initial-observations.md",
       "status": "archived",
       "superseded_by": "audit-bic-comprehensive"
     },
     {
       "id": "new-docs-findings",
-      "title": "New Docs Findings (Working Notes)",
-      "file": "docs/archive/new_docs_findings.md",
+      "file": "docs/archive/new-docs-findings.md",
       "status": "archived"
     },
     {
       "id": "software-classification-findings",
-      "title": "PulseOne Software Classification Findings",
-      "file": "docs/archive/PulseOne_Software_Classification_Findings.md",
+      "file": "docs/archive/pulseone-software-classification-findings.md",
       "status": "archived",
       "superseded_by": "audit-software-resale"
     },
     {
       "id": "software-reconciliation",
-      "title": "PulseOne Software Reconciliation",
-      "file": "docs/archive/PulseOne_Software_Reconciliation.md",
+      "file": "docs/archive/pulseone-software-reconciliation.md",
       "status": "archived",
       "superseded_by": "audit-software-resale"
     },
     {
       "id": "software-allocation-overpayment",
-      "title": "PulseOne Software Allocation Overpayment Analysis",
-      "file": "docs/archive/PulseOne_Software_Allocation_Overpayment_Analysis.md",
+      "file": "docs/archive/pulseone-software-allocation-overpayment-analysis.md",
       "status": "archived",
       "superseded_by": "audit-software-resale"
     },
     {
       "id": "software-optimization-revised",
-      "title": "PulseOne Software Optimization Plan Revised",
-      "file": "docs/archive/PulseOne_Software_Optimization_Plan_Revised.md",
+      "file": "docs/archive/pulseone-software-optimization-plan-revised.md",
       "status": "archived",
       "superseded_by": "audit-software-resale"
     },
     {
       "id": "software-pricing-correction",
-      "title": "PulseOne Software Pricing Correction Plan",
-      "file": "docs/archive/PulseOne_Software_Pricing_Correction_Plan.md",
+      "file": "docs/archive/pulseone-software-pricing-correction-plan.md",
       "status": "archived",
       "superseded_by": "audit-software-resale"
     },
     {
       "id": "saas-rationalization-matrix",
-      "title": "PulseOne SaaS Rationalization Matrix",
-      "file": "docs/archive/PulseOne_SaaS_Rationalization_Matrix.md",
+      "file": "docs/archive/pulseone-saas-rationalization-matrix.md",
       "status": "archived",
       "superseded_by": "audit-software-resale"
     }

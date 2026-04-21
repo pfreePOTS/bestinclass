@@ -42,3 +42,24 @@ This file tracks lessons learned from AI analysis sessions to improve future pro
 - When analyzing client families or related entities, always ask: "Does the parent control the buying decision, or does each subsidiary operate independently?"
 - If subsidiaries operate independently, report concentration at the subsidiary level, and flag the parent as a "strategic dependency" rather than a "concentration risk"
 - Always check HubSpot or CRM data for expansion pipeline context before finalizing a concentration risk assessment
+
+---
+
+## Session 2 — April 20, 2026: Documentation Governance & Naming
+
+**Task:** Run project-docs-manager health check and fix naming, orphans, and consolidation gaps.
+
+**What worked well:**
+- Running lifecycle_scanner and organize.sh scan before making changes gave a clear, auditable picture of the repo state.
+- Using git mv for renames preserved git history.
+- Batch sed replacement of internal references caught 95%+ of cross-links in one pass.
+
+**Lessons learned:**
+- Always standardize filenames to lowercase kebab-case from the start of a project. Retrofitting 40+ files is expensive.
+- When renaming files, archive docs should be renamed too — downstream tasks that read the manifest need consistent paths.
+- The docs-manifest.json must be the single source of truth for all file paths. Any rename must update the manifest atomically.
+- Reference files that are not tracked in the manifest will be flagged as orphans by the lifecycle scanner. Add them proactively.
+
+**Prompt improvements for future sessions:**
+- When writing prompts for new Manus tasks that commit to the repo, always specify: "Use lowercase kebab-case for all new filenames."
+- When writing consolidation prompts, always include: "Move the legacy documents to docs/archive/ and update .docs-manifest.json."

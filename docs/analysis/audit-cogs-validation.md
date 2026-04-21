@@ -4,7 +4,7 @@
 **Date:** 2026-04-20  
 **Author:** Manus AI  
 **Status:** Complete (pending Paul's confirmation on 3 items)  
-**Depends on:** `PulseOne_Definitive_PL_Analysis.md` (v3.0), `PulseOne_COGS_Classification_Analysis.md`
+**Depends on:** `pulseone-definitive-pl-analysis.md` (v3.0), `pulseone-cogs-classification-analysis.md`
 
 ---
 
@@ -28,8 +28,8 @@ Conduct a deep validation audit of the $1,113,902 COGS reclassification proposed
 | `Expenses Tracking MASTER 2023.xlsx` (2025 tab) | Budget 2025 | Budgeted monthly rates for all personnel |
 | `Upwork - Reports - Time by freelancer 2025.csv` | CY 2025 | Actual Upwork spend by contract and talent |
 | `Upwork - Reports - Time by freelancer2026.csv` | CY 2026 YTD | Trend comparison |
-| `PulseOne_Definitive_PL_Analysis.md` (v3.0) | CY 2025 | Authoritative corrected P&L with 3 adjustments |
-| `PulseOne_COGS_Classification_Analysis.md` | CY 2025 | Person-by-person COGS vs SG&A classification |
+| `pulseone-definitive-pl-analysis.md` (v3.0) | CY 2025 | Authoritative corrected P&L with 3 adjustments |
+| `pulseone-cogs-classification-analysis.md` | CY 2025 | Person-by-person COGS vs SG&A classification |
 
 ---
 

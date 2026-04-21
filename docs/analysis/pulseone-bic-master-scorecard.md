@@ -3,7 +3,7 @@
 **Version:** 2.0  
 **Last Updated:** April 20, 2026  
 **Author:** Manus AI  
-**Source Data:** CY 2025 Corrected P&L (`PulseOne_Definitive_PL_Analysis.md` v3.0), Technician Efficiency Audit, Consolidated Software Resale Audit + Addendum, Product Sales Analysis, ConnectWise Cost/Sell Report
+**Source Data:** CY 2025 Corrected P&L (`pulseone-definitive-pl-analysis.md` v3.0), Technician Efficiency Audit, Consolidated Software Resale Audit + Addendum, Product Sales Analysis, ConnectWise Cost/Sell Report
 
 ## Executive Summary
 

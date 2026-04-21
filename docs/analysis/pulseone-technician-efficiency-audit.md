@@ -7,10 +7,10 @@ This analysis evaluates PulseOne’s technician utilization, service delivery wo
 ## B. Evidence Reviewed
 The findings in this report are grounded in the following project materials and the `bestinclass` repository data:
 - `MonthlyTechnicianTicketCounts2025.xlsx` and `MonthlyTechnicianTicketCounts2026.xls`
-- `PulseOne_Definitive_PL_Analysis.md` (CY 2025 Definitive Corrected P&L)
-- `PulseOne_COGS_Classification_Analysis.md` (W2 and Upwork role classifications)
+- `pulseone-definitive-pl-analysis.md` (CY 2025 Definitive Corrected P&L)
+- `pulseone-cogs-classification-analysis.md` (W2 and Upwork role classifications)
 - `pulseone-client-profitability-analysis.md` (Revenue by client data)
-- `PulseOne_Utilization_Findings.md` (ConnectWise Help Desk utilization data)
+- `pulseone-utilization-findings.md` (ConnectWise Help Desk utilization data)
 - `Service Leadership Best in Class (BIC) Framework Reference.md`
 
 ## C. Current Understanding
@@ -96,8 +96,8 @@ To advance this audit, the following data must be retrieved from the ConnectWise
 
 ## References
 
-[1] PulseOne_Utilization_Findings.md, PulseOne bestinclass Repository.
+[1] pulseone-utilization-findings.md, PulseOne bestinclass Repository.
 [2] Service Leadership Best in Class (BIC) Framework Reference, Project Knowledge Base.
 [3] pulseone-client-profitability-analysis.md, PulseOne bestinclass Repository.
-[4] PulseOne_Definitive_PL_Analysis.md, PulseOne bestinclass Repository.
+[4] pulseone-definitive-pl-analysis.md, PulseOne bestinclass Repository.
 [5] updated_cost_analysis.py Output Data, PulseOne Ticket Analysis.

@@ -23,19 +23,19 @@ The `code_drift_detector` found no significant drift between the documentation a
 The `organize.sh` scan revealed three categories of issues that need attention:
 
 ### A. Naming Inconsistencies
-20 files use uppercase letters or mixed casing (e.g., `PulseOne_Action_Register.md`, `Audit_Software_Resale.md`). Standard documentation practice prefers lowercase kebab-case (e.g., `pulseone-action-register.md`) to prevent cross-platform path resolution issues.
+20 files use uppercase letters or mixed casing (e.g., `pulseone-action-register.md`, `audit-software-resale.md`). Standard documentation practice prefers lowercase kebab-case (e.g., `pulseone-action-register.md`) to prevent cross-platform path resolution issues.
 
 ### B. Orphaned Reference Files
 Four files in the `docs/reference/` directory are not tracked in the `.docs-manifest.json`:
-*   `Service_Leadership_BIC_Reference.md`
-*   `bic_benchmarks_raw.md`
-*   `research_notes.md`
+*   `service-leadership-bic-reference.md`
+*   `bic-benchmarks-raw.md`
+*   `research-notes.md`
 *   `service-leadership-bic-framework-reference.md`
 
 ### C. Overlapping Analysis (Pending Consolidation)
 As noted in the manifest, there are two clusters of active documents that still need to be consolidated into the 9-section format:
-1.  **Utilization & Billing:** 3 overlapping documents (`PulseOne_Utilization_Findings.md`, `PulseOne_Billing_Efficiency_Report.md`, `PulseOne_Corrected_Findings_and_Utilization.md`).
-2.  **Profit Leakage & SG&A:** 4 overlapping documents (`PulseOne_Profit_Leakage_Map.md`, `PulseOne_Granular_Dept_Analysis.md`, `PulseOne_Fully_Reconciled_PL.md`, `PulseOne_Unified_Labor_Model.md`).
+1.  **Utilization & Billing:** 3 overlapping documents (`pulseone-utilization-findings.md`, `pulseone-billing-efficiency-report.md`, `pulseone-corrected-findings-and-utilization.md`).
+2.  **Profit Leakage & SG&A:** 4 overlapping documents (`pulseone-profit-leakage-map.md`, `pulseone-granular-dept-analysis.md`, `pulseone-fully-reconciled-pl.md`, `pulseone-unified-labor-model.md`).
 
 ## 5. Recommended Actions
 
