@@ -63,3 +63,24 @@ This file tracks lessons learned from AI analysis sessions to improve future pro
 **Prompt improvements for future sessions:**
 - When writing prompts for new Manus tasks that commit to the repo, always specify: "Use lowercase kebab-case for all new filenames."
 - When writing consolidation prompts, always include: "Move the legacy documents to docs/archive/ and update .docs-manifest.json."
+
+---
+
+## Session 3 — April 20, 2026: Project Profitability & Data Tracing
+
+**Task:** Deep dive into the Consulting/Projects margin to reconcile a 47.1% QuickBase cash margin against a 24.2% P&L fully-loaded margin.
+
+**What worked well:**
+- Stepping back to write a "What we actually know" script that pulled only from raw source files (QuickBase, Upwork) rather than derived analysis documents.
+- Clearly defining the difference between "Cash Margin" (revenue minus out-of-pocket invoices) and "Fully-Loaded Gross Margin" (which requires W-2 labor allocation).
+- Isolating ARC Research as "Staff Augmentation" rather than discrete project delivery, which clarified the underlying structural issue.
+
+**Lessons learned:**
+- **Never trust a derived number without a clear source trail.** The 24.2% margin on $1,175,036 revenue cited in earlier documents could not be traced to a single primary source. It was an artifact of P&L allocation logic, not a direct measurement.
+- The P&L is a blunt instrument. When QuickBooks lumps W-2 payroll into a single line, any segment margin derived from it is an *estimate based on allocation*, not a fact.
+- "Invisible Subsidies" are a major risk in MSP accounting. When Help Desk W-2 staff work on projects but don't log project-specific costs, the project margin looks artificially high and the Help Desk margin looks artificially low.
+
+**Prompt improvements for future sessions:**
+- When writing prompts for profitability analysis, always include: "Distinguish between Cash Margin (revenue minus direct out-of-pocket expenses) and Fully-Loaded Gross Margin (including allocated W-2 labor and burden)."
+- When a derived metric (like a blended margin) is questioned, always include: "Trace the figure back to its raw source data (e.g., QuickBase, ADP, ConnectWise) before defending it."
+- When analyzing project profitability, always ask: "Are internal W-2 resources used on these projects? If so, how is their cost tracked and allocated?"

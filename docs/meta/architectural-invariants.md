@@ -88,3 +88,15 @@ In HubSpot but not yet in ConnectWise (warm pipeline):
 - MCR Safety - Bunzl (Collierville, TN | 235 employees) — already in CW
 
 This pipeline makes Bunzl PulseOne's largest near-term growth opportunity.
+
+---
+
+## Invariant 8: Distinguish Cash Margin from Fully-Loaded Margin
+
+When analyzing project profitability, always explicitly state whether a margin is a **Cash Margin** (revenue minus out-of-pocket subcontractor invoices) or a **Fully-Loaded Gross Margin** (which includes allocated W-2 labor and burden). The QuickBase project tracker only measures Cash Margin. Fully-Loaded Margin requires ConnectWise time entry data.
+
+---
+
+## Invariant 9: Staff Augmentation is Not Project Delivery
+
+Do not blend Staff Augmentation (e.g., the ARC Research managed contractor pool) with discrete Project Delivery. They have different cost structures, different billing models, and different Best in Class benchmark expectations. Staff Augmentation should be evaluated on markup percentage, while Projects should be evaluated on fully-loaded gross margin.
