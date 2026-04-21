@@ -1,5 +1,5 @@
 {
-  "version": "5.0",
+  "version": "5.1",
   "project": "PulseOne Best In Class Audit",
   "repo": "pfreePOTS/bestinclass",
   "last_updated": "2026-04-20",
@@ -62,7 +62,7 @@
     },
     {
       "id": "cogs-classification-analysis",
-      "title": "PulseOne COGS Classification Analysis — Person by Person",
+      "title": "PulseOne COGS Classification Analysis \u2014 Person by Person",
       "file": "docs/analysis/pulseone-cogs-classification-analysis.md",
       "pdf": "docs/analysis/pulseone-cogs-classification-analysis.pdf",
       "type": "financial-model",
@@ -197,6 +197,19 @@
       "type": "operational-audit",
       "status": "active",
       "description": "Comprehensive BiC audit incorporating expense tracking and partner compensation allocation."
+    },
+    {
+      "id": "audit-marketing-investment",
+      "title": "Marketing & Sales Investment Audit",
+      "files": [
+        "docs/analysis/audit-marketing-investment.md",
+        "docs/analysis/audit-marketing-investment-data.md"
+      ],
+      "type": "operational-audit",
+      "status": "active",
+      "version": "1.0",
+      "last_updated": "2026-04-20",
+      "description": "Deep audit of $592K S&M spend (11.5% of revenue vs BiC 5.4%). Decomposes spend into Brand/Awareness (34.8%), Sales Enablement (29.1%), Demand Generation (5.6%), and Unclassifiable (30.5%). Identifies catastrophic 71% S&M staff turnover, structural demand generation underinvestment, and Bunzl expansion as highest-ROI growth opportunity."
     },
     {
       "id": "audit-project-costing",
