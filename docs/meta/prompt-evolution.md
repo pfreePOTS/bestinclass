@@ -24,3 +24,21 @@ This file tracks lessons learned from AI analysis sessions to improve future pro
 **Prompt improvements for future sessions:**
 - When writing prompts for financial analysis, always include: "Check for and flag any analyst notes embedded in the spreadsheet cells."
 - When analyzing client concentration, always check for related-entity groupings (e.g., Bunzl family) before reporting top-client percentages.
+
+---
+
+## Session 1 Correction — April 20, 2026: Bunzl Corporate Structure
+
+**Friction event:** The initial analysis incorrectly framed the Bunzl family as a single economic relationship with "critical" concentration risk equivalent to Arc Research. The user corrected this.
+
+**Correct understanding:**
+- Bunzl Group is the corporate parent, but PulseOne has separate service relationships with each subsidiary
+- Each subsidiary has its own IT environment, agreement, and decision-making authority
+- Loss risk is distributed — not monolithic like Arc
+- The correct risk severity is "Moderate" (corporate dependency) not "Critical" (single-client concentration)
+- The Bunzl pipeline (10 HubSpot subsidiaries not yet in ConnectWise) is the most important growth opportunity
+
+**Lesson for future prompts:**
+- When analyzing client families or related entities, always ask: "Does the parent control the buying decision, or does each subsidiary operate independently?"
+- If subsidiaries operate independently, report concentration at the subsidiary level, and flag the parent as a "strategic dependency" rather than a "concentration risk"
+- Always check HubSpot or CRM data for expansion pipeline context before finalizing a concentration risk assessment

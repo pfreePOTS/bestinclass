@@ -56,3 +56,35 @@ The -9.4% gross margin on software resale is flagged but not yet explained. Do n
 ## Invariant 6: Data Files Are Source of Truth
 
 Raw data files in data/ are the source of truth. Analysis documents in docs/analysis/ are derived. If there is a conflict, the raw data takes precedence.
+
+---
+
+## Invariant 7: Bunzl Is a Corporate Parent with Independent Subsidiaries (CORRECTED — April 20, 2026)
+
+**Do not treat the Bunzl family as a single economic relationship.** Bunzl Group is the corporate parent, but PulseOne supports each subsidiary independently. Each subsidiary has its own IT environment, support agreement, and operational decision-making authority.
+
+**Correct framing:**
+- Loss risk is distributed across subsidiaries — losing one does not mean losing all
+- Bunzl Distribution USA ($494,570 = 14.9% of CW revenue) is the largest single subsidiary and the correct unit of concentration measurement
+- The Bunzl family total ($923,482 = 27.7%) should be reported as "Bunzl Group (distributed across N subsidiaries)" — not as a single client
+
+**Residual corporate risk (still real):**
+- A corporate-level IT strategy change by Bunzl Group could affect multiple subsidiaries simultaneously
+- This risk should be tracked as a "strategic dependency" rather than a "client concentration" risk
+
+**Expansion pipeline (as of April 2026):**
+Active in ConnectWise: Bunzl Distribution USA, MCR Safety-Bunzl, Bunzl De Mexico, Majestic Glove-Bunzl, Cool Pak-Bunzl, Tillman-Bunzl, Cordova Safety-Bunzl, Tingley Rubber-Bunzl
+
+In HubSpot but not yet in ConnectWise (warm pipeline):
+- Bunzl Agriculture Group (Oxnard, CA | 500 employees)
+- Liberty Safety - Bunzl (Liberty, SC | 50 employees)
+- Intergro - Bunzl (Clearwater, FL | 30 employees)
+- SAS Safety Corp. - Bunzl (Long Beach, CA | 60 employees)
+- Kishigo - Bunzl (Fountain Valley, CA | 125 employees)
+- Steiner Industries - Bunzl (Chicago, IL | 5 employees)
+- Revco Industries - Bunzl (Santa Fe Springs, CA | 45 employees)
+- Monte Package Company - Bunzl (Riverside, MI | 45 employees)
+- McCue - Bunzl (Danvers, MA)
+- MCR Safety - Bunzl (Collierville, TN | 235 employees) — already in CW
+
+This pipeline makes Bunzl PulseOne's largest near-term growth opportunity.

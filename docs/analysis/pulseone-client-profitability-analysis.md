@@ -52,9 +52,9 @@ This is the single most important finding in the entire analysis.
 | Top 10 | | $2,533,878 | **76.1%** |
 | Remaining 309 clients | | $794,725 | **23.9%** |
 
-**The Bunzl situation requires special attention.** Bunzl is not one client — it is a family of related entities: Bunzl ($494,570), MCR Safety-Bunzl ($334,807), Bunzl De Mexico ($78,413), and Majestic Glove-Bunzl ($15,692). Combined, the Bunzl family represents **$923,482 or 27.7% of total revenue**. If Arc Research and the Bunzl family are treated as two economic relationships, **PulseOne's top two relationships account for approximately 65% of all revenue**.
+**The Bunzl situation requires special attention.** Bunzl Group is the corporate parent, but PulseOne supports each subsidiary independently. The entities currently billed in ConnectWise include Bunzl Distribution USA ($494,570), MCR Safety-Bunzl ($334,807), Bunzl De Mexico ($78,413), and Majestic Glove-Bunzl ($15,692). Combined, the Bunzl family represents **$923,482 or 27.7% of total revenue**.
 
-This is an extreme concentration risk by any standard. Service Leadership BIC firms typically have no single client exceeding 10–15% of revenue, and the top 10 clients should not exceed 50–60%.
+Because each subsidiary has its own IT environment, support agreement, and operational decision-making, the **loss risk is distributed**. Losing one subsidiary does not mean losing all of Bunzl (unlike Arc, where one contract controls 37.2% of revenue). However, Bunzl Distribution USA alone at 14.9% still borders on the BIC single-client threshold of 10–15%. Furthermore, a corporate-level IT strategy change by Bunzl Group remains a strategic dependency risk.
 
 ### D2. Revenue Quality — Recurring vs. Non-Recurring
 
@@ -98,14 +98,16 @@ Arc Research is PulseOne's largest client by a wide margin at **$1.237M in 2025 
 
 ### D5. Bunzl Family — Structure and Margin Implications
 
-The Bunzl relationship is structured across multiple legal entities, which creates both opportunity and risk:
+The Bunzl relationship is structured across multiple independent subsidiaries, which creates a highly favorable risk/reward profile:
 
-- **Bunzl (parent):** $494,570 — mix of agreement ($432,097) and project/standard ($62,473)
+- **Bunzl Distribution USA:** $494,570 — mix of agreement ($432,097) and project/standard ($62,473)
 - **MCR Safety-Bunzl:** $334,807 — 100% agreement revenue (pure recurring)
 - **Bunzl De Mexico:** $78,413 — 97.7% agreement
 - **Majestic Glove-Bunzl:** $15,692 — 100% T&M (no agreement)
 
-The Bunzl family is structurally healthier than Arc in terms of revenue quality (higher recurring percentage across entities). However, the economic dependency on a single corporate parent is equivalent to Arc. If Bunzl were to consolidate vendors or change IT strategy, PulseOne would lose approximately $923K in annual revenue.
+The Bunzl family is structurally healthier than Arc in terms of revenue quality (higher recurring percentage across entities) and distributed risk.
+
+**Expansion Pipeline:** Beyond the active ConnectWise billing, there are 10 additional Bunzl subsidiaries in HubSpot (including Bunzl Agriculture Group, Liberty Safety, and Intergro) that represent a warm expansion pipeline. This makes Bunzl PulseOne's largest growth opportunity, rather than just a concentration risk.
 
 ### D6. Service Line Gross Margin — Where Margin Is Made and Lost
 
@@ -184,8 +186,8 @@ The P&L note on advertising and promotion states: *"We are in Best In Class rang
 **1. Arc Research Concentration (Severity: Critical)**
 A single client at 37.2% of revenue creates existential business risk. Any contract renegotiation, loss, or scope reduction at Arc would be immediately devastating to PulseOne's financial position. The August 2025 project spike ($95K) suggests the relationship may be expanding, which is positive, but also deepens dependency.
 
-**2. Bunzl Family Concentration (Severity: Critical)**
-At 27.7% of revenue, the Bunzl relationship compounds the concentration risk. PulseOne's top two economic relationships (Arc + Bunzl) represent 65% of revenue. This is not a diversified business — it is a two-client dependency with a long tail of small accounts.
+**2. Bunzl Corporate Dependency (Severity: Moderate)**
+While the 27.7% revenue concentration is distributed across independent subsidiaries, PulseOne remains vulnerable to corporate-level IT centralization by Bunzl Group. If the parent company mandates a single national IT provider, PulseOne could lose multiple subsidiaries simultaneously.
 
 **3. Software Resale Negative Margin (Severity: High)**
 Losing $48,320 on $514,405 in software revenue is a structural problem. Whether it is a timing issue, a cost classification issue, or genuine below-cost selling, it must be resolved. If it is genuine, PulseOne should either reprice software or exit the resale business.
@@ -206,6 +208,9 @@ $196,835 in T&M-only revenue from engaged clients represents a near-term convers
 
 **3. Arc Relationship Expansion**
 The August 2025 project spike at Arc suggests appetite for additional project work. A structured account growth plan for Arc — while simultaneously reducing dependency through diversification — is the right dual-track strategy.
+
+**3b. Bunzl Subsidiary Expansion**
+With 10 additional Bunzl subsidiaries already in HubSpot but not yet billed in ConnectWise, this is PulseOne's most immediate and highest-probability growth vector. A dedicated "land and expand" strategy targeting these specific subsidiaries should be prioritized.
 
 **4. Software Margin Fix**
 Resolving the software resale margin issue (whether through repricing, vendor negotiation, or cost reclassification) could recover $48K+ in gross profit immediately.
