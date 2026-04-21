@@ -1,5 +1,5 @@
 {
-  "version": "4.0",
+  "version": "5.0",
   "project": "PulseOne Best In Class Audit",
   "repo": "pfreePOTS/bestinclass",
   "last_updated": "2026-04-20",
@@ -146,28 +146,36 @@
       "id": "audit-utilization-billing",
       "title": "Utilization & Billing Efficiency",
       "files": [
-        "docs/analysis/pulseone-utilization-findings.md",
-        "docs/analysis/pulseone-billing-efficiency-report.md",
-        "docs/analysis/pulseone-corrected-findings-and-utilization.md"
+        "docs/analysis/audit-utilization-and-billing.md"
       ],
       "type": "operational-audit",
-      "status": "active-needs-consolidation",
-      "description": "Three overlapping documents covering technician utilization and billing leakage. Partially superseded by the Technician Efficiency Audit. Should be consolidated into a single audit-utilization-and-billing.md.",
-      "consolidation_priority": "HIGH"
+      "status": "active",
+      "version": "1.0",
+      "last_updated": "2026-04-20",
+      "supersedes": [
+        "docs/archive/pulseone-utilization-findings.md",
+        "docs/archive/pulseone-billing-efficiency-report.md",
+        "docs/archive/pulseone-corrected-findings-and-utilization.md"
+      ],
+      "description": "Consolidated audit of billing leakage, realization rates, and time entry discipline. Quantifies $514K in uncaptured revenue potential across three leakage areas: write-downs ($16K), unbilled hours ($115K), and unlogged capacity ($385K)."
     },
     {
-      "id": "audit-profit-leakage-sga",
-      "title": "Profit Leakage & SG&A Analysis",
+      "id": "audit-profitability-sga",
+      "title": "Profitability & SG&A Efficiency",
       "files": [
-        "docs/analysis/pulseone-profit-leakage-map.md",
-        "docs/analysis/pulseone-granular-dept-analysis.md",
-        "docs/analysis/pulseone-fully-reconciled-pl.md",
-        "docs/analysis/pulseone-unified-labor-model.md"
+        "docs/analysis/audit-profitability-and-sga.md"
       ],
       "type": "operational-audit",
-      "status": "active-needs-consolidation",
-      "description": "Four overlapping documents covering profit leakage decomposition, departmental SG&A, and labor model reconciliation. Should be consolidated into a single audit-profitability-and-sga.md.",
-      "consolidation_priority": "MEDIUM"
+      "status": "active",
+      "version": "1.0",
+      "last_updated": "2026-04-20",
+      "supersedes": [
+        "docs/archive/pulseone-profit-leakage-map.md",
+        "docs/archive/pulseone-granular-dept-analysis.md",
+        "docs/archive/pulseone-fully-reconciled-pl.md",
+        "docs/archive/pulseone-unified-labor-model.md"
+      ],
+      "description": "Consolidated audit of profit leakage sources and SG&A overhead. Maps the $738K EBITDA gap to BiC across four areas: consulting margin deficit ($465K), contractor cost gap ($753K discrepancy), S&M inefficiency ($257K), and G&A tool sprawl ($91K)."
     },
     {
       "id": "audit-client-profitability",
@@ -312,6 +320,48 @@
       "file": "docs/archive/pulseone-saas-rationalization-matrix.md",
       "status": "archived",
       "superseded_by": "audit-software-resale"
+    },
+    {
+      "id": "utilization-findings",
+      "file": "docs/archive/pulseone-utilization-findings.md",
+      "status": "archived",
+      "superseded_by": "audit-utilization-billing"
+    },
+    {
+      "id": "billing-efficiency-report",
+      "file": "docs/archive/pulseone-billing-efficiency-report.md",
+      "status": "archived",
+      "superseded_by": "audit-utilization-billing"
+    },
+    {
+      "id": "corrected-findings-utilization",
+      "file": "docs/archive/pulseone-corrected-findings-and-utilization.md",
+      "status": "archived",
+      "superseded_by": "audit-utilization-billing"
+    },
+    {
+      "id": "profit-leakage-map",
+      "file": "docs/archive/pulseone-profit-leakage-map.md",
+      "status": "archived",
+      "superseded_by": "audit-profitability-sga"
+    },
+    {
+      "id": "granular-dept-analysis",
+      "file": "docs/archive/pulseone-granular-dept-analysis.md",
+      "status": "archived",
+      "superseded_by": "audit-profitability-sga"
+    },
+    {
+      "id": "fully-reconciled-pl",
+      "file": "docs/archive/pulseone-fully-reconciled-pl.md",
+      "status": "archived",
+      "superseded_by": "audit-profitability-sga"
+    },
+    {
+      "id": "unified-labor-model",
+      "file": "docs/archive/pulseone-unified-labor-model.md",
+      "status": "archived",
+      "superseded_by": "audit-profitability-sga"
     }
   ],
   "data_sources": [
