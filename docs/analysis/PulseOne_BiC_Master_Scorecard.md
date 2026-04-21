@@ -61,13 +61,16 @@ This scorecard provides the authoritative, single-source-of-truth mapping of Pul
 | Metric | PulseOne Actual | BiC Target | Variance | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Top Client % of Revenue (Arc Research)** | 23.9% ($1.237M) | < 10% - 15% | +8.9 to +13.9 pts | **CRITICAL RISK** | 91.3% agreement revenue; dedicated Upwork resource |
-| **Top 2 Clients % of Revenue (Arc + Bunzl)** | 41.8% ($2.16M) | < 25% - 30% | +11.8 to +16.8 pts | **CRITICAL RISK** | Combined economic dependency |
+| **Top 2 Clients % of Revenue (Arc + Bunzl)** | 41.8% ($2.16M) | < 25% - 30% | +11.8 to +16.8 pts | **MODERATE RISK** | Bunzl is a portfolio of 6 independent entities |
 | **Bunzl Ticket Share** | 46.9% (6,293 tickets) | N/A | N/A | **ANOMALY** | 46.9% of tickets but only 17.9% of revenue |
+| **Bunzl Uncaptured Growth** | 10 entities in HubSpot | N/A | N/A | **OPPORTUNITY** | 10 Bunzl subsidiaries not yet under contract |
 | **Revenue Growth (YoY CAGR)** | ~5.7% | 16.3%+ | -10.6 pts | BELOW | Based on 2022-2025 CAGR |
 | **Revenue Composition — Recurring** | 73.8% | > 70% | N/A | **ALIGNED** | Strong recurring base |
 | **Client Retention Rate** | *Unknown* | > 76% | *Unknown* | TBD | Requires ConnectWise historical data |
 
-> **Concentration Risk (v2.0):** The Technician Efficiency Audit reveals that PulseOne's operational and economic dependency on two clients is far more severe than the revenue numbers alone suggest. Bunzl generates 46.9% of all service desk tickets but only 17.9% of revenue, meaning the service factory is disproportionately dedicated to serving one client. A single contract decision by Arc or Bunzl could devastate PulseOne's financial position. Service Leadership BiC firms typically have no single client exceeding 10-15% of revenue.
+> **Concentration Risk (v2.1 Update):** The Technician Efficiency Audit originally flagged Bunzl as a severe concentration risk. However, owner clarification confirms that Bunzl is not a monolithic contract. It is a portfolio of 6 distinct subsidiary agreements (Cool Pak, Majestic Glove, Tillman, Cordova Safety, Tingley Rubber, Bunzl Distribution USA), each with its own IT environment and P&L. Therefore, losing the entire Bunzl revenue stream in a single event is unlikely unless driven by a corporate-level IT consolidation mandate. 
+> 
+> The ticket anomaly (46.9% of tickets vs 17.9% of revenue) must now be investigated at the *subsidiary* level to identify which specific entities are driving the excess load. Furthermore, HubSpot data reveals 10 additional Bunzl subsidiaries (e.g., MCR Safety, SAS Safety Corp) that are not currently under contract, representing a significant organic growth opportunity to leverage the existing corporate relationship.
 
 ---
 

@@ -73,8 +73,9 @@ Each action is tagged with a **Priority** (P1 = Immediate / P2 = Urgent / P3 = S
 
 | ID | Action | Priority | Est. Recovery | Owner | Status | Source Document(s) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| REV-01 | Develop client diversification strategy to reduce top-2 concentration (Arc + Bunzl) from 41.8% to <25% | P1 | Risk mitigation | Paul | NOT STARTED | Technician Efficiency Audit |
-| REV-02 | Address the Bunzl Ticket Anomaly: determine why Bunzl generates 46.9% of tickets but only 17.9% of revenue | P1 | Structural | Paul / Jim | NOT STARTED | Technician Efficiency Audit |
+| REV-01 | Develop client diversification strategy to reduce top-1 concentration (Arc) from 23.9% to <15% | P1 | Risk mitigation | Paul | NOT STARTED | Technician Efficiency Audit |
+| REV-02 | Address the Bunzl Ticket Anomaly: break down the 6,293 tickets by the 6 active subsidiaries to identify which specific entities are driving the excess load | P1 | Structural | Paul / Jim | NOT STARTED | Technician Efficiency Audit |
+| REV-02b | Launch Bunzl Expansion Campaign: target the 10 unlinked HubSpot subsidiaries (e.g., MCR Safety, SAS Safety) to leverage the existing corporate relationship | P2 | Growth | Paul | NOT STARTED | HubSpot Analysis |
 | REV-03 | Audit the Amiri Agreement: confirm C. Castro's $38K Upwork cost is fully recovered at 50%+ GM | P1 | TBD | Paul | NOT STARTED | Technician Efficiency Audit |
 | REV-04 | Reconcile the $1.84M gap between ConnectWise-invoiced revenue ($3.33M) and P&L revenue ($5.17M) | P1 | Clarity | Paul / Jim | NOT STARTED | Client Profitability Analysis |
 | REV-05 | Build a formal Arc Research account plan — 23.9% of revenue ($1.24M) | P2 | Risk mitigation | Paul | NOT STARTED | Technician Efficiency Audit |
@@ -100,7 +101,7 @@ These are specific data pulls required to unblock multiple action items above.
 
 | ID | Data Request | Blocks | Priority | Owner | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| CW-01 | Agreement Profitability for 'Bunzl' and 'Amiri' | REV-02, REV-03 | P1 | Jim | NOT STARTED |
+| CW-01 | Agreement Profitability for all 6 active Bunzl subsidiaries (Cool Pak, Majestic, Tillman, Cordova, Tingley, Bunzl Dist) and 'Amiri' | REV-02, REV-03 | P1 | Jim | NOT STARTED |
 | CW-02 | Project Profitability by Subcontractor — last 6 months | CON-01, CON-02 | P1 | Jim | NOT STARTED |
 | CW-03 | Vincent Williams Time Entries — 2025 | CON-04 | P1 | Jim | NOT STARTED |
 | CW-04 | Technician Utilization Report — last 6 months | UTL-03, UTL-07 | P1 | Jim | NOT STARTED |
