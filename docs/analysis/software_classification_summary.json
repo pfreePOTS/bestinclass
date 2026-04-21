@@ -1,0 +1,713 @@
+{
+  "classified_date": "2026-04-20",
+  "source_file": "2025 PulseOne Software COGS and Expense.xlsx",
+  "grand_total": 1201218.27,
+  "total_transactions": 1068,
+  "by_bucket": {
+    "Client-Delivered Software COGS": {
+      "count": 425,
+      "amount": 570986.81,
+      "pct_of_total": 47.5,
+      "top_vendors": [
+        {
+          "vendor": "Synnex Corp",
+          "amount": 251027.74
+        },
+        {
+          "vendor": "Ingram Micro",
+          "amount": 194247.01
+        },
+        {
+          "vendor": "Amazon Web Services",
+          "amount": 63272.94
+        },
+        {
+          "vendor": "AvePoint",
+          "amount": 41200.33
+        },
+        {
+          "vendor": "EFolder Systems (Axcient)",
+          "amount": 10718.97
+        },
+        {
+          "vendor": "ScalePad {WarrantyMaster}",
+          "amount": 5988.0
+        },
+        {
+          "vendor": "Atlassian",
+          "amount": 2961.68
+        },
+        {
+          "vendor": "Mosyle Corp",
+          "amount": 600.0
+        },
+        {
+          "vendor": "AppRiver",
+          "amount": 452.5
+        },
+        {
+          "vendor": "Paddle.net",
+          "amount": 449.0
+        },
+        {
+          "vendor": "Microsoft",
+          "amount": 68.64
+        }
+      ]
+    },
+    "Help Desk / Service Delivery COGS": {
+      "count": 156,
+      "amount": 571692.14,
+      "pct_of_total": 47.6,
+      "top_vendors": [
+        {
+          "vendor": "Synnex Corp",
+          "amount": 301812.59
+        },
+        {
+          "vendor": "ConnectWise, Inc.",
+          "amount": 89800.36
+        },
+        {
+          "vendor": "Barracuda (Skout Cybersecurity)",
+          "amount": 72959.88
+        },
+        {
+          "vendor": "Flexis",
+          "amount": 64009.0
+        },
+        {
+          "vendor": "Amazon Web Services",
+          "amount": 10709.0
+        },
+        {
+          "vendor": "Kaseya",
+          "amount": 10563.4
+        },
+        {
+          "vendor": "Samurai Sync",
+          "amount": 9450.0
+        },
+        {
+          "vendor": "Wasabi Technologies",
+          "amount": 7352.87
+        },
+        {
+          "vendor": "MSP360",
+          "amount": 4005.11
+        },
+        {
+          "vendor": "TimeZest",
+          "amount": 3609.34
+        },
+        {
+          "vendor": "CloudBase Services",
+          "amount": 3600.0
+        },
+        {
+          "vendor": "CyberFox",
+          "amount": 2189.0
+        },
+        {
+          "vendor": "Duo Security",
+          "amount": 2068.2
+        },
+        {
+          "vendor": "Qualys",
+          "amount": 1023.85
+        },
+        {
+          "vendor": "Have I Been Pwned",
+          "amount": 22.0
+        },
+        {
+          "vendor": "Microsoft",
+          "amount": -11482.46
+        }
+      ]
+    },
+    "Internal SG&A": {
+      "count": 487,
+      "amount": 58539.32,
+      "pct_of_total": 4.9,
+      "top_vendors": [
+        {
+          "vendor": "Microsoft Azure",
+          "amount": 19041.03
+        },
+        {
+          "vendor": "Microsoft",
+          "amount": 14126.95
+        },
+        {
+          "vendor": "Avalara",
+          "amount": 6806.55
+        },
+        {
+          "vendor": "Adobe Software",
+          "amount": 3739.15
+        },
+        {
+          "vendor": "GoDaddy.com, Inc.",
+          "amount": 2880.07
+        },
+        {
+          "vendor": "Pivotal Crew LLC",
+          "amount": 2000.0
+        },
+        {
+          "vendor": "Cursor",
+          "amount": 1184.17
+        },
+        {
+          "vendor": "OpenAI",
+          "amount": 1076.47
+        },
+        {
+          "vendor": "Eversign",
+          "amount": 959.76
+        },
+        {
+          "vendor": "Railway",
+          "amount": 823.08
+        },
+        {
+          "vendor": "Replit, Inc.",
+          "amount": 525.56
+        },
+        {
+          "vendor": "Calendy",
+          "amount": 513.57
+        },
+        {
+          "vendor": "Anthropic",
+          "amount": 424.81
+        },
+        {
+          "vendor": "Manus AI",
+          "amount": 389.0
+        },
+        {
+          "vendor": "AI MAD FZCO",
+          "amount": 360.0
+        },
+        {
+          "vendor": "Zapier.com",
+          "amount": 359.88
+        },
+        {
+          "vendor": "Google",
+          "amount": 351.98
+        },
+        {
+          "vendor": "Monday.com",
+          "amount": 288.0
+        },
+        {
+          "vendor": "RapidAPI",
+          "amount": 261.0
+        },
+        {
+          "vendor": "Iron Software",
+          "amount": 249.0
+        }
+      ]
+    }
+  },
+  "by_section": {
+    "Agreement License Cost": {
+      "total": 373999.01,
+      "Client-Delivered Software COGS": 0.0,
+      "Help Desk / Service Delivery COGS": 373999.01,
+      "Internal SG&A": 0.0
+    },
+    "Purchases - Software for Resale": {
+      "total": 570986.81,
+      "Client-Delivered Software COGS": 570986.81,
+      "Help Desk / Service Delivery COGS": 0.0,
+      "Internal SG&A": 0.0
+    },
+    "Computer and Internet Expenses": {
+      "total": 256232.45,
+      "Client-Delivered Software COGS": 0.0,
+      "Help Desk / Service Delivery COGS": 197693.13,
+      "Internal SG&A": 58539.32
+    }
+  },
+  "needs_confirmation": [
+    {
+      "vendor": "Synnex Corp",
+      "section": "Agreement License Cost",
+      "amount": 21552.02,
+      "bucket": "Help Desk / Service Delivery COGS"
+    },
+    {
+      "vendor": "Synnex Corp",
+      "section": "Agreement License Cost",
+      "amount": 24878.78,
+      "bucket": "Help Desk / Service Delivery COGS"
+    },
+    {
+      "vendor": "Synnex Corp",
+      "section": "Agreement License Cost",
+      "amount": 25840.33,
+      "bucket": "Help Desk / Service Delivery COGS"
+    },
+    {
+      "vendor": "Synnex Corp",
+      "section": "Agreement License Cost",
+      "amount": 28643.74,
+      "bucket": "Help Desk / Service Delivery COGS"
+    },
+    {
+      "vendor": "Synnex Corp",
+      "section": "Agreement License Cost",
+      "amount": 25372.84,
+      "bucket": "Help Desk / Service Delivery COGS"
+    },
+    {
+      "vendor": "Synnex Corp",
+      "section": "Agreement License Cost",
+      "amount": 27492.59,
+      "bucket": "Help Desk / Service Delivery COGS"
+    },
+    {
+      "vendor": "Synnex Corp",
+      "section": "Agreement License Cost",
+      "amount": 24774.81,
+      "bucket": "Help Desk / Service Delivery COGS"
+    },
+    {
+      "vendor": "Synnex Corp",
+      "section": "Agreement License Cost",
+      "amount": 20947.0,
+      "bucket": "Help Desk / Service Delivery COGS"
+    },
+    {
+      "vendor": "Synnex Corp",
+      "section": "Agreement License Cost",
+      "amount": 26188.28,
+      "bucket": "Help Desk / Service Delivery COGS"
+    },
+    {
+      "vendor": "Synnex Corp",
+      "section": "Agreement License Cost",
+      "amount": 30276.86,
+      "bucket": "Help Desk / Service Delivery COGS"
+    },
+    {
+      "vendor": "Synnex Corp",
+      "section": "Agreement License Cost",
+      "amount": 22321.14,
+      "bucket": "Help Desk / Service Delivery COGS"
+    },
+    {
+      "vendor": "Synnex Corp",
+      "section": "Agreement License Cost",
+      "amount": 23524.2,
+      "bucket": "Help Desk / Service Delivery COGS"
+    },
+    {
+      "vendor": "Atlassian",
+      "section": "Purchases - Software for Resale",
+      "amount": 417.45,
+      "bucket": "Client-Delivered Software COGS"
+    },
+    {
+      "vendor": "Atlassian",
+      "section": "Purchases - Software for Resale",
+      "amount": 417.45,
+      "bucket": "Client-Delivered Software COGS"
+    },
+    {
+      "vendor": "Atlassian",
+      "section": "Purchases - Software for Resale",
+      "amount": 170.0,
+      "bucket": "Client-Delivered Software COGS"
+    },
+    {
+      "vendor": "Atlassian",
+      "section": "Purchases - Software for Resale",
+      "amount": 199.65,
+      "bucket": "Client-Delivered Software COGS"
+    },
+    {
+      "vendor": "Atlassian",
+      "section": "Purchases - Software for Resale",
+      "amount": 199.65,
+      "bucket": "Client-Delivered Software COGS"
+    },
+    {
+      "vendor": "Atlassian",
+      "section": "Purchases - Software for Resale",
+      "amount": 217.8,
+      "bucket": "Client-Delivered Software COGS"
+    },
+    {
+      "vendor": "Atlassian",
+      "section": "Purchases - Software for Resale",
+      "amount": 217.8,
+      "bucket": "Client-Delivered Software COGS"
+    },
+    {
+      "vendor": "Atlassian",
+      "section": "Purchases - Software for Resale",
+      "amount": 217.8,
+      "bucket": "Client-Delivered Software COGS"
+    },
+    {
+      "vendor": "Atlassian",
+      "section": "Purchases - Software for Resale",
+      "amount": 217.8,
+      "bucket": "Client-Delivered Software COGS"
+    },
+    {
+      "vendor": "Atlassian",
+      "section": "Purchases - Software for Resale",
+      "amount": 217.8,
+      "bucket": "Client-Delivered Software COGS"
+    },
+    {
+      "vendor": "Atlassian",
+      "section": "Purchases - Software for Resale",
+      "amount": 234.24,
+      "bucket": "Client-Delivered Software COGS"
+    },
+    {
+      "vendor": "Atlassian",
+      "section": "Purchases - Software for Resale",
+      "amount": 234.24,
+      "bucket": "Client-Delivered Software COGS"
+    },
+    {
+      "vendor": "Paddle.net",
+      "section": "Purchases - Software for Resale",
+      "amount": 49.0,
+      "bucket": "Client-Delivered Software COGS"
+    },
+    {
+      "vendor": "Paddle.net",
+      "section": "Purchases - Software for Resale",
+      "amount": 120.0,
+      "bucket": "Client-Delivered Software COGS"
+    },
+    {
+      "vendor": "Paddle.net",
+      "section": "Purchases - Software for Resale",
+      "amount": 49.0,
+      "bucket": "Client-Delivered Software COGS"
+    },
+    {
+      "vendor": "Paddle.net",
+      "section": "Purchases - Software for Resale",
+      "amount": 35.0,
+      "bucket": "Client-Delivered Software COGS"
+    },
+    {
+      "vendor": "Paddle.net",
+      "section": "Purchases - Software for Resale",
+      "amount": 49.0,
+      "bucket": "Client-Delivered Software COGS"
+    },
+    {
+      "vendor": "Paddle.net",
+      "section": "Purchases - Software for Resale",
+      "amount": 49.0,
+      "bucket": "Client-Delivered Software COGS"
+    },
+    {
+      "vendor": "Paddle.net",
+      "section": "Purchases - Software for Resale",
+      "amount": 49.0,
+      "bucket": "Client-Delivered Software COGS"
+    },
+    {
+      "vendor": "Paddle.net",
+      "section": "Purchases - Software for Resale",
+      "amount": 49.0,
+      "bucket": "Client-Delivered Software COGS"
+    },
+    {
+      "vendor": "GoDaddy.com, Inc.",
+      "section": "Computer and Internet Expenses",
+      "amount": 79.99,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "GoDaddy.com, Inc.",
+      "section": "Computer and Internet Expenses",
+      "amount": 79.99,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "GoDaddy.com, Inc.",
+      "section": "Computer and Internet Expenses",
+      "amount": 10.34,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "GoDaddy.com, Inc.",
+      "section": "Computer and Internet Expenses",
+      "amount": 218.96,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "GoDaddy.com, Inc.",
+      "section": "Computer and Internet Expenses",
+      "amount": 79.99,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "GoDaddy.com, Inc.",
+      "section": "Computer and Internet Expenses",
+      "amount": 36.51,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "GoDaddy.com, Inc.",
+      "section": "Computer and Internet Expenses",
+      "amount": 51.99,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "GoDaddy.com, Inc.",
+      "section": "Computer and Internet Expenses",
+      "amount": 79.99,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "GoDaddy.com, Inc.",
+      "section": "Computer and Internet Expenses",
+      "amount": 88.68,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "GoDaddy.com, Inc.",
+      "section": "Computer and Internet Expenses",
+      "amount": 110.85,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "GoDaddy.com, Inc.",
+      "section": "Computer and Internet Expenses",
+      "amount": 22.17,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "GoDaddy.com, Inc.",
+      "section": "Computer and Internet Expenses",
+      "amount": 183.02,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "GoDaddy.com, Inc.",
+      "section": "Computer and Internet Expenses",
+      "amount": 79.99,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "GoDaddy.com, Inc.",
+      "section": "Computer and Internet Expenses",
+      "amount": 42.16,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "GoDaddy.com, Inc.",
+      "section": "Computer and Internet Expenses",
+      "amount": 79.99,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "GoDaddy.com, Inc.",
+      "section": "Computer and Internet Expenses",
+      "amount": 79.99,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "GoDaddy.com, Inc.",
+      "section": "Computer and Internet Expenses",
+      "amount": 22.19,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "GoDaddy.com, Inc.",
+      "section": "Computer and Internet Expenses",
+      "amount": 50.19,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "GoDaddy.com, Inc.",
+      "section": "Computer and Internet Expenses",
+      "amount": 450.0,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "GoDaddy.com, Inc.",
+      "section": "Computer and Internet Expenses",
+      "amount": 22.19,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "GoDaddy.com, Inc.",
+      "section": "Computer and Internet Expenses",
+      "amount": 38.19,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "GoDaddy.com, Inc.",
+      "section": "Computer and Internet Expenses",
+      "amount": 159.99,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "GoDaddy.com, Inc.",
+      "section": "Computer and Internet Expenses",
+      "amount": 79.99,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "GoDaddy.com, Inc.",
+      "section": "Computer and Internet Expenses",
+      "amount": 87.36,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "GoDaddy.com, Inc.",
+      "section": "Computer and Internet Expenses",
+      "amount": 203.88,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "GoDaddy.com, Inc.",
+      "section": "Computer and Internet Expenses",
+      "amount": 79.99,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "GoDaddy.com, Inc.",
+      "section": "Computer and Internet Expenses",
+      "amount": 42.18,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "GoDaddy.com, Inc.",
+      "section": "Computer and Internet Expenses",
+      "amount": 66.57,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "GoDaddy.com, Inc.",
+      "section": "Computer and Internet Expenses",
+      "amount": 145.37,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "GoDaddy.com, Inc.",
+      "section": "Computer and Internet Expenses",
+      "amount": 22.19,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "GoDaddy.com, Inc.",
+      "section": "Computer and Internet Expenses",
+      "amount": 79.99,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "GoDaddy.com, Inc.",
+      "section": "Computer and Internet Expenses",
+      "amount": 5.19,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "Cognito LLC",
+      "section": "Computer and Internet Expenses",
+      "amount": 15.0,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "Pivotal Crew LLC",
+      "section": "Computer and Internet Expenses",
+      "amount": 2000.0,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "Cognito LLC",
+      "section": "Computer and Internet Expenses",
+      "amount": 15.0,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "Cognito LLC",
+      "section": "Computer and Internet Expenses",
+      "amount": 15.0,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "Cognito LLC",
+      "section": "Computer and Internet Expenses",
+      "amount": 15.0,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "Cognito LLC",
+      "section": "Computer and Internet Expenses",
+      "amount": 15.0,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "Cognito LLC",
+      "section": "Computer and Internet Expenses",
+      "amount": 15.0,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "Cognito LLC",
+      "section": "Computer and Internet Expenses",
+      "amount": 19.0,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "CloudBase Services",
+      "section": "Computer and Internet Expenses",
+      "amount": 3600.0,
+      "bucket": "Help Desk / Service Delivery COGS"
+    },
+    {
+      "vendor": "Cognito LLC",
+      "section": "Computer and Internet Expenses",
+      "amount": 19.0,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "Cognito LLC",
+      "section": "Computer and Internet Expenses",
+      "amount": 19.0,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "Cognito LLC",
+      "section": "Computer and Internet Expenses",
+      "amount": 19.0,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "Carbonite",
+      "section": "Computer and Internet Expenses",
+      "amount": 95.99,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "Cognito LLC",
+      "section": "Computer and Internet Expenses",
+      "amount": 19.0,
+      "bucket": "Internal SG&A"
+    },
+    {
+      "vendor": "Cognito LLC",
+      "section": "Computer and Internet Expenses",
+      "amount": 19.0,
+      "bucket": "Internal SG&A"
+    }
+  ]
+}
