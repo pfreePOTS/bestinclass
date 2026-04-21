@@ -16,6 +16,8 @@ QuickBooks currently shows:
 
 The Expense Tracker shows total contractor cost of **$1,798,225**, creating a **$753,801 gap** versus what QB reports in Consulting Services – Cost. The most likely explanation is that a portion of contractor payments were coded to Salary Expense or another SG&A line rather than to the COGS account in QB.
 
+> **Software COGS Gap Note (v1.1, April 21, 2026):** A separate audit identified a $762,000 gap between QuickBooks software COGS and ConnectWise revenue. This is primarily driven by Synnex and Ingram Micro hardware/software purchases that hit COGS but lack matching revenue lines in ConnectWise, along with several internal tools (eFolder, ScalePad, Atlassian) that are currently buried in software COGS rather than overhead.
+
 ### Classification Principles (Service Leadership BIC Standard)
 Under Service Leadership Best in Class methodology:
 - **COGS** = All costs directly associated with delivering services to clients: technician labor (W-2 and 1099), subcontractors, tools and software used in delivery, and direct project labor

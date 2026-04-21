@@ -1,9 +1,9 @@
 # Audit: Software Resale & SaaS Rationalization
 
 **Document Type:** Focused Operational Audit  
-**Version:** 1.0 (Consolidated)  
-**Date:** April 20, 2026  
-**Supersedes:** `pulseone-software-classification-findings.md`, `pulseone-software-reconciliation.md`, `pulseone-software-allocation-overpayment-analysis.md`, `pulseone-software-optimization-plan-revised.md`, `pulseone-software-pricing-correction-plan.md`, `pulseone-saas-rationalization-matrix.md`  
+**Version:** 2.0 (Consolidated with Addendum + Product Sales)  
+**Date:** April 21, 2026  
+**Supersedes:** `pulseone-software-classification-findings.md`, `pulseone-software-reconciliation.md`, `pulseone-software-allocation-overpayment-analysis.md`, `pulseone-software-optimization-plan-revised.md`, `pulseone-software-pricing-correction-plan.md`, `pulseone-saas-rationalization-matrix.md`, `audit-software-resale-addendum.md`, `product-sales-analysis-2026-04-20.md`  
 **Classification Workbook:** `data/financial/Software_COGS_Classified.xlsx`
 
 ---
@@ -290,4 +290,6 @@ The following ConnectWise reports are required to complete this audit. Listed in
 
 ---
 
-*This document consolidates and supersedes six prior software analysis documents. The classification workbook (`data/financial/Software_COGS_Classified.xlsx`) contains the transaction-level detail supporting all findings above. The six superseded documents have been moved to `docs/archive/`.*
+> **v2.0 Consolidation Note (April 21, 2026):** This version absorbs the Software Resale Addendum (which resolved the -9.4% margin mystery as a QB revenue mapping issue — true CW margin is 68.1%) and the Product Sales Analysis (which confirmed negative software margin on the QB P&L, identified Synnex/Ingram concentration, and flagged the $762K COGS gap). Both source documents have been archived.
+
+*This document consolidates and supersedes eight prior software analysis documents. The classification workbook (`data/financial/Software_COGS_Classified.xlsx`) contains the transaction-level detail supporting all findings above. The six superseded documents have been moved to `docs/archive/`.*

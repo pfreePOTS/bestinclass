@@ -69,7 +69,7 @@ In addition to W-2 labor, Vincent Williams billed $104,740 (1,706 hours at $61/h
 ## E. Risks and Opportunities
 
 **Risks:**
-- **False Margin Signals:** Because QuickBase only tracks subcontractor invoices, the company believes it is operating at a 47% project margin. If W-2 labor and Upwork escalations are heavily utilized, the true margin could be below 25%, meaning projects are destroying value.
+- **False Margin Signals:** Because QuickBase only tracks subcontractor invoices, the company believes it is operating at a 47% project margin. *(Note: Previous high-level P&L estimates suggested a 24.2% margin and a $400K–$465K profit leakage in this segment, which aligns closely with the heavy W-2 subsidy scenario).* If W-2 labor and Upwork escalations are heavily utilized, the true margin could be below 25%, meaning projects are destroying value.
 - **Client Concentration:** 79.4% of true project revenue comes from a single client (Bunzl).
 - **Pricing Targets:** QuickBase data shows projects are consistently hitting their internal margin targets. However, the internal targets are set at 35–39% (cash basis), which guarantees a fully-loaded margin well below the BiC 50% standard once W-2 labor is applied.
 

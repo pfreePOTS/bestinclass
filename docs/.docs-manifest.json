@@ -1,8 +1,8 @@
 {
-  "version": "5.1",
+  "version": "6.0",
   "project": "PulseOne Best In Class Audit",
   "repo": "pfreePOTS/bestinclass",
-  "last_updated": "2026-04-20",
+  "last_updated": "2026-04-21",
   "naming_convention": "lowercase-kebab-case",
   "framework_documents": [
     {
@@ -11,10 +11,10 @@
       "file": "docs/analysis/pulseone-bic-master-scorecard.md",
       "type": "scorecard",
       "status": "active",
-      "version": "2.1",
+      "version": "2.2",
       "created": "2026-04-20",
-      "last_updated": "2026-04-20",
-      "description": "Single source of truth for PulseOne's current performance metrics mapped against Service Leadership BiC benchmarks. v2.1 integrates Technician Efficiency Audit, Software Resale Addendum, COGS/SGA reclassification, client concentration analysis, and Bunzl portfolio reframe."
+      "last_updated": "2026-04-21",
+      "description": "Single source of truth for PulseOne's current performance metrics mapped against Service Leadership BiC benchmarks. v2.2 adds profit leakage summary ($738K EBITDA gap, $514K uncaptured revenue) consolidated from the profitability/SGA and utilization/billing audits."
     },
     {
       "id": "action-register",
@@ -26,17 +26,6 @@
       "created": "2026-04-20",
       "last_updated": "2026-04-20",
       "description": "Centralized, prioritized register of actionable recommendations. v2.0 reframes software actions around revenue mapping, adds client concentration and Bunzl anomaly actions, integrates Technician Efficiency findings."
-    },
-    {
-      "id": "consolidation-plan",
-      "title": "PulseOne BiC Standardized Documentation Plan",
-      "file": "docs/analysis/pulseone-bic-standardized-documentation-plan.md",
-      "type": "governance",
-      "status": "active",
-      "version": "1.0",
-      "created": "2026-04-20",
-      "last_updated": "2026-04-20",
-      "description": "Master plan defining the 4-part standardized documentation architecture: Scorecard, Financial Model, Operational Audits, and Action Register."
     }
   ],
   "financial_model": [
@@ -47,39 +36,39 @@
       "pdf": "docs/analysis/pulseone-definitive-pl-analysis.pdf",
       "type": "financial-model",
       "status": "active",
-      "version": "3.0",
+      "version": "3.1",
       "created": "2026-04-20",
-      "last_updated": "2026-04-20",
+      "last_updated": "2026-04-21",
       "supersedes": "refined-analysis-upwork",
-      "description": "Definitive corrected P&L using confirmed CY 2025 Upwork data. All 12 freelancers classified. Reconciled to $0.30. This is the authoritative P&L version.",
+      "description": "Definitive corrected P&L using confirmed CY 2025 Upwork data. v3.1 adds COGS Validation Update note (Adjustment B overstatement of $60K, Paul's $24K pending). Consolidates findings from audit-cogs-validation.md and pulseone-revised-bic-audit-report.md.",
       "key_findings": {
         "corrected_gross_margin": "37.4% (33.6% after COGS/SGA reclassification)",
         "bic_target_gross_margin": "44.0%+",
         "gap_to_bic": "-10.4 pts after reclassification",
         "normalized_ebitda": "12.9%",
-        "total_reclassified": "$1,113,902"
+        "total_reclassified": "$1,113,902",
+        "adjustment_b_correction": "True Adj B = $197,693 (not $257,970)"
       }
     },
     {
       "id": "cogs-classification-analysis",
-      "title": "PulseOne COGS Classification Analysis \u2014 Person by Person",
+      "title": "PulseOne COGS Classification Analysis — Person by Person",
       "file": "docs/analysis/pulseone-cogs-classification-analysis.md",
       "pdf": "docs/analysis/pulseone-cogs-classification-analysis.pdf",
       "type": "financial-model",
       "status": "active",
-      "version": "1.0",
+      "version": "1.1",
       "created": "2026-04-17",
-      "last_updated": "2026-04-17",
-      "description": "Complete person-by-person COGS vs. SG&A classification for all 38 PulseOne personnel. Confirmed by Paul Freeman April 17, 2026."
+      "last_updated": "2026-04-21",
+      "description": "Complete person-by-person COGS vs. SG&A classification for all 38 PulseOne personnel. v1.1 adds Software COGS Gap note ($762K gap, internal tools misclassification). Consolidates findings from audit-software-cogs-gap-analysis.md."
     }
   ],
   "operational_audits": [
     {
       "id": "audit-software-resale",
-      "title": "Software Resale & SaaS Rationalization",
+      "title": "Software Resale & SaaS Rationalization (Consolidated)",
       "files": [
-        "docs/analysis/audit-software-resale.md",
-        "docs/analysis/audit-software-resale-addendum.md"
+        "docs/analysis/audit-software-resale.md"
       ],
       "data": [
         "data/financial/Software_COGS_Classified.xlsx",
@@ -87,47 +76,58 @@
       ],
       "type": "operational-audit",
       "status": "active",
-      "version": "1.0",
-      "last_updated": "2026-04-20",
+      "version": "2.0",
+      "last_updated": "2026-04-21",
       "supersedes": [
         "docs/archive/pulseone-software-classification-findings.md",
         "docs/archive/pulseone-software-reconciliation.md",
         "docs/archive/pulseone-software-allocation-overpayment-analysis.md",
         "docs/archive/pulseone-software-optimization-plan-revised.md",
         "docs/archive/pulseone-software-pricing-correction-plan.md",
-        "docs/archive/pulseone-saas-rationalization-matrix.md"
+        "docs/archive/pulseone-saas-rationalization-matrix.md",
+        "docs/archive/audit-software-resale-addendum.md",
+        "docs/archive/product-sales-analysis-2026-04-20.md"
       ],
-      "description": "Consolidated software resale and SaaS rationalization audit. Addendum resolves the -9.4% margin as a revenue mapping issue (true CW margin 68.1%). Identifies structural issues with Microsoft M365 (16.4% GM) and Adobe (4.3% GM)."
+      "description": "Consolidated software resale and SaaS rationalization audit. v2.0 absorbs the addendum (margin mystery resolution, CW 68.1% GM) and product sales analysis (negative software margin, concentration data). Identifies structural issues with Microsoft M365 (16.4% GM) and Adobe (4.3% GM)."
     },
     {
-      "id": "audit-software-cogs-gap",
-      "title": "Software COGS Gap Analysis",
+      "id": "audit-saas-tool-sprawl",
+      "title": "SaaS Tool Sprawl & Rationalization Audit",
       "files": [
-        "docs/analysis/audit-software-cogs-gap-analysis.md"
+        "docs/analysis/audit-saas-tool-sprawl.md"
+      ],
+      "data": [
+        "docs/analysis/saas-tool-inventory.csv",
+        "docs/analysis/saas-tool-inventory.xlsx"
       ],
       "type": "operational-audit",
       "status": "active",
       "version": "1.0",
-      "last_updated": "2026-04-20",
-      "description": "Gap analysis between QuickBooks software COGS and ConnectWise Cost/Sell data."
+      "last_updated": "2026-04-21",
+      "description": "Comprehensive audit of SaaS tool sprawl across PulseOne's technology stack. Identifies $91K in potential consolidation savings."
     },
     {
-      "id": "audit-cogs-validation",
-      "title": "COGS Validation Audit",
+      "id": "audit-project-profitability",
+      "title": "Project Profitability Audit",
       "files": [
-        "docs/analysis/audit-cogs-validation.md"
+        "docs/analysis/Audit_Project_Profitability.md",
+        "docs/analysis/audit-project-profitability-data.md"
       ],
       "type": "operational-audit",
       "status": "active",
-      "version": "1.0",
-      "last_updated": "2026-04-20",
-      "description": "Line-item COGS validation audit covering software, labor, and contractor classifications."
+      "version": "3.0",
+      "created": "2026-04-21",
+      "last_updated": "2026-04-21",
+      "supersedes": [
+        "docs/archive/audit-project-costing-template.md"
+      ],
+      "description": "Three-segment project profitability analysis: Staff Augmentation (ARC, 43.3% cash margin), True Projects (47.1% cash margin ceiling, unknown fully-loaded), Managed Services (Bunzl subs, 55.8%). Primary finding: W-2 labor 'invisible subsidy' makes project margins unknowable without ConnectWise time-entry data."
     },
     {
       "id": "audit-technician-efficiency",
       "title": "Technician Utilization, Cost Efficiency & Client Profitability",
       "files": [
-        "docs/analysis/pulseone-technician-efficiency-audit.md"
+        "docs/archive/pulseone-technician-efficiency-audit.md"
       ],
       "charts": [
         "docs/charts/chart_bic_scorecard.png",
@@ -137,66 +137,21 @@
         "docs/charts/chart_tech_heatmap.png"
       ],
       "type": "operational-audit",
-      "status": "active",
+      "status": "archived",
       "version": "1.0",
       "last_updated": "2026-04-20",
-      "description": "Strategic audit of technician utilization, service delivery workload distribution, labor cost efficiency, and client-level profitability. Confirms Help Desk at 5.41x Service Multiple. Identifies severe client concentration risk and Bunzl ticket anomaly."
-    },
-    {
-      "id": "audit-utilization-billing",
-      "title": "Utilization & Billing Efficiency",
-      "files": [
-        "docs/analysis/audit-utilization-and-billing.md"
-      ],
-      "type": "operational-audit",
-      "status": "active",
-      "version": "1.0",
-      "last_updated": "2026-04-20",
-      "supersedes": [
-        "docs/archive/pulseone-utilization-findings.md",
-        "docs/archive/pulseone-billing-efficiency-report.md",
-        "docs/archive/pulseone-corrected-findings-and-utilization.md"
-      ],
-      "description": "Consolidated audit of billing leakage, realization rates, and time entry discipline. Quantifies $514K in uncaptured revenue potential across three leakage areas: write-downs ($16K), unbilled hours ($115K), and unlogged capacity ($385K)."
-    },
-    {
-      "id": "audit-profitability-sga",
-      "title": "Profitability & SG&A Efficiency",
-      "files": [
-        "docs/analysis/audit-profitability-and-sga.md"
-      ],
-      "type": "operational-audit",
-      "status": "active",
-      "version": "1.0",
-      "last_updated": "2026-04-20",
-      "supersedes": [
-        "docs/archive/pulseone-profit-leakage-map.md",
-        "docs/archive/pulseone-granular-dept-analysis.md",
-        "docs/archive/pulseone-fully-reconciled-pl.md",
-        "docs/archive/pulseone-unified-labor-model.md"
-      ],
-      "description": "Consolidated audit of profit leakage sources and SG&A overhead. Maps the $738K EBITDA gap to BiC across four areas: consulting margin deficit ($465K), contractor cost gap ($753K discrepancy), S&M inefficiency ($257K), and G&A tool sprawl ($91K)."
+      "superseded_by": "bic-master-scorecard",
+      "description": "Strategic audit of technician utilization. Key findings consolidated into Master Scorecard v2.2."
     },
     {
       "id": "audit-client-profitability",
       "title": "Client Profitability & Revenue Quality",
       "files": [
-        "docs/analysis/pulseone-client-profitability-analysis.md",
-        "docs/analysis/product-sales-analysis-2026-04-20.md"
+        "docs/analysis/pulseone-client-profitability-analysis.md"
       ],
       "type": "operational-audit",
       "status": "active",
-      "description": "Client concentration analysis, revenue quality assessment, and product sales breakdown. Confirms 73.8% recurring revenue."
-    },
-    {
-      "id": "audit-bic-comprehensive",
-      "title": "Revised Comprehensive BiC Audit Report",
-      "files": [
-        "docs/analysis/pulseone-revised-bic-audit-report.md"
-      ],
-      "type": "operational-audit",
-      "status": "active",
-      "description": "Comprehensive BiC audit incorporating expense tracking and partner compensation allocation."
+      "description": "Client concentration analysis, revenue quality assessment. Confirms 73.8% recurring revenue. Product sales analysis consolidated into audit-software-resale v2.0."
     },
     {
       "id": "audit-marketing-investment",
@@ -210,16 +165,6 @@
       "version": "1.0",
       "last_updated": "2026-04-20",
       "description": "Deep audit of $592K S&M spend (11.5% of revenue vs BiC 5.4%). Decomposes spend into Brand/Awareness (34.8%), Sales Enablement (29.1%), Demand Generation (5.6%), and Unclassifiable (30.5%). Identifies catastrophic 71% S&M staff turnover, structural demand generation underinvestment, and Bunzl expansion as highest-ROI growth opportunity."
-    },
-    {
-      "id": "audit-project-costing",
-      "title": "Project Costing & Margin (Incoming)",
-      "files": [
-        "docs/analysis/audit-project-costing-template.md"
-      ],
-      "type": "operational-audit",
-      "status": "placeholder",
-      "description": "Template for the incoming project margin and costing analysis."
     }
   ],
   "reference_documents": [
@@ -285,13 +230,13 @@
       "id": "bic-audit-report-original",
       "file": "docs/archive/pulseone-bic-audit-report.md",
       "status": "archived",
-      "superseded_by": "audit-bic-comprehensive"
+      "superseded_by": "bic-master-scorecard"
     },
     {
       "id": "initial-observations",
       "file": "docs/archive/pulseone-initial-observations.md",
       "status": "archived",
-      "superseded_by": "audit-bic-comprehensive"
+      "superseded_by": "bic-master-scorecard"
     },
     {
       "id": "new-docs-findings",
@@ -338,43 +283,108 @@
       "id": "utilization-findings",
       "file": "docs/archive/pulseone-utilization-findings.md",
       "status": "archived",
-      "superseded_by": "audit-utilization-billing"
+      "superseded_by": "bic-master-scorecard"
     },
     {
       "id": "billing-efficiency-report",
       "file": "docs/archive/pulseone-billing-efficiency-report.md",
       "status": "archived",
-      "superseded_by": "audit-utilization-billing"
+      "superseded_by": "bic-master-scorecard"
     },
     {
       "id": "corrected-findings-utilization",
       "file": "docs/archive/pulseone-corrected-findings-and-utilization.md",
       "status": "archived",
-      "superseded_by": "audit-utilization-billing"
+      "superseded_by": "bic-master-scorecard"
     },
     {
       "id": "profit-leakage-map",
       "file": "docs/archive/pulseone-profit-leakage-map.md",
       "status": "archived",
-      "superseded_by": "audit-profitability-sga"
+      "superseded_by": "bic-master-scorecard"
     },
     {
       "id": "granular-dept-analysis",
       "file": "docs/archive/pulseone-granular-dept-analysis.md",
       "status": "archived",
-      "superseded_by": "audit-profitability-sga"
+      "superseded_by": "bic-master-scorecard"
     },
     {
       "id": "fully-reconciled-pl",
       "file": "docs/archive/pulseone-fully-reconciled-pl.md",
       "status": "archived",
-      "superseded_by": "audit-profitability-sga"
+      "superseded_by": "bic-master-scorecard"
     },
     {
       "id": "unified-labor-model",
       "file": "docs/archive/pulseone-unified-labor-model.md",
       "status": "archived",
-      "superseded_by": "audit-profitability-sga"
+      "superseded_by": "bic-master-scorecard"
+    },
+    {
+      "id": "audit-software-resale-addendum",
+      "file": "docs/archive/audit-software-resale-addendum.md",
+      "status": "archived",
+      "superseded_by": "audit-software-resale"
+    },
+    {
+      "id": "product-sales-analysis",
+      "file": "docs/archive/product-sales-analysis-2026-04-20.md",
+      "status": "archived",
+      "superseded_by": "audit-software-resale"
+    },
+    {
+      "id": "audit-cogs-validation",
+      "file": "docs/archive/audit-cogs-validation.md",
+      "status": "archived",
+      "superseded_by": "definitive-pl-analysis"
+    },
+    {
+      "id": "revised-bic-audit-report",
+      "file": "docs/archive/pulseone-revised-bic-audit-report.md",
+      "status": "archived",
+      "superseded_by": "definitive-pl-analysis"
+    },
+    {
+      "id": "technician-efficiency-audit",
+      "file": "docs/archive/pulseone-technician-efficiency-audit.md",
+      "status": "archived",
+      "superseded_by": "bic-master-scorecard"
+    },
+    {
+      "id": "audit-profitability-sga",
+      "file": "docs/archive/audit-profitability-and-sga.md",
+      "status": "archived",
+      "superseded_by": "bic-master-scorecard"
+    },
+    {
+      "id": "audit-utilization-billing",
+      "file": "docs/archive/audit-utilization-and-billing.md",
+      "status": "archived",
+      "superseded_by": "bic-master-scorecard"
+    },
+    {
+      "id": "standardized-documentation-plan",
+      "file": "docs/archive/pulseone-bic-standardized-documentation-plan.md",
+      "status": "archived",
+      "superseded_by": "docs-manifest"
+    },
+    {
+      "id": "docs-health-report-20260420",
+      "file": "docs/archive/docs-health-report-2026-04-20.md",
+      "status": "archived"
+    },
+    {
+      "id": "audit-software-cogs-gap",
+      "file": "docs/archive/audit-software-cogs-gap-analysis.md",
+      "status": "archived",
+      "superseded_by": "cogs-classification-analysis"
+    },
+    {
+      "id": "audit-project-costing-template",
+      "file": "docs/archive/audit-project-costing-template.md",
+      "status": "archived",
+      "superseded_by": "audit-project-profitability"
     }
   ],
   "data_sources": [

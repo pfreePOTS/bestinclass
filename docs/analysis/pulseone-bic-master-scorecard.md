@@ -1,7 +1,7 @@
 # PulseOne Best in Class (BiC) Master Scorecard
 
-**Version:** 2.0  
-**Last Updated:** April 20, 2026  
+**Version:** 2.2  
+**Last Updated:** April 21, 2026  
 **Author:** Manus AI  
 **Source Data:** CY 2025 Corrected P&L (`pulseone-definitive-pl-analysis.md` v3.0), Technician Efficiency Audit, Consolidated Software Resale Audit + Addendum, Product Sales Analysis, ConnectWise Cost/Sell Report
 
@@ -36,7 +36,7 @@ This scorecard provides the authoritative, single-source-of-truth mapping of Pul
 | **Software GM % (CW transaction view)** | 68.1% | 24.3% - 26.3% | +43.5 pts | **ALIGNED** | True margin per ConnectWise Cost/Sell report |
 | **Microsoft M365 GM %** | 16.4% | 24.3% - 26.3% | -7.9 pts | BELOW | Structural CSP margin cap; requires service bundling |
 | **Adobe Creative Cloud GM %** | 4.3% | 24.3% - 26.3% | -20.0 pts | **CRITICAL** | Near-zero margin; concentrated in Bunzl |
-| **Project / Consulting GM %** | 24.2% | > 24.6% | -0.4 pts | BELOW | *Pending updated project costing analysis* |
+| **Project / Consulting GM %** | 47.1% cash / ~24.2% fully-loaded (est.) | 48%–52% | -1 to -28 pts | BELOW | Cash margin excludes W-2 labor; see Project Profitability Audit |
 
 > **Software Margin Resolution (v2.0):** The previously reported -9.4% software resale margin was a QuickBooks revenue mapping artifact, not a true pricing failure. ConnectWise Cost/Sell data shows 6,704 software/subscription line items generating $2,978,392 in revenue against $949,040 in cost (68.1% GM). Software revenue is blended into Managed Services revenue lines in QB, while costs correctly hit the software COGS accounts. The real structural issues are Microsoft M365 at 16.4% GM (below BiC floor) and Adobe at 4.3% GM (critical). Management should track software margin at the ConnectWise agreement level, not the QB P&L level.
 
@@ -97,7 +97,21 @@ The consolidated Software Resale Audit identified $194,092 in service delivery t
 
 ---
 
-## 6. Known Data Gaps & Open Items
+## 6. Profit Leakage Summary (Consolidated)
+
+| Leakage Area | Estimated Annual Impact | Source Audit | Confidence |
+| :--- | :--- | :--- | :--- |
+| Consulting/Project margin deficit | $400K–$465K | Profitability & SGA Audit | Medium — depends on W-2 labor allocation |
+| Uncaptured billable revenue | $514K ($16K write-downs + $115K unbilled + $385K unlogged) | Utilization & Billing Audit | Medium |
+| S&M overspend vs BiC | $257K | Marketing & Sales Investment Audit | High |
+| G&A tool sprawl | $91K | SaaS Tool Sprawl Audit | High |
+| **Total estimated leakage** | **$1.26M–$1.33M** | | |
+
+> **Note:** These leakage areas are not fully additive — some overlap exists between the consulting margin deficit and the uncaptured revenue estimates. The W-2 labor "invisible subsidy" (see Project Profitability Audit) is a primary contributor to the consulting margin deficit but cannot be precisely quantified without ConnectWise time-entry data.
+
+---
+
+## 7. Known Data Gaps & Open Items
 
 | Gap | Impact | Blocking Action(s) | Priority |
 | :--- | :--- | :--- | :--- |

@@ -2,7 +2,12 @@
 ## CY 2025 | Final Version with Confirmed Upwork Data
 **Date:** April 20, 2026  
 **Status:** DEFINITIVE — All data sources confirmed  
+**Version:** 3.1 (April 21, 2026 — COGS Validation Update)  
 **Prepared by:** Manus (PulseOne BIC Audit)
+
+---
+
+> **v3.1 COGS Validation Update (April 21, 2026):** Cross-referencing with the COGS Validation Audit identified that Adjustment B (Upwork COGS reclassification) was overstated by approximately $60K. The true Adjustment B value is $197,693 (not $257,970). Additionally, Paul Freeman flagged a $24K discrepancy in the Consulting Services Cost line that requires investigation. These corrections are pending integration into the P&L model.
 
 ---
 
