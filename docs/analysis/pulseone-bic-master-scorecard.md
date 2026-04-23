@@ -1,15 +1,15 @@
 # PulseOne Best in Class (BiC) Master Scorecard
 
-**Version:** 2.2  
-**Last Updated:** April 21, 2026  
+**Version:** 3.0  
+**Last Updated:** April 22, 2026  
 **Author:** Manus AI  
-**Source Data:** CY 2025 Corrected P&L (`pulseone-definitive-pl-analysis.md` v3.0), Technician Efficiency Audit, Consolidated Software Resale Audit + Addendum, Product Sales Analysis, ConnectWise Cost/Sell Report
+**Source Data:** CY 2025 Definitive Resource Allocation Reference, Corrected P&L (`pulseone-definitive-pl-analysis.md`), Technician Efficiency Audit, Consolidated Software Resale Audit
 
 ## Executive Summary
 
 This scorecard provides the authoritative, single-source-of-truth mapping of PulseOne's financial and operational performance against the Service Leadership Best in Class (BiC) benchmarks for the Infrastructure-Managed Services Predominant Business Model (PBM) [1].
 
-**Version 2.0 incorporates three significant updates:** (a) the Technician Efficiency Audit, which confirms exceptional Help Desk efficiency but reveals severe client concentration risk; (b) the consolidated Software Resale Audit and Addendum, which resolves the -9.4% software margin mystery as a revenue mapping problem rather than a true pricing failure; and (c) the COGS/SGA reclassification analysis, which moves $194,092 of service delivery tools from SGA to COGS, correcting both the gross margin and SGA efficiency ratios.
+**Version 3.0 incorporates critical owner-confirmed structural corrections:** (a) **EBITDA Normalization:** Partner compensation is confirmed at Fair Market Value, removing the prior $423K add-back and resetting normalized EBITDA to 6.3%; (b) **Entity Separation:** $80.6K in RepScheduler and PulseOne Communications costs have been removed from the operating baseline; (c) **Segment Restructuring:** The $1.2M ARC staff augmentation contract has been isolated into a new "Comprehensive Services" segment to prevent distorting the Managed Services and Consulting margins.
 
 ---
 
@@ -17,13 +17,12 @@ This scorecard provides the authoritative, single-source-of-truth mapping of Pul
 
 | Metric | PulseOne Actual (CY 2025) | BiC Target | Variance | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Adjusted EBITDA %** | 12.9% | 18.3% - 19.0%+ | -5.4 pts | BELOW | Normalized for partner compensation |
-| **Blended Gross Margin % (as reported)** | 37.4% | 44.0%+ | -6.6 pts | BELOW | Before COGS/SGA reclassification |
-| **Blended Gross Margin % (corrected)** | 33.6% | 44.0%+ | -10.4 pts | BELOW | After reclassifying $194K service delivery tools to COGS; more accurate |
-| **Total SG&A % of Revenue (as reported)** | 31.7% | 27.4% | +4.3 pts | BELOW | Includes $194K of misclassified service delivery tools |
-| **Total SG&A % of Revenue (corrected)** | 29.4% | 27.4% | +2.0 pts | BELOW | After reclassification; gap narrows by 53% |
+| **Normalized EBITDA %** | 6.3% | 18.3% - 19.0%+ | -12.0 pts | **CRITICAL** | Corrected: No partner comp add-back (paid at FMV) |
+| **Blended Gross Margin %** | 37.6% | 44.0%+ | -6.4 pts | BELOW | Corrected baseline (excludes RS/POC costs) |
+| **Total SG&A % of Revenue** | 31.6% | 27.4% | +4.2 pts | BELOW | Corrected baseline (excludes RS/POC costs) |
+| **Sales & Marketing % of Revenue** | 6.9% | 5.4% | +1.5 pts | BELOW | $358K spend after removing RS developer costs |
 
-> **Interpretation:** The COGS/SGA reclassification does not change net income or EBITDA. It reveals that the true gross margin gap to BiC is larger than previously reported (10.4 pts, not 6.6 pts), confirming that the primary profit leakage is in service delivery cost structure and software pricing — not in SGA overhead. The SGA ratio, while still above BiC, is much closer to target than the uncorrected figure suggested.
+> **Interpretation (v3.0):** The 6.3% normalized EBITDA is the true operating reality of PulseOne. Previous versions artificially inflated this to 12.9% by adding back $423K in partner compensation, which is incorrect under BiC methodology because the partners (CEO, CMO, CFO) are paid at or below Fair Market Value. The true profit gap to BiC is $578K, driven primarily by project margin collapse, S&M overspend, and SaaS tool sprawl.
 
 ---
 
@@ -31,12 +30,12 @@ This scorecard provides the authoritative, single-source-of-truth mapping of Pul
 
 | Segment | PulseOne Actual (CY 2025) | BiC Target | Variance | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Managed Services GM %** | 52.0% | 48.7% - 52.4% | N/A | **ALIGNED** | Help Desk team operating at 5.41x Service Multiple of Labor |
-| **Software GM % (QB P&L view)** | -9.4% | 24.3% - 26.3% | -33.7 pts | **RESOLVED** | Revenue mapping issue — see note below |
-| **Software GM % (CW transaction view)** | 68.1% | 24.3% - 26.3% | +43.5 pts | **ALIGNED** | True margin per ConnectWise Cost/Sell report |
+| **Managed Services GM %** | 56.0% | 48.7% - 52.4% | +3.6 pts | **EXCEEDS BiC** | Core MSP delivery ($2.69M rev) is highly efficient |
+| **Comprehensive Services GM %** | 48.0% | N/A | N/A | **HEALTHY** | ARC staff augmentation ($1.23M rev); separate from core MS |
+| **Project / Consulting GM %** | 24.2% fully-loaded (est.) | 48%–52% | -23.8 pts | **CRITICAL** | $1.17M rev; driven by subcontractor pass-throughs |
+| **Software GM % (CW transaction view)** | 68.1% | 24.3% - 26.3% | +43.5 pts | **ALIGNED** | True margin per CW; QB -9.4% is a mapping artifact |
 | **Microsoft M365 GM %** | 16.4% | 24.3% - 26.3% | -7.9 pts | BELOW | Structural CSP margin cap; requires service bundling |
 | **Adobe Creative Cloud GM %** | 4.3% | 24.3% - 26.3% | -20.0 pts | **CRITICAL** | Near-zero margin; concentrated in Bunzl |
-| **Project / Consulting GM %** | 47.1% cash / ~24.2% fully-loaded (est.) | 48%–52% | -1 to -28 pts | BELOW | Cash margin excludes W-2 labor; see Project Profitability Audit |
 
 > **Software Margin Resolution (v2.0):** The previously reported -9.4% software resale margin was a QuickBooks revenue mapping artifact, not a true pricing failure. ConnectWise Cost/Sell data shows 6,704 software/subscription line items generating $2,978,392 in revenue against $949,040 in cost (68.1% GM). Software revenue is blended into Managed Services revenue lines in QB, while costs correctly hit the software COGS accounts. The real structural issues are Microsoft M365 at 16.4% GM (below BiC floor) and Adobe at 4.3% GM (critical). Management should track software margin at the ConnectWise agreement level, not the QB P&L level.
 
@@ -47,7 +46,7 @@ This scorecard provides the authoritative, single-source-of-truth mapping of Pul
 | Metric | PulseOne Actual | BiC Target | Variance | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Service Multiple of Labor (Help Desk)** | 5.41x | 2.80x+ | +2.61x | **EXCEEDS BiC** | $2.73M revenue / $505K cost; nearly 2x the BiC target |
-| **Managed Services GM %** | 52.0% | 48.7% - 52.4% | N/A | **ALIGNED** | Core delivery engine is highly efficient |
+| **Managed Services GM %** | 56.0% | 48.7% - 52.4% | +3.6 pts | **EXCEEDS BiC** | Core delivery engine is highly efficient |
 | **Technician Billable %** | 23.0% | 65% - 75% | -42.0 pts | **DATA TRAP** | Deceptive in fixed-fee MSP model; Service Multiple is the correct measure |
 | **Total Service Delivery Labor % of Revenue** | 35.6% | 25% - 30% | +5.6 to +10.6 pts | ABOVE | $1.838M total; excess likely in Consulting/Projects division |
 | **S. Calkins Ticket Share** | 24% of all tickets | N/A | N/A | **KEY-PERSON RISK** | 3,238 of 13,412 non-system tickets handled by one technician |

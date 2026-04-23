@@ -32,9 +32,9 @@ The gap to BiC is **$578,256**. Here is exactly where that profit leaked:
 
 ### 1. Project Margin Collapse: ~$303,159 Leakage
 The single largest structural failure is the Consulting/Project division. 
-- PulseOne generated $1,175,036 in consulting revenue at a **24.2% Gross Margin**.
+- PulseOne generated $1,175,036 in discrete consulting revenue at an estimated **24.2% fully-loaded Gross Margin**.
 - BiC target for project work is **50.0%**.
-- The gap is driven almost entirely by subcontractor pass-through costs consuming 58 cents of every consulting dollar. If projects had been priced or staffed to achieve 50% margin, PulseOne would have retained an additional $303K in gross profit.
+- The gap is driven almost entirely by subcontractor pass-through costs consuming 58 cents of every consulting dollar, plus the "invisible subsidy" of W-2 labor not being properly allocated. If projects had been priced or staffed to achieve 50% margin, PulseOne would have retained an additional $303K in gross profit.
 
 ### 2. Sales & Marketing Overspend: ~$79,732 Leakage
 PulseOne spent heavily on marketing that failed to produce growth.

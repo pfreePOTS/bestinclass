@@ -1,8 +1,8 @@
 {
-  "version": "6.0",
+  "version": "7.0",
   "project": "PulseOne Best In Class Audit",
   "repo": "pfreePOTS/bestinclass",
-  "last_updated": "2026-04-21",
+  "last_updated": "2026-04-22",
   "naming_convention": "lowercase-kebab-case",
   "framework_documents": [
     {
@@ -11,10 +11,10 @@
       "file": "docs/analysis/pulseone-bic-master-scorecard.md",
       "type": "scorecard",
       "status": "active",
-      "version": "2.2",
+      "version": "3.0",
       "created": "2026-04-20",
-      "last_updated": "2026-04-21",
-      "description": "Single source of truth for PulseOne's current performance metrics mapped against Service Leadership BiC benchmarks. v2.2 adds profit leakage summary ($738K EBITDA gap, $514K uncaptured revenue) consolidated from the profitability/SGA and utilization/billing audits."
+      "last_updated": "2026-04-22",
+      "description": "Single source of truth for PulseOne's current performance metrics mapped against Service Leadership BiC benchmarks. v3.0: Corrected EBITDA normalization (6.3%, no partner comp add-back), RS/POC entity separation ($80.6K removed), Comprehensive Services segment isolation (ARC $1.2M), corrected S&M spend (6.9% after RS removal)."
     },
     {
       "id": "action-register",
@@ -40,15 +40,26 @@
       "created": "2026-04-20",
       "last_updated": "2026-04-21",
       "supersedes": "refined-analysis-upwork",
-      "description": "Definitive corrected P&L using confirmed CY 2025 Upwork data. v3.1 adds COGS Validation Update note (Adjustment B overstatement of $60K, Paul's $24K pending). Consolidates findings from audit-cogs-validation.md and pulseone-revised-bic-audit-report.md.",
+      "description": "Definitive corrected P&L using confirmed CY 2025 Upwork data. v3.1 adds COGS Validation Update note. NOTE: EBITDA normalization in this document (12.9%) is STALE — the correct figure is 6.3% per Master Scorecard v3.0 and Architectural Invariant 4.",
       "key_findings": {
-        "corrected_gross_margin": "37.4% (33.6% after COGS/SGA reclassification)",
+        "corrected_gross_margin": "37.6% (corrected baseline after RS/POC removal)",
         "bic_target_gross_margin": "44.0%+",
-        "gap_to_bic": "-10.4 pts after reclassification",
-        "normalized_ebitda": "12.9%",
+        "gap_to_bic": "-6.4 pts",
+        "normalized_ebitda": "6.3% (corrected — no partner comp add-back)",
         "total_reclassified": "$1,113,902",
         "adjustment_b_correction": "True Adj B = $197,693 (not $257,970)"
       }
+    },
+    {
+      "id": "resource-allocation-reference",
+      "title": "PulseOne Definitive Resource Allocation Reference",
+      "file": "docs/analysis/pulseone-resource-allocation-reference.md",
+      "type": "financial-model",
+      "status": "active",
+      "version": "2.0",
+      "created": "2026-04-22",
+      "last_updated": "2026-04-22",
+      "description": "Single source of truth for all CY 2025 labor resource allocations across segments, cost categories, and entities. Owner-confirmed by Paul Freeman. Includes W-2 employees, Upwork contractors, Expenses Tracker contractors, and segment assignments. Supersedes all prior resource classification assumptions."
     },
     {
       "id": "cogs-classification-analysis",
@@ -60,10 +71,23 @@
       "version": "1.1",
       "created": "2026-04-17",
       "last_updated": "2026-04-21",
-      "description": "Complete person-by-person COGS vs. SG&A classification for all 38 PulseOne personnel. v1.1 adds Software COGS Gap note ($762K gap, internal tools misclassification). Consolidates findings from audit-software-cogs-gap-analysis.md."
+      "description": "Person-by-person COGS vs. SG&A classification. NOTE: Allocations in this document are STALE — the definitive resource-allocation-reference.md supersedes all person-level classifications."
     }
   ],
   "operational_audits": [
+    {
+      "id": "audit-profit-waterfall",
+      "title": "2025 Profit Leakage Waterfall",
+      "files": [
+        "docs/analysis/audit-profit-waterfall-2025.md"
+      ],
+      "type": "operational-audit",
+      "status": "active",
+      "version": "2.2",
+      "created": "2026-04-22",
+      "last_updated": "2026-04-22",
+      "description": "Forensic 'where did the money go' analysis. Identifies $578K gap to BiC: Project Margin Collapse ($303K), S&M Overspend ($80K), SaaS Tool Sprawl ($91K), Other G&A ($104K). Corrected baseline: 6.3% EBITDA, no partner comp add-back."
+    },
     {
       "id": "audit-software-resale",
       "title": "Software Resale & SaaS Rationalization (Consolidated)",
@@ -78,17 +102,7 @@
       "status": "active",
       "version": "2.0",
       "last_updated": "2026-04-21",
-      "supersedes": [
-        "docs/archive/pulseone-software-classification-findings.md",
-        "docs/archive/pulseone-software-reconciliation.md",
-        "docs/archive/pulseone-software-allocation-overpayment-analysis.md",
-        "docs/archive/pulseone-software-optimization-plan-revised.md",
-        "docs/archive/pulseone-software-pricing-correction-plan.md",
-        "docs/archive/pulseone-saas-rationalization-matrix.md",
-        "docs/archive/audit-software-resale-addendum.md",
-        "docs/archive/product-sales-analysis-2026-04-20.md"
-      ],
-      "description": "Consolidated software resale and SaaS rationalization audit. v2.0 absorbs the addendum (margin mystery resolution, CW 68.1% GM) and product sales analysis (negative software margin, concentration data). Identifies structural issues with Microsoft M365 (16.4% GM) and Adobe (4.3% GM)."
+      "description": "Consolidated software resale and SaaS rationalization audit. Resolves -9.4% QB margin mystery (CW shows 68.1% GM). Identifies structural issues with Microsoft M365 (16.4% GM) and Adobe (4.3% GM)."
     },
     {
       "id": "audit-saas-tool-sprawl",
@@ -104,7 +118,7 @@
       "status": "active",
       "version": "1.0",
       "last_updated": "2026-04-21",
-      "description": "Comprehensive audit of SaaS tool sprawl across PulseOne's technology stack. Identifies $91K in potential consolidation savings."
+      "description": "Comprehensive audit of SaaS tool sprawl. Identifies $91K in potential consolidation savings."
     },
     {
       "id": "audit-project-profitability",
@@ -118,30 +132,20 @@
       "version": "3.0",
       "created": "2026-04-21",
       "last_updated": "2026-04-21",
-      "supersedes": [
-        "docs/archive/audit-project-costing-template.md"
-      ],
-      "description": "Three-segment project profitability analysis: Staff Augmentation (ARC, 43.3% cash margin), True Projects (47.1% cash margin ceiling, unknown fully-loaded), Managed Services (Bunzl subs, 55.8%). Primary finding: W-2 labor 'invisible subsidy' makes project margins unknowable without ConnectWise time-entry data."
+      "description": "Three-segment project profitability analysis: Staff Augmentation (ARC, 43.3% cash margin), True Projects (47.1% cash margin ceiling), Managed Services (Bunzl subs, 55.8%). Primary finding: W-2 labor 'invisible subsidy' makes project margins unknowable without ConnectWise time-entry data."
     },
     {
-      "id": "audit-technician-efficiency",
-      "title": "Technician Utilization, Cost Efficiency & Client Profitability",
+      "id": "audit-technician-scheduling",
+      "title": "Technician Scheduling & Utilization Audit",
       "files": [
-        "docs/archive/pulseone-technician-efficiency-audit.md"
-      ],
-      "charts": [
-        "docs/charts/chart_bic_scorecard.png",
-        "docs/charts/chart_concentration_analysis.png",
-        "docs/charts/chart_tech_cost_per_ticket.png",
-        "docs/charts/chart_monthly_volume.png",
-        "docs/charts/chart_tech_heatmap.png"
+        "docs/analysis/PulseOne_Technician_Scheduling_and_Utilization_Audit.md"
       ],
       "type": "operational-audit",
-      "status": "archived",
+      "status": "active",
       "version": "1.0",
-      "last_updated": "2026-04-20",
-      "superseded_by": "bic-master-scorecard",
-      "description": "Strategic audit of technician utilization. Key findings consolidated into Master Scorecard v2.2."
+      "created": "2026-04-21",
+      "last_updated": "2026-04-22",
+      "description": "Definitive scheduling and utilization audit incorporating CY 2025 schedule data. Confirms ARC staff augmentation model, Jim Froio's 'J' shift code, and extreme variance in effective hourly cost ($18-$95/hr)."
     },
     {
       "id": "audit-client-profitability",
@@ -151,7 +155,7 @@
       ],
       "type": "operational-audit",
       "status": "active",
-      "description": "Client concentration analysis, revenue quality assessment. Confirms 73.8% recurring revenue. Product sales analysis consolidated into audit-software-resale v2.0."
+      "description": "Client concentration analysis, revenue quality assessment. Confirms 73.8% recurring revenue."
     },
     {
       "id": "audit-marketing-investment",
@@ -164,7 +168,7 @@
       "status": "active",
       "version": "1.0",
       "last_updated": "2026-04-20",
-      "description": "Deep audit of $592K S&M spend (11.5% of revenue vs BiC 5.4%). Decomposes spend into Brand/Awareness (34.8%), Sales Enablement (29.1%), Demand Generation (5.6%), and Unclassifiable (30.5%). Identifies catastrophic 71% S&M staff turnover, structural demand generation underinvestment, and Bunzl expansion as highest-ROI growth opportunity."
+      "description": "Deep audit of S&M spend. Corrected to $358K (6.9% of revenue) after removing RS developer costs. Identifies 71% S&M staff turnover and structural demand generation underinvestment."
     }
   ],
   "reference_documents": [
@@ -262,7 +266,7 @@
       "superseded_by": "audit-software-resale"
     },
     {
-      "id": "software-optimization-revised",
+      "id": "software-optimization-plan-revised",
       "file": "docs/archive/pulseone-software-optimization-plan-revised.md",
       "status": "archived",
       "superseded_by": "audit-software-resale"
@@ -408,6 +412,20 @@
       "period": "CY 2025",
       "transactions": 1068,
       "vendors": 57,
+      "confirmed": true
+    },
+    {
+      "name": "CY 2025 Payroll Reports (ADP)",
+      "file": "project-shared/2025payrollreports.xlsx",
+      "period": "Full CY 2025",
+      "note": "Use GROSS EARNINGS column (col 9), NOT net payments",
+      "confirmed": true
+    },
+    {
+      "name": "Expenses Tracking MASTER",
+      "file": "project-shared/Expenses Tracking MASTER 2023.xlsx",
+      "period": "CY 2025 sheet",
+      "note": "Contractors in col 2, type in col 4, monthly amount in col 12, client tag in col 15",
       "confirmed": true
     }
   ]
