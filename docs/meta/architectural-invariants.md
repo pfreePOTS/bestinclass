@@ -41,15 +41,18 @@ Never treat "Bunzl" as a single client. The Bunzl family includes:
 
 ---
 
-## Invariant 4: Partner Compensation Must Be Normalized for EBITDA
+## Invariant 4: Partner Compensation Must Be Normalized for EBITDA (UPDATED — April 22, 2026)
 
-The $423,000 partner compensation line in the P&L is an operating expense. For adjusted EBITDA calculations, this must be normalized to market-rate compensation before comparing to BIC EBITDA benchmarks.
+The $423,000 partner compensation line in the P&L is an operating expense. The three partners serve as CEO (Charlie Batsford), CMO (Paul Freeman), and CFO (Rod). At $141K average each, their compensation is at or below Fair Market Value (FMV) for a $5.2M MSP. Therefore:
+- **No add-back is applied** when calculating normalized EBITDA
+- Normalized EBITDA = Net Operating Income + D&A only
+- The correct normalized EBITDA for 2025 is **6.3%**, not the previously reported 12.9%
 
 ---
 
-## Invariant 5: Software Resale Is an Open Investigation Item
+## Invariant 5: Software Resale Margin Is a Mapping Issue, Not a Pricing Failure (UPDATED — April 20, 2026)
 
-The -9.4% gross margin on software resale is flagged but not yet explained. Do not treat software resale as profitable until the root cause is determined.
+The -9.4% gross margin on software resale in QuickBooks is a revenue mapping artifact. ConnectWise Cost/Sell reports show 68.1% software margin at the transaction level. Software revenue is being blended into Managed Services revenue lines on the P&L while costs correctly hit software COGS accounts. The real structural issues are narrower: Microsoft M365 at 16.4% GM and Adobe Creative Cloud at 4.3% GM.
 
 ---
 
@@ -100,3 +103,33 @@ When analyzing project profitability, always explicitly state whether a margin i
 ## Invariant 9: Staff Augmentation is Not Project Delivery
 
 Do not blend Staff Augmentation (e.g., the ARC Research managed contractor pool) with discrete Project Delivery. They have different cost structures, different billing models, and different Best in Class benchmark expectations. Staff Augmentation should be evaluated on markup percentage, while Projects should be evaluated on fully-loaded gross margin.
+
+---
+
+## Invariant 10: Separate Entity Cost Isolation — RepScheduler & PulseOne Communications (NEW — April 22, 2026)
+
+**Invariant:** Costs incurred by PulseOne on behalf of separate ventures (RepScheduler and PulseOne Communications) must be removed from the PulseOne operating baseline before calculating margins or BiC gaps.
+
+**Affected personnel:**
+- **Badar** (~100% RepScheduler) — $30,300/year
+- **Daniyal Arif** (~50% RepScheduler) — $22,059/year RS portion
+- **Tracy Freeman** (100% POC) — $14,111/year
+- **Nicole Goodwin** (25-50% POC) — $14,142-$27,605/year POC portion
+
+**Total removal: ~$80K-$94K/year**
+
+**Enforcement:** Any P&L analysis must explicitly deduct these costs and note the adjustment.
+
+---
+
+## Invariant 11: Comprehensive Services (Staff Augmentation) Is a Separate Segment (NEW — April 22, 2026)
+
+**Invariant:** Staff augmentation revenue and costs (e.g., the ARC engagement) must be separated from Managed Services and reported as "Comprehensive Services."
+
+**Reasoning:** ARC paid a flat monthly fee for a dedicated team. This is fundamentally different from per-device/per-user managed services. Blending them distorts both the MS margin (makes it look lower) and the true size of the recurring MSP base (makes it look larger).
+
+**Correct segment structure:**
+- Managed Services: $2,696,716 (56.0% GM) — core MSP
+- Comprehensive Services: $1,237,145 (48.0% GM) — ARC staff aug
+- Consulting/Project: $1,175,036 (24.2% GM) — discrete projects
+- Software Resale: $180,793 (68.1% GM per CW, -9.4% per QB mapping)
