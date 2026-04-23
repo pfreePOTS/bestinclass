@@ -175,11 +175,6 @@
     {
       "id": "ref-bic-framework",
       "title": "Service Leadership BIC Framework Reference",
-      "file": "docs/reference/service-leadership-bic-framework-reference.md",
-      "type": "reference",
-      "status": "active",
-      "description": "Primary BIC framework reference document with benchmark definitions, peer group logic, and scoring methodology."
-    },
     {
       "id": "ref-bic-reference",
       "title": "Service Leadership BIC Reference (Summary)",

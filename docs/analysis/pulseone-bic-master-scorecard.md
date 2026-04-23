@@ -5,6 +5,12 @@
 **Author:** Manus AI  
 **Source Data:** CY 2025 Definitive Resource Allocation Reference, Corrected P&L (`pulseone-definitive-pl-analysis.md`), Technician Efficiency Audit, Consolidated Software Resale Audit
 
+**Related Documents:**
+- [Resource Allocation Reference](pulseone-resource-allocation-reference.md) — Definitive CY 2025 labor inventory
+- [Technician Scheduling & Utilization Audit](PulseOne_Technician_Scheduling_and_Utilization_Audit.md) — Scheduling patterns and utilization analysis
+- [Profit Waterfall 2025](audit-profit-waterfall-2025.md) — $578K gap decomposition
+- [Marketing Investment Data](audit-marketing-investment-data.md) — S&M spend breakdown
+
 ## Executive Summary
 
 This scorecard provides the authoritative, single-source-of-truth mapping of PulseOne's financial and operational performance against the Service Leadership Best in Class (BiC) benchmarks for the Infrastructure-Managed Services Predominant Business Model (PBM) [1].
@@ -100,11 +106,11 @@ The consolidated Software Resale Audit identified $194,092 in service delivery t
 
 | Leakage Area | Estimated Annual Impact | Source Audit | Confidence |
 | :--- | :--- | :--- | :--- |
-| Consulting/Project margin deficit | $400K–$465K | Profitability & SGA Audit | Medium — depends on W-2 labor allocation |
+| Consulting/Project margin deficit | ~$303K | Profit Waterfall 2025, Project Profitability Audit | Medium — depends on W-2 labor allocation |
 | Uncaptured billable revenue | $514K ($16K write-downs + $115K unbilled + $385K unlogged) | Utilization & Billing Audit | Medium |
 | S&M overspend vs BiC | $257K | Marketing & Sales Investment Audit | High |
 | G&A tool sprawl | $91K | SaaS Tool Sprawl Audit | High |
-| **Total estimated leakage** | **$1.26M–$1.33M** | | |
+| **Total estimated leakage** | **~$1.16M–$1.23M** | | |
 
 > **Note:** These leakage areas are not fully additive — some overlap exists between the consulting margin deficit and the uncaptured revenue estimates. The W-2 labor "invisible subsidy" (see Project Profitability Audit) is a primary contributor to the consulting margin deficit but cannot be precisely quantified without ConnectWise time-entry data.
 

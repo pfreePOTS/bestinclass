@@ -16,7 +16,7 @@ This analysis relies exclusively on the following authoritative sources:
 - `Upwork - Reports - Time by freelancer 2025.csv` (Contractor hours and task alignment)
 - `PulseOne_Definitive_PL_Analysis.md` (Total W-2 service delivery labor pool)
 
-*Note: Previous versions of this audit cited a 24.2% consulting margin on $1,175,036 in revenue. That margin was an artifact of P&L allocation logic, not a direct measurement of project performance. This version discards that allocation and measures direct performance.*
+*Note: The Master Scorecard (v3.0) and Profit Waterfall cite a 24.2% fully-loaded consulting margin on $1,175,036 in revenue. That 24.2% figure is the accepted fully-loaded estimate pending ConnectWise time-entry validation. This document focuses on calculating the underlying **Cash Margin** (revenue minus out-of-pocket subcontractor invoices) before W-2 labor is applied.*
 
 ## C. Current Understanding: The QuickBase Baseline
 In CY 2025, the QuickBase project tracker recorded 97 completed engagements totaling **$1,949,344** in revenue and **$1,059,830** in Cost of Goods Sold (COGS). 
@@ -69,7 +69,7 @@ In addition to W-2 labor, Vincent Williams billed $104,740 (1,706 hours at $61/h
 ## E. Risks and Opportunities
 
 **Risks:**
-- **False Margin Signals:** Because QuickBase only tracks subcontractor invoices, the company believes it is operating at a 47% project margin. *(Note: Previous high-level P&L estimates suggested a 24.2% margin and a $400K–$465K profit leakage in this segment, which aligns closely with the heavy W-2 subsidy scenario).* If W-2 labor and Upwork escalations are heavily utilized, the true margin could be below 25%, meaning projects are destroying value.
+- **False Margin Signals:** Because QuickBase only tracks subcontractor invoices, the company believes it is operating at a 47% project margin. The Master Scorecard (v3.0) applies a 24.2% fully-loaded estimate, which reveals ~$303K in profit leakage in this segment. If W-2 labor and Upwork escalations are heavily utilized, the true fully-loaded margin is likely below 25%, meaning projects are destroying value.
 - **Client Concentration:** 79.4% of true project revenue comes from a single client (Bunzl).
 - **Pricing Targets:** QuickBase data shows projects are consistently hitting their internal margin targets. However, the internal targets are set at 35–39% (cash basis), which guarantees a fully-loaded margin well below the BiC 50% standard once W-2 labor is applied.
 

@@ -29,11 +29,11 @@ Each action is tagged with a **Priority** (P1 = Immediate / P2 = Urgent / P3 = S
 
 ---
 
-## 2. Consulting / Project Margin (Estimated Recovery: $400K - $465K)
+## 2. Consulting / Project Margin (Estimated Recovery: ~$303K)
 
 | ID | Action | Priority | Est. Recovery | Owner | Status | Source Document(s) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| CON-01 | Audit consulting projects to identify specific margin loss causes — 24.2% GM vs 50%+ target | P1 | $400K+ | Paul | NOT STARTED | Fully Reconciled PL, Corrected Findings |
+| CON-01 | Audit consulting projects to identify specific margin loss causes — 24.2% fully-loaded GM vs 50%+ target | P1 | ~$303K | Paul | NOT STARTED | Profit Waterfall 2025 |
 | CON-02 | Conduct subcontractor audit for specific projects (Basim, David, Blue Pisces) | P1 | TBD | Paul | NOT STARTED | Profit Leakage Map |
 | CON-03 | Implement margin gates: require partner approval for any fixed-fee project below 50% GM | P2 | Preventive | Paul | NOT STARTED | Profit Leakage Map |
 | CON-04 | Verify billing rates for Vincent Williams ($104K Upwork cost) against contracted rates | P2 | TBD | Jim | NOT STARTED | Technician Efficiency Audit |
@@ -64,7 +64,7 @@ Each action is tagged with a **Priority** (P1 = Immediate / P2 = Urgent / P3 = S
 | SGA-02 | Cancel 7 identified redundant/non-business SaaS tools immediately (Replit, Calendy, Claude, etc.) | P1 | $1.5K immed. | Jim | NOT STARTED | Audit Software Resale |
 | SGA-03 | Confirm Microsoft Azure ($19,041) classification: client-hosted (COGS) or internal (SGA) | P2 | Metric clarity | Paul | NOT STARTED | Audit Software Resale |
 | SGA-04 | Confirm GoDaddy ($2,880) classification: client-hosted (COGS) or internal (SGA) | P2 | Metric clarity | Paul | NOT STARTED | Audit Software Resale |
-| SGA-05 | Rebalance Sales & Marketing: shift $200K+ from Marketing (9.1% of rev) to Sales (1.3% of rev) | P2 | Structural | Paul | NOT STARTED | Granular Dept Analysis |
+| SGA-05 | Rebalance Sales & Marketing: fix ROI failure on $358K S&M spend (6.9% of rev) which produced a 16.2% decline in MS revenue | P2 | Structural | Paul | NOT STARTED | Profit Waterfall 2025 |
 | SGA-06 | Halt all non-salary owner distributions to rebuild cash reserves (current ratio 0.10) | P1 | Liquidity | Paul | NOT STARTED | BIC Audit Report |
 
 ---
@@ -73,12 +73,12 @@ Each action is tagged with a **Priority** (P1 = Immediate / P2 = Urgent / P3 = S
 
 | ID | Action | Priority | Est. Recovery | Owner | Status | Source Document(s) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| REV-01 | Develop client diversification strategy to reduce top-1 concentration (Arc) from 23.9% to <15% | P1 | Risk mitigation | Paul | NOT STARTED | Technician Efficiency Audit |
+| REV-01 | Track Comprehensive Services (ARC) as a separate segment ($1.24M / 23.9% of total rev) to avoid distorting Managed Services metrics | P1 | Metric clarity | Paul | NOT STARTED | Master Scorecard v3.0 |
 | REV-02 | Address the Bunzl Ticket Anomaly: break down the 6,293 tickets by the 6 active subsidiaries to identify which specific entities are driving the excess load | P1 | Structural | Paul / Jim | NOT STARTED | Technician Efficiency Audit |
 | REV-02b | Launch Bunzl Expansion Campaign: target the 10 unlinked HubSpot subsidiaries (e.g., MCR Safety, SAS Safety) to leverage the existing corporate relationship | P2 | Growth | Paul | NOT STARTED | HubSpot Analysis |
 | REV-03 | Audit the Amiri Agreement: confirm C. Castro's $38K Upwork cost is fully recovered at 50%+ GM | P1 | TBD | Paul | NOT STARTED | Technician Efficiency Audit |
 | REV-04 | Reconcile the $1.84M gap between ConnectWise-invoiced revenue ($3.33M) and P&L revenue ($5.17M) | P1 | Clarity | Paul / Jim | NOT STARTED | Client Profitability Analysis |
-| REV-05 | Build a formal Arc Research account plan — 23.9% of revenue ($1.24M) | P2 | Risk mitigation | Paul | NOT STARTED | Technician Efficiency Audit |
+| REV-05 | Build a formal Arc Research account plan and determine 2026 renewal status | P2 | Risk mitigation | Paul | NOT STARTED | Technician Efficiency Audit |
 | REV-06 | Conduct client profitability ranking using ConnectWise hours-by-client data | P2 | Structural | Paul / Jim | NOT STARTED | Client Profitability Analysis |
 | REV-07 | Rationalize the long tail of 277 clients generating under $10K each | P3 | Structural | Paul | NOT STARTED | Client Profitability Analysis |
 | REV-08 | Raise managed services rates 10-15% | P2 | $180K-$270K | Paul | NOT STARTED | Definitive PL Analysis |

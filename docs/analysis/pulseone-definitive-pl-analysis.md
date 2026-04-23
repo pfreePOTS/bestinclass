@@ -139,11 +139,11 @@ Three adjustments move costs from SG&A to COGS. Net income does not change — o
 | | Amount | % of Revenue |
 |---|---|---|
 | Net Operating Income | $230,663 | 4.5% |
-| Add: Partner Compensation | $423,000 | 8.2% |
+| Add: Entity Separation (RS/POC) | $80,612 | 1.6% |
 | Add: D&A (estimate) | $15,000 | 0.3% |
-| **Normalized EBITDA** | **$668,663** | **12.9%** |
+| **Normalized EBITDA** | **$326,275** | **6.3%** |
 | BIC Target | | 15–20% |
-| **Gap to BIC midpoint (17.5%)** | **($235,869)** | **-4.6 pts** |
+| **Gap to BIC midpoint (17.5%)** | **($578,256)** | **-11.2 pts** |
 
 > **Reconciliation:** Corrected COGS + Corrected SGA = $4,938,091. QB total costs less Tracy Freeman ($12,889) = $4,938,091. **Difference: $0.30 rounding. Fully balanced.**
 
@@ -159,7 +159,7 @@ Three adjustments move costs from SG&A to COGS. Net income does not change — o
 | Total COGS | $2,123,012 | $3,236,914 | N/A | — | — |
 | SG&A % of Revenue | 54.7% | 32.9% | 25–30% | +2.9 pts | **Above BIC** |
 | Net Income % | 4.2% | 4.5% | 12–18% | -10.5 pts | **Below BIC** |
-| **Normalized EBITDA %** | **12.7%** | **12.9%** | **15–20%** | **-4.6 pts** | **Below BIC** |
+| **Normalized EBITDA %** | **12.7%** | **6.3%** | **15–20%** | **-11.2 pts** | **Below BIC** |
 | Recurring Revenue % | ~34.8% | ~34.8% | 60%+ | -25+ pts | **Well Below BIC** |
 
 ---
