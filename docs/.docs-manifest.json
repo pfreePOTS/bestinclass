@@ -2,7 +2,7 @@
   "version": "7.0",
   "project": "PulseOne Best In Class Audit",
   "repo": "pfreePOTS/bestinclass",
-  "last_updated": "2026-04-22",
+  "last_updated": "2026-04-28",
   "naming_convention": "lowercase-kebab-case",
   "framework_documents": [
     {
@@ -11,10 +11,10 @@
       "file": "docs/analysis/pulseone-bic-master-scorecard.md",
       "type": "scorecard",
       "status": "active",
-      "version": "3.0",
+      "version": "4.0",
       "created": "2026-04-20",
-      "last_updated": "2026-04-22",
-      "description": "Single source of truth for PulseOne's current performance metrics mapped against Service Leadership BiC benchmarks. v3.0: Corrected EBITDA normalization (6.3%, no partner comp add-back), RS/POC entity separation ($80.6K removed), Comprehensive Services segment isolation (ARC $1.2M), corrected S&M spend (6.9% after RS removal)."
+      "last_updated": "2026-04-28",
+      "description": "Single source of truth for PulseOne's current performance metrics mapped against Service Leadership BiC benchmarks. v4.0: Adobe corrected from Bunzl to ARC, M365 margin corrected from 16.4% to ~43.4%, segment margins updated (MS 73.1%, CS 46.1%, CP 44.0% traceable), product resale separated as distinct P&L stream."
     },
     {
       "id": "action-register",
@@ -22,10 +22,10 @@
       "file": "docs/analysis/pulseone-action-register.md",
       "type": "action-register",
       "status": "active",
-      "version": "2.0",
+      "version": "3.0",
       "created": "2026-04-20",
-      "last_updated": "2026-04-20",
-      "description": "Centralized, prioritized register of actionable recommendations. v2.0 reframes software actions around revenue mapping, adds client concentration and Bunzl anomaly actions, integrates Technician Efficiency findings."
+      "last_updated": "2026-04-28",
+      "description": "Centralized, prioritized register of actionable recommendations. v3.0: SW-03 corrected (Adobe is ARC, not Bunzl), CON-01/02 updated with CS-Cost findings, added FIN-04 (Marcello $46K reclassification) and FIN-05 ($140K internal tools)."
     }
   ],
   "financial_model": [
@@ -56,10 +56,10 @@
       "file": "docs/analysis/pulseone-resource-allocation-reference.md",
       "type": "financial-model",
       "status": "active",
-      "version": "2.0",
+      "version": "3.0",
       "created": "2026-04-22",
-      "last_updated": "2026-04-22",
-      "description": "Single source of truth for all CY 2025 labor resource allocations across segments, cost categories, and entities. Owner-confirmed by Paul Freeman. Includes W-2 employees, Upwork contractors, Expenses Tracker contractors, and segment assignments. Supersedes all prior resource classification assumptions."
+      "last_updated": "2026-04-28",
+      "description": "Single source of truth for all CY 2025 labor resource allocations. v3.0: Owner-confirmed splits for Froio (25/30/30/15), Walsh (35/30/20/15), Calkins (60/15/20/5), Barnett (75/15/10). ARC contractors traced from QB CS-Cost detail: Basim $149K, BJ Sinder $132K, Damien $230K, Jeremy Roe $100K."
     },
     {
       "id": "cogs-classification-analysis",
@@ -102,7 +102,7 @@
       "status": "active",
       "version": "2.0",
       "last_updated": "2026-04-21",
-      "description": "Consolidated software resale and SaaS rationalization audit. Resolves -9.4% QB margin mystery (CW shows 68.1% GM). Identifies structural issues with Microsoft M365 (16.4% GM) and Adobe (4.3% GM)."
+      "description": "Consolidated software resale and SaaS rationalization audit. Resolves -9.4% QB margin mystery (CW shows 68.1% GM). NOTE: M365 margin is actually ~43.4% (not 16.4%); Adobe is ARC (not Bunzl). See Invariants 5 and 12."
     },
     {
       "id": "audit-saas-tool-sprawl",
@@ -132,7 +132,7 @@
       "version": "3.0",
       "created": "2026-04-21",
       "last_updated": "2026-04-21",
-      "description": "Three-segment project profitability analysis: Staff Augmentation (ARC, 43.3% cash margin), True Projects (47.1% cash margin ceiling), Managed Services (Bunzl subs, 55.8%). Primary finding: W-2 labor 'invisible subsidy' makes project margins unknowable without ConnectWise time-entry data."
+      "description": "Three-segment project profitability analysis. NOTE: Superseded by segment-pl-2025 for margin figures. Retained for narrative on invisible subsidy methodology."
     },
     {
       "id": "audit-technician-scheduling",
@@ -169,6 +169,41 @@
       "version": "1.0",
       "last_updated": "2026-04-20",
       "description": "Deep audit of S&M spend. Corrected to $358K (6.9% of revenue) after removing RS developer costs. Identifies 71% S&M staff turnover and structural demand generation underinvestment."
+    }
+  ],
+  "segment_analysis": [
+    {
+      "id": "segment-pl-2025",
+      "title": "PulseOne Definitive Segment-Level P&Ls",
+      "file": "docs/analysis/pulseone-segment-pl-2025.md",
+      "type": "financial-model",
+      "status": "active",
+      "version": "4.0",
+      "created": "2026-04-22",
+      "last_updated": "2026-04-28",
+      "description": "Definitive segment P&Ls for CY 2025 built from QB CS-Cost detail and owner-confirmed W-2 allocations. MS 73.1%, CS 46.1%, CP 44.0% traceable. Product resale separated as distinct stream."
+    },
+    {
+      "id": "cs-cost-findings",
+      "title": "QB Consulting Services-Cost Detail Findings",
+      "file": "docs/analysis/pulseone-cs-cost-findings.md",
+      "type": "operational-audit",
+      "status": "active",
+      "version": "1.0",
+      "created": "2026-04-28",
+      "last_updated": "2026-04-28",
+      "description": "Transaction-level trace of the $1.04M QB Consulting Services-Cost account. Identifies exact vendor payments by segment: ARC $650K, Projects $343K, SGA $46K, MS $7K."
+    },
+    {
+      "id": "comprehensive-business-breakdown",
+      "title": "PulseOne Comprehensive Business Breakdown & BiC Alignment",
+      "file": "docs/analysis/pulseone-comprehensive-business-breakdown.md",
+      "type": "summary",
+      "status": "active",
+      "version": "2.0",
+      "created": "2026-04-23",
+      "last_updated": "2026-04-28",
+      "description": "Cross-departmental synthesis of all audit findings. Updated with corrected segment margins, M365/Adobe corrections, and reduced open items."
     }
   ],
   "reference_documents": [
@@ -384,6 +419,12 @@
       "file": "docs/archive/audit-project-costing-template.md",
       "status": "archived",
       "superseded_by": "audit-project-profitability"
+    },
+    {
+      "id": "definitive-pl-analysis-v4",
+      "file": "docs/archive/pulseone-definitive-pl-analysis-v4.md",
+      "status": "archived",
+      "superseded_by": "segment-pl-2025"
     }
   ],
   "data_sources": [
@@ -421,6 +462,15 @@
       "file": "project-shared/Expenses Tracking MASTER 2023.xlsx",
       "period": "CY 2025 sheet",
       "note": "Contractors in col 2, type in col 4, monthly amount in col 12, client tag in col 15",
+      "confirmed": true
+    },
+    {
+      "name": "QB Consulting Services-Cost Detail CY 2025",
+      "file": "project-shared/2025PulseOneConsultingServicesCost.xlsx",
+      "period": "Full CY 2025",
+      "total": "$1,045,803",
+      "transactions": 189,
+      "note": "Definitive vendor-level detail for all BILL/contractor payments. Traced by vendor and client memo.",
       "confirmed": true
     }
   ]

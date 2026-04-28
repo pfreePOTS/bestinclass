@@ -1,7 +1,7 @@
 # PulseOne Definitive Resource Allocation Reference
 
-**Date:** April 22, 2026
-**Version:** 3.0
+**Date:** April 28, 2026
+**Version:** 3.1
 **Status:** AUTHORITATIVE — Owner-Confirmed Allocations
 **Prepared by:** Manus (PulseOne BiC Audit)
 **Confirmed by:** Paul Freeman (CMO / Partner)
@@ -153,7 +153,14 @@ The isolation of ARC (Comprehensive Services) from Managed Services and Projects
 2. Ensure the bookkeeper explicitly tags RS and POC expenses in QuickBooks so they do not artificially depress PulseOne's operating margin.
 3. Track Comprehensive Services (staff augmentation) on a separate P&L segment from discrete Projects.
 
-## I. Clarifying Questions
-1. How was BJ Sinder paid for the ARC work? (He generated $144K in ARC revenue but doesn't appear in the Expenses Tracker).
-2. What is Vincent Williams' exact split between Ticket Escalations (MS) and Risk Assessments (Projects)?
-3. Are the "David Fredrick" payments in the Expenses Tracker actually for David Falkenberg?
+## I. Clarifying Questions (Remaining True Gaps)
+
+**Resolved:**
+- BJ Sinder: **RESOLVED** — paid via BILL as "Infinite Ideas IT Inc" ($132,390). Confirmed from QB CS-Cost detail.
+- David Fredrick: **RESOLVED** — confirmed as David Falkenberg (Fredrick LLC), $171,003 via BILL.
+- Jeremy Roe: **RESOLVED** — paid via BILL as "Roe Tech LLC" ($100,097). Split: 71% Bunzl projects, 24% other projects, 5% ARC.
+- Matt Barnett: **RESOLVED** — owner-confirmed 75% HD / 15% ITMS / 10% Projects. 0% ARC.
+
+**Still Open:**
+1. What is Vincent Williams' exact split between Ticket Escalations (MS) and Risk Assessments (Projects)? His $102K Upwork contract name includes both functions.
+2. ConnectWise time entries for Calkins, Walsh, and Froio by board — needed to validate owner-estimated project percentages (60/15/20/5, 35/30/20/15, 25/30/30/15 respectively) and quantify the invisible subsidy.

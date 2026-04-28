@@ -1,5 +1,6 @@
 # PulseOne Comprehensive Business Breakdown & BiC Alignment
-**Date:** April 23, 2026  
+**Date:** April 28, 2026  
+**Version:** 2.0  
 **Status:** DEFINITIVE — Incorporating all owner confirmations to date  
 **Prepared by:** Manus (PulseOne BiC Audit)
 
@@ -19,12 +20,12 @@ PulseOne is a highly capable managed services engine whose core profitability is
 | Metric | PulseOne Actual (CY 2025) | BiC Target | Variance | Status |
 | :--- | :--- | :--- | :--- | :--- |
 | **Total Revenue** | $5,168,754 | N/A | — | — |
-| **Blended Gross Margin** | 36.6% | 44.0%+ | -7.4 pts | **BELOW** |
+| **Blended Gross Margin** | 37.6% | 44.0%+ | -6.4 pts | **BELOW** |
 | **Total SG&A % of Revenue** | 31.6% | 27.4% | +4.2 pts | **BELOW** |
 | **Normalized EBITDA %** | 6.3% ($326K) | 17.5% ($904K) | -11.2 pts | **CRITICAL** |
 
-The 11.2-point EBITDA gap represents approximately **$578,000 in missing annual profit**. The forensic analysis attributes 82% of this gap to three specific areas [3]:
-1. **Project Margin Collapse:** ~$303,000 leakage (unbilled internal labor subsidy).
+The 11.2-point EBITDA gap represents approximately **$578,000 in missing annual profit**. The forensic analysis attributes the majority of this gap to three specific areas [3]:
+1. **Project Margin Collapse:** ~$235,000 leakage (unbilled internal labor subsidy dragging projects down to ~24% fully-loaded margin).
 2. **Sales & Marketing ROI Failure:** ~$80,000 overspend yielding no self-sourced pipeline.
 3. **SaaS Tool Sprawl:** ~$21,000 in true redundant tools, plus ~$194,000 in misclassified COGS distorting the metrics.
 
@@ -32,30 +33,26 @@ The 11.2-point EBITDA gap represents approximately **$578,000 in missing annual 
 
 ## C. Departmental Breakdown: Service Delivery & Operations
 
-The Service Delivery department operates in three distinct segments. The core Help Desk is highly efficient, but its margin is drained by unbilled project work and product resale costs [4].
+The Service Delivery department operates in three distinct segments. The core Help Desk is highly efficient, but total company profitability is drained by unbilled W-2 labor on projects [4].
 
 ### 1. Managed Services (Help Desk)
 *   **Revenue:** $2,696,716 (52.2% of total)
-*   **Service Delivery Margin:** ~76.6% (**EXCEEDS BiC** target of 48.7–52.4%)
-*   **Fully-Loaded Margin:** 36.6% (**BELOW BiC**)
-*   **BiC Gap Analysis:** The Help Desk technicians are exceptionally efficient, generating a Service Multiple of Labor of 5.41x (nearly double the BiC target of 2.80x) [5]. However, the segment's fully-loaded margin collapses to 36.6% because it absorbs $1.08M in product/license resale COGS (Agreement Licenses, Software for Resale, Hardware) that lack adequate markup [4].
+*   **Direct Delivery Margin:** 73.1% (**EXCEEDS BiC** target of 48.7–52.4%)
+*   **BiC Gap Analysis:** The Help Desk technicians are exceptionally efficient, generating a Service Multiple of Labor of 5.41x (nearly double the BiC target of 2.80x) [5]. When standalone product resale is properly separated into its own P&L stream, the core service delivery margin is highly profitable at 73.1% [4].
 *   **Key-Person Risk:** Stephen Calkins handled 24% of all non-system tickets (3,238 tickets) in CY 2025 [5].
 
 ### 2. Comprehensive Services (ARC Staff Augmentation)
 *   **Revenue:** $1,237,145 (23.9% of total)
-*   **Gross Margin:** 48.5% (**HEALTHY**)
-*   **BiC Gap Analysis:** This segment operates as a clean, contractor-driven staff augmentation model. It generates $600K in gross profit with zero W-2 overhead. It is structurally sound and should be managed and tracked separately from the core MSP business [4].
+*   **Gross Margin:** 46.1% (**HEALTHY**)
+*   **BiC Gap Analysis:** This segment operates as a clean, contractor-driven staff augmentation model. Tracing exact QB detail proves it generates $570K in gross profit with zero W-2 overhead. It is structurally sound and must be tracked separately from the core MSP business [4].
 
 ### 3. Consulting / Projects
 *   **Revenue:** $1,175,036 (22.7% of total)
-*   **Gross Margin:** 24.2% estimated (**CRITICAL** vs. BiC target of 48–52%)
-*   **BiC Gap Analysis:** This is the primary source of profit leakage. While QuickBase tracks a 51.6% margin based solely on direct subcontractor invoices, the true margin is dragged down by a **~$322,000 "invisible subsidy"** of W-2 labor and Upwork escalations (e.g., Vincent Williams) that are consumed by projects but never quoted or billed to the client [4].
+*   **Gross Margin:** 44.0% traceable cost margin (~24% fully-loaded) (**CRITICAL** vs. BiC target of 48–52%)
+*   **BiC Gap Analysis:** This is the primary source of profit leakage. While exact QB transaction tracing accounts for $343K in project subcontractor costs (a 44.0% margin), the true margin is dragged down further by a **~$235,000 "invisible subsidy"** of W-2 labor that is consumed by projects but never quoted or billed to the client [4].
 
 ### Open Items & Clarifications (Operations)
-1.  **The Invisible Subsidy Proof:** We need ConnectWise time entries by board for Stephen Calkins, Laura Walsh, James Froio, and Hagen McDonell to definitively prove how much W-2 time was spent on projects versus Help Desk.
-2.  **Upwork Allocation (Vincent Williams):** His $104K contract explicitly includes "Ticket Escalations." We need to know his exact split between Help Desk escalations and Project work.
-3.  **Contractor Clarification (Jeremy Roe):** The Expenses Tracker shows Jeremy paid $57K via Upwork (68% Help Desk / 32% ARC), but prior notes indicated $110K via BILL for 100% ARC. We need to confirm his actual payment channel and segment split.
-4.  **Contractor Clarification (Matt Barnett):** 2026 data shows his work is split ~86% Help Desk / 14% ARC. We need an estimated split for his 2025 $83K contract to accurately assign his COGS.
+1.  **The Invisible Subsidy Proof:** We need ConnectWise time entries by board for Stephen Calkins, Laura Walsh, and James Froio to definitively prove how much W-2 time was spent on projects versus Help Desk. This is the final step to move the project margin from 44.0% traceable down to its true fully-loaded state.
 
 ---
 
@@ -85,7 +82,7 @@ The G&A overhead gap is driven more by misclassification than by actual excessiv
 *   **Actual Savings:** Only ~$21,000 in true redundant tools (e.g., overlapping scheduling and IDE tools) were identified for cancellation [7].
 
 ### Open Items & Clarifications (G&A)
-1.  **Ambiguous Classifications:** Are Microsoft Azure ($19,041) and GoDaddy ($2,880) used for internal PulseOne infrastructure (SG&A) or are they client-hosted environments included in managed agreements (COGS)?
+1.  **Azure Classification:** Is Microsoft Azure ($19,041) used for internal PulseOne infrastructure (SGA) or client-hosted environments (COGS)? *(GoDaddy $6K confirmed as internal SGA by owner.)*
 
 ---
 
@@ -94,7 +91,7 @@ The G&A overhead gap is driven more by misclassification than by actual excessiv
 To close the $578K profit gap and align with BiC standards, management must execute the following structural changes:
 
 1.  **Fix Project Quoting (Immediate):** Require an estimate of internal W-2 hours at fully-loaded cost on every project quote to eliminate the invisible subsidy.
-2.  **Fix Software Resale Pricing (Immediate):** Bundle Microsoft M365 into managed seats or add cloud management fees to reach the 24% BiC floor, and attach procurement fees to Adobe pass-throughs.
+2.  **Fix Software Resale Pricing (Immediate):** While M365 is actually healthy at ~43% margin, the Adobe pass-through for ARC operates at a near-zero 4.3% margin. Attach procurement fees to all large product pass-throughs.
 3.  **Rebalance S&M (Short-Term):** Mandate self-sourced pipeline quotas for the remaining sales capacity, and shift funding from non-lead-producing marketing operations into the proven ad spend engine.
 4.  **Execute QB Reclassifications (Administrative):** Formally move the $194K in service delivery tools and the $708K in service delivery W-2 labor into COGS accounts to ensure real-time visibility into true gross margin.
 

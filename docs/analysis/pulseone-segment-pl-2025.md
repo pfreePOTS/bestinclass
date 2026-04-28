@@ -1,7 +1,7 @@
 # PulseOne Definitive Segment-Level P&Ls
 
-**Date:** April 22, 2026
-**Version:** 4.0
+**Date:** April 28, 2026
+**Version:** 4.1
 **Status:** AUTHORITATIVE — Built from QB Detail and Owner Confirmations
 **Prepared by:** Manus (PulseOne BiC Audit)
 
@@ -68,6 +68,20 @@ The core MS delivery engine remains highly efficient. With product resale stripp
 
 ## H. Suggested ConnectWise Follow-up
 - **W-2 Time Entries by Board:** Pull the CY 2025 time entries for Stephen Calkins, James Froio, and Laura Walsh to determine exactly how many hours they spent on project boards versus MS boards. This will finalize the W-2 allocation and close the remaining gap in the project margin.
+
+## I. Remaining True Gaps
+
+**Resolved since v3.0:**
+- Jeremy Roe: RESOLVED — $100,097 via BILL (Roe Tech LLC). 71% Bunzl, 24% other projects, 5% ARC.
+- Matt Barnett: RESOLVED — owner-confirmed 75% HD / 15% ITMS / 10% Projects. 0% ARC.
+- BJ Sinder: RESOLVED — $132,390 via BILL (Infinite Ideas IT Inc). 100% ARC.
+- Basim Mashni: RESOLVED — $148,918 via BILL (Mash Tech Inc). 100% ARC.
+- Damien (Blue Pisces): RESOLVED — $229,843 via BILL. 100% Bunzl projects.
+
+**Still Open:**
+1. Vincent Williams MS/CP split — contract includes both "Risk Assessments" and "Ticket Escalations." Need owner estimate or CW time entries.
+2. CW time entries for Calkins, Walsh, Froio — needed to validate owner-estimated project percentages and quantify the invisible subsidy.
+3. GoDaddy ($6K) — confirmed internal SGA. Azure ($19K) — still needs classification.
 
 ---
 

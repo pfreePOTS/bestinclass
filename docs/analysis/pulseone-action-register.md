@@ -36,7 +36,7 @@ Each action is tagged with a **Priority** (P1 = Immediate / P2 = Urgent / P3 = S
 | CON-01 | Audit consulting projects to identify specific margin loss causes — 44.0% traceable GM vs 50%+ target, and quantify the remaining invisible W-2 subsidy | P1 | ~$235K | Paul | NOT STARTED | Segment P&L 2025 |
 | CON-02 | Conduct subcontractor audit for specific projects (Basim, David, Blue Pisces) | P1 | TBD | Paul | **PARTIALLY COMPLETE** | CS-Cost Findings |
 | CON-03 | Implement margin gates: require partner approval for any fixed-fee project below 50% GM | P2 | Preventive | Paul | NOT STARTED | Profit Leakage Map |
-| CON-04 | Verify billing rates for Vincent Williams ($104K Upwork cost) against contracted rates | P2 | TBD | Jim | NOT STARTED | Technician Efficiency Audit |
+| CON-04 | Verify billing rates for Vincent Williams ($104K Upwork cost) against contracted rates | P2 | TBD | Jim | **PARTIALLY COMPLETE** (Split known) | Technician Efficiency Audit |
 | CON-05 | Convert high-value project clients to managed service agreements (T&M-to-agreement conversion) | P3 | Structural | Paul | NOT STARTED | Client Profitability Analysis |
 | CON-06 | *Complete incoming project costing analysis and integrate findings* | P1 | TBD | Paul | **PENDING DATA** | *Incoming module* |
 
@@ -105,7 +105,7 @@ These are specific data pulls required to unblock multiple action items above.
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | CW-01 | Agreement Profitability for all 6 active Bunzl subsidiaries (Cool Pak, Majestic, Tillman, Cordova, Tingley, Bunzl Dist) and 'Amiri' | REV-02, REV-03 | P1 | Jim | NOT STARTED |
 | CW-02 | Project Profitability by Subcontractor — last 6 months | CON-01, CON-02 | P1 | Jim | **PARTIALLY COMPLETE** (via CS-Cost) |
-| CW-03 | Vincent Williams Time Entries — 2025 | CON-04 | P1 | Jim | NOT STARTED |
+| CW-03 | Vincent Williams Time Entries — 2025 | CON-04 | P1 | Jim | **PARTIALLY COMPLETE** (Split known, need rate validation) |
 | CW-04 | Technician Utilization Report — last 6 months | UTL-03, UTL-07 | P1 | Jim | NOT STARTED |
 | CW-05 | Agreement vs. Project Hours — last 6 months | CON-01, UTL-03 | P1 | Jim | NOT STARTED |
 | CW-06 | ConnectWise product billing vs vendor cost reconciliation for software audit | SW-01, SW-04 | P1 | Jim | NOT STARTED |
