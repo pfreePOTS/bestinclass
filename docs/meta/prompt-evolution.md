@@ -84,3 +84,22 @@ This file tracks lessons learned from AI analysis sessions to improve future pro
 - When writing prompts for profitability analysis, always include: "Distinguish between Cash Margin (revenue minus direct out-of-pocket expenses) and Fully-Loaded Gross Margin (including allocated W-2 labor and burden)."
 - When a derived metric (like a blended margin) is questioned, always include: "Trace the figure back to its raw source data (e.g., QuickBase, ADP, ConnectWise) before defending it."
 - When analyzing project profitability, always ask: "Are internal W-2 resources used on these projects? If so, how is their cost tracked and allocated?"
+
+## Session 4 — April 22, 2026: Subcontractor and Product Tracing
+
+**Task:** Rebuild the segment P&Ls with exact owner allocations and trace the remaining $373K COGS gap.
+
+**What worked well:**
+- Creating a script to trace the entire QuickBooks "Consulting Services-Cost" line item by vendor and client memo, rather than relying on prior estimates.
+- Finding that the CS-Cost line was a multi-segment dumping ground containing $650K ARC, $343K Projects, and $46K misclassified SGA (Marcello).
+- Proving that the project margin was 44.0% traceable, not 64.2% as the un-traced model suggested.
+- Proving that M365 is a healthy standalone product line (~43% GM), not a 16.4% margin drag on Managed Services.
+
+**Lessons learned:**
+- **Never treat a QuickBooks COGS line as a single segment.** The CS-Cost line contained costs for ARC, Projects, and Marketing. Any model that doesn't trace it at the vendor level will be massively wrong.
+- **Product Resale is a separate P&L stream.** Dumping product COGS into Managed Services artificially depresses the MS margin (e.g., from 73.1% down to 36.6%).
+- **Data integrity is fragile.** The fact that Adobe was an ARC purchase was known in an early document, but overwritten in a later document with "Bunzl." Always trace back to the source data when an anomaly appears.
+
+**Prompt improvements for future sessions:**
+- When analyzing P&L segments, always include: "Trace the Consulting Services-Cost line at the vendor/client level before allocating it to a segment."
+- When analyzing Managed Services margin, always include: "Ensure standalone product sales (M365, hardware, Adobe) are separated from MS service delivery costs."

@@ -29,3 +29,7 @@ This repository is the central knowledge base for the PulseOne Best in Class (BI
 6. **All financial figures are in USD.** Fiscal year is calendar year (Jan–Dec).
 
 7. **Canonical revenue figure for 2025: $5,168,754** (from the 2025 P&L). The ConnectWise product sales export shows $5,185,747 — a ~$17k difference due to timing. Use P&L as the authoritative source for financial benchmarking.
+
+8. **Product Resale is a separate P&L stream.** Standalone product sales (M365, hardware, Adobe) have their own revenue and COGS lines and must not be treated as Managed Services COGS. MS COGS should only include service delivery labor and service delivery tools.
+
+9. **CS-Cost Line Contains Multi-Segment Costs.** The QuickBooks "Consulting Services-Cost" line ($1.04M) is not a single bucket. It contains ARC contractors, Bunzl project contractors, MS contractors, and misclassified SGA. Always trace it at the vendor/client level before allocating it to a segment.

@@ -1,9 +1,9 @@
 # PulseOne Best in Class (BiC) Master Scorecard
 
-**Version:** 3.0  
+**Version:** 4.0  
 **Last Updated:** April 22, 2026  
 **Author:** Manus AI  
-**Source Data:** CY 2025 Definitive Resource Allocation Reference, Corrected P&L (`pulseone-definitive-pl-analysis.md`), Technician Efficiency Audit, Consolidated Software Resale Audit
+**Source Data:** CY 2025 Definitive Resource Allocation Reference, Corrected P&L (`pulseone-definitive-pl-analysis.md`), Technician Efficiency Audit, Consolidated Software Resale Audit, CS-Cost Detail Report
 
 **Related Documents:**
 - [Resource Allocation Reference](pulseone-resource-allocation-reference.md) — Definitive CY 2025 labor inventory
@@ -15,7 +15,7 @@
 
 This scorecard provides the authoritative, single-source-of-truth mapping of PulseOne's financial and operational performance against the Service Leadership Best in Class (BiC) benchmarks for the Infrastructure-Managed Services Predominant Business Model (PBM) [1].
 
-**Version 3.0 incorporates critical owner-confirmed structural corrections:** (a) **EBITDA Normalization:** Partner compensation is confirmed at Fair Market Value, removing the prior $423K add-back and resetting normalized EBITDA to 6.3%; (b) **Entity Separation:** $80.6K in RepScheduler and PulseOne Communications costs have been removed from the operating baseline; (c) **Segment Restructuring:** The $1.2M ARC staff augmentation contract has been isolated into a new "Comprehensive Services" segment to prevent distorting the Managed Services and Consulting margins.
+**Version 4.0 incorporates critical owner-confirmed structural corrections:** (a) **EBITDA Normalization:** Partner compensation is confirmed at Fair Market Value, removing the prior $423K add-back and resetting normalized EBITDA to 6.3%; (b) **Entity Separation:** $80.6K in RepScheduler and PulseOne Communications costs have been removed from the operating baseline; (c) **Segment Restructuring:** The $1.2M ARC staff augmentation contract has been isolated into a new "Comprehensive Services" segment; (d) **Direct Delivery Margins:** Segment margins now reflect exact transaction-level subcontractor tracing from the CS-Cost account, and exclude standalone product resale.
 
 ---
 
@@ -36,14 +36,14 @@ This scorecard provides the authoritative, single-source-of-truth mapping of Pul
 
 | Segment | PulseOne Actual (CY 2025) | BiC Target | Variance | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Managed Services GM %** | 56.0% | 48.7% - 52.4% | +3.6 pts | **EXCEEDS BiC** | Core MSP delivery ($2.69M rev) is highly efficient |
-| **Comprehensive Services GM %** | 48.0% | N/A | N/A | **HEALTHY** | ARC staff augmentation ($1.23M rev); separate from core MS |
-| **Project / Consulting GM %** | 24.2% fully-loaded (est.) | 48%–52% | -23.8 pts | **CRITICAL** | $1.17M rev; driven by subcontractor pass-throughs |
+| **Managed Services GM %** | 73.1% | 48.7% - 52.4% | +20.7 pts | **EXCEEDS BiC** | Direct delivery margin (labor+tools only); core MSP is highly efficient |
+| **Comprehensive Services GM %** | 46.1% | N/A | N/A | **HEALTHY** | ARC staff augmentation ($1.23M rev); exact cost traced from QB detail |
+| **Project / Consulting GM %** | 44.0% traceable (24% fully-loaded est.) | 48%–52% | -4.0 to -28.0 pts | **CRITICAL** | $1.17M rev; $343K in sub costs confirmed; gap to 24% is invisible W-2 subsidy |
 | **Software GM % (CW transaction view)** | 68.1% | 24.3% - 26.3% | +43.5 pts | **ALIGNED** | True margin per CW; QB -9.4% is a mapping artifact |
-| **Microsoft M365 GM %** | 16.4% | 24.3% - 26.3% | -7.9 pts | BELOW | Structural CSP margin cap; requires service bundling |
-| **Adobe Creative Cloud GM %** | 4.3% | 24.3% - 26.3% | -20.0 pts | **CRITICAL** | Near-zero margin; concentrated in Bunzl |
+| **Microsoft M365 GM %** | ~43.4% | 24.3% - 26.3% | +17.1 pts | **ALIGNED** | $495K CW revenue vs $302K Synnex cost + $22K rebates |
+| **Adobe Creative Cloud GM %** | 4.3% | 24.3% - 26.3% | -20.0 pts | **CRITICAL** | Near-zero margin; one-off product sale to ARC |
 
-> **Software Margin Resolution (v2.0):** The previously reported -9.4% software resale margin was a QuickBooks revenue mapping artifact, not a true pricing failure. ConnectWise Cost/Sell data shows 6,704 software/subscription line items generating $2,978,392 in revenue against $949,040 in cost (68.1% GM). Software revenue is blended into Managed Services revenue lines in QB, while costs correctly hit the software COGS accounts. The real structural issues are Microsoft M365 at 16.4% GM (below BiC floor) and Adobe at 4.3% GM (critical). Management should track software margin at the ConnectWise agreement level, not the QB P&L level.
+> **Software Margin Resolution (v4.0):** The previously reported -9.4% software resale margin was a QuickBooks revenue mapping artifact, not a true pricing failure. ConnectWise Cost/Sell data shows 6,704 software/subscription line items generating $2,978,392 in revenue against $949,040 in cost (68.1% GM). Furthermore, the prior claim of a 16.4% M365 margin was based on flawed QB cost mapping; the actual M365 margin is a healthy ~43.4%. The primary structural product issue is the $99K Adobe purchase for ARC at 4.3% margin. Management should track software margin at the ConnectWise agreement level, not the QB P&L level, and treat standalone product sales as entirely separate from Managed Services.
 
 ---
 
@@ -52,7 +52,7 @@ This scorecard provides the authoritative, single-source-of-truth mapping of Pul
 | Metric | PulseOne Actual | BiC Target | Variance | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Service Multiple of Labor (Help Desk)** | 5.41x | 2.80x+ | +2.61x | **EXCEEDS BiC** | $2.73M revenue / $505K cost; nearly 2x the BiC target |
-| **Managed Services GM %** | 56.0% | 48.7% - 52.4% | +3.6 pts | **EXCEEDS BiC** | Core delivery engine is highly efficient |
+| **Managed Services GM %** | 73.1% | 48.7% - 52.4% | +20.7 pts | **EXCEEDS BiC** | Direct delivery margin (labor+tools only); core delivery engine is highly efficient |
 | **Technician Billable %** | 23.0% | 65% - 75% | -42.0 pts | **DATA TRAP** | Deceptive in fixed-fee MSP model; Service Multiple is the correct measure |
 | **Total Service Delivery Labor % of Revenue** | 35.6% | 25% - 30% | +5.6 to +10.6 pts | ABOVE | $1.838M total; excess likely in Consulting/Projects division |
 | **S. Calkins Ticket Share** | 24% of all tickets | N/A | N/A | **KEY-PERSON RISK** | 3,238 of 13,412 non-system tickets handled by one technician |
@@ -120,11 +120,9 @@ The consolidated Software Resale Audit identified $194,092 in service delivery t
 
 | Gap | Impact | Blocking Action(s) | Priority |
 | :--- | :--- | :--- | :--- |
-| **Project Costing Analysis** | Cannot finalize Consulting GM or total service labor allocation | Incoming project costing module | P1 |
+| **W-2 Time Entries by Board** | Cannot finalize the exact size of the "invisible subsidy" on projects | Pull CY 2025 time entries for Calkins, Froio, Walsh | P1 |
 | **Bunzl Agreement Profitability** | Cannot determine if 46.9% ticket share is profitable | ConnectWise agreement profitability pull | P1 |
 | **Amiri Agreement Audit** | Cannot verify Castro's $38K Upwork cost is recovered | ConnectWise agreement profitability pull | P1 |
-| **V. Williams Billing Verification** | Cannot confirm $104.7K cost is generating BiC margins | ConnectWise time entry report | P2 |
-| **TD Synnex Line-Item Invoice** | Cannot verify $301.8K consolidated billing | Vendor portal request | P1 |
 | **Barracuda Client Pass-Through** | Cannot confirm $41.7K cost increase is billed to clients | Barracuda portal + CW reconciliation | P1 |
 | **Client Retention Rate** | Cannot assess BiC retention benchmark | ConnectWise historical agreement data | P2 |
 | **Employee Turnover Rate** | Cannot assess BiC turnover benchmark | HR / Payroll historical data | P3 |

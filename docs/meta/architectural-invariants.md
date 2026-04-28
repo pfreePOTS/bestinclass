@@ -50,9 +50,9 @@ The $423,000 partner compensation line in the P&L is an operating expense. The t
 
 ---
 
-## Invariant 5: Software Resale Margin Is a Mapping Issue, Not a Pricing Failure (UPDATED — April 20, 2026)
+#### Invariant 5: Software Resale Margin Is a Mapping Issue, Not a Pricing Failure (UPDATED — April 22, 2026)
 
-The -9.4% gross margin on software resale in QuickBooks is a revenue mapping artifact. ConnectWise Cost/Sell reports show 68.1% software margin at the transaction level. Software revenue is being blended into Managed Services revenue lines on the P&L while costs correctly hit software COGS accounts. The real structural issues are narrower: Microsoft M365 at 16.4% GM and Adobe Creative Cloud at 4.3% GM.
+The -9.4% gross margin on software resale in QuickBooks is a revenue mapping artifact. ConnectWise Cost/Sell reports show 68.1% software margin at the transaction level. Software revenue is being blended into Managed Services revenue lines on the P&L while costs correctly hit software COGS accounts. The real structural product issue is the Adobe Creative Cloud purchase for ARC at 4.3% GM. (Note: Prior claims of a 16.4% M365 margin were based on flawed QB cost mapping; the actual M365 margin is a healthy ~43.4%).
 
 ---
 
@@ -122,14 +122,30 @@ Do not blend Staff Augmentation (e.g., the ARC Research managed contractor pool)
 
 ---
 
-## Invariant 11: Comprehensive Services (Staff Augmentation) Is a Separate Segment (NEW — April 22, 2026)
+## Invariant 11: Comprehensive Services (Staff Augmentation) Is a Separate Segment (UPDATED — April 22, 2026)
 
 **Invariant:** Staff augmentation revenue and costs (e.g., the ARC engagement) must be separated from Managed Services and reported as "Comprehensive Services."
 
 **Reasoning:** ARC paid a flat monthly fee for a dedicated team. This is fundamentally different from per-device/per-user managed services. Blending them distorts both the MS margin (makes it look lower) and the true size of the recurring MSP base (makes it look larger).
 
-**Correct segment structure:**
-- Managed Services: $2,696,716 (56.0% GM) — core MSP
-- Comprehensive Services: $1,237,145 (48.0% GM) — ARC staff aug
-- Consulting/Project: $1,175,036 (24.2% GM) — discrete projects
-- Software Resale: $180,793 (68.1% GM per CW, -9.4% per QB mapping)
+**Correct segment structure (Direct Delivery Margin v4.0):**
+- Managed Services: $2,696,716 (73.1% GM) — core MSP
+- Comprehensive Services: $1,237,145 (46.1% GM) — ARC staff aug
+- Consulting/Project: $1,175,036 (44.0% traceable GM, ~24% fully-loaded) — discrete projects
+- Software Resale: Standalone P&L stream, not MS COGS
+
+---
+
+## Invariant 12: Product Resale Is a Separate P&L Stream (NEW — April 22, 2026)
+
+**Invariant:** Standalone product sales (M365, hardware, Adobe) have their own revenue and COGS lines and must not be treated as Managed Services COGS.
+
+**Reasoning:** Dumping product COGS into Managed Services artificially depresses the MS margin (e.g., from 73.1% down to 36.6%). MS COGS should only include service delivery labor and service delivery tools (ConnectWise, Kaseya, etc.).
+
+---
+
+## Invariant 13: CS-Cost Line Contains Multi-Segment Costs (NEW — April 22, 2026)
+
+**Invariant:** The QuickBooks "Consulting Services-Cost" line ($1.04M) is not a single bucket. It contains ARC contractors, Bunzl project contractors, MS contractors, and misclassified SGA (Marcello).
+
+**Reasoning:** Any P&L model must trace the CS-Cost line at the vendor/client level. Assuming it all belongs to one segment or relying on estimates rather than transaction-level detail will result in massive margin errors (e.g., the $200K+ underestimation of project costs in early models).

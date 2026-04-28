@@ -1,7 +1,7 @@
 # PulseOne BiC Action Register
 
-**Version:** 2.0  
-**Last Updated:** April 20, 2026  
+**Version:** 3.0  
+**Last Updated:** April 22, 2026  
 **Author:** Manus AI  
 **Purpose:** Centralized, prioritized register of all actionable recommendations extracted from the BiC audit analysis. 
 
@@ -19,7 +19,7 @@ Each action is tagged with a **Priority** (P1 = Immediate / P2 = Urgent / P3 = S
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | SW-01 | Re-map P&L Revenue: manage software margin at the ConnectWise agreement level, not the QB P&L level | P1 | Structural | Paul / Bookkeeper | NOT STARTED | Audit Software Resale Addendum |
 | SW-02 | Bundle Microsoft M365: stop selling raw licenses at 16.4% GM; bundle into managed seats or add cloud management fee to reach 24% BiC floor | P1 | Structural | Paul | NOT STARTED | Audit Software Resale Addendum |
-| SW-03 | Review Adobe Pricing: investigate 4.3% margin on $126k spend (concentrated in Bunzl); attach procurement fee if pass-through | P1 | Structural | Paul | NOT STARTED | Audit Software Resale Addendum |
+| SW-03 | Review Adobe Pricing: investigate 4.3% margin on $99k spend (one-off product sale to ARC); attach procurement fee if pass-through | P1 | Structural | Paul | NOT STARTED | Audit Software Resale Addendum |
 | SW-04 | Investigate negative margin transactions for specific clients (e.g., Santa Barbara Sky Football Club, Malenfant Technical Services) | P1 | $25K | Jim | NOT STARTED | Audit Software Resale Addendum |
 | SW-05 | Pull Barracuda portal client/seat list and reconcile to ConnectWise — 87% cost increase ($41.7K/yr) with no corresponding client growth | P1 | $41.7K | Jim | NOT STARTED | Audit Software Resale |
 | SW-06 | Issue price amendments to clients affected by Barracuda cost increases | P2 | $41.7K | Paul | NOT STARTED | Audit Software Resale |
@@ -33,8 +33,8 @@ Each action is tagged with a **Priority** (P1 = Immediate / P2 = Urgent / P3 = S
 
 | ID | Action | Priority | Est. Recovery | Owner | Status | Source Document(s) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| CON-01 | Audit consulting projects to identify specific margin loss causes — 24.2% fully-loaded GM vs 50%+ target | P1 | ~$303K | Paul | NOT STARTED | Profit Waterfall 2025 |
-| CON-02 | Conduct subcontractor audit for specific projects (Basim, David, Blue Pisces) | P1 | TBD | Paul | NOT STARTED | Profit Leakage Map |
+| CON-01 | Audit consulting projects to identify specific margin loss causes — 44.0% traceable GM vs 50%+ target, and quantify the remaining invisible W-2 subsidy | P1 | ~$235K | Paul | NOT STARTED | Segment P&L 2025 |
+| CON-02 | Conduct subcontractor audit for specific projects (Basim, David, Blue Pisces) | P1 | TBD | Paul | **PARTIALLY COMPLETE** | CS-Cost Findings |
 | CON-03 | Implement margin gates: require partner approval for any fixed-fee project below 50% GM | P2 | Preventive | Paul | NOT STARTED | Profit Leakage Map |
 | CON-04 | Verify billing rates for Vincent Williams ($104K Upwork cost) against contracted rates | P2 | TBD | Jim | NOT STARTED | Technician Efficiency Audit |
 | CON-05 | Convert high-value project clients to managed service agreements (T&M-to-agreement conversion) | P3 | Structural | Paul | NOT STARTED | Client Profitability Analysis |
@@ -92,6 +92,8 @@ Each action is tagged with a **Priority** (P1 = Immediate / P2 = Urgent / P3 = S
 | FIN-01 | Restructure Chart of Accounts to reclassify technical labor from SG&A to COGS | P2 | Metric clarity | Paul / Bookkeeper | NOT STARTED | BIC Audit Report, COGS Classification |
 | FIN-02 | Have bookkeeper pull QB transaction detail for Salary Expense to identify misclassified contractor payments | P2 | Clarity | Bookkeeper | NOT STARTED | COGS Classification Analysis |
 | FIN-03 | Recode QB expenses to properly reflect COGS vs SG&A per confirmed classification table | P2 | Metric clarity | Bookkeeper | NOT STARTED | Definitive PL Analysis |
+| FIN-04 | Reclassify Marcello $46K from CS-Cost (COGS) to Marketing (SGA) | P1 | Metric clarity | Bookkeeper | NOT STARTED | CS-Cost Findings |
+| FIN-05 | Reclassify ~$140K in internal service tools from COGS to SGA | P1 | Metric clarity | Bookkeeper | NOT STARTED | COGS Classification Analysis |
 
 ---
 
@@ -102,7 +104,7 @@ These are specific data pulls required to unblock multiple action items above.
 | ID | Data Request | Blocks | Priority | Owner | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | CW-01 | Agreement Profitability for all 6 active Bunzl subsidiaries (Cool Pak, Majestic, Tillman, Cordova, Tingley, Bunzl Dist) and 'Amiri' | REV-02, REV-03 | P1 | Jim | NOT STARTED |
-| CW-02 | Project Profitability by Subcontractor — last 6 months | CON-01, CON-02 | P1 | Jim | NOT STARTED |
+| CW-02 | Project Profitability by Subcontractor — last 6 months | CON-01, CON-02 | P1 | Jim | **PARTIALLY COMPLETE** (via CS-Cost) |
 | CW-03 | Vincent Williams Time Entries — 2025 | CON-04 | P1 | Jim | NOT STARTED |
 | CW-04 | Technician Utilization Report — last 6 months | UTL-03, UTL-07 | P1 | Jim | NOT STARTED |
 | CW-05 | Agreement vs. Project Hours — last 6 months | CON-01, UTL-03 | P1 | Jim | NOT STARTED |
