@@ -60,7 +60,7 @@ The Expenses Tracker indicated Jeremy Roe was a $57K/year resource split between
 | **Total Roe Tech** | **$100,097** |
 
 ### 4. SGA Costs Misclassified as COGS
-Marcello Moreira (Marketing) was paid **$46,039** via Payoneer. This entire amount is sitting in the Consulting Services-Cost line, artificially inflating COGS and depressing SGA. This must be reclassified.
+Marcello Moreira (Sales) was paid **$42,645** via Payoneer (the prior $46,039 figure included a minor variance — the actual Payoneer total from the detail is $42,645). This entire amount is sitting in the Consulting Services-Cost line, artificially inflating COGS and depressing SGA. This must be reclassified to Sales SGA.
 
 ## D. Definitive Segment Attribution
 
@@ -71,7 +71,7 @@ Based on the line-item detail, the $1,045,803 in the CS-Cost account maps to the
 | **Comprehensive Services (ARC)** | $650,057 | 62.2% |
 | **Consulting/Projects** | $343,030 | 32.8% |
 | **Managed Services** | $6,677 | 0.6% |
-| **SGA (Marketing - Marcello)** | $46,039 | 4.4% |
+| **SGA (Sales - Marcello)** | $42,645 | 4.1% |
 | **Total Accounted** | **$1,045,803** | **100.0%** |
 
 *(Note: The $343K in Consulting/Projects includes the $306K for Bunzl plus $36K for other discrete projects like network relocations and IT assessments performed by Roe Tech, Infinite Ideas, and Blue Pisces).*
@@ -79,4 +79,4 @@ Based on the line-item detail, the $1,045,803 in the CS-Cost account maps to the
 ## E. Action Items
 1. **Update Resource Allocation Reference:** Replace the estimated BILL contractor amounts with the exact figures from this report.
 2. **Rebuild Segment P&Ls:** The $200K+ increase in CP subcontractor costs will significantly reduce the previously overstated project margin, bringing it closer to the expected 24% reality.
-3. **Bookkeeper Correction:** Move the $46,039 Payoneer (Marcello) expense from Consulting Services-Cost to Marketing/SGA.
+3. **Bookkeeper Correction:** Move the $46,039 Payoneer (Marcello) expense from Consulting Services-Cost to Sales SGA.

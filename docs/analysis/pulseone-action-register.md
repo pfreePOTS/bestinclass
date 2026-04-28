@@ -63,7 +63,7 @@ Each action is tagged with a **Priority** (P1 = Immediate / P2 = Urgent / P3 = S
 | SGA-01 | Reclassify $194,092 in service delivery tools (ConnectWise, Flexis, Kaseya, etc.) from SGA to COGS | P1 | Metric clarity | Bookkeeper | NOT STARTED | Audit Software Resale |
 | SGA-02 | Cancel 7 identified redundant/non-business SaaS tools immediately (Replit, Calendy, Claude, etc.) | P1 | $1.5K immed. | Jim | NOT STARTED | Audit Software Resale |
 | SGA-03 | Confirm Microsoft Azure ($19,041) classification: client-hosted (COGS) or internal (SGA) | P2 | Metric clarity | Paul | NOT STARTED | Audit Software Resale |
-| SGA-04 | Confirm GoDaddy ($2,880) classification: client-hosted (COGS) or internal (SGA) | P2 | Metric clarity | Paul | NOT STARTED | Audit Software Resale |
+| SGA-04 | ~~Confirm GoDaddy ($2,880) classification~~ | P2 | Metric clarity | Paul | **RESOLVED** — Owner confirmed internal SGA | Audit Software Resale |
 | SGA-05 | Rebalance Sales & Marketing: fix ROI failure on $358K S&M spend (6.9% of rev) which produced a 16.2% decline in MS revenue | P2 | Structural | Paul | NOT STARTED | Profit Waterfall 2025 |
 | SGA-06 | Halt all non-salary owner distributions to rebuild cash reserves (current ratio 0.10) | P1 | Liquidity | Paul | NOT STARTED | BIC Audit Report |
 
@@ -92,7 +92,7 @@ Each action is tagged with a **Priority** (P1 = Immediate / P2 = Urgent / P3 = S
 | FIN-01 | Restructure Chart of Accounts to reclassify technical labor from SG&A to COGS | P2 | Metric clarity | Paul / Bookkeeper | NOT STARTED | BIC Audit Report, COGS Classification |
 | FIN-02 | Have bookkeeper pull QB transaction detail for Salary Expense to identify misclassified contractor payments | P2 | Clarity | Bookkeeper | NOT STARTED | COGS Classification Analysis |
 | FIN-03 | Recode QB expenses to properly reflect COGS vs SG&A per confirmed classification table | P2 | Metric clarity | Bookkeeper | NOT STARTED | Definitive PL Analysis |
-| FIN-04 | Reclassify Marcello $46K from CS-Cost (COGS) to Marketing (SGA) | P1 | Metric clarity | Bookkeeper | NOT STARTED | CS-Cost Findings |
+| FIN-04 | Reclassify Marcello $42,645 Payoneer from CS-Cost (COGS) to Sales SGA — same person as W-2 Marcello Rocha Moreira ($33,280). Total 2025 comp: $75,925. Transitioned from W-2 to contractor mid-2025, not terminated. | P1 | Metric clarity | Bookkeeper | NOT STARTED | CS-Cost Findings |
 | FIN-05 | Reclassify ~$140K in internal service tools from COGS to SGA | P1 | Metric clarity | Bookkeeper | NOT STARTED | COGS Classification Analysis |
 
 ---

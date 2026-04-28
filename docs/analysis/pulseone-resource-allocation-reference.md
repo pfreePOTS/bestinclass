@@ -1,7 +1,7 @@
 # PulseOne Definitive Resource Allocation Reference
 
 **Date:** April 28, 2026
-**Version:** 3.1
+**Version:** 3.2
 **Status:** AUTHORITATIVE — Owner-Confirmed Allocations
 **Prepared by:** Manus (PulseOne BiC Audit)
 **Confirmed by:** Paul Freeman (CMO / Partner)
@@ -46,7 +46,7 @@ PulseOne operates with a blended workforce of W-2 employees, Upwork freelancers,
 |---|---|---|
 | Chad Wiggins | $108,257 | 100% BizDev |
 | Kyle Carey | $55,978 | 100% Sales |
-| Marcello Rocha Moreira | $36,654 | 100% Marketing (Terminated 8/3/2025) |
+| Marcello Rocha Moreira | $33,280 | 100% Sales — W-2 through July 2025, then transitioned to Payoneer contractor (see below). **Total 2025 comp: $75,925** ($33,280 W-2 + $42,645 Payoneer). Not terminated — employment type changed. |
 | Heather Kohler | $14,851 | 100% Marketing (Terminated 2/24/2025) |
 | Dana Rankin | $9,952 | 100% Marketing (Terminated 1/29/2025) |
 | Andrea Carcamo | $7,614 | 100% Marketing |
@@ -110,7 +110,7 @@ PulseOne operates with a blended workforce of W-2 employees, Upwork freelancers,
 |---|---|---|---|
 | Blue Pisces - Damien | BILL | $229,843 | 100% Projects (Bunzl Path to Cloud) |
 | Jeremy Roe (Roe Tech LLC) | BILL | $100,097 | 71% Projects (Bunzl), 24% Projects (Other), 5% ARC |
-| Marcello Moreira | Payoneer | $46,039 | 100% Marketing (SGA) |
+| Marcello Moreira (Payoneer) | Payoneer | $42,645 | 100% Sales (SGA) — same person as W-2 Marcello Rocha Moreira above. Transitioned from W-2 to Payoneer mid-2025. Combined total: **$75,925**. QB has this in CS-Cost (COGS) — must be reclassified to Sales SGA. |
 | Other Project Subs | BILL | $13,187 | 100% Projects (Infinite Ideas non-ARC, F2OnSite, Full Circle) |
 | Daniyal Arif | Contract | $44,117 | 50% PulseOne Dev (SGA), 50% RepScheduler (Non-Op) |
 | Badar | Contract | $30,300 | 100% RepScheduler (Non-Op) |
@@ -134,8 +134,9 @@ PulseOne operates with a blended workforce of W-2 employees, Upwork freelancers,
 **Contractors:** Blue Pisces - Damien (100%), Jeremy Roe (95%), Matt Barnett (10%), Vincent Williams (partial), Other Project Subs (100%).
 
 ### Sales & Marketing (SG&A)
-**W-2 Labor:** Laura Walsh (30% Presales), Stephen Calkins (5% Presales), Chad Wiggins (100%), Kyle Carey (100%), Eric Anzalone (100% Acct Mgmt), Marcello Rocha Moreira (100%), Heather Kohler (100%), Dana Rankin (100%), Andrea Carcamo (100%), Anneliese Rivera (100%).
-**Contractors:** Marcello Moreira (100%), Kirill Hovansky (100%), Yana Kosenko (100%), Anneliese (100%), Marcy Dorman-Chandler (100%).
+**W-2 + Contractor (Sales):** Chad Wiggins (100% BizDev), Kyle Carey (100% Sales), Marcello Moreira ($33,280 W-2 + $42,645 Payoneer = **$75,925 total**, 100% Sales — transitioned from W-2 to contractor mid-2025, not terminated), Laura Walsh (30% Presales), Stephen Calkins (5% Presales), Eric Anzalone (100% Acct Mgmt).
+**W-2 (Marketing):** Heather Kohler (100%), Dana Rankin (100%), Andrea Carcamo (100%), Anneliese Rivera (100%).
+**Contractors (Marketing):** Kirill Hovansky (100%), Yana Kosenko (100%), Anneliese (100%), Marcy Dorman-Chandler (100%).
 
 ### Operations, Admin & Strategic Account Mgmt (SG&A)
 **W-2 Labor:** Stephen Calkins (20% Strat Acct Mgmt), Laura Walsh (20% Strat Acct Mgmt, 15% Dept Mgmt), James Froio (30% Internal IT, 15% Admin), Aimee Brock (100%), Emily Wolf (100%), Emily Acker (100%), Jamie Davin (100%), Juliet Simpson (100%), Ashley Holmes (100%).
@@ -160,6 +161,7 @@ The isolation of ARC (Comprehensive Services) from Managed Services and Projects
 - David Fredrick: **RESOLVED** — confirmed as David Falkenberg (Fredrick LLC), $171,003 via BILL.
 - Jeremy Roe: **RESOLVED** — paid via BILL as "Roe Tech LLC" ($100,097). Split: 71% Bunzl projects, 24% other projects, 5% ARC.
 - Matt Barnett: **RESOLVED** — owner-confirmed 75% HD / 15% ITMS / 10% Projects. 0% ARC.
+- Marcello Moreira: **RESOLVED** — single person paid via two channels. W-2 ($33,280, Jan-Jul 2025) + Payoneer contractor ($42,645, all year) = $75,925 total. 100% Sales SGA. Transitioned from W-2 to contractor mid-2025, not terminated. Never on Upwork. Payoneer amount is misclassified in QB CS-Cost (COGS) — must be reclassified to Sales SGA.
 
 **Still Open:**
 1. What is Vincent Williams' exact split between Ticket Escalations (MS) and Risk Assessments (Projects)? His $102K Upwork contract name includes both functions.
