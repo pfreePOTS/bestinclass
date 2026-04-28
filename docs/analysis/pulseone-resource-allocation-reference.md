@@ -1,7 +1,7 @@
 # PulseOne Definitive Resource Allocation Reference
 
 **Date:** April 22, 2026
-**Version:** 2.0
+**Version:** 3.0
 **Status:** AUTHORITATIVE — Owner-Confirmed Allocations
 **Prepared by:** Manus (PulseOne BiC Audit)
 **Confirmed by:** Paul Freeman (CMO / Partner)
@@ -22,177 +22,138 @@ PulseOne operates with a blended workforce of W-2 employees, Upwork freelancers,
 
 ## D. Findings & Resource Inventory
 
-## W-2 EMPLOYEES (from Payroll Detail Summary — GROSS earnings)
+### W-2 EMPLOYEES (from Payroll Detail Summary — GROSS earnings)
 
-### Dept 100 — Services Tech Service
-| Name | Gross Pay | Employer Tax | Total Cost | Hours | Status |
-|---|---|---|---|---|---|
-| Stephen Calkins | $148,960 | $15,999 | $164,960 | 2,080 | Active |
-| James Froio | $112,788 | $14,427 | $127,215 | 2,080 | Active |
-| Laura Walsh | $108,186 | $15,879 | $124,065 | 2,080 | Active |
-| Kaitlin Harris | $79,760 | $5,150 | $84,910 | 2,080 | Active |
-| Eric Anzalone | $76,718 | $8,231 | $84,949 | 2,080 | Active — 100% Acct Mgmt (SG&A/Sales) |
-| Hagen McDonell | $51,610 | $5,174 | $56,784 | 2,088 | Active |
-| Nicole Goodwin (Svc) | $38,150 | $1,783 | $39,933 | 1,090 | Active — 75% Services, 25% POC |
-| Joel Alvarez | $25,850 | $1,226 | $27,076 | 1,289 | Active |
-| Julia Morte | $20,322 | $612 | $20,934 | 1,110 | Active |
-| Alexandria Calkins | $17,258 | $1,179 | $18,436 | 958 | Active |
-| Copeland, Breanna | $11,444 | $276 | $11,719 | 636 | Terminated 8/1/2025 |
-| Acker, Emily | $9,690 | $854 | $10,544 | 323 | Terminated 2/14/2025 — Operations |
-| Brooke, Debby | $7,928 | $0 | $7,928 | 417 | Terminated 11/12/2025 |
-| **SUBTOTAL** | **$708,664** | **$70,790** | **$779,453** | | |
-
-### Dept 200 — Marketing
-| Name | Gross Pay | Employer Tax | Total Cost | Hours | Status |
-|---|---|---|---|---|---|
-| Chad Wiggins | $95,000 | $13,257 | $108,257 | 2,080 | Active all 2025, term 3/6/2026 |
-| Kyle Carey | $51,800 | $4,178 | $55,978 | 2,072 | Active |
-| Marcello Rocha Moreira | $33,280 | $3,374 | $36,654 | 1,280 | Terminated 8/3/2025 |
-| Heather Kohler | $13,200 | $1,651 | $14,851 | 360 | Terminated 2/24/2025 |
-| Dana Rankin | $9,200 | $752 | $9,952 | 350 | Terminated 1/29/2025 |
-| Andrea Carcamo | $7,492 | $122 | $7,614 | 387 | Active (started ~Aug) |
-| Anneliese Rivera | $4,100 | $32 | $4,132 | 164 | Active (Jul-Sep only) |
-| **SUBTOTAL** | **$214,072** | **$23,366** | **$237,438** | | |
-
-### Dept 300 — Operations
-| Name | Gross Pay | Employer Tax | Total Cost | Hours | Status |
-|---|---|---|---|---|---|
-| Aimee Brock | $23,300 | $1,123 | $24,423 | 850 | Active (started ~Apr) |
-| Emily Wolf | $18,400 | $34 | $18,434 | 680 | Active (started ~Jun) |
-| Jamie Davin | $9,911 | $554 | $10,465 | 250 | Terminated 2/27/2025 |
-| Juliet Simpson | $9,263 | $0 | $9,263 | 285 | Terminated 2/24/2025 |
-| Ashley Holmes | $725 | $0 | $725 | 29 | Terminated 2/27/2025 |
-| **SUBTOTAL** | **$61,599** | **$1,711** | **$63,310** | | |
-
-### Dept 900 — POC (Separate Entity)
-| Name | Gross Pay | Employer Tax | Total Cost | Hours | Status |
-|---|---|---|---|---|---|
-| Tracy Freeman | $12,889 | $0 | $12,889 | 368 | Active — 100% POC |
-| Nicole Goodwin (POC) | $12,950 | $459 | $13,409 | 370 | Active — POC portion |
-| **SUBTOTAL** | **$25,839** | **$459** | **$26,298** | | |
-
-### Partners (Guaranteed Payments — not in payroll system)
-| Name | Annual Comp | Role |
+#### Dept 100 — Services Tech Service
+| Name | Total Cost | Owner-Confirmed Allocation |
 |---|---|---|
-| Charlie Batsford | ~$141,000 | CEO |
-| Paul Freeman | ~$141,000 | CMO |
-| Rod | ~$141,000 | CFO |
-| **SUBTOTAL** | **$423,000** | |
+| Stephen Calkins | $164,960 | 60% MS, 15% Projects, 20% Strat Acct Mgmt (SGA), 5% Presales (SGA) |
+| James Froio | $127,215 | 25% MS, 30% Projects (on/off-boarding), 30% Internal IT (SGA), 15% Admin (SGA) |
+| Laura Walsh | $124,065 | 35% Projects, 30% Presales (SGA), 20% Strat Acct Mgmt (SGA), 15% Dept Mgmt (SGA) |
+| Kaitlin Harris | $84,910 | 100% Projects |
+| Eric Anzalone | $84,949 | 100% Account Management (SGA) |
+| Hagen McDonell | $56,784 | 80% MS, 20% Projects |
+| Nicole Goodwin (Svc) | $39,933 | 75% MS, 25% POC (Non-Op) |
+| Joel Alvarez | $27,076 | 100% MS |
+| Julia Morte | $20,934 | 100% MS |
+| Alexandria Calkins | $18,436 | 100% MS |
+| Copeland, Breanna | $11,719 | 100% MS (Terminated 8/1/2025) |
+| Acker, Emily | $10,544 | 100% Operations (SGA) |
+| Brooke, Debby | $7,928 | 100% MS (Terminated 11/12/2025) |
+
+#### Dept 200 — Marketing (All SG&A)
+| Name | Total Cost | Owner-Confirmed Allocation |
+|---|---|---|
+| Chad Wiggins | $108,257 | 100% BizDev |
+| Kyle Carey | $55,978 | 100% Sales |
+| Marcello Rocha Moreira | $36,654 | 100% Marketing (Terminated 8/3/2025) |
+| Heather Kohler | $14,851 | 100% Marketing (Terminated 2/24/2025) |
+| Dana Rankin | $9,952 | 100% Marketing (Terminated 1/29/2025) |
+| Andrea Carcamo | $7,614 | 100% Marketing |
+| Anneliese Rivera | $4,132 | 100% Marketing |
+
+#### Dept 300 — Operations (All SG&A)
+| Name | Total Cost | Owner-Confirmed Allocation |
+|---|---|---|
+| Aimee Brock | $24,423 | 100% Operations |
+| Emily Wolf | $18,434 | 100% Operations |
+| Jamie Davin | $10,465 | 100% Operations (Terminated 2/27/2025) |
+| Juliet Simpson | $9,263 | 100% Operations (Terminated 2/24/2025) |
+| Ashley Holmes | $725 | 100% Operations (Terminated 2/27/2025) |
+
+#### Dept 900 — POC (Separate Entity - Non-Op)
+| Name | Total Cost | Owner-Confirmed Allocation |
+|---|---|---|
+| Tracy Freeman | $12,889 | 100% POC |
+| Nicole Goodwin (POC) | $13,409 | 100% POC |
+
+#### Partners (Guaranteed Payments)
+| Name | Annual Comp | Owner-Confirmed Allocation |
+|---|---|---|
+| Charlie Batsford | ~$141,000 | CEO (SGA) |
+| Paul Freeman | ~$141,000 | CMO (SGA) |
+| Rod | ~$141,000 | CFO (SGA) |
 
 ---
 
-## UPWORK CONTRACTORS (CY2025)
+### UPWORK CONTRACTORS (CY2025)
+| Talent | Amount | Owner-Confirmed Allocation |
+|---|---|---|
+| Charlesdoone Castro | $38,228 | 100% MS (Amiri Help Desk Support) |
+| Matthew Barnett | $87,890 | 75% MS (Help Desk), 15% ITMS (MS), 10% Projects. **0% ARC.** |
+| Vincent Williams | $102,130 | Split MS (Ticket Escalations) and Projects (Risk Assessments) |
+| Kirill Hovansky | $3,660 | 100% Marketing (SGA) |
+| Sabah Razaq | $2,438 | 100% Operations (SGA) |
+| Yana Kosenko | $700 | 100% Marketing (SGA) |
+| Lab Tech Ninjas | $4,500 | 100% MS |
 
-| Talent | Contract | Hours | Amount | Type |
-|---|---|---|---|---|
-| Charlesdoone Castro | Amiri Help Desk Support | 930 | $38,228 | Hourly + Bonus |
-| Matthew Barnett | Arc | 0 | $83,390 | Fixed + Bonus |
-| Matthew Barnett | Help Desk (34745185) | 0 | $4,500 | Bonus |
-| Basim Mashni | Arc | 1,848 | $57,522 | Hourly |
-| Vincent Williams | IT and Network Risk Assessments | 312 | $14,870 | Hourly |
-| Vincent Williams | ITMS Projects | 1,454 | $87,260 | Hourly |
-| Kirill Hovansky | Video editing | 248 | $3,660 | Hourly |
-| Sabah Razaq | Learning platform | 23 | $2,438 | Fixed |
-| Yana Kosenko | Video editing | 70 | $700 | Hourly |
-| Lab Tech Ninjas | Help Desk | 183 | $4,500 | Hourly |
-| **TOTAL** | | **5,068** | **$297,068** | |
+*Note: Basim Mashni ($57,522 on Upwork) is addressed in the ARC section below to prevent double-counting with his BILL payments.*
 
 ---
 
-## EXPENSES TRACKER — COGS CONTRACTORS (Non-Upwork)
+### EXPENSES TRACKER — COGS CONTRACTORS (Non-Upwork)
 
-| Name | Dept | Method | Monthly | Annual | Client |
-|---|---|---|---|---|---|
-| Blue Pisces - Ruben | Services | BILL | $16,413 | $196,950 | ARC |
-| Blue Pisces - Damien | Services | BILL | $8,750 | $105,000 | Bunzl |
-| David Fredrick | Help Desk | BILL | $15,231 | $182,770 | ARC |
-| Basim Mashni | Services | BILL | $4,793 | $57,522 | ARC |
-| Jeremy Roe | Help Desk | BILL | $9,167 | $110,000 | ARC |
-| Marcello Moreira | MKTG | Payoneer | $4,957 | $59,488 | — |
-| Daniyal Arif | MKTG | Contract | $3,676 | $44,117 | — (50% RS) |
-| Badar | MKTG | Contract | $2,525 | $30,300 | — (100% RS) |
-| Anneliese | MKTG | Contract | $1,192 | $14,300 | — |
-| Marcy Dorman-Chandler | MKTG | BILL | $800 | $9,600 | — |
-| E-Folder Axcient | Help Desk | AMEX | $867 | $10,404 | — |
-| Barracuda | Help Desk | ACH | $1,710 | $20,514 | — |
-| **TOTAL COGS** | | | **$77,686** | **$932,236** | |
+#### Comprehensive Services (ARC) Contractors
+*Per owner: Ruben Cortez, David Falkenberg, BJ Sinder, and Basim Mashni all worked on ARC. None were billed through Upwork (except Basim's partial overlap). No other projects were performed for ARC other than Staffing Services. Amounts below are exact CY2025 totals from the QB Consulting Services-Cost detail.*
+
+| Name | Method | Annual Est. | Owner-Confirmed Allocation |
+|---|---|---|---|
+| Ruben Cortez (Blue Pisces) | BILL | $193,246 | 100% ARC |
+| David Falkenberg (Fredrick) | BILL | $171,003 | 100% ARC |
+| Basim Mashni (Mash Tech) | BILL | $148,918 | 100% ARC |
+| BJ Sinder (Infinite Ideas IT) | BILL | $132,390 | 100% ARC |
+
+#### Other Contractors
+*Amounts below reflect exact CY2025 totals from the QB Consulting Services-Cost detail.*
+
+| Name | Method | Annual Est. | Owner-Confirmed Allocation |
+|---|---|---|---|
+| Blue Pisces - Damien | BILL | $229,843 | 100% Projects (Bunzl Path to Cloud) |
+| Jeremy Roe (Roe Tech LLC) | BILL | $100,097 | 71% Projects (Bunzl), 24% Projects (Other), 5% ARC |
+| Marcello Moreira | Payoneer | $46,039 | 100% Marketing (SGA) |
+| Other Project Subs | BILL | $13,187 | 100% Projects (Infinite Ideas non-ARC, F2OnSite, Full Circle) |
+| Daniyal Arif | Contract | $44,117 | 50% PulseOne Dev (SGA), 50% RepScheduler (Non-Op) |
+| Badar | Contract | $30,300 | 100% RepScheduler (Non-Op) |
+| Anneliese | Contract | $14,300 | 100% Marketing (SGA) |
+| Marcy Dorman-Chandler | BILL | $9,600 | 100% Marketing (SGA) |
 
 ---
 
-## SEGMENT ALLOCATIONS (Per Paul's Corrections)
+## E. Segment Labor Pools (Corrected)
 
 ### Managed Services (Help Desk)
-- Joel Alvarez — 100% MS
-- Julia Morte — 100% MS
-- Alexandria Calkins — 100% MS
-- Breanna Copeland — 100% MS (terminated Aug)
-- Debby Brooke — 100% MS (terminated Nov)
-- Hagen McDonell — 80% MS, 20% CP
-- Nicole Goodwin — 75% MS (Services portion only)
-- Matt Barnett — Hybrid: primarily HD, some project work
-- James Froio — 40% MS, 40% Internal IT, 20% Admin
-- Stephen Calkins — 90% COGS (split MS/CP), 10% SG&A
-- Laura Walsh — 90% COGS (split MS/CP), 10% SG&A
+**W-2 Labor:** Stephen Calkins (60%), James Froio (25%), Hagen McDonell (80%), Nicole Goodwin (75%), Joel Alvarez (100%), Julia Morte (100%), Alexandria Calkins (100%), Breanna Copeland (100%), Debby Brooke (100%).
+**Contractors:** Matt Barnett (90%), Charlesdoone Castro (100%), Lab Tech Ninjas (100%), Jeremy Roe (68%), Vincent Williams (partial).
 
 ### Comprehensive Services (ARC)
-- Blue Pisces - Ruben — 100% ARC
-- David Fredrick — 100% ARC
-- Basim Mashni — 100% ARC
-- Jeremy Roe — 100% ARC
-- Matt Barnett — some ARC project work (hybrid)
+**Contractors Only:** Ruben Cortez (100%), David Falkenberg (100%), Basim Mashni (100%), BJ Sinder (100%), Jeremy Roe (5%).
+*Note: The $99K Adobe purchase for ARC was a one-off product sale, not a cost of running the Comprehensive Services staffing model.*
 
 ### Projects / Consulting
-- Kaitlin Harris — 100% Project Management
-- Blue Pisces - Damien — 100% Bunzl Path to Cloud
-- Vincent Williams — 100% Projects (not ARC)
-- Hagen McDonell — 20% CP
-- Stephen Calkins — portion of 90% COGS
-- Laura Walsh — portion of 90% COGS
+**W-2 Labor:** Laura Walsh (35%), James Froio (30%), Stephen Calkins (15%), Hagen McDonell (20%), Kaitlin Harris (100%).
+**Contractors:** Blue Pisces - Damien (100%), Jeremy Roe (95%), Matt Barnett (10%), Vincent Williams (partial), Other Project Subs (100%).
 
 ### Sales & Marketing (SG&A)
-- Chad Wiggins — 100% BizDev
-- Kyle Carey — 100% Sales
-- Eric Anzalone — 100% Account Management
-- Marcello Moreira — Marketing (W2 + contractor)
-- Heather Kohler — Marketing (terminated Feb)
-- Dana Rankin — Marketing (terminated Jan)
-- Andrea Carcamo — Marketing (started Aug)
-- Anneliese Rivera — Marketing (W2 Jul-Sep + contractor)
-- Marcy Dorman-Chandler — Marketing contractor
-- Daniyal Arif — 50% PulseOne dev (other 50% = RS)
+**W-2 Labor:** Laura Walsh (30% Presales), Stephen Calkins (5% Presales), Chad Wiggins (100%), Kyle Carey (100%), Eric Anzalone (100% Acct Mgmt), Marcello Rocha Moreira (100%), Heather Kohler (100%), Dana Rankin (100%), Andrea Carcamo (100%), Anneliese Rivera (100%).
+**Contractors:** Marcello Moreira (100%), Kirill Hovansky (100%), Yana Kosenko (100%), Anneliese (100%), Marcy Dorman-Chandler (100%).
 
-### Operations & Admin (SG&A)
-- Aimee Brock — Operations
-- Emily Wolf — Operations
-- Emily Acker — Operations (terminated Feb)
-- Jamie Davin — Operations (terminated Feb)
-- Juliet Simpson — Operations (terminated Feb)
-- Ashley Holmes — Operations (terminated Feb)
+### Operations, Admin & Strategic Account Mgmt (SG&A)
+**W-2 Labor:** Stephen Calkins (20% Strat Acct Mgmt), Laura Walsh (20% Strat Acct Mgmt, 15% Dept Mgmt), James Froio (30% Internal IT, 15% Admin), Aimee Brock (100%), Emily Wolf (100%), Emily Acker (100%), Jamie Davin (100%), Juliet Simpson (100%), Ashley Holmes (100%).
+**Contractors:** Sabah Razaq (100%), Daniyal Arif (50% Dev).
 
-### Separate Entities (Not PulseOne OpEx)
-- Tracy Freeman — 100% POC ($12,889)
-- Nicole Goodwin — 25% POC ($13,409)
-- Badar — ~100% RepScheduler ($30,300)
-- Daniyal Arif — ~50% RepScheduler ($22,059)
-
-## E. Service Leadership Best in Class Alignment
+## F. Service Leadership Best in Class Alignment
 The isolation of ARC (Comprehensive Services) from Managed Services and Projects is required by BiC methodology. The exclusion of non-operating entity costs (RS/POC) is required for accurate EBITDA calculation. The compensation of partners at FMV means no add-back is appropriate under BiC rules.
 
-## F. Risks and Opportunities
+## G. Risks and Opportunities
 - **Risk:** Without exact project costing time-entry data, the exact margin split between MS and CP remains an estimate. The "invisible subsidy" of W-2 labor continues to distort project profitability.
 - **Opportunity:** Clearly separating ARC from the Help Desk shows the core MS delivery engine is highly efficient, allowing management to focus solely on fixing project margins and rationalizing S&M spend.
 
-## G. Recommended Actions
+## H. Recommended Actions
 1. Adopt this document as the definitive resource baseline for all 2025 financial modeling.
 2. Ensure the bookkeeper explicitly tags RS and POC expenses in QuickBooks so they do not artificially depress PulseOne's operating margin.
 3. Track Comprehensive Services (staff augmentation) on a separate P&L segment from discrete Projects.
 
-## H. Suggested ConnectWise Follow-up
-- Time-entry pull for Matt Barnett to determine exact hours split between Help Desk, ARC, and Projects.
-- Time-entry pull for Hagen McDonell to verify the 80/20 split between Help Desk and Projects.
-- Project profitability report for Damien's Bunzl P2C project to verify margin.
-
 ## I. Clarifying Questions
-1. Is ARC winding down? (Expenses Tracker shows "Blue Pisces - Ruben - end of ARC")
-2. What is the Calkins/Walsh management overhead split between Managed Services and Projects specifically?
-3. What is James Froio's exact split (40% MS / 40% Internal IT / 20% Admin) based on? Is the Internal IT portion truly internal, or does it serve clients?
+1. How was BJ Sinder paid for the ARC work? (He generated $144K in ARC revenue but doesn't appear in the Expenses Tracker).
+2. What is Vincent Williams' exact split between Ticket Escalations (MS) and Risk Assessments (Projects)?
+3. Are the "David Fredrick" payments in the Expenses Tracker actually for David Falkenberg?
