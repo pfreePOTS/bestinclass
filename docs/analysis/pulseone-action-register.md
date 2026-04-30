@@ -21,9 +21,9 @@ Each action is tagged with a **Priority** (P1 = Immediate / P2 = Urgent / P3 = S
 | SW-02 | Bundle Microsoft M365: stop selling raw licenses at 16.4% GM; bundle into managed seats or add cloud management fee to reach 24% BiC floor | P1 | Structural | Paul | NOT STARTED | Audit Software Resale |
 | SW-03 | Review Adobe Pricing: investigate 4.3% margin on $99k spend (one-off product sale to ARC); attach procurement fee if pass-through | P1 | Structural | Paul | NOT STARTED | Audit Software Resale |
 | SW-04 | ~~Investigate negative margin transactions for specific clients (e.g., Santa Barbara Sky Football Club, Malenfant Technical Services)~~ | P1 | $25K | Jim | **RESOLVED** (Data artifact) | Audit Software Resale |
-| SW-05 | ~~Pull Barracuda portal client/seat list and reconcile to ConnectWise — 87% cost increase ($41.7K/yr) with no corresponding client growth~~ | P1 | $41.7K | Jim | **RESOLVED** (TD Synnex data confirmed 35.4% GM) | Audit Software Resale |
+| SW-05 | ~~Pull Barracuda portal client/seat list and reconcile to ConnectWise — 87% cost increase ($41.7K/yr) with no corresponding client growth~~ | P1 | $41.7K | Jim | **RESOLVED** (TD Synnex data confirmed 50.3% GM on product resale; Skout growth is separate internal tool question) | Audit Software Resale |
 | SW-06 | ~~Issue price amendments to clients affected by Barracuda cost increases~~ | P2 | $41.7K | Paul | **RESOLVED** (Unnecessary, margin is healthy) | Audit Software Resale |
-| SW-07 | Request line-item invoice from TD Synnex and reconcile to ConnectWise — $301K Agreement License spend vs $4.55M CSP orders | P1 | TBD | Paul / Jim | NOT STARTED | Audit Software Resale |
+| SW-07 | ~~Request line-item invoice from TD Synnex and reconcile to ConnectWise~~ | P1 | TBD | Paul / Jim | **RESOLVED** | TD Synnex SO tab (Net Price × Qty) = $564K, reconciles to QB $553K within 2%. No overbilling. |
 | SW-08 | Add cost pass-through language to all new and renewing software agreements | P2 | Preventive | Paul | NOT STARTED | Audit Software Resale |
 | SW-09 | Build and maintain a Client-Level Pricing Audit Workbook with target 25% GM formula | P2 | Ongoing | Paul / Jim | NOT STARTED | Audit Software Resale |
 

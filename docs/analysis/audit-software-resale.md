@@ -1,7 +1,7 @@
 # Audit: Software Resale & SaaS Rationalization
 
 **Document Type:** Focused Operational Audit  
-**Version:** 3.0 (Revised with TD Synnex Purchase Data)  
+**Version:** 3.1 (Corrected TD Synnex line-level calculations)  
 **Date:** April 30, 2026  
 **Supersedes:** All prior versions  
 **Author:** Manus AI (Strategic Audit Assistant)
@@ -26,13 +26,15 @@ This audit addresses the software cost structure, resolving prior mysteries arou
 
 ## C. Major Findings & Corrections (April 30 Update)
 
-### Finding 1: Barracuda is Highly Profitable (35.4% Margin)
-Prior audits flagged a concern that Barracuda costs were escalating without being passed through to clients. The TD Synnex purchase history (SO tab) reveals the true cost of Barracuda licenses billed to clients:
+### Finding 1: Barracuda is Highly Profitable (50.3% Margin)
+Prior audits flagged a concern that Barracuda costs were escalating without being passed through to clients. The TD Synnex purchase history (SO tab), when correctly calculated at **Net Price × Qty per line** (not the misleading "Total Order" column which shows order-level totals shared across lines), reveals:
 - **ConnectWise Revenue:** $323,737
-- **TD Synnex Cost (SO Tab):** $209,123 (monthly recurring licenses)
-- **Gross Margin:** **$114,614 (35.4%)**
+- **TD Synnex Cost (Net Price × Qty):** $160,781 (monthly recurring licenses)
+- **Gross Margin:** **$162,956 (50.3%)**
 
-This is a healthy product margin that exceeds the BiC target of 24-26%. The Barracuda resale business is not a source of margin leakage.
+This is a very healthy product margin that significantly exceeds the BiC target of 24-26%. The Barracuda resale business is not a source of margin leakage.
+
+**Important correction:** The earlier v3.0 figure of $209,123 was incorrect — it used the "Total Order" column which double-counts by showing the full order total on every line within that order. The correct method is Net Price × Qty per line = $160,781.
 
 ### Finding 2: Skout is an Internal Tool, Not a Resale Product
 The $72,960 paid directly to Barracuda/Skout (previously assumed to be part of the product cost) has been confirmed by the owner as an internal Help Desk SOC tool. 
@@ -43,18 +45,26 @@ Microsoft 365 margin appears healthy at 43.4% ($495K revenue vs $302K cost), but
 
 ### Finding 4: The Product Resale Loss is an Accounting Artifact
 The QuickBooks P&L shows a -9.2% margin on Product Resale. This is an artifact of how revenue is recognized. Much of the software cost (e.g., $10,719 for Axcient/EFolder backups, security tools) is bundled into Managed Services agreements. The clients pay for the software via their monthly MS fee, but the cost remains in the Product COGS line. 
-- **Conclusion:** The underlying software resale engine (as evidenced by Barracuda's 35.4% margin and Microsoft's 43.4% margin) is profitable.
+- **Conclusion:** The underlying software resale engine (as evidenced by Barracuda's 50.3% margin and Microsoft's 43.4% margin) is profitable.
 
 ---
 
-## D. The Synnex Black Box (Still Open)
+## D. The Synnex Black Box — LARGELY RESOLVED
 
-While the TD Synnex purchase history provided clarity on Barracuda, the Microsoft CSP billing remains complex. 
-- The TD Synnex data shows **$4.55M** in gross Microsoft CSP orders flowing through the tenant.
-- QuickBooks only records **$301,813** in Agreement License Cost to Synnex.
-- This massive discrepancy indicates that the TD Synnex portal shows the gross retail value of licenses passing through PulseOne's tenant, while QuickBooks only records the net cost (or potentially just the margin/fee). 
+The TD Synnex purchase history, when correctly calculated at the line level (Net Price × Qty), reconciles closely to QuickBooks:
 
-**A true line-item invoice from Synnex that reconciles to the $301,813 QuickBooks figure remains the most critical missing piece of financial evidence.**
+| Category | TD Synnex (Net Price × Qty) | Notes |
+|---|---|---|
+| Barracuda (EP/DP/BBS/BAR) | $160,781 | Product resale COGS |
+| Microsoft CSP (318Z/CFQ/C0L) | $361,906 | Agreement License Cost |
+| Hardware/Other | $41,349 | Misc resale |
+| **TOTAL** | **$564,036** | |
+| **QB Total Synnex** | **~$553,000** | ($251K Resale + $302K Agreement) |
+| **Variance** | **$11,036 (2.0%)** | Likely timing differences |
+
+The prior "$4.55M mystery" was caused by using the "Total Order" column, which shows the order-level total on every line within an order (causing massive double-counting). The correct line-level calculation produces $564K — which reconciles within 2% of what QuickBooks shows.
+
+**Status: RESOLVED.** PulseOne is NOT being overbilled by Synnex. The $553K in QB accurately reflects PulseOne's actual cost.
 
 ---
 

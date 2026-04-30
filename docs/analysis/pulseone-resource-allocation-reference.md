@@ -117,11 +117,15 @@ PulseOne operates with a blended workforce of W-2 employees, Upwork freelancers,
 | BJ Sinder (Infinite Ideas IT) | BILL | $132,390 | 100% ARC |
 
 #### Bunzl Comprehensive Services Contractors
-*PM Path to Cloud and Elsabon HR Deployment are staffing/comprehensive services, NOT projects.*
+*PM Path to Cloud and Elsabon HR Deployment PM are staffing/comprehensive services, NOT projects.*
 
 | Name | Method | Annual Est. | Owner-Confirmed Allocation |
 |---|---|---|---|
-| Blue Pisces - Damien | BILL | $229,843 | 100% Comprehensive Services (Bunzl Path to Cloud staffing) |
+| Blue Pisces - Damien (Bunzl P2C) | BILL | ~$167,000 | 100% Comprehensive Services (Bunzl Path to Cloud staffing) |
+| Blue Pisces - Julia (Bunzl de Mexico) | BILL | ~$64,000 | 100% Comprehensive Services (Elsabon HR Deployment staffing) |
+| **Blue Pisces - Bunzl Total** | BILL | **$231,093** | 100% Comprehensive Services |
+
+*Note: Both Damien and Julia are billed under the Blue Pisces Consulting entity. The split between them is estimated based on the P2C vs Elsabon monthly amounts. Total confirmed from QB CS-Cost detail.*
 
 #### True Project Contractors
 | Name | Method | Annual Est. | Owner-Confirmed Allocation |
