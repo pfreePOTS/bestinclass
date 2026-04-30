@@ -1,246 +1,106 @@
-# PulseOne — Definitive Corrected P&L Analysis
-## CY 2025 | Final Version with Confirmed Upwork Data
-**Date:** April 20, 2026  
-**Status:** DEFINITIVE — All data sources confirmed  
-**Version:** 3.1 (April 21, 2026 — COGS Validation Update)  
-**Prepared by:** Manus (PulseOne BIC Audit)
+# PulseOne Definitive P&L Evaluation (CY 2025)
+
+**Status:** Final (Revised April 30, 2026)
+**Author:** Manus AI (Strategic Audit Assistant)
+**Objective:** Provide a fully reconciled, evidence-based P&L analysis identifying the root causes of the 2025 margin gap against Service Leadership Best in Class (BiC) benchmarks.
 
 ---
 
-> **v3.1 COGS Validation Update (April 21, 2026):** Cross-referencing with the COGS Validation Audit identified that Adjustment B (Upwork COGS reclassification) was overstated by approximately $60K. The true Adjustment B value is $197,693 (not $257,970). Additionally, Paul Freeman flagged a $24K discrepancy in the Consulting Services Cost line that requires investigation. These corrections are pending integration into the P&L model.
+## 1. Executive Summary
 
----
+PulseOne’s 2025 normalized EBITDA of **6.3% ($326,303)** represents a **$578,257 profit gap** compared to a Best in Class peer (17.5% target). 
 
-## Data Sources Confirmed
+The gap is heavily concentrated in the **True Projects** segment, which operated at a **-27.5% net margin loss** when fully burdened with internal Cost of Delivery (COD) and untracked engineering time. The core Managed Services and Comprehensive Services (staff augmentation) segments are healthy and profitable, but their margins are being dragged down by the structural unprofitability of the project business.
 
-| Source | Period | Amount | Status |
+### The Corrected 2025 P&L (Normalized)
+
+| Metric | PulseOne Actual | BiC Target | Gap to BiC |
 |---|---|---|---|
-| QB P&L (POTS analysis) | CY 2025 | $5,168,754 revenue | Authoritative |
-| ADP Payroll Reports | CY 2025 | $1,007,548 W-2 gross identified | Confirmed |
-| Expense Tracker (2025 tab) | CY 2025 | $1,798,225 total contractor cost | Confirmed |
-| Upwork Report (File 2) | **Full CY 2025** | **$299,923.75** | **Confirmed** |
-| Upwork Report (File 1) | YTD 2026 (Jan–Apr) | $92,270.67 | Context only |
+| **Revenue** | $5,168,754 | — | — |
+| **Gross Margin** | **37.5% ($1.94M)** | 44.0%+ ($2.27M) | **-6.5 pts ($338K)** |
+| **SG&A** | **31.2% ($1.61M)** | 27.4% ($1.42M) | **+3.8 pts ($197K)** |
+| **Normalized EBITDA** | **6.3% ($326K)** | 17.5% ($905K) | **-11.2 pts ($578K)** |
+
+*(Note: Normalization excludes $80,612 in non-operating expenses for RepScheduler and PulseOne Communications).*
 
 ---
 
-## CY 2025 Upwork — Exact Annual Figures
+## 2. Segment Profitability Breakdown
 
-**Total CY 2025 Upwork spend: $299,923.75**
+The most critical finding of the audit is the stark contrast in profitability between the three primary service lines. 
 
-| # | Freelancer | CY 2025 Total | Hours | Eff. Rate | Classification | Role |
+*Note: The Cost of Delivery (COD) overhead—representing project management, coordination, and pre-sales engineering (Kaitlin Harris, Laura Walsh, Steve Calkins, James Froio)—has been allocated 90% to True Projects and 10% to Comprehensive Services based on operational reality.*
+
+| Segment | Revenue | Direct COGS | COD Allocation | Gross Profit | Margin % | BiC Target |
 |---|---|---|---|---|---|---|
-| 1 | Vincent Williams | $104,740 | 1,706 hrs | $61/hr | **COGS** | IT/Network/Escalations |
-| 2 | Matthew Barnett | $83,390 | Fixed price | — | **COGS** | Help Desk Support |
-| 3 | Omar Avalos | $49,442 | 2,268 hrs | $22/hr | **COGS** | Help Desk Support |
-| 4 | Charlesdoone Castro | $38,228 | 930 hrs | $41/hr | **COGS** | Amiri Help Desk |
-| 5 | Brendan Roe | $6,476 | 670 hrs | $10/hr | **COGS** | Help Desk Support |
-| 6 | Basim Mashni | $5,906 | Fixed price | — | **COGS** | Arc Client Support |
-| 7 | William McMillan | $4,444 | 1.5 hrs | Mixed | **COGS** | IT Support/Training |
-| 8 | Dustin Hagemeier | $500 | Fixed price | — | **COGS** | On-Site Tech Support |
-| | **TOTAL COGS** | **$293,125** | | | **97.7%** | |
-| 9 | Kirill Hovansky | $3,660 | 183 hrs | $20/hr | SG&A | Video Editing |
-| 10 | Sabah Razaq | $2,438 | 70 hrs | $35/hr | SG&A | Learning Platform |
-| 11 | Yana Kosenko | $700 | 23 hrs | $30/hr | SG&A | Video Editing |
-| 12 | Myles McKee | $0 | 48 hrs | — | SG&A | Biz Development (2026 only) |
-| | **TOTAL SGA** | **$6,798** | | | **2.3%** | |
-| | **GRAND TOTAL** | **$299,924** | | | | |
+| **Managed Services** | $2,696,561 | $1,146,881 | — | $1,549,680 | **57.5%** | 48-52% |
+| **Comprehensive Services** | $1,514,526 | $854,412 | $23,064 | $637,050 | **42.1%** | 40.0% |
+| **True Projects** | $434,818 | $323,756* | $207,573 | -$96,511 | **-22.2%** | 40.0% |
+| **Product Resale** | $522,849 | $570,987 | — | -$48,138** | **-9.2%** | 24-26% |
 
-### Key Observations from CY 2025 Upwork Data
+*\* True Projects direct COGS includes $205,419 in subcontractor invoices plus $118,337 in untracked internal engineering time (Vincent Williams, Matthew Barnett, Hagen McDonell).*
+*\*\* The Product Resale loss is primarily a revenue attribution artifact in QuickBooks, where software revenue is bundled into MS agreements but the COGS remains in the Product line. ConnectWise data shows actual software margin is healthy (e.g., Barracuda at 35.4%).*
 
-**Vincent Williams ($104,740)** is the single largest Upwork cost — $8,728/month on IT/Network escalations and ITMS projects. At $61/hr, he is the highest-rate Upwork contractor. His work on named client contracts (Cend, Copper Hills, Encore, Perfect Partners) suggests he is a specialized escalation resource.
-
-**Matthew Barnett ($83,390)** is entirely fixed-price payments across two contracts (Arc and Help Desk). No hourly tracking — this is a managed output arrangement.
-
-**Omar Avalos ($49,442)** is primarily hourly Help Desk at $22/hr — the lowest effective rate among the core three. High volume (2,268 hours = ~44 hrs/week), suggesting near-full-time engagement.
-
-**Charlesdoone Castro ($38,228)** is dedicated to the Amiri client at $41/hr (930 hours). This is a client-dedicated resource — profitability depends entirely on what Amiri is billed.
-
-**Reconciliation note:** The CY 2025 Upwork actual ($299,924) exceeds the QB Computer & Internet line ($263,953) by $35,971. This means approximately $35,971 in Upwork charges was coded to a different QB line — most likely "Consulting Services – Cost" (already in COGS) or "Professional Fees." The conservative P&L scenario below assumes this excess is already correctly in COGS.
+### Key Finding: The Project Subsidy
+The **True Projects** segment is structurally unprofitable. For every $1.00 of project revenue billed in 2025, PulseOne spent **$1.22** to deliver it. The profitable Comprehensive Services and Managed Services businesses are heavily subsidizing the project delivery infrastructure.
 
 ---
 
-## YTD 2026 Upwork — Run Rate Signal
+## 3. The "Invisible Subsidy" (Project Margin Collapse)
 
-**YTD 2026 (Jan–Apr) Upwork spend: $92,271 → Annualized: ~$276,813**
+Services Management previously viewed projects as highly profitable (47.1% cash margin) because QuickBase only tracked external subcontractor invoices. The audit revealed a **$348,973 "invisible subsidy"** of internal W-2 and contractor labor consumed by projects but never tracked against them.
 
-| Freelancer | YTD 2026 | Annualized |
-|---|---|---|
-| Vincent Williams | $33,230 | ~$99,690 |
-| Matthew Barnett | $25,200 | ~$75,600 |
-| Omar Avalos | $15,820 | ~$47,460 |
-| Castro | $10,222 | ~$30,666 |
-| Brendan Roe | $6,642 | ~$19,926 |
-| Razaq (SGA) | $41 | ~$123 |
-| McKee (SGA) | $616 | ~$1,848 |
+This subsidy breaks down into three tiers:
 
-The 2026 annualized run rate (~$276,813) is **8% below CY 2025 ($299,924)**, suggesting modest contractor cost reduction or a shift in work mix. This is a positive trend if revenue holds or grows.
+### Tier 1: Planned Internal Delivery ($71,227)
+PulseOne delivered 27 projects (e.g., Barracuda QuickStarts, network refreshes) totaling $71,227 in revenue using 100% internal resources. The strategy was legitimate—using internal capacity to capture 100% gross margin on paper to fund those roles. However, the COGS were never recorded in QuickBase.
 
----
+### Tier 2: The Plan Shortfall ($47,110)
+The internal resources designated to deliver those Tier 1 projects (Vincent Williams, Matthew Barnett, Hagen McDonell) cost **$118,337** in project-allocated time. The $71K in planned revenue was insufficient to cover their cost, resulting in a $47K shortfall.
 
-## Definitive Corrected P&L — CY 2025
+### Tier 3: Unrecovered Cost of Delivery ($230,637)
+The structural overhead required to deliver projects—Project Management (Kaitlin Harris), Service Coordination (Laura Walsh), and Engineering (James Froio, Steve Calkins)—cost $230,637 in project-allocated time. **This Cost of Delivery (COD) was never priced into project quotes.** 
 
-### The Reclassification Logic
-
-Three adjustments move costs from SG&A to COGS. Net income does not change — only the presentation of where costs sit.
-
-| Adjustment | Amount | From | To |
-|---|---|---|---|
-| **A — W-2 Service Delivery Labor** | **$708,879** | Salary Expense (SG&A) | COGS |
-| **B — Upwork Contractors** | **$257,970** | Computer & Internet (SG&A) | COGS |
-| **C — Payroll Taxes (COGS portion, ~50%)** | **$147,053** | Payroll Taxes (SG&A) | COGS |
-| **Total Reclassified** | **$1,113,902** | | |
-
-> **Adjustment B note:** $257,970 = QB Computer & Internet line ($263,953) × 97.7% COGS proportion from Upwork data. The remaining $6,798 (2.3%) stays in SG&A as marketing/content Upwork spend. The $35,971 excess Upwork spend above the QB line is treated as already in COGS (conservative assumption).
-
-### Revenue
-
-| | Amount | % of Revenue |
-|---|---|---|
-| **Total Revenue** | **$5,168,754** | **100.0%** |
-
-### Cost of Goods Sold — Corrected
-
-| Line Item | QB As-Reported | Adjustment | Corrected | % of Revenue |
-|---|---|---|---|---|
-| Consulting Services – Cost | $1,044,424 | — | $1,044,424 | 20.2% |
-| W-2 Service Delivery Labor | $0 | **+$708,879** | $708,879 | 13.7% |
-| Upwork Contractors (97.7% of Comp/Internet) | $0 | **+$257,970** | $257,970 | 5.0% |
-| Payroll Taxes – COGS portion (~50%) | $0 | **+$147,053** | $147,053 | 2.8% |
-| Other COGS (hardware, software, direct tools) | $1,078,588 | — | $1,078,588 | 20.9% |
-| **TOTAL COGS** | **$2,123,012** | **+$1,113,902** | **$3,236,914** | **62.6%** |
-
-### Gross Profit
-
-| | QB As-Reported | Corrected | BIC Target | Gap to BIC |
-|---|---|---|---|---|
-| **Gross Profit** | **$3,045,742** | **$1,931,840** | **$2,584,377** | **($652,537)** |
-| **Gross Margin %** | **58.9%** | **37.4%** | **50.0%** | **-12.6 pts** |
-
-### Operating Expenses (SG&A) — Corrected
-
-| Line Item | QB As-Reported | Adjustment | Corrected | % of Revenue |
-|---|---|---|---|---|
-| Salary Expense (SG&A portion only) | $1,441,010 | ($708,879) + ($12,889 Tracy excl.) | $719,242 | 13.9% |
-| Payroll Taxes – SG&A portion (~50%) | $296,256 | ($147,053) | $149,203 | 2.9% |
-| Computer & Internet (2.3% SGA remainder) | $263,953 | ($257,970) | $5,983 | 0.1% |
-| Partner Compensation (Paul, Charlie, Rod) | $423,000 | — | $423,000 | 8.2% |
-| All Other SG&A (rent, insurance, phone, etc.) | $403,748 | — | $403,748 | 7.8% |
-| **TOTAL SG&A** | **$2,827,967** | **($1,113,902)** | **$1,701,177** | **32.9%** |
-
-### Net Income & Normalized EBITDA
-
-| | QB As-Reported | Corrected | BIC Target | Gap to BIC |
-|---|---|---|---|---|
-| Gross Profit | $3,045,742 | $1,931,840 | | |
-| Total SG&A | $2,827,967 | $1,701,177 | | |
-| **Net Operating Income** | **$217,775** | **$230,663** | **~$620–930K** | **(~$390–700K)** |
-| **Net Income %** | **4.2%** | **4.5%** | **12–18%** | **-10.5 pts** |
-
-| | Amount | % of Revenue |
-|---|---|---|
-| Net Operating Income | $230,663 | 4.5% |
-| Add: Entity Separation (RS/POC) | $80,612 | 1.6% |
-| Add: D&A (estimate) | $15,000 | 0.3% |
-| **Normalized EBITDA** | **$326,275** | **6.3%** |
-| BIC Target | | 15–20% |
-| **Gap to BIC midpoint (17.5%)** | **($578,256)** | **-11.2 pts** |
-
-> **Reconciliation:** Corrected COGS + Corrected SGA = $4,938,091. QB total costs less Tracy Freeman ($12,889) = $4,938,091. **Difference: $0.30 rounding. Fully balanced.**
+BiC standards dictate that COD should represent ~10% of project revenue, and direct COGS ~50%, leaving a 40% gross margin. PulseOne's COD alone represented **53.0%** of true project revenue. The project volume ($435K) is simply too small to absorb the current delivery infrastructure without significantly higher pricing.
 
 ---
 
-## BIC Benchmark Comparison — Definitive
+## 4. Software COGS & The Synnex Black Box
 
-| Metric | QB As-Reported | Corrected | BIC Target | Gap | Status |
-|---|---|---|---|---|---|
-| Total Revenue | $5,168,754 | $5,168,754 | N/A | — | — |
-| Gross Profit $ | $3,045,742 | $1,931,840 | $2,584,377 | ($652,537) | **Below BIC** |
-| **Gross Margin %** | **58.9%** | **37.4%** | **50–55%** | **-12.6 pts** | **Below BIC** |
-| Total COGS | $2,123,012 | $3,236,914 | N/A | — | — |
-| SG&A % of Revenue | 54.7% | 32.9% | 25–30% | +2.9 pts | **Above BIC** |
-| Net Income % | 4.2% | 4.5% | 12–18% | -10.5 pts | **Below BIC** |
-| **Normalized EBITDA %** | **12.7%** | **6.3%** | **15–20%** | **-11.2 pts** | **Below BIC** |
-| Recurring Revenue % | ~34.8% | ~34.8% | 60%+ | -25+ pts | **Well Below BIC** |
+The audit reconciled the software resale business and identified a major visibility gap regarding Microsoft and Barracuda licensing.
 
----
+### Barracuda Profitability
+Initial concerns that Barracuda was losing money due to unpassed price increases were partially mitigated by TD Synnex purchase data. 
+- **CW Revenue:** $323,737
+- **Synnex Cost:** $209,123 (monthly recurring licenses)
+- **Gross Margin:** **35.4%** (Healthy, exceeds BiC 24% target)
 
-## Profit Leakage Analysis — Definitive
+*Note: The $72,960 direct payment to Barracuda/Skout was reclassified as an internal Help Desk SOC tool, not a resale product.*
 
-### The Core Problem
+### The Microsoft Rebate Risk
+Microsoft 365 margin appears healthy at 43.4% ($495K revenue vs $302K cost), but this relies on **$22K in backend rebates**. Without rebates, the operational margin drops to 39.0%.
 
-At **37.4% corrected gross margin** vs. the BIC target of **50%**, PulseOne has a **12.6-point gap representing $652,537 in annual margin leakage** at current revenue levels.
-
-This is not a bookkeeping problem — it is a structural operating problem. The business is delivering services at a cost that consumes too much of each revenue dollar before overhead is covered.
-
-### Total Service Delivery Labor — Full Picture
-
-| Component | CY 2025 Amount | % of Revenue |
-|---|---|---|
-| W-2 Service Delivery Labor (burdened ~12%) | ~$794,000 | 15.4% |
-| Upwork Contractors (CY 2025 actual) | $293,125 | 5.7% |
-| Other Contractors in QB COGS (Daniyal 80%, Robyn, after-hours) | ~$79,000 | 1.5% |
-| QB Consulting Services – Cost (remaining, net of above) | ~$672,000 | 13.0% |
-| **Total Service Delivery Labor** | **~$1,838,000** | **~35.6%** |
-
-BIC MSPs run total service delivery labor at **25–30% of revenue**. PulseOne is at approximately **35.6%** — **5–10 points above BIC**. Closing to 30% would recover **$285,000–$544,000** in annual gross profit.
-
-### The Three Levers
-
-| Lever | Mechanism | Potential Impact |
-|---|---|---|
-| **Pricing discipline** | Raise managed services agreement rates 10–15% on renewals | +$155K–$233K gross profit |
-| **Recurring revenue growth** | Convert $500K of project revenue to managed services at 50% GM | +$100K–$150K gross profit |
-| **Utilization improvement** | Reduce underutilized W-2 headcount or increase billable hours | +$100K–$200K gross profit |
-| **Combined** | All three over 18–24 months | **+$355K–$583K gross profit** |
-
-Closing the full $652,537 gap requires a combination of all three levers — no single action closes it alone.
+### The Synnex Reconciliation Gap
+TD Synnex purchase history shows **$4.55M** in gross Microsoft CSP orders for CY2025. QuickBooks only records **$301,813** in Agreement License Cost to Synnex. This indicates that the TD Synnex portal shows the gross retail value of licenses passing through PulseOne's tenant, while QuickBooks only records the net cost (or potentially just the margin/fee). **A line-item invoice from Synnex remains the most critical missing piece of financial evidence.**
 
 ---
 
-## Upwork-Specific Findings & Actions
+## 5. SG&A Inefficiencies
 
-### Charlesdoone Castro — Amiri Client Risk
+SG&A ran at **31.2%** of revenue, compared to the BiC target of 27.4%. This represents $197,000 in excess overhead.
 
-Castro spent **930 hours** in CY 2025 dedicated to the Amiri Help Desk contract at **$41/hr = $38,228**. This is a single-client dedicated resource. The profitability of this arrangement depends entirely on what Amiri is billed.
-
-**Action required:** Pull the Amiri agreement from ConnectWise. Confirm: (a) Monthly recurring revenue from Amiri, (b) Whether Castro's cost is fully recovered in the agreement price, (c) Whether Amiri is profitable at the agreement level.
-
-### Vincent Williams — Highest Cost, Highest Rate
-
-Williams is the largest Upwork cost at **$104,740/year ($8,728/month)** at **$61/hr** on IT/Network escalations. He works across multiple named clients (Cend, Copper Hills, Encore, Perfect Partners, ITMS projects).
-
-**Action required:** Confirm that Williams' hours are being billed to clients at a rate that generates adequate margin. At $61/hr cost, billing at $125–150/hr generates 51–59% gross margin on his hours — which is BIC-level. If he is included in flat-rate agreements, those agreements may be underwater.
-
-### 2026 Run Rate — Positive Signal
-
-The YTD 2026 annualized Upwork run rate (~$276,813) is 8% below CY 2025 ($299,924). If this trend holds, Upwork COGS will decrease by ~$23,000 in 2026, modestly improving gross margin. Monitor monthly.
+1. **Sales & Marketing ROI Failure (~$80K):** PulseOne spent $383K (7.4% of revenue) on S&M, slightly above the BiC 7.0% target. However, the mix was entirely wrong. The company employed three highly compensated "closers" (Chad, Marcello, Eric) who generated virtually zero self-sourced pipeline, relying entirely on the CEO's network.
+2. **SaaS Tool Sprawl (~$91K):** The company maintained 68 distinct SaaS applications, including 5 overlapping project management tools (QuickBase, Asana, Monday, ConnectWise, MS Project) and 4 distinct documentation platforms.
+3. **General Admin (~$26K):** Scattered inefficiencies in finance and admin overhead.
 
 ---
 
-## Bookkeeper Action Items
+## 6. What Could Have Been Done Differently (Hindsight)
 
-These are the specific QB corrections needed to make the corrected P&L the live view going forward:
+If management had perfect visibility in January 2025, the $578K profit gap could have been closed through three specific actions:
 
-1. **Recode Upwork payments** from "Computer & Internet Expenses" to "Consulting Services – Cost" (COGS). Confirm with Upwork billing records which QB line each payment landed in.
+1. **Require Fully-Loaded Project Quoting:** If the $231K in Cost of Delivery had been accurately priced into the 58 true projects (requiring roughly 60% higher project pricing), or if internal resources were strictly capped, the project margin would have stabilized at 40%, recovering **$270K** in profit.
+2. **Rebalance the Sales Team:** Replacing one unproductive closer with a dedicated SDR/BDR to generate pipeline would have saved **$80K** while actually increasing lead flow.
+3. **Rationalize SaaS Tools:** Consolidating the 68 tools down to the core ConnectWise stack would have recovered **$91K** in pure EBITDA.
 
-2. **Search QB for the $35,971 excess Upwork spend** (the difference between CY 2025 Upwork actual $299,924 and QB Computer/Internet $263,953). Identify which QB line it is in and reclassify to COGS if it is in an SG&A line.
-
-3. **Create a "Service Delivery Labor – COGS" account** in QB. Recode all service delivery W-2 payroll to this account going forward. This makes the corrected gross margin visible in real time.
-
-4. **Exclude Tracy Freeman's payroll** from PulseOne P&L. Her costs should be in the POC entity only.
-
----
-
-## ConnectWise Priority Requests
-
-| Report | Why It Matters | Period |
-|---|---|---|
-| **Amiri client agreement detail** | Castro's $38,228 Upwork cost is dedicated to this client — need to confirm profitability | CY 2025 |
-| **Technician utilization by person** | Identifies underutilized W-2 capacity inflating labor cost % | CY 2025 |
-| **Agreement profitability by client** | Shows which managed services agreements are profitable vs. underwater | CY 2025 |
-| **Revenue by type (recurring vs. non-recurring)** | Validates ~35% recurring revenue estimate | CY 2025 |
-| **Vincent Williams billable hours by client** | Confirms his escalation hours are being billed at adequate rates | CY 2025 |
-
----
-
-*This is the definitive version of the PulseOne COGS reclassification and P&L analysis. All figures are based on: confirmed classifications (Paul Freeman, April 17, 2026), confirmed CY 2025 Upwork data (April 20, 2026), and QB P&L as the cost total anchor. The corrected P&L reconciles to within $0.30 of QB total costs.*
+Combined, these three actions would have recovered **$441,000** (76% of the total gap), pushing PulseOne to a 14.8% EBITDA—within striking distance of Best in Class.

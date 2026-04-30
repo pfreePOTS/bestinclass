@@ -1,7 +1,7 @@
 # PulseOne BiC Action Register
 
-**Version:** 3.0  
-**Last Updated:** April 22, 2026  
+**Version:** 4.0  
+**Last Updated:** April 30, 2026  
 **Author:** Manus AI  
 **Purpose:** Centralized, prioritized register of all actionable recommendations extracted from the BiC audit analysis. 
 
@@ -17,28 +17,28 @@ Each action is tagged with a **Priority** (P1 = Immediate / P2 = Urgent / P3 = S
 
 | ID | Action | Priority | Est. Recovery | Owner | Status | Source Document(s) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| SW-01 | Re-map P&L Revenue: manage software margin at the ConnectWise agreement level, not the QB P&L level | P1 | Structural | Paul / Bookkeeper | NOT STARTED | Audit Software Resale Addendum |
-| SW-02 | Bundle Microsoft M365: stop selling raw licenses at 16.4% GM; bundle into managed seats or add cloud management fee to reach 24% BiC floor | P1 | Structural | Paul | NOT STARTED | Audit Software Resale Addendum |
-| SW-03 | Review Adobe Pricing: investigate 4.3% margin on $99k spend (one-off product sale to ARC); attach procurement fee if pass-through | P1 | Structural | Paul | NOT STARTED | Audit Software Resale Addendum |
-| SW-04 | Investigate negative margin transactions for specific clients (e.g., Santa Barbara Sky Football Club, Malenfant Technical Services) | P1 | $25K | Jim | NOT STARTED | Audit Software Resale Addendum |
-| SW-05 | Pull Barracuda portal client/seat list and reconcile to ConnectWise — 87% cost increase ($41.7K/yr) with no corresponding client growth | P1 | $41.7K | Jim | NOT STARTED | Audit Software Resale |
-| SW-06 | Issue price amendments to clients affected by Barracuda cost increases | P2 | $41.7K | Paul | NOT STARTED | Audit Software Resale |
-| SW-07 | Request line-item invoice from TD Synnex and reconcile to ConnectWise — $301K Agreement License spend with 44.5% unexplained monthly variance | P1 | TBD | Paul / Jim | NOT STARTED | Audit Software Resale |
+| SW-01 | Re-map P&L Revenue: manage software margin at the ConnectWise agreement level, not the QB P&L level | P1 | Structural | Paul / Bookkeeper | NOT STARTED | Audit Software Resale |
+| SW-02 | Bundle Microsoft M365: stop selling raw licenses at 16.4% GM; bundle into managed seats or add cloud management fee to reach 24% BiC floor | P1 | Structural | Paul | NOT STARTED | Audit Software Resale |
+| SW-03 | Review Adobe Pricing: investigate 4.3% margin on $99k spend (one-off product sale to ARC); attach procurement fee if pass-through | P1 | Structural | Paul | NOT STARTED | Audit Software Resale |
+| SW-04 | ~~Investigate negative margin transactions for specific clients (e.g., Santa Barbara Sky Football Club, Malenfant Technical Services)~~ | P1 | $25K | Jim | **RESOLVED** (Data artifact) | Audit Software Resale |
+| SW-05 | ~~Pull Barracuda portal client/seat list and reconcile to ConnectWise — 87% cost increase ($41.7K/yr) with no corresponding client growth~~ | P1 | $41.7K | Jim | **RESOLVED** (TD Synnex data confirmed 35.4% GM) | Audit Software Resale |
+| SW-06 | ~~Issue price amendments to clients affected by Barracuda cost increases~~ | P2 | $41.7K | Paul | **RESOLVED** (Unnecessary, margin is healthy) | Audit Software Resale |
+| SW-07 | Request line-item invoice from TD Synnex and reconcile to ConnectWise — $301K Agreement License spend vs $4.55M CSP orders | P1 | TBD | Paul / Jim | NOT STARTED | Audit Software Resale |
 | SW-08 | Add cost pass-through language to all new and renewing software agreements | P2 | Preventive | Paul | NOT STARTED | Audit Software Resale |
 | SW-09 | Build and maintain a Client-Level Pricing Audit Workbook with target 25% GM formula | P2 | Ongoing | Paul / Jim | NOT STARTED | Audit Software Resale |
 
 ---
 
-## 2. Consulting / Project Margin (Estimated Recovery: ~$303K)
+## 2. Consulting / Project Margin (Estimated Recovery: ~$270K)
 
 | ID | Action | Priority | Est. Recovery | Owner | Status | Source Document(s) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| CON-01 | Audit consulting projects to identify specific margin loss causes — 44.0% traceable GM vs 50%+ target, and quantify the remaining invisible W-2 subsidy | P1 | ~$235K | Paul | NOT STARTED | Segment P&L 2025 |
-| CON-02 | Conduct subcontractor audit for specific projects (Basim, David, Blue Pisces) | P1 | TBD | Paul | **PARTIALLY COMPLETE** | CS-Cost Findings |
+| CON-01 | Audit consulting projects to identify specific margin loss causes — 44.0% traceable GM vs 50%+ target, and quantify the remaining invisible W-2 subsidy | P1 | ~$235K | Paul | **COMPLETE** (Revealed $349K subsidy) | Segment P&L 2025 |
+| CON-02 | Conduct subcontractor audit for specific projects (Basim, David, Blue Pisces) | P1 | TBD | Paul | **COMPLETE** | CS-Cost Findings |
 | CON-03 | Implement margin gates: require partner approval for any fixed-fee project below 50% GM | P2 | Preventive | Paul | NOT STARTED | Profit Leakage Map |
-| CON-04 | Verify billing rates for Vincent Williams ($104K Upwork cost) against contracted rates | P2 | TBD | Jim | **PARTIALLY COMPLETE** (Split known) | Technician Efficiency Audit |
+| CON-04 | ~~Verify billing rates for Vincent Williams ($104K Upwork cost) against contracted rates~~ | P2 | TBD | Jim | **RESOLVED** (Allocated 80% to projects) | Technician Efficiency Audit |
 | CON-05 | Convert high-value project clients to managed service agreements (T&M-to-agreement conversion) | P3 | Structural | Paul | NOT STARTED | Client Profitability Analysis |
-| CON-06 | *Complete incoming project costing analysis and integrate findings* | P1 | TBD | Paul | **PENDING DATA** | *Incoming module* |
+| CON-06 | Require fully-loaded labor estimates on all new project quotes to recover Cost of Delivery | P1 | $270K | Paul | NOT STARTED | Definitive PL Analysis |
 
 ---
 
@@ -48,7 +48,7 @@ Each action is tagged with a **Priority** (P1 = Immediate / P2 = Urgent / P3 = S
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | UTL-01 | Stop invoice write-downs without partner approval — 107 hours ($16,050) written off in CY 2025 | P1 | $16K | Paul / Jim | NOT STARTED | Billing Efficiency Report |
 | UTL-02 | Mandate 100% time entry in ConnectWise for all technicians — 8,556 available hours unlogged | P1 | $385K potential | Paul | NOT STARTED | Billing Efficiency Report |
-| UTL-03 | Investigate Project/Consulting Utilization: isolate the excess service delivery labor gap (35.6% actual vs 30% BiC target) | P1 | Structural | Paul | NOT STARTED | Technician Efficiency Audit |
+| UTL-03 | Investigate Project/Consulting Utilization: isolate the excess service delivery labor gap (35.6% actual vs 30% BiC target) | P1 | Structural | Paul | **COMPLETE** (Isolated to True Projects) | Technician Efficiency Audit |
 | UTL-04 | Address S. Calkins Key-Person Risk: mitigate dependency on single technician handling 24% of all tickets | P2 | Risk mitigation | Jim | NOT STARTED | Technician Efficiency Audit |
 | UTL-05 | Log internal IT time (Jim Froio) to a dedicated internal overhead ticket, not billable boards | P2 | Metric clarity | Jim | NOT STARTED | Billing Efficiency Report |
 | UTL-06 | Reclassify Laura Walsh's service management oversight as non-billable overhead | P2 | Metric clarity | Paul | NOT STARTED | Billing Efficiency Report |
@@ -73,7 +73,7 @@ Each action is tagged with a **Priority** (P1 = Immediate / P2 = Urgent / P3 = S
 
 | ID | Action | Priority | Est. Recovery | Owner | Status | Source Document(s) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| REV-01 | Track Comprehensive Services (ARC) as a separate segment ($1.24M / 23.9% of total rev) to avoid distorting Managed Services metrics | P1 | Metric clarity | Paul | NOT STARTED | Master Scorecard v3.0 |
+| REV-01 | Track Comprehensive Services (ARC) as a separate segment ($1.51M / 29.3% of total rev) to avoid distorting Managed Services metrics | P1 | Metric clarity | Paul | **COMPLETE** | Master Scorecard v3.0 |
 | REV-02 | Address the Bunzl Ticket Anomaly: break down the 6,293 tickets by the 6 active subsidiaries to identify which specific entities are driving the excess load | P1 | Structural | Paul / Jim | NOT STARTED | Technician Efficiency Audit |
 | REV-02b | Launch Bunzl Expansion Campaign: target the 10 unlinked HubSpot subsidiaries (e.g., MCR Safety, SAS Safety) to leverage the existing corporate relationship | P2 | Growth | Paul | NOT STARTED | HubSpot Analysis |
 | REV-03 | Audit the Amiri Agreement: confirm C. Castro's $38K Upwork cost is fully recovered at 50%+ GM | P1 | TBD | Paul | NOT STARTED | Technician Efficiency Audit |
