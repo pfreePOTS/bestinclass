@@ -1,7 +1,7 @@
 # Audit: Software Resale & SaaS Rationalization
 
 **Document Type:** Focused Operational Audit  
-**Version:** 3.2 (Added AvePoint analysis)  
+**Version:** 3.3 (Corrected AvePoint margin to 29.8%)  
 **Date:** April 30, 2026  
 **Supersedes:** All prior versions  
 **Author:** Manus AI (Strategic Audit Assistant)
@@ -33,12 +33,12 @@ This audit addresses the software cost structure, resolving prior mysteries arou
 | Product | Revenue (CW) | Total Cost | Gross Margin | Margin % | Classification |
 |---|---|---|---|---|---|
 | **Barracuda** | $323,737 | $160,781 | $162,956 | **50.3%** | Product Resale |
-| **AvePoint** | $165,514 | $54,910 | $110,604 | **66.8%** | Product Resale |
+| **AvePoint** | $165,514 | ~$116,000 | ~$49,500 | **29.8%** | Product Resale |
 | **Microsoft M365** | $495,000 | $361,906 | $133,094 | **26.9%** | Agreement License |
 | **Adobe** | ~$103,000 | ~$99,000 | ~$4,000 | **~4.3%** | Product Resale (pass-through) |
-| **TOTAL** | **$1,087,251** | **$676,597** | **$410,654** | **37.8%** | |
+| **TOTAL** | **$1,087,251** | **~$737,687** | **~$349,564** | **32.2%** | |
 
-**Key insight:** The software resale engine is profitable overall at 37.8% blended margin. Barracuda and AvePoint are standout performers. Adobe is a near-zero-margin pass-through that drags the average down.
+**Key insight:** The software resale engine is profitable overall at 32.2% blended margin. Barracuda is the standout performer at 50.3%. AvePoint contributes healthy margin at 29.8%. Adobe is a near-zero-margin pass-through that drags the average down.
 
 ---
 
@@ -54,7 +54,7 @@ This is a very healthy product margin that significantly exceeds the BiC target 
 
 **Important correction:** The earlier v3.0 figure of $209,123 was incorrect — it used the "Total Order" column which double-counts by showing the full order total on every line within that order. The correct method is Net Price × Qty per line = $160,781.
 
-### Finding 2: AvePoint is the Highest-Margin Software Product (66.8%)
+### Finding 2: AvePoint Margin Corrected to 29.8% (Not 66.8%)
 
 AvePoint is both a **client** (PulseOne does projects for AvePoint Inc.) and a **product** (PulseOne resells AvePoint backup/compliance licenses to its own clients). The product resale side:
 
@@ -64,9 +64,14 @@ AvePoint is both a **client** (PulseOne does projects for AvePoint Inc.) and a *
 | QB "Purchases - Software for Resale" (direct) | $41,200 | Direct AvePoint billing |
 | TD Synnex SO tab (APU_ parts) | $13,035 | AvePoint licenses through Synnex for 11 clients |
 | QB CS-Cost (one-off project) | $675 | Georgia Farm backup project |
-| **Total AvePoint Cost** | **$54,910** | |
+| Additional cost via Ingram Micro (estimated) | ~$61,000 | Not yet reconciled — see note below |
+| **Total AvePoint Cost (estimated)** | **~$116,000** | |
 
-**Revenue:** ConnectWise shows $165,514 in AvePoint product revenue sold to PulseOne's clients, yielding a **66.8% gross margin**.
+**Revenue:** ConnectWise shows $165,514 in AvePoint product revenue sold to PulseOne's clients, yielding a **29.8% gross margin**.
+
+**CORRECTION (v3.3):** The prior version showed 66.8% margin based only on the $54,910 in directly identifiable AvePoint costs. The archived COGS gap analysis (audit-software-cogs-gap-analysis.md) established a 29.8% margin figure, indicating approximately $61K in additional AvePoint procurement cost flows through Ingram Micro and/or TD Synnex under generic descriptions that are not easily attributed to AvePoint without line-item invoice detail. The owner has confirmed 29.8% is the correct margin assumption until the Ingram data is fully reconciled.
+
+**Open item:** The ~$61K in unreconciled AvePoint cost is part of the broader Ingram Micro $194K gap (see action register). Resolving the Ingram reconciliation will confirm the exact AvePoint cost.
 
 **Top AvePoint clients by Synnex billing:** CT Legal Services, New Haven Legal Assist, Statewide Legal Services, Talus Ag, CHW, Fagen Friedman.
 
@@ -85,7 +90,7 @@ Adobe licensing ($99K cost, ~$103K revenue, ~4.3% margin) was primarily a large 
 
 ### Finding 6: The Product Resale "Loss" is an Accounting Artifact
 The QuickBooks P&L shows a negative margin on Product Resale. This is an artifact of how revenue is recognized — much of the software cost (e.g., $10,719 for Axcient/EFolder backups, Skout) is bundled into Managed Services agreements. The clients pay for the software via their monthly MS fee, but the cost remains in the Product COGS line. 
-- **Conclusion:** The underlying software resale engine is profitable at 37.8% blended margin when properly matched.
+- **Conclusion:** The underlying software resale engine is profitable at 32.2% blended margin when properly matched.
 
 ---
 
@@ -126,4 +131,4 @@ The prior "$4.55M mystery" was caused by using the "Total Order" column, which s
 3. **Attach Procurement Fee to Adobe:** The 4.3% margin on $99K is not sustainable. Add a minimum procurement/management fee for pass-through software.
 4. **Monitor Microsoft Rebates:** The M365 margin depends on $22K in rebates. Build a contingency plan for rebate reduction.
 5. **Consolidate AI Tools:** Standardize on Cursor (IDE) + one primary LLM API (OpenAI or Anthropic). Cancel redundant subscriptions.
-6. **Protect AvePoint Margin:** At 66.8%, AvePoint is the highest-margin product. Ensure pricing discipline is maintained as the client base grows.
+6. **Protect AvePoint Margin:** At 29.8%, AvePoint is a healthy but not exceptional margin product. Monitor cost increases from Ingram/Synnex and ensure pricing passes through any vendor cost increases to maintain margin.
