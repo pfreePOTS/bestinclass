@@ -1,7 +1,7 @@
 # PulseOne Definitive Resource Allocation Reference
 
-**Date:** April 30, 2026
-**Version:** 4.0
+**Date:** May 1, 2026
+**Version:** 4.1
 **Status:** AUTHORITATIVE — Owner-Confirmed Allocations
 **Prepared by:** Manus (PulseOne BiC Audit)
 **Confirmed by:** Paul Freeman (CMO / Partner)
@@ -33,7 +33,7 @@ PulseOne operates with a blended workforce of W-2 employees, Upwork freelancers,
 | Stephen Calkins | $164,960 | 60% MS, 15% Projects, 20% Strat Acct Mgmt (SGA), 5% Presales (SGA) |
 | James Froio | $127,215 | 25% MS, 30% Projects (on/off-boarding), 30% Internal IT (SGA), 15% Admin (SGA) |
 | Laura Walsh | $124,065 | 35% Projects (COD), 30% Presales (Sales SGA), 20% Strat Acct Mgmt (SGA), 15% Dept Mgmt (SGA) |
-| Kaitlin Harris | $84,910 | 100% Projects (COD) |
+| Kaitlin Harris | $84,910 | 90% Projects (COD), 10% MS (Onboarding/Offboarding Projects) |
 | Eric Anzalone | $84,949 | 100% Account Management (SGA) |
 | Hagen McDonell | $56,784 | 80% MS, 20% Projects |
 | Nicole Goodwin (Svc) | $39,933 | 75% MS, 25% POC (Non-Op) |
@@ -147,7 +147,7 @@ PulseOne operates with a blended workforce of W-2 employees, Upwork freelancers,
 ## E. Segment Labor Pools (Corrected v4.0)
 
 ### Managed Services (Help Desk / NOC)
-**W-2 Labor:** Stephen Calkins (60%), James Froio (25%), Hagen McDonell (80%), Nicole Goodwin (75%), Joel Alvarez (100%), Julia Morte (100%), Alexandria Calkins (100%), Breanna Copeland (100%), Debby Brooke (100%).
+**W-2 Labor:** Stephen Calkins (60%), James Froio (25%), Kaitlin Harris (10% — Onboarding/Offboarding), Hagen McDonell (80%), Nicole Goodwin (75%), Joel Alvarez (100%), Julia Morte (100%), Alexandria Calkins (100%), Breanna Copeland (100%), Debby Brooke (100%).
 **Upwork/Contractors:** Matt Barnett (75%), Vincent Williams (20%), Charlesdoone Castro (100%), Lab Tech Ninjas (100%).
 **Offshore:** George Oracion (100%), Omar Avalos (100%), Dare Olusanjo (100%).
 
@@ -162,7 +162,7 @@ PulseOne operates with a blended workforce of W-2 employees, Upwork freelancers,
 **Upwork/Contractors:** Vincent Williams (80%), Matt Barnett (25%), Jeremy Roe (95%), Other Project Subs (100%).
 
 ### Projects / Consulting — Cost of Delivery (COD)
-**W-2 Labor:** Kaitlin Harris (100%), Laura Walsh (35%), Stephen Calkins (allocated via Presales 5%).
+**W-2 Labor:** Kaitlin Harris (90%), Laura Walsh (35%), Stephen Calkins (allocated via Presales 5%).
 *Note: COD is allocated 90% to True Projects / 10% to Comprehensive Services per owner direction (April 30, 2026).*
 
 ### Sales (SG&A)

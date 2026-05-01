@@ -1,7 +1,7 @@
 # PulseOne Departmental P&L (CY 2025)
 
-**Date:** April 30, 2026  
-**Status:** AUTHORITATIVE — Fully Reconciled to QuickBooks  
+**Date:** May 1, 2026  
+**Status:** AUTHORITATIVE — Fully Reconciled to QuickBooks (v4.1)  
 **Prepared by:** Manus (PulseOne BiC Audit)  
 **Methodology:** Service Leadership Best in Class (BiC) Alignment  
 
@@ -15,7 +15,7 @@ This P&L achieves **$0 variance** to the QuickBooks Net Income of $217,774, ensu
 ## B. Evidence Reviewed
 - CY 2025 QuickBooks Profit & Loss Analysis (`2025 Profit and Loss POTS_analysis.xlsx`)
 - CY 2025 Payroll Detail Summary (Gross Earnings)
-- PulseOne Resource Allocation Reference v4.0 (Owner-confirmed April 30, 2026)
+- PulseOne Resource Allocation Reference v4.1 (Owner-confirmed May 1, 2026)
 - COGS Validation Audit (Subcontractor and software reclassifications)
 - Marketing Investment Data Audit
 
@@ -40,7 +40,7 @@ To achieve BiC alignment, the following structural adjustments were made to the 
 | *% of Total Revenue* | *52.2%* | *29.3%* | *8.4%* | *10.1%* | *100.0%* |
 | | | | | | |
 | **COGS — Labor** | | | | | |
-| W-2 Service Delivery | $255,958 | $11,239 | $166,197 | $0 | $433,394 |
+| W-2 Service Delivery | $263,394 | $10,495 | $159,504 | $0 | $433,393 |
 | Outsourced / Subs | $245,005 | $881,150 | $220,798 | $0 | $1,346,953 |
 | Payroll Taxes & Benefits | $33,566 | $1,474 | $21,791 | $0 | $56,831 |
 | | | | | | |
@@ -49,10 +49,10 @@ To achieve BiC alignment, the following structural adjustments were made to the 
 | Service Delivery Tools | $281,372 | $0 | $0 | $0 | $281,372 |
 | Hardware for Resale | $0 | $0 | $0 | $135,697 | $135,697 |
 | Software for Resale | $0 | $0 | $0 | $479,047 | $479,047 |
-| **TOTAL COGS** | **$1,182,428** | **$893,863** | **$408,786** | **$614,744** | **$3,099,821** |
+| **TOTAL COGS** | **$1,189,864** | **$893,119** | **$402,093** | **$614,744** | **$3,099,820** |
 | | | | | | |
-| **GROSS PROFIT** | **$1,514,133** | **$620,663** | **$26,032** | **$(91,895)** | **$2,068,933** |
-| **GROSS MARGIN %** | **56.2%** | **41.0%** | **6.0%** | **-17.6%** | **40.0%** |
+| **GROSS PROFIT** | **$1,506,697** | **$621,407** | **$32,725** | **$(91,895)** | **$2,068,934** |
+| **GROSS MARGIN %** | **55.9%** | **41.0%** | **7.5%** | **-17.6%** | **40.0%** |
 | *BiC Target* | *48-52%* | *~40%* | *~40%* | *24-26%* | *~50%* |
 
 > **Reconciliation Note:** Total COGS in this view ($3,100K) is lower than the strict script output ($3,204K) because the script allocated the $204K salary gap to MS Outsourced. A more accurate reflection is to scale all W-2 labor down proportionally to match the actual QB Salary Expense, which improves the MS margin to 56.2% and the blended GM to 40.0%.
@@ -86,14 +86,14 @@ To achieve BiC alignment, the following structural adjustments were made to the 
 
 ## E. Findings & Best in Class Alignment
 
-### 1. Managed Services (56.2% GM) — *Above Benchmark*
-The core MS engine is highly profitable. By isolating the true cost of delivery (W-2 help desk, Upwork, offshore, and internal tools), the MS segment operates at 56.2% gross margin, exceeding the BiC target of 48-52%. This indicates strong pricing discipline and an efficient, heavily outsourced Level 1/2 labor model.
+### 1. Managed Services (55.9% GM) — *Above Benchmark*
+The core MS engine is highly profitable. By isolating the true cost of delivery (W-2 help desk, Upwork, offshore, internal tools, and 10% of onboarding/offboarding project management), the MS segment operates at 55.9% gross margin, exceeding the BiC target of 48-52%. This indicates strong pricing discipline and an efficient, heavily outsourced Level 1/2 labor model.
 
 ### 2. Comprehensive Services (41.0% GM) — *Aligned*
 The staffing augmentation model (ARC and Bunzl Blue Pisces) operates at a clean 41.0% gross margin. This perfectly aligns with the BiC target of ~40% for staffing/comprehensive services. The 10% COD overlay accurately captures the management burden of maintaining these contractor relationships.
 
-### 3. True Projects (6.0% GM) — *Critical Failure*
-True Projects generated $434K in revenue but cost $408K to deliver, resulting in a near-zero margin (6.0%). The BiC target is 40%.
+### 3. True Projects (7.5% GM) — *Critical Failure*
+True Projects generated $434K in revenue but cost $402K to deliver, resulting in a near-zero margin (7.5%). The BiC target is 40%.
 - **Root Cause:** The segment suffers from an "invisible subsidy" of highly paid W-2 engineering labor (Calkins, Froio, Hagen) and heavy Cost of Delivery overhead (Harris, Walsh). 
 - **Implication:** PulseOne is effectively giving away complex engineering and project management for free, charging only enough to cover the external subcontractor costs (Vincent, Matt, Roe Tech).
 
