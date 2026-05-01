@@ -32,8 +32,8 @@ To present the definitive CY 2025 Profit & Loss statement for PulseOne, mapped t
 
 ## D. Departmental P&L Summary
 
-| :--- | ---: | ---: | ---: | ---: | ---: |
-| | **Managed Services** | **Comprehensive** | **True Projects** | **Products** | **TOTAL** |
+| Line Item | Managed Services | Comprehensive | True Projects | Products | TOTAL |
+|---|---:|---:|---:|---:|---:|
 | **REVENUE** | **$2,696,561** | **$1,514,526** | **$434,818** | **$522,849** | **$5,168,754** |
 | *% of Total Revenue* | *52.2%* | *29.3%* | *8.4%* | *10.1%* | *100.0%* |
 | | | | | | |
