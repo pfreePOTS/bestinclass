@@ -1,8 +1,8 @@
 # PulseOne Definitive Resource Allocation Reference
 
 **Date:** May 1, 2026
-**Version:** 4.1
-**Status:** AUTHORITATIVE — Owner-Confirmed Allocations
+**Version:** 4.2
+**Status:** AUTHORITATIVE — Owner-Confirmed Allocations + Payoneer/Upwork Actuals
 **Prepared by:** Manus (PulseOne BiC Audit)
 **Confirmed by:** Paul Freeman (CMO / Partner)
 
@@ -95,12 +95,12 @@ PulseOne operates with a blended workforce of W-2 employees, Upwork freelancers,
 ---
 
 ### OFFSHORE RESOURCES (Payoneer / Direct Contract)
-| Name | Est. Annual Cost | Owner-Confirmed Allocation | CW Tickets (2025) |
+| Name | CY 2025 Actual (Payoneer) | Owner-Confirmed Allocation | CW Tickets (2025) |
 |---|---|---|---|
-| George Oracion | ~$48,000 | 100% MS (Help Desk) | 1,672 tickets / 1,130 hrs |
-| Omar Avalos | ~$48,000 | **100% MS (Help Desk) in 2025** — moved to Projects in 2026 (Corrected April 29, 2026) | 1,007 tickets / 1,225 hrs |
-| Dare Olusanjo | ~$48,000 | **100% MS (Help Desk)** (Added April 29, 2026 — was missing from prior versions) | 645 tickets |
-| Peal Miah | Unknown | **Tied to Amiri (ARC/Comprehensive)** (Corrected April 29, 2026 — previously listed as HD) | — |
+| George Oracion | **$43,020** | 100% MS (Help Desk) | 1,672 tickets / 1,130 hrs |
+| Omar Avalos | **$49,442** (Upwork, not Payoneer) | **100% MS (Help Desk) in 2025** — moved to Projects in 2026 (Corrected April 29, 2026) | 1,007 tickets / 1,225 hrs |
+| Dare Olusanjo | **$50,175** | **100% MS (Help Desk)** (Added April 29, 2026 — was missing from prior versions) | 645 tickets |
+| Peal Miah | **$5,850** | **Tied to Amiri (ARC/Comprehensive)** (Corrected April 29, 2026 — previously listed as HD) | — |
 
 ---
 
@@ -136,9 +136,9 @@ PulseOne operates with a blended workforce of W-2 employees, Upwork freelancers,
 #### SGA / Non-Operating Contractors
 | Name | Method | Annual Est. | Owner-Confirmed Allocation |
 |---|---|---|---|
-| Marcello Moreira (Payoneer) | Payoneer | $42,645 | 100% Sales (SGA) — same person as W-2 Marcello above. Transitioned mid-2025. Combined total: **$75,925**. QB has this in CS-Cost (COGS) — must be reclassified to Sales SGA. |
-| Daniyal Arif | Contract | $44,117 | 50% PulseOne Dev (SGA), 50% RepScheduler (Non-Op) |
-| Badar | Contract | $30,300 | 100% RepScheduler (Non-Op) |
+| Marcello Moreira (Payoneer) | Payoneer | **$20,800** (Payoneer actual Aug-Dec) / **$42,645** (QB CS-Cost line) | 100% Sales (SGA) — same person as W-2 Marcello above. Transitioned mid-2025. QB has this in CS-Cost (COGS) — must be reclassified to Sales SGA. |
+| Daniyal Arif | Payoneer | **$52,997** | 50% PulseOne Dev (SGA), 50% RepScheduler (Non-Op) |
+| Badar | Unknown (not on Payoneer sheet) | $30,300 (est.) | 100% RepScheduler (Non-Op) |
 | Anneliese | Contract | $14,300 | 100% Marketing (SGA) |
 | Marcy Dorman-Chandler | BILL | $9,600 | 100% Marketing (SGA) |
 
