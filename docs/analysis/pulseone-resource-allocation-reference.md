@@ -1,7 +1,7 @@
 # PulseOne Definitive Resource Allocation Reference
 
 **Date:** May 1, 2026
-**Version:** 4.3
+**Version:** 4.4
 **Status:** AUTHORITATIVE — Owner-Confirmed Allocations + Payoneer/Upwork Actuals
 **Prepared by:** Manus (PulseOne BiC Audit)
 **Confirmed by:** Paul Freeman (CMO / Partner)
@@ -36,7 +36,7 @@ PulseOne operates with a blended workforce of W-2 employees, Upwork freelancers,
 | Kaitlin Harris | $84,910 | 90% Projects (COD), 10% MS (Onboarding/Offboarding Projects) |
 | Eric Anzalone | $84,949 | 100% Account Management (SGA) |
 | Hagen McDonell | $56,784 | 80% MS, 20% Projects |
-| Nicole Goodwin (Svc) | $39,933 | 75% MS, 25% POC (Non-Op) |
+| Nicole Goodwin (Svc) | $39,933 | 100% MS |
 | Joel Alvarez | $27,076 | 100% MS |
 | Julia Morte | $20,934 | 100% MS |
 | Alexandria Calkins | $18,436 | 100% MS |
@@ -50,10 +50,10 @@ PulseOne operates with a blended workforce of W-2 employees, Upwork freelancers,
 | Chad Wiggins | $108,257 | 100% BizDev (Sales SGA) |
 | Kyle Carey | $55,978 | **50% Sales / 50% Marketing** (owner-confirmed April 30, 2026) |
 | Marcello Rocha Moreira | $33,280 | 100% Sales — W-2 through July 2025, then transitioned to Payoneer contractor (see below). **Total 2025 comp: $75,925** ($33,280 W-2 + $42,645 Payoneer). Not terminated — employment type changed. |
-| Heather Kohler | $14,851 | 100% Marketing (Terminated 2/24/2025) |
+| Heather Kohler | $14,851 | 100% Sales (Terminated 2/24/2025) |
 | Dana Rankin | $9,952 | 100% Marketing (Terminated 1/29/2025) |
 | Andrea Carcamo | $7,614 | 100% Marketing |
-| Anneliese Rivera | $4,132 | 100% Marketing |
+| Anneliese Rivera | $4,132 | 50% Marketing, 50% POC (Non-Op) |
 
 #### Dept 300 — Operations (All SG&A)
 | Name | Total Cost | Owner-Confirmed Allocation |
@@ -83,14 +83,17 @@ PulseOne operates with a blended workforce of W-2 employees, Upwork freelancers,
 | Talent | Amount | Owner-Confirmed Allocation |
 |---|---|---|
 | Charlesdoone Castro | $38,228 | 100% MS (Amiri Help Desk Support) |
-| Matthew Barnett | $87,890 | 75% MS (Help Desk), **25% Projects** (escalation tech, complex server troubleshooting). **0% ARC.** (Corrected April 29, 2026 — previously 10% Projects) |
-| Vincent Williams | $102,130 | **20% MS (Ticket Escalations), 80% Projects** (performed all Barracuda projects in 2025, risk assessments). (Corrected April 29, 2026 — previously estimated ~40/60) |
+| Matthew Barnett | **$83,390** | 75% MS (Help Desk), **25% Projects** (escalation tech, complex server troubleshooting). **0% ARC.** (Corrected April 29, 2026 — previously 10% Projects) |
+| Vincent Williams | **$104,740** | **20% MS (Ticket Escalations), 80% Projects** (performed all Barracuda projects in 2025, risk assessments). (Corrected April 29, 2026 — previously estimated ~40/60) |
 | Kirill Hovansky | $3,660 | 100% Marketing (SGA) |
-| Sabah Razaq | $2,438 | 100% Operations (SGA) |
+| Sabah Razaq | $2,438 | 100% Sales (SGA) |
 | Yana Kosenko | $700 | 100% Marketing (SGA) |
 | Lab Tech Ninjas | $4,500 | 100% MS |
+| Brendan Roe | $6,476 | 100% Projects (Help Desk + Cordova Network) |
+| William McMillan | $4,444 | 100% Projects (AvePoint TyGraph, Bunzl Tech Support, Training) |
+| Dustin Hagemeier | $500 | 100% MS (On-Site Technical Support) |
 
-*Note: Basim Mashni ($57,522 on Upwork) is addressed in the ARC section below to prevent double-counting with his BILL payments.*
+*Note: Basim Mashni ($5,906 on Upwork — bonus payments only) is addressed in the ARC section below. His primary compensation is via BILL ($148,918). Total CY2025: $154,824.*
 
 ---
 
@@ -100,7 +103,7 @@ PulseOne operates with a blended workforce of W-2 employees, Upwork freelancers,
 | George Oracion | **$43,020** | 100% MS (Help Desk) | 1,672 tickets / 1,130 hrs |
 | Omar Avalos | **$49,442** (Upwork, not Payoneer) | **100% MS (Help Desk) in 2025** — moved to Projects in 2026 (Corrected April 29, 2026) | 1,007 tickets / 1,225 hrs |
 | Dare Olusanjo | **$50,175** | **100% MS (Help Desk)** (Added April 29, 2026 — was missing from prior versions) | 645 tickets |
-| Peal Miah | **$5,850** | **Tied to Amiri (ARC/Comprehensive)** (Corrected April 29, 2026 — previously listed as HD) | — |
+| Peal Miah | **$5,850** | **100% Comprehensive (Amiri only)** (Corrected April 29, 2026 — previously listed as HD) | — |
 
 ---
 
@@ -113,7 +116,7 @@ PulseOne operates with a blended workforce of W-2 employees, Upwork freelancers,
 |---|---|---|---|
 | Ruben Cortez (Blue Pisces) | BILL | $193,246 | 100% ARC |
 | David Falkenberg (Fredrick) | BILL | $171,003 | 100% ARC |
-| Basim Mashni (Mash Tech) | BILL | $148,918 | 100% ARC |
+| Basim Mashni (Mash Tech) | BILL + Upwork | **$154,824** ($148,918 BILL + $5,906 Upwork) | 100% ARC |
 | BJ Sinder (Infinite Ideas IT) | BILL | $132,390 | 100% ARC |
 
 #### Bunzl Comprehensive Services Contractors
@@ -139,57 +142,71 @@ PulseOne operates with a blended workforce of W-2 employees, Upwork freelancers,
 | Marcello Moreira (Payoneer) | Payoneer | **$20,800** (Payoneer actual Aug-Dec) / **$42,645** (QB CS-Cost line) | 100% Sales (SGA) — same person as W-2 Marcello above. Transitioned mid-2025. QB has this in CS-Cost (COGS) — must be reclassified to Sales SGA. |
 | Daniyal Arif | Payoneer | **$52,997** | 50% PulseOne Dev (SGA), 50% RepScheduler (Non-Op) |
 | Badar | Unknown (not on Payoneer sheet) | $30,300 (est.) | 100% RepScheduler (Non-Op) |
-| Anneliese | Contract | $14,300 | 100% Marketing (SGA) |
 | Marcy Dorman-Chandler | BILL | $9,600 | 100% Marketing (SGA) |
 
 ---
 
-## E. Segment Labor Pools (Corrected v4.0)
+## E. Segment Labor Pools (Corrected v4.4)
 
 ### Managed Services (Help Desk / NOC)
-**W-2 Labor:** Stephen Calkins (60%), James Froio (25%), Kaitlin Harris (10% — Onboarding/Offboarding), Hagen McDonell (80%), Nicole Goodwin (75%), Joel Alvarez (100%), Julia Morte (100%), Alexandria Calkins (100%), Breanna Copeland (100%), Debby Brooke (100%).
-**Upwork/Contractors:** Matt Barnett (75%), Vincent Williams (20%), Charlesdoone Castro (100%), Lab Tech Ninjas (100%).
+**W-2 Labor:** Stephen Calkins (60%), James Froio (25%), Kaitlin Harris (10% — Onboarding/Offboarding), Hagen McDonell (80%), Nicole Goodwin (100% of Dept 100), Joel Alvarez (100%), Julia Morte (100%), Alexandria Calkins (100%), Breanna Copeland (100%), Debby Brooke (100%).
+**Upwork/Contractors:** Matt Barnett (75%), Vincent Williams (20%), Charlesdoone Castro (100%), Lab Tech Ninjas (100%), Dustin Hagemeier (100%).
 **Offshore:** George Oracion (100%), Omar Avalos (100%), Dare Olusanjo (100%).
 
 ### Comprehensive Services (ARC + Bunzl Staffing)
 **ARC Contractors:** Ruben Cortez (100%), David Falkenberg (100%), Basim Mashni (100%), BJ Sinder (100%), Jeremy Roe (10%).
-**Bunzl Staffing:** Blue Pisces - Damien (100% — Bunzl Path to Cloud).
-**Offshore:** Peal Miah (tied to Amiri/ARC).
+**Bunzl Staffing:** Blue Pisces - Damien (100% — Bunzl Path to Cloud), Blue Pisces - Julia (100% — Elsabon HR / Bunzl de Mexico).
+**Offshore:** Peal Miah (100% — Amiri only).
 *Note: The $99K Adobe purchase for ARC was a one-off product sale, not a cost of running the Comprehensive Services staffing model.*
 
 ### Projects / Consulting — Engineering COGS (Untracked)
 **W-2 Labor:** Stephen Calkins (15%), James Froio (30%), Hagen McDonell (20%).
-**Upwork/Contractors:** Vincent Williams (80%), Matt Barnett (25%), Jeremy Roe (90%), Other Project Subs (100%).
+**Upwork/Contractors:** Vincent Williams (80%), Matt Barnett (25%), Jeremy Roe (90%), Other Project Subs (100%), Brendan Roe (100%), William McMillan (100%).
 
 ### Projects / Consulting — Cost of Delivery (COD)
 **W-2 Labor:** Kaitlin Harris (90%), Laura Walsh (35%).
 *Note: COD is allocated 90% to True Projects / 10% to Comprehensive Services per owner direction (April 30, 2026).*
 
 ### Sales (SG&A)
-**W-2 + Contractor:** Chad Wiggins (100% BizDev), Kyle Carey (50%), Marcello Moreira ($75,925 total, 100% Sales), Laura Walsh (30% Presales), Stephen Calkins (5% Presales), Eric Anzalone (100% Acct Mgmt).
+**W-2 + Contractor:** Chad Wiggins (100% BizDev), Kyle Carey (50%), Marcello Moreira ($75,925 total, 100% Sales), Laura Walsh (30% Presales), Stephen Calkins (5% Presales), Eric Anzalone (100% Acct Mgmt), Heather Kohler (100%), Sabah Razaq (100%).
 **Partners:** Paul Freeman (30%).
 
 ### Marketing (SG&A)
-**W-2:** Kyle Carey (50%), Heather Kohler (100%), Dana Rankin (100%), Andrea Carcamo (100%), Anneliese Rivera (100%).
-**Contractors:** Kirill Hovansky (100%), Yana Kosenko (100%), Anneliese (100%), Marcy Dorman-Chandler (100%).
+**W-2:** Kyle Carey (50%), Dana Rankin (100%), Andrea Carcamo (100%), Anneliese Rivera (50%).
+**Contractors:** Kirill Hovansky (100%), Yana Kosenko (100%), Marcy Dorman-Chandler (100%).
 **Partners:** Paul Freeman (70%).
 
 ### Operations, Admin & Strategic Account Mgmt (SG&A)
 **W-2 Labor:** Stephen Calkins (20% Strat Acct Mgmt), Laura Walsh (20% Strat Acct Mgmt, 15% Dept Mgmt), James Froio (30% Internal IT, 15% Admin), Aimee Brock (100%), Emily Wolf (100%), Emily Acker (100%), Jamie Davin (100%), Juliet Simpson (100%), Ashley Holmes (100%).
-**Contractors:** Sabah Razaq (100%), Daniyal Arif (50% Dev).
+**Contractors:** Daniyal Arif (50% Dev).
 **Partners:** Charlie Batsford (100%), Rod (100%).
+
+### PulseOne Communications (Non-Operating)
+**W-2:** Tracy Freeman (100% Dept 900), Nicole Goodwin (100% Dept 900), Anneliese Rivera (50%).
+
+### RepScheduler (Non-Operating)
+**Contractors:** Daniyal Arif (50%), Badar (100%).
 
 ---
 
 ## F. Key Corrections Log
 
-### May 1, 2026 (v4.3)
+### May 1, 2026 (v4.4)
 | Person | Previous | Corrected | Source |
 |---|---|---|---|
 | Jeremy Roe | 95% Projects / 5% ARC | **90% Projects / 10% Comprehensive** | Paul Freeman verbal |
 | Charlie Batsford | Unallocated Partner | **100% G&A (SGA)** | Paul Freeman verbal |
 | Rod | Unallocated Partner | **100% G&A (SGA)** | Paul Freeman verbal |
 | Paul Freeman | Unallocated Partner | **30% Sales (SGA) / 70% Marketing (SGA)** | Paul Freeman verbal |
+| Matt Barnett | $87,890 | **$83,390** (Upwork report actual) | Upwork CY2025 report |
+| Vincent Williams | $102,130 | **$104,740** (Upwork report actual) | Upwork CY2025 report |
+| Basim Mashni | $57,522 Upwork + $148,918 BILL | **$5,906 Upwork + $148,918 BILL = $154,824** | Upwork CY2025 report |
+| Sabah Razaq | 100% Operations | **100% Sales** | Paul Freeman verbal |
+| Heather Kohler | 100% Marketing | **100% Sales** | Paul Freeman verbal |
+| Anneliese Rivera | 100% Marketing | **50% Marketing / 50% POC** | Paul Freeman verbal |
+| Nicole Goodwin (Dept 100) | 75% MS / 25% POC | **100% MS** (Dept 900 = 100% POC) | Paul Freeman verbal |
+| Peal Miah | Tied to Amiri (ARC) | **100% Comprehensive (Amiri only)** | Paul Freeman verbal |
+| Anneliese contractor ($14,300) | 100% Marketing | **Removed** (not a real person/payment) | Paul Freeman verbal |
 
 ### April 30, 2026 (v4.0)
 
