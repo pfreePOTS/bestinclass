@@ -149,3 +149,44 @@ Do not blend Staff Augmentation (e.g., the ARC Research managed contractor pool)
 **Invariant:** The QuickBooks "Consulting Services-Cost" line ($1.04M) is not a single bucket. It contains ARC contractors, Bunzl project contractors, MS contractors, and misclassified SGA (Marcello).
 
 **Reasoning:** Any P&L model must trace the CS-Cost line at the vendor/client level. Assuming it all belongs to one segment or relying on estimates rather than transaction-level detail will result in massive margin errors (e.g., the $200K+ underestimation of project costs in early models).
+
+---
+
+## Invariant 14: ADP Gross Pay vs. Employer Liability (NEW — May 1, 2026)
+
+**Invariant:** W-2 labor costs in the P&L model must use ADP "Total Earnings" (gross pay, Col 67) only. ADP "Total Employer Liability" (Col 104) must NOT be added to per-person amounts.
+
+**Reasoning:** The ADP file contains both gross pay and employer-side taxes (FICA, FUTA, SUI) as separate columns. The QB "Payroll Tax" line ($296,256) + "Payroll Expense" line ($14,620) = $310,876 already covers all employer burden (FICA, health insurance, 401k match, workers comp, state taxes). If per-person amounts include ADP employer liability AND the model adds $310,876 as a separate line, the result is a ~$93K double-count.
+
+**Confirmed by audit:** Person-by-person comparison showed model amounts = ADP Gross + ADP ER Liability (e.g., Stephen Calkins: $148,960 gross + $16,000 ER = $164,960 model). The corrected model uses $148,960.
+
+---
+
+## Invariant 15: No Derived Remainder Categories (NEW — May 1, 2026)
+
+**Invariant:** Never compute a QB remainder (QB Total minus named lines) and present it as a real expense category.
+
+**Reasoning:** The "Other OpEx ($389,129)" category in prior model versions was a mathematical remainder with no source document. It created confusion and contributed to a $200K variance. If expenses are unidentified, they must be labeled transparently (e.g., "G&A Operating Expenses — unitemized, $286,697") and placed in G&A. The amount should be derived as: QB Total Expenses minus all individually sourced expense lines.
+
+---
+
+## Invariant 16: Canonical Model Version Control (NEW — May 1, 2026)
+
+**Invariant:** The canonical P&L build script is `scripts/build_pl_v7_corrected.py`. All prior versions (build_departmental_pl.py through build_pl_v7.py) are superseded and should not be used.
+
+**Key properties of the canonical model:**
+- W-2 amounts = ADP gross pay only ($1,010,174 total, 27 people)
+- Payroll Tax/Benefits = $310,876 (separate line, allocated proportionally to W-2 segments)
+- Upwork = $299,924 (11 freelancers, CY2025 file)
+- BILL/CS-Cost = $1,004,961 (9 contractors)
+- Payoneer = $194,687 (5 contractors)
+- Partners = $423,000 (3 partners at $141K each)
+- G&A Operating Expenses = $286,697 (unitemized QB remainder, in G&A)
+- Total expenses = $4,950,981 (ties to QB $4,950,980 within $1)
+- Net Income = $217,774 (ties to QB exactly)
+
+**Revenue segments (v7.1):**
+- Managed Services: $1,799,686 (34.8%) — 48.4% GM
+- Comprehensive Services: $1,384,375 (26.8%) — 35.2% GM
+- True Projects: $432,343 (8.4%) — -4.6% GM (loss)
+- Products: $1,552,350 (30.0%) — 36.2% blended GM
