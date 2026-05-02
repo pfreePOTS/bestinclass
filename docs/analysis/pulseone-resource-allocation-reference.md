@@ -1,7 +1,7 @@
 # PulseOne Definitive Resource Allocation Reference
 
 **Date:** May 1, 2026
-**Version:** 4.2
+**Version:** 4.3
 **Status:** AUTHORITATIVE — Owner-Confirmed Allocations + Payoneer/Upwork Actuals
 **Prepared by:** Manus (PulseOne BiC Audit)
 **Confirmed by:** Paul Freeman (CMO / Partner)
@@ -73,9 +73,9 @@ PulseOne operates with a blended workforce of W-2 employees, Upwork freelancers,
 #### Partners (Guaranteed Payments)
 | Name | Annual Comp | Owner-Confirmed Allocation |
 |---|---|---|
-| Charlie Batsford | ~$141,000 | CEO (SGA) |
-| Paul Freeman | ~$141,000 | CMO (SGA) |
-| Rod | ~$141,000 | CFO (SGA) |
+| Charlie Batsford | ~$141,000 | 100% G&A (SGA) — CEO |
+| Paul Freeman | ~$141,000 | 30% Sales (SGA), 70% Marketing (SGA) — CMO |
+| Rod | ~$141,000 | 100% G&A (SGA) — CFO |
 
 ---
 
@@ -130,7 +130,7 @@ PulseOne operates with a blended workforce of W-2 employees, Upwork freelancers,
 #### True Project Contractors
 | Name | Method | Annual Est. | Owner-Confirmed Allocation |
 |---|---|---|---|
-| Jeremy Roe (Roe Tech LLC) | BILL | $100,097 | 71% Projects (Bunzl), 24% Projects (Other), 5% ARC |
+| Jeremy Roe (Roe Tech LLC) | BILL | $100,097 | 90% Projects (71% Bunzl + 19% Other), 10% Comprehensive (ARC) |
 | Other Project Subs | BILL | $13,187 | 100% Projects (Infinite Ideas non-ARC, F2OnSite, Full Circle) |
 
 #### SGA / Non-Operating Contractors
@@ -152,33 +152,46 @@ PulseOne operates with a blended workforce of W-2 employees, Upwork freelancers,
 **Offshore:** George Oracion (100%), Omar Avalos (100%), Dare Olusanjo (100%).
 
 ### Comprehensive Services (ARC + Bunzl Staffing)
-**ARC Contractors:** Ruben Cortez (100%), David Falkenberg (100%), Basim Mashni (100%), BJ Sinder (100%), Jeremy Roe (5%).
+**ARC Contractors:** Ruben Cortez (100%), David Falkenberg (100%), Basim Mashni (100%), BJ Sinder (100%), Jeremy Roe (10%).
 **Bunzl Staffing:** Blue Pisces - Damien (100% — Bunzl Path to Cloud).
 **Offshore:** Peal Miah (tied to Amiri/ARC).
 *Note: The $99K Adobe purchase for ARC was a one-off product sale, not a cost of running the Comprehensive Services staffing model.*
 
 ### Projects / Consulting — Engineering COGS (Untracked)
 **W-2 Labor:** Stephen Calkins (15%), James Froio (30%), Hagen McDonell (20%).
-**Upwork/Contractors:** Vincent Williams (80%), Matt Barnett (25%), Jeremy Roe (95%), Other Project Subs (100%).
+**Upwork/Contractors:** Vincent Williams (80%), Matt Barnett (25%), Jeremy Roe (90%), Other Project Subs (100%).
 
 ### Projects / Consulting — Cost of Delivery (COD)
-**W-2 Labor:** Kaitlin Harris (90%), Laura Walsh (35%), Stephen Calkins (allocated via Presales 5%).
+**W-2 Labor:** Kaitlin Harris (90%), Laura Walsh (35%).
 *Note: COD is allocated 90% to True Projects / 10% to Comprehensive Services per owner direction (April 30, 2026).*
 
 ### Sales (SG&A)
 **W-2 + Contractor:** Chad Wiggins (100% BizDev), Kyle Carey (50%), Marcello Moreira ($75,925 total, 100% Sales), Laura Walsh (30% Presales), Stephen Calkins (5% Presales), Eric Anzalone (100% Acct Mgmt).
+**Partners:** Paul Freeman (30%).
 
 ### Marketing (SG&A)
 **W-2:** Kyle Carey (50%), Heather Kohler (100%), Dana Rankin (100%), Andrea Carcamo (100%), Anneliese Rivera (100%).
 **Contractors:** Kirill Hovansky (100%), Yana Kosenko (100%), Anneliese (100%), Marcy Dorman-Chandler (100%).
+**Partners:** Paul Freeman (70%).
 
 ### Operations, Admin & Strategic Account Mgmt (SG&A)
 **W-2 Labor:** Stephen Calkins (20% Strat Acct Mgmt), Laura Walsh (20% Strat Acct Mgmt, 15% Dept Mgmt), James Froio (30% Internal IT, 15% Admin), Aimee Brock (100%), Emily Wolf (100%), Emily Acker (100%), Jamie Davin (100%), Juliet Simpson (100%), Ashley Holmes (100%).
 **Contractors:** Sabah Razaq (100%), Daniyal Arif (50% Dev).
+**Partners:** Charlie Batsford (100%), Rod (100%).
 
 ---
 
-## F. Key Corrections Made This Session (April 30, 2026)
+## F. Key Corrections Log
+
+### May 1, 2026 (v4.3)
+| Person | Previous | Corrected | Source |
+|---|---|---|---|
+| Jeremy Roe | 95% Projects / 5% ARC | **90% Projects / 10% Comprehensive** | Paul Freeman verbal |
+| Charlie Batsford | Unallocated Partner | **100% G&A (SGA)** | Paul Freeman verbal |
+| Rod | Unallocated Partner | **100% G&A (SGA)** | Paul Freeman verbal |
+| Paul Freeman | Unallocated Partner | **30% Sales (SGA) / 70% Marketing (SGA)** | Paul Freeman verbal |
+
+### April 30, 2026 (v4.0)
 
 | Person | Previous | Corrected | Source |
 |---|---|---|---|
