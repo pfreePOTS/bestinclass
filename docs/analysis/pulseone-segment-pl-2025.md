@@ -1,9 +1,9 @@
-# PulseOne Segment P&L (CY 2025)
+# PulseOne Segment P&L Deep Dive (CY 2025)
 
-**Status:** Final (Revised April 30, 2026)
+**Status:** Final (Revised May 1, 2026 - v6.0)
 **Author:** Manus AI (Strategic Audit Assistant)
 
-This document provides the definitive breakdown of PulseOne's 2025 performance across its four primary business segments. The critical revision in this version is the proper separation of "Comprehensive Services" (staff augmentation) from "True Projects," which reveals the structural unprofitability of the project business.
+This document provides the definitive breakdown of PulseOne's 2025 performance across its four primary business segments. The critical revision in this version is the consolidation of all recurring software agreements and cloud hosting into the **Products & Licensing** segment, ensuring proper revenue and cost matching.
 
 ---
 
@@ -11,59 +11,62 @@ This document provides the definitive breakdown of PulseOne's 2025 performance a
 
 The $5.16M in total revenue has been mapped to four segments:
 
-1. **Managed Services:** Core recurring IT support, including bundled software (M365, Barracuda, backup).
+1. **Managed Services:** Core recurring IT support and service delivery (pure service, no software/tools resale).
 2. **Comprehensive Services:** Dedicated staff augmentation contracts (ARC Research, Bunzl PM Path to Cloud, Elsabon HR).
 3. **True Projects:** Discrete IT projects, assessments, and deployments (e.g., Bunzl AD Migration, network refreshes).
-4. **Product Resale:** Hardware and unbundled software resale (Synnex, Ingram, AWS, Adobe).
+4. **Products & Licensing:** Hardware, software licensing (M365, Barracuda, Adobe, AvePoint), and cloud hosting (Colo, Azure, AWS).
 
 **Cost Allocation Methodology:**
-- **Direct COGS:** Subcontractor invoices and direct material costs.
-- **Untracked Engineering:** The $118,337 cost of Vincent Williams, Matthew Barnett, and Hagen McDonell has been allocated entirely to True Projects based on the 100% margin project analysis.
-- **Cost of Delivery (COD):** The $230,637 overhead for project management and coordination (Kaitlin Harris, Laura Walsh, Steve Calkins, James Froio) has been split 90% to True Projects and 10% to Comprehensive Services.
+- **Direct COGS:** Subcontractor invoices, direct material costs, and software/hardware purchases.
+- **W-2 Service Delivery:** Allocated based on owner-confirmed percentages (e.g., Calkins 60% MS / 15% Projects).
+- **Cost of Delivery (COD):** The overhead for project management and coordination (Kaitlin Harris, Laura Walsh) has been allocated 90% to True Projects and 10% to Managed Services (onboarding/offboarding).
 
 ---
 
 ## 2. The Fully-Burdened Segment P&L
 
-| Metric | Managed Services | Comp. Services | True Projects | Product Resale | **TOTAL** |
+| Metric | Managed Services | Comp. Services | True Projects | Products & Lic. | **TOTAL** |
 |---|---|---|---|---|---|
-| **Revenue** | **$2,696,561** | **$1,514,526** | **$434,818** | **$522,849** | **$5,168,754** |
-| % of Total | 52.2% | 29.3% | 8.4% | 10.1% | 100.0% |
-| | | | | | |
-| **Direct COGS** | $1,146,881 | $854,412 | $205,419 | $570,987 | $2,777,699 |
-| **Untracked Eng.** | — | — | $118,337 | — | $118,337 |
-| **COD Allocation** | — | $23,064 | $207,573 | — | $230,637 |
-| **Total Cost** | **$1,146,881** | **$877,476** | **$531,329** | **$570,987** | **$3,126,673** |
-| | | | | | |
-| **Gross Profit** | **$1,549,680** | **$637,050** | **-$96,511** | **-$48,138** | **$2,042,081** |
-| **Margin %** | **57.5%** | **42.1%** | **-22.2%** | **-9.2%** | **39.5%** |
-| **BiC Target** | 48-52% | 40.0% | 40.0% | 24-26% | 44.0%+ |
+| **Revenue** | **$1,799,686** | **$1,384,375** | **$432,343** | **$1,552,350** | **$5,168,754** |
+| % of Total | 34.8% | 26.8% | 8.4% | 30.0% | 100.0% |
+| | | | | | | |
+| **Direct COGS** | $354,711 | $892,906 | $111,454 | $991,050 | $2,350,121 |
+| **W-2 Labor** | $278,252 | $10,965 | $165,187 | $0 | $454,404 |
+| **Payroll Burden** | $83,793 | $0 | $53,046 | $0 | $136,839 |
+| **Total Cost** | **$716,756** | **$903,871** | **$329,687** | **$991,050** | **$2,941,364** |
+| | | | | | | |
+| **Gross Profit** | **$1,082,930** | **$480,504** | **$102,656** | **$561,300** | **$2,227,390** |
+| **Margin %** | **60.2%** | **34.7%** | **23.7%** | **36.2%** | **43.1%** |
+| **BiC Target** | 48-52% | ~40.0% | 40.0% | 24-26% | ~50.0% |
 
-*(Note: The Total Gross Margin here is 39.5% before unallocated general COGS like payroll taxes are applied. The final normalized company gross margin is 37.5%).*
+*(Note: The Total Gross Margin here is 43.1% before unallocated SG&A expenses are applied. The final normalized company EBITDA margin is 6.4%).*
 
 ---
 
 ## 3. Segment Deep Dives
 
-### Managed Services (Healthy)
-At **57.5% margin**, the core MS business is highly profitable and exceeds the BiC target. This margin includes the cost of the offshore help desk team (George, Omar, Dare) and all bundled software licenses (M365, Barracuda, Axcient). The core delivery engine is working well.
+### Managed Services (Highly Profitable)
+At **60.2% margin**, the core pure-service MS business is highly profitable and significantly exceeds the BiC target. By stripping out the software licensing (M365, Barracuda), we can see the true efficiency of the delivery model. The heavy use of offshore and outsourced help desk resources (George, Omar, Dare, Charlesdoone) keeps labor costs exceptionally low relative to the $1.8M in recurring service revenue.
 
-### Comprehensive Services (Healthy)
-At **42.1% margin**, the staff augmentation business (ARC, Bunzl) is performing slightly above the 40% BiC target. The model of using dedicated subcontractors (e.g., Castro for ARC) works effectively because the cost is strictly contained and directly tied to the recurring revenue.
+### Comprehensive Services (Slightly Below Target)
+At **34.7% margin**, the staff augmentation business (ARC, Bunzl P2C) is operating slightly below the 40% BiC target. This segment was previously overstated because it included $133K in zero-margin Adobe software pass-throughs. The pure staffing model relies on subcontractors (Ruben, Falkenberg, Basim, BJ, Damien, Julia) and requires careful markup discipline to hit 40%.
 
-### True Projects (Critical Failure)
-The True Projects segment is operating at a **-22.2% net margin loss**. For every $1.00 of project revenue billed, PulseOne spent $1.22 to deliver it. 
-- The project volume ($435K) is simply too small to absorb the $207K in COD overhead allocated to it.
-- To achieve a 40% margin with the current cost structure, PulseOne would need roughly **$2.3M in true project revenue**—or it needs to cut COD by 80%+.
-- The root cause was a failure to price internal engineering and COD overhead into project statements of work.
+### True Projects (Below Target)
+The True Projects segment is operating at a **23.7% gross margin**, well below the 40% BiC target. 
+- The QuickBase data shows that projects operate at a healthy 52.5% margin *before* internal labor is applied.
+- However, when the $165K in W-2 engineering labor (Calkins, Froio, Hagen) and the associated payroll burden are loaded onto the segment, the margin collapses.
+- **Root Cause:** PulseOne is not fully pricing its internal engineering and project management overhead into statements of work.
 
-### Product Resale (Data Artifact)
-The -9.2% margin in Product Resale is primarily a QuickBooks revenue attribution artifact. $571K in software purchases are coded here, but much of the corresponding revenue is bundled into the Managed Services revenue line. ConnectWise data confirms that the underlying software resale (e.g., Barracuda) is profitable.
+### Products & Licensing (Healthy)
+At **36.2% margin**, the consolidated products segment is highly profitable.
+- **Hardware:** 52.2% margin ($284K revenue)
+- **Hosting/Cloud:** 51.0% margin ($269K revenue)
+- **Software Licensing:** 28.7% margin ($1.0M revenue). This sub-line is dragged down by the near-zero margin Adobe renewals for ARC Research, but remains above the 24% BiC minimum.
 
 ---
 
 ## 4. Strategic Implications
 
-The profitable Comprehensive Services and Managed Services businesses are heavily subsidizing the project delivery infrastructure. The $270K gap to BiC on True Projects is essentially the entire margin problem for the company. 
+The profitable Managed Services and Products businesses are heavily subsidizing the project delivery infrastructure and a bloated SG&A structure. 
 
-If projects had been priced and delivered at the 40% BiC target, that segment would have generated $174K in profit instead of a $97K loss—a **$270K swing** that would have transformed the company's bottom line.
+If True Projects had been priced and delivered at the 40% BiC target, that segment would have generated $173K in profit instead of $103K—a **$70K swing**. Combined with SG&A optimization, fixing the project pricing model is the clearest path to achieving Best in Class EBITDA (12-18%).

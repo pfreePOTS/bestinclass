@@ -19,7 +19,7 @@ Each action is tagged with a **Priority** (P1 = Immediate / P2 = Urgent / P3 = S
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | SW-01 | Re-map P&L Revenue: manage software margin at the ConnectWise agreement level, not the QB P&L level | P1 | Structural | Paul / Bookkeeper | NOT STARTED | Audit Software Resale |
 | SW-02 | Bundle Microsoft M365: stop selling raw licenses at 16.4% GM; bundle into managed seats or add cloud management fee to reach 24% BiC floor | P1 | Structural | Paul | NOT STARTED | Audit Software Resale |
-| SW-03 | Review Adobe Pricing: investigate 4.3% margin on $99k spend (one-off product sale to ARC); attach procurement fee if pass-through | P1 | Structural | Paul | NOT STARTED | Audit Software Resale |
+| SW-03 | Review Adobe Pricing: investigate 4.0% margin on $133k revenue vs $127k cost (including ARC renewal); attach procurement fee if pass-through | P1 | Structural | Paul | NOT STARTED | Audit Software Resale |
 | SW-04 | ~~Investigate negative margin transactions for specific clients (e.g., Santa Barbara Sky Football Club, Malenfant Technical Services)~~ | P1 | $25K | Jim | **RESOLVED** (Data artifact) | Audit Software Resale |
 | SW-05 | ~~Pull Barracuda portal client/seat list and reconcile to ConnectWise — 87% cost increase ($41.7K/yr) with no corresponding client growth~~ | P1 | $41.7K | Jim | **RESOLVED** (TD Synnex data confirmed 50.3% GM on product resale; Skout growth is separate internal tool question) | Audit Software Resale |
 | SW-06 | ~~Issue price amendments to clients affected by Barracuda cost increases~~ | P2 | $41.7K | Paul | **RESOLVED** (Unnecessary, margin is healthy) | Audit Software Resale |
@@ -33,7 +33,7 @@ Each action is tagged with a **Priority** (P1 = Immediate / P2 = Urgent / P3 = S
 
 | ID | Action | Priority | Est. Recovery | Owner | Status | Source Document(s) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| CON-01 | Audit consulting projects to identify specific margin loss causes — 44.0% traceable GM vs 50%+ target, and quantify the remaining invisible W-2 subsidy | P1 | ~$235K | Paul | **COMPLETE** (Revealed $349K subsidy) | Segment P&L 2025 |
+| CON-01 | Audit consulting projects to identify specific margin loss causes — QuickBase shows 52.5% direct GM, but drops to 23.7% after applying invisible W-2 subsidy | P1 | ~$235K | Paul | **COMPLETE** (Revealed heavy W-2 subsidy) | Segment P&L 2025 |
 | CON-02 | Conduct subcontractor audit for specific projects (Basim, David, Blue Pisces) | P1 | TBD | Paul | **COMPLETE** | CS-Cost Findings |
 | CON-03 | Implement margin gates: require partner approval for any fixed-fee project below 50% GM | P2 | Preventive | Paul | NOT STARTED | Profit Leakage Map |
 | CON-04 | ~~Verify billing rates for Vincent Williams ($104K Upwork cost) against contracted rates~~ | P2 | TBD | Jim | **RESOLVED** (Allocated 80% to projects) | Technician Efficiency Audit |
@@ -92,6 +92,7 @@ Each action is tagged with a **Priority** (P1 = Immediate / P2 = Urgent / P3 = S
 | FIN-01 | Restructure Chart of Accounts to reclassify technical labor from SG&A to COGS | P2 | Metric clarity | Paul / Bookkeeper | NOT STARTED | BIC Audit Report, COGS Classification |
 | FIN-02 | Have bookkeeper pull QB transaction detail for Salary Expense to identify misclassified contractor payments | P2 | Clarity | Bookkeeper | NOT STARTED | COGS Classification Analysis |
 | FIN-03 | Recode QB expenses to properly reflect COGS vs SG&A per confirmed classification table | P2 | Metric clarity | Bookkeeper | NOT STARTED | Definitive PL Analysis |
+| FIN-03b | Restructure P&L to match revenue and COGS for recurring software/hosting (create a consolidated Products & Licensing segment instead of splitting across MS and Products) | P1 | Metric clarity | Paul / Bookkeeper | **COMPLETE** (Implemented in v6.0 P&L) | Departmental P&L |
 | FIN-04 | Reclassify Marcello $42,645 Payoneer from CS-Cost (COGS) to Sales SGA — same person as W-2 Marcello Rocha Moreira ($33,280). Total 2025 comp: $75,925. Transitioned from W-2 to contractor mid-2025, not terminated. | P1 | Metric clarity | Bookkeeper | NOT STARTED | CS-Cost Findings |
 | FIN-05 | Reclassify ~$140K in internal service tools from COGS to SGA | P1 | Metric clarity | Bookkeeper | NOT STARTED | COGS Classification Analysis |
 
