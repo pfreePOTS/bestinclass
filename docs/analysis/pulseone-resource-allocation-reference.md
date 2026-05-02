@@ -1,7 +1,7 @@
 # PulseOne Definitive Resource Allocation Reference
 
 **Date:** May 1, 2026
-**Version:** 4.4
+**Version:** 4.5
 **Status:** AUTHORITATIVE — Owner-Confirmed Allocations + Payoneer/Upwork Actuals
 **Prepared by:** Manus (PulseOne BiC Audit)
 **Confirmed by:** Paul Freeman (CMO / Partner)
@@ -140,7 +140,7 @@ PulseOne operates with a blended workforce of W-2 employees, Upwork freelancers,
 | Name | Method | Annual Est. | Owner-Confirmed Allocation |
 |---|---|---|---|
 | Marcello Moreira (Payoneer) | Payoneer | **$20,800** (Payoneer actual Aug-Dec) / **$42,645** (QB CS-Cost line) | 100% Sales (SGA) — same person as W-2 Marcello above. Transitioned mid-2025. QB has this in CS-Cost (COGS) — must be reclassified to Sales SGA. |
-| Daniyal Arif | Payoneer | **$52,997** | 50% PulseOne Dev (SGA), 50% RepScheduler (Non-Op) |
+| Daniyal Arif | Payoneer | **$52,997** | 50% Marketing (SGA), 50% RepScheduler (Non-Op) |
 | Badar | Unknown (not on Payoneer sheet) | $30,300 (est.) | 100% RepScheduler (Non-Op) |
 | Marcy Dorman-Chandler | BILL | $9,600 | 100% Marketing (SGA) |
 
@@ -173,12 +173,11 @@ PulseOne operates with a blended workforce of W-2 employees, Upwork freelancers,
 
 ### Marketing (SG&A)
 **W-2:** Kyle Carey (50%), Dana Rankin (100%), Andrea Carcamo (100%), Anneliese Rivera (50%).
-**Contractors:** Kirill Hovansky (100%), Yana Kosenko (100%), Marcy Dorman-Chandler (100%).
+**Contractors:** Kirill Hovansky (100%), Yana Kosenko (100%), Marcy Dorman-Chandler (100%), Daniyal Arif (50%).
 **Partners:** Paul Freeman (70%).
 
 ### Operations, Admin & Strategic Account Mgmt (SG&A)
 **W-2 Labor:** Stephen Calkins (20% Strat Acct Mgmt), Laura Walsh (20% Strat Acct Mgmt, 15% Dept Mgmt), James Froio (30% Internal IT, 15% Admin), Aimee Brock (100%), Emily Wolf (100%), Emily Acker (100%), Jamie Davin (100%), Juliet Simpson (100%), Ashley Holmes (100%).
-**Contractors:** Daniyal Arif (50% Dev).
 **Partners:** Charlie Batsford (100%), Rod (100%).
 
 ### PulseOne Communications (Non-Operating)
