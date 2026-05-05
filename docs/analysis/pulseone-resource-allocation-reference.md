@@ -1,7 +1,7 @@
 # PulseOne Definitive Resource Allocation Reference
 
-**Date:** May 4, 2026
-**Version:** 4.6
+**Date:** May 5, 2026
+**Version:** 4.7
 **Status:** AUTHORITATIVE — Owner-Confirmed Allocations + Payoneer/Upwork Actuals + Salary Detail Reconciliation
 **Prepared by:** Manus (PulseOne BiC Audit)
 **Confirmed by:** Paul Freeman (CMO / Partner)
@@ -106,7 +106,7 @@ PulseOne operates with a blended workforce of W-2 employees, Upwork freelancers,
 | Omar Avalos | **$49,442** (Upwork, not Payoneer) | **100% MS (Help Desk) in 2025** — moved to Projects in 2026 (Corrected April 29, 2026) | 1,007 tickets / 1,225 hrs |
 | Dare Olusanjo | **$50,175** | **100% MS (Help Desk)** (Added April 29, 2026 — was missing from prior versions) | 645 tickets |
 | Daniel | **~$55,000** (est. from Payoneer payment band ~$2,020-$2,101 biweekly, 31 payments = $63,479 in QB Salary Detail) | 100% Service Delivery (segment TBD — owner to confirm MS vs Projects) | — |
-| Badar | **~$38,471** (Payoneer payment band ~$1,616-$1,717 biweekly, 23 payments in QB Salary Detail) + **$3,414** tagged "Badar - Marketing" | Service delivery portion: 100% MS or Projects (TBD). Marketing portion ($3,414): RepScheduler/Non-Op. **Note: "Batter" = Badar (same person).** Previously listed as $30,300 / 100% RepScheduler — CORRECTED May 4, 2026. | — |
+| Badar | **~$41,885** (Payoneer payment band ~$1,616-$1,717 biweekly, 23 payments + 3 tagged "Badar - Marketing" in QB Salary Detail) | **100% RepScheduler (Non-Op)**. Amount updated from $30,300 to ~$41,885 based on salary detail. Allocation confirmed as fully Non-Op by owner (May 5, 2026). **Note: "Batter" = Badar (same person).** | — |
 | Peal Miah | **$5,850** | **100% Comprehensive (Amiri only)** (Corrected April 29, 2026 — previously listed as HD) | — |
 
 #### My IT Services (Payee in QB Salary Expense)
@@ -149,8 +149,8 @@ PulseOne operates with a blended workforce of W-2 employees, Upwork freelancers,
 | Name | Method | Annual Est. | Owner-Confirmed Allocation |
 |---|---|---|---|
 | Marcello Moreira (Payoneer) | Payoneer | **$20,800** (Payoneer actual Aug-Dec) / **$42,645** (QB CS-Cost line) | 100% Sales (SGA) — same person as W-2 Marcello above. Transitioned mid-2025. QB has this in CS-Cost (COGS) — must be reclassified to Sales SGA. |
-| Daniyal Arif | Payoneer | **$52,997** | 50% Marketing (SGA), 50% RepScheduler (Non-Op) |
-| Badar | Payoneer | **~$41,885** (revised — see Offshore Resources section for breakdown) | Service delivery (MS/Projects TBD) + small marketing/Non-Op portion ($3,414). **Previously $30,300 / 100% Non-Op — CORRECTED May 4, 2026.** |
+| Daniyal Arif | Payoneer | **$52,997** | **60% Projects (COGS), 30% Marketing (SGA), 10% RepScheduler (Non-Op)** — Corrected May 5, 2026 |
+| Badar | Payoneer | **~$41,885** (revised from $30,300 — see Offshore Resources section for payment band detail) | **100% RepScheduler (Non-Op)**. Amount updated from salary detail; allocation confirmed as fully Non-Op. Corrected May 5, 2026. |
 | Marcy Dorman-Chandler | BILL | $9,600 | 100% Marketing (SGA) |
 
 ---
@@ -171,7 +171,7 @@ PulseOne operates with a blended workforce of W-2 employees, Upwork freelancers,
 
 ### Projects / Consulting — Engineering COGS (Untracked)
 **W-2 Labor:** Stephen Calkins (15%), James Froio (30%), Hagen McDonell (20%).
-**Upwork/Contractors:** Vincent Williams (80%), Matt Barnett (25%), Jeremy Roe (90%), Other Project Subs (100%), Brendan Roe (100%), William McMillan (100%).
+**Upwork/Contractors:** Vincent Williams (80%), Matt Barnett (25%), Jeremy Roe (90%), Other Project Subs (100%), Brendan Roe (100%), William McMillan (100%), Daniyal Arif (60%).
 
 ### Projects / Consulting — Cost of Delivery (COD)
 **W-2 Labor:** Kaitlin Harris (90%), Laura Walsh (35%).
@@ -183,7 +183,7 @@ PulseOne operates with a blended workforce of W-2 employees, Upwork freelancers,
 
 ### Marketing (SG&A)
 **W-2:** Kyle Carey (50%), Dana Rankin (100%), Andrea Carcamo (100%), Anneliese Rivera (50%).
-**Contractors:** Kirill Hovansky (100%), Yana Kosenko (100%), Marcy Dorman-Chandler (100%), Daniyal Arif (50%).
+**Contractors:** Kirill Hovansky (100%), Yana Kosenko (100%), Marcy Dorman-Chandler (100%), Daniyal Arif (30%).
 **Partners:** Paul Freeman (70%).
 
 ### Operations, Admin & Strategic Account Mgmt (SG&A)
@@ -194,11 +194,17 @@ PulseOne operates with a blended workforce of W-2 employees, Upwork freelancers,
 **W-2:** Tracy Freeman (100% Dept 900), Nicole Goodwin (100% Dept 900), Anneliese Rivera (50%).
 
 ### RepScheduler (Non-Operating)
-**Contractors:** Daniyal Arif (50%), Badar (marketing/Non-Op portion only — ~$3,414 of ~$41,885 total).
+**Contractors:** Daniyal Arif (10%), Badar (100% — ~$41,885).
 
 ---
 
 ## F. Key Corrections Log
+
+### May 5, 2026 (v4.7 — Daniyal & Badar Allocation Corrections)
+| Person | Previous | Corrected | Source |
+|---|---|---|---|
+| Daniyal Arif | 50% Marketing / 50% RepScheduler | **60% Projects (COGS) / 30% Marketing (SGA) / 10% RepScheduler (Non-Op)** | Paul Freeman verbal (May 5, 2026) |
+| Badar | ~$41,885 / service delivery TBD (May 4 correction) | **~$41,885 / 100% RepScheduler (Non-Op)** — original allocation was correct, only amount updated | Paul Freeman verbal (May 5, 2026) |
 
 ### May 4, 2026 (v4.6 — Payoneer Salary Detail Reconciliation)
 | Person | Previous | Corrected | Source |

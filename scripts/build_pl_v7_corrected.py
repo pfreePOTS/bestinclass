@@ -134,18 +134,18 @@ people = [
      "alloc": {"MS": 1.00}},
     {"name": "Dare Olusanjo", "method": "Payoneer", "total": 50_175,
      "alloc": {"MS": 1.00}},
+    # NOTE (May 5, 2026): Daniyal corrected from 50% Mktg / 50% Non-Op
+    # to 60% Projects / 30% Marketing / 10% RepScheduler per owner.
     {"name": "Daniyal Arif", "method": "Payoneer", "total": 52_997,
-     "alloc": {"Marketing": 0.50, "Non-Op": 0.50}},
+     "alloc": {"Projects": 0.60, "Marketing": 0.30, "Non-Op": 0.10}},
     {"name": "Peal Miah", "method": "Payoneer", "total": 5_850,
      "alloc": {"Comprehensive": 1.00}},
     # --- Other ---
-    # NOTE (May 4, 2026): Badar = "Batter" (same person). Actual total ~$41,885
-    # from QB Salary Detail (Payoneer payments). Primarily service delivery, NOT
-    # 100% RepScheduler. Pending owner confirmation of segment split (MS vs Projects).
-    # Once confirmed, update total from 30,300 to ~41,885 and change alloc from
-    # Non-Op to the correct service delivery segment(s).
-    {"name": "Badar", "method": "Payoneer", "total": 30_300,
-     "alloc": {"Non-Op": 1.00}},  # TODO: Reallocate per owner direction
+    # NOTE (May 5, 2026): Badar = "Batter" (same person). Amount updated from
+    # $30,300 to $41,885 based on QB Salary Detail. Allocation confirmed as
+    # 100% RepScheduler (Non-Op) per owner (May 5, 2026).
+    {"name": "Badar", "method": "Payoneer", "total": 41_885,
+     "alloc": {"Non-Op": 1.00}},
 ]
 
 # ============================================================
