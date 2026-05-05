@@ -1,8 +1,8 @@
 # PulseOne Definitive Resource Allocation Reference
 
-**Date:** May 1, 2026
-**Version:** 4.5
-**Status:** AUTHORITATIVE — Owner-Confirmed Allocations + Payoneer/Upwork Actuals
+**Date:** May 4, 2026
+**Version:** 4.6
+**Status:** AUTHORITATIVE — Owner-Confirmed Allocations + Payoneer/Upwork Actuals + Salary Detail Reconciliation
 **Prepared by:** Manus (PulseOne BiC Audit)
 **Confirmed by:** Paul Freeman (CMO / Partner)
 
@@ -15,8 +15,10 @@ This document serves as the **single source of truth** for how every PulseOne la
 - CY 2025 Payroll Detail Summary (Gross Earnings)
 - CY 2025 Upwork Time by Freelancer Report
 - CY 2025 Expenses Tracking MASTER
+- **2025 PulseOne Salary Detail (QB check register for Salary Expense line)** — Added May 4, 2026
 - Direct verbal corrections and segment allocations from Paul Freeman (April 22, 2026)
 - Annotated PDF corrections from Paul Freeman (April 29, 2026)
+- Verbal corrections from Paul Freeman (May 4, 2026) — Payoneer identity confirmations
 - TD Synnex Purchase History (P1TDSPurchaseHistoryPULSEONEPOS.xlsx)
 - 2025 Tickets by Member data (CW export)
 
@@ -103,7 +105,14 @@ PulseOne operates with a blended workforce of W-2 employees, Upwork freelancers,
 | George Oracion | **$43,020** | 100% MS (Help Desk) | 1,672 tickets / 1,130 hrs |
 | Omar Avalos | **$49,442** (Upwork, not Payoneer) | **100% MS (Help Desk) in 2025** — moved to Projects in 2026 (Corrected April 29, 2026) | 1,007 tickets / 1,225 hrs |
 | Dare Olusanjo | **$50,175** | **100% MS (Help Desk)** (Added April 29, 2026 — was missing from prior versions) | 645 tickets |
+| Daniel | **~$55,000** (est. from Payoneer payment band ~$2,020-$2,101 biweekly, 31 payments = $63,479 in QB Salary Detail) | 100% Service Delivery (segment TBD — owner to confirm MS vs Projects) | — |
+| Badar | **~$38,471** (Payoneer payment band ~$1,616-$1,717 biweekly, 23 payments in QB Salary Detail) + **$3,414** tagged "Badar - Marketing" | Service delivery portion: 100% MS or Projects (TBD). Marketing portion ($3,414): RepScheduler/Non-Op. **Note: "Batter" = Badar (same person).** Previously listed as $30,300 / 100% RepScheduler — CORRECTED May 4, 2026. | — |
 | Peal Miah | **$5,850** | **100% Comprehensive (Amiri only)** (Corrected April 29, 2026 — previously listed as HD) | — |
+
+#### My IT Services (Payee in QB Salary Expense)
+| Name | CY 2025 Actual | Owner-Confirmed Allocation |
+|---|---|---|
+| AJ + Blaine (billed together as "My IT Services") | **$155,980** (48 payments in QB Salary Detail) | **100% MS (Help Desk)** — both are help desk resources. Already accounted for in the model's contractor pool. (Confirmed May 4, 2026) |
 
 ---
 
@@ -141,7 +150,7 @@ PulseOne operates with a blended workforce of W-2 employees, Upwork freelancers,
 |---|---|---|---|
 | Marcello Moreira (Payoneer) | Payoneer | **$20,800** (Payoneer actual Aug-Dec) / **$42,645** (QB CS-Cost line) | 100% Sales (SGA) — same person as W-2 Marcello above. Transitioned mid-2025. QB has this in CS-Cost (COGS) — must be reclassified to Sales SGA. |
 | Daniyal Arif | Payoneer | **$52,997** | 50% Marketing (SGA), 50% RepScheduler (Non-Op) |
-| Badar | Unknown (not on Payoneer sheet) | $30,300 (est.) | 100% RepScheduler (Non-Op) |
+| Badar | Payoneer | **~$41,885** (revised — see Offshore Resources section for breakdown) | Service delivery (MS/Projects TBD) + small marketing/Non-Op portion ($3,414). **Previously $30,300 / 100% Non-Op — CORRECTED May 4, 2026.** |
 | Marcy Dorman-Chandler | BILL | $9,600 | 100% Marketing (SGA) |
 
 ---
@@ -151,7 +160,8 @@ PulseOne operates with a blended workforce of W-2 employees, Upwork freelancers,
 ### Managed Services (Help Desk / NOC)
 **W-2 Labor:** Stephen Calkins (60%), James Froio (25%), Kaitlin Harris (10% — Onboarding/Offboarding), Hagen McDonell (80%), Nicole Goodwin (100% of Dept 100), Joel Alvarez (100%), Julia Morte (100%), Alexandria Calkins (100%), Breanna Copeland (100%), Debby Brooke (100%).
 **Upwork/Contractors:** Matt Barnett (75%), Vincent Williams (20%), Charlesdoone Castro (100%), Lab Tech Ninjas (100%), Dustin Hagemeier (100%).
-**Offshore:** George Oracion (100%), Omar Avalos (100%), Dare Olusanjo (100%).
+**Offshore/Payoneer:** George Oracion (100%), Omar Avalos (100%), Dare Olusanjo (100%), Daniel (100% — pending segment confirmation), Badar (service delivery portion — pending segment confirmation).
+**Direct Contractors:** AJ + Blaine / "My IT Services" (100% Help Desk).
 
 ### Comprehensive Services (ARC + Bunzl Staffing)
 **ARC Contractors:** Ruben Cortez (100%), David Falkenberg (100%), Basim Mashni (100%), BJ Sinder (100%), Jeremy Roe (10%).
@@ -184,11 +194,20 @@ PulseOne operates with a blended workforce of W-2 employees, Upwork freelancers,
 **W-2:** Tracy Freeman (100% Dept 900), Nicole Goodwin (100% Dept 900), Anneliese Rivera (50%).
 
 ### RepScheduler (Non-Operating)
-**Contractors:** Daniyal Arif (50%), Badar (100%).
+**Contractors:** Daniyal Arif (50%), Badar (marketing/Non-Op portion only — ~$3,414 of ~$41,885 total).
 
 ---
 
 ## F. Key Corrections Log
+
+### May 4, 2026 (v4.6 — Payoneer Salary Detail Reconciliation)
+| Person | Previous | Corrected | Source |
+|---|---|---|---|
+| Badar ("Batter") | $30,300 / 100% RepScheduler (Non-Op) | **~$41,885 total** (~$38,471 service delivery + $3,414 marketing/Non-Op). Batter = Badar (same person). Majority of cost is service delivery, NOT RepScheduler. | QB 2025 Salary Detail + Paul Freeman verbal (May 4, 2026) |
+| Daniel | Not previously identified | **~$55,000/yr** (Payoneer ~$2,020-$2,101 biweekly band, 31 payments = $63,479). 100% Service Delivery (segment TBD). | QB 2025 Salary Detail + Paul Freeman verbal (May 4, 2026) |
+| AJ + Blaine ("My IT Services") | Not previously identified as individuals | **$155,980** (48 payments via "My IT Services" payee). Both are help desk resources, 100% MS. Already in model contractor pool. | QB 2025 Salary Detail + Paul Freeman verbal (May 4, 2026) |
+| Roe Tech LLC ($54,465 in Salary Detail) | Identity unclear in Salary line | Confirmed = Jeremy Roe + Brendan Roe (his son). Already accounted for in BILL/CS-Cost ($100,097). The $54,465 in Salary is a subset/alternate coding of the same payments. | Paul Freeman verbal (May 4, 2026) |
+| Marcello Rocha Moreira ($25,974 in Salary Detail) | Partial Payoneer in Salary | Confirmed as same Marcello — partial payments coded to Salary Expense, remainder in CS-Cost. Total Payoneer = $42,645. | QB 2025 Salary Detail cross-reference |
 
 ### May 1, 2026 (v4.4)
 | Person | Previous | Corrected | Source |

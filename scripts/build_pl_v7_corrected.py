@@ -139,8 +139,13 @@ people = [
     {"name": "Peal Miah", "method": "Payoneer", "total": 5_850,
      "alloc": {"Comprehensive": 1.00}},
     # --- Other ---
-    {"name": "Badar", "method": "Unknown", "total": 30_300,
-     "alloc": {"Non-Op": 1.00}},
+    # NOTE (May 4, 2026): Badar = "Batter" (same person). Actual total ~$41,885
+    # from QB Salary Detail (Payoneer payments). Primarily service delivery, NOT
+    # 100% RepScheduler. Pending owner confirmation of segment split (MS vs Projects).
+    # Once confirmed, update total from 30,300 to ~41,885 and change alloc from
+    # Non-Op to the correct service delivery segment(s).
+    {"name": "Badar", "method": "Payoneer", "total": 30_300,
+     "alloc": {"Non-Op": 1.00}},  # TODO: Reallocate per owner direction
 ]
 
 # ============================================================

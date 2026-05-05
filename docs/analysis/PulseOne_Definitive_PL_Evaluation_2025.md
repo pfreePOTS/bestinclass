@@ -26,6 +26,7 @@ This evaluation synthesizes data from the complete PulseOne knowledge base, incl
 *   Upwork totals confirmed from file: $299,924 (CY2025).
 *   No date-range contamination: ADP is CY2025 only, Upwork is CY2025 only.
 *   "Other OpEx" remainder category eliminated — was a derived number with no source document.
+*   **Payoneer identifications confirmed (v7.2, May 4, 2026):** QB Salary Detail check register reconciled against model. Daniel (~$55K, service delivery), Badar/Batter (~$41.9K, primarily service delivery — NOT 100% RepScheduler as previously assumed), AJ+Blaine billed as "My IT Services" ($155,980, 100% MS Help Desk). Roe Tech in Salary ($54,465) = Jeremy + Brendan Roe (already in BILL). No model total changes — identities clarified only.
 
 ---
 
@@ -84,7 +85,7 @@ The overall 36.7% gross margin hides extreme variance between PulseOne's service
 | :--- | :--- |
 | W-2 Labor (allocated) | $309,568 |
 | Upwork Contractors | $152,260 |
-| Payoneer Offshore (George, Dare) | $93,195 |
+| Payoneer Offshore (George, Dare, Daniel, Badar svc portion) | $93,195 |
 | BILL Subs (misc) | $6,677 |
 | Payroll Tax/Benefits (W-2 portion) | $88,566 |
 | Service Delivery Tools (C&I split) | $197,693 |
@@ -93,7 +94,7 @@ The overall 36.7% gross margin hides extreme variance between PulseOne's service
 | **Total MS COGS** | **$929,260** |
 
 **Key People (MS allocation):**
-Stephen Calkins (60%), Hagen McDonell (80%), Nicole Goodwin (100%), Joel Alvarez (100%), Julia Morte (100%), Alexandria Calkins (100%), Breanna Copeland (100%), Debby Brooke (100%), James Froio (25%), Kaitlin Harris (10%), Matt Barnett (75%), Omar Avalos (100%), Charlesdoone Castro (100%), Vincent Williams (20%), George Oracion (100%), Dare Olusanjo (100%)
+Stephen Calkins (60%), Hagen McDonell (80%), Nicole Goodwin (100%), Joel Alvarez (100%), Julia Morte (100%), Alexandria Calkins (100%), Breanna Copeland (100%), Debby Brooke (100%), James Froio (25%), Kaitlin Harris (10%), Matt Barnett (75%), Omar Avalos (100%), Charlesdoone Castro (100%), Vincent Williams (20%), George Oracion (100%), Dare Olusanjo (100%), Daniel (Payoneer, 100%), Badar (Payoneer, svc delivery portion), AJ + Blaine ("My IT Services", 100% Help Desk)
 
 **Analysis:** MS gross margin at 48.4% is within the BiC range. The service delivery engine is efficient with a blend of W-2 techs and cost-effective offshore/Upwork support. The $281K in non-labor tools (Datto, Liongard, Rewst, Skout, Axcient, etc.) is a significant but necessary cost for an MSP at this scale.
 
