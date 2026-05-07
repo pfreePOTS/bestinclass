@@ -55,3 +55,5 @@ This repository is the central knowledge base for the PulseOne Best in Class (BI
 18. **The canonical client ticket economics analysis is `docs/analysis/PulseOne_Comprehensive_Client_Analysis.md`.** Updated May 6, 2026. Covers 2025–2026 YTD invoicing comparison, ticket economics across all boards, and bottom 10 accounts by effective hourly rate.
 
 19. **Confirmed 2026 churn:** Conejo Valley Services (~$4,130/mo) and The Sea Ranch Lodge (~$2,600/mo) are confirmed leaving. Arc Research Institute appears fully inactive since March 2026 (was ~$94K/mo in 2025). ACT dropped from $14.7K/mo to $218/mo (effectively churned).
+
+- When creating iterative analysis documents during a session, actively archive superseded versions to `docs/archive/` to maintain a clean `docs/analysis/` folder containing only the authoritative current state.
