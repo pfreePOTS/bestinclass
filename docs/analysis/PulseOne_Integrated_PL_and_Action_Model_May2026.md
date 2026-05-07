@@ -22,8 +22,8 @@ All labor costs are shown at **raw pay** (no burden multiplier). Healthcare and 
 | **Licensing Monthly (Agreement)** | **$33,279** | **$399,348** | MS365, Barracuda, AvePoint subs |
 | | | | |
 | **Consulting/Projects (Standard — variable)** | | | |
-| Projects/Labor | $25,000–$100,000 | $300K–$1.2M | Highly variable; April was ~$110K combined |
-| **Projects Baseline** | **$50,000** | **$600,000** | Midpoint estimate |
+| Projects/Labor | $20,000–$30,000 | $240K–$360K | Jan-Apr 2026 avg is ~$33K (incl. Bunzl P2C) |
+| **Projects Baseline** | **$25,000** | **$300,000** | Midpoint estimate |
 | | | | |
 | **Comprehensive Services** | | | |
 | Bunzl de Mexico (Eslabon HR) | $0 | $0 | **On hold; Blue Pisces terminated** |
@@ -37,20 +37,20 @@ All labor costs are shown at **raw pay** (no burden multiplier). Healthcare and 
 
 | Line Item | Monthly | Annual | Notes |
 |-----------|---------|--------|-------|
-| **Software** | $25,000 | $300,000 | Per user guidance: $20-30K/mo |
-| **Hardware** | $7,500 | $90,000 | Per user guidance: $5-10K/mo |
-| **Products Subtotal** | **$32,500** | **$390,000** | |
+| **Software** | $58,000 | $696,000 | Jan-Apr 2026 avg: $58,376/mo |
+| **Hardware** | $28,000 | $336,000 | Jan-Apr 2026 avg: $28,492/mo |
+| **Products Subtotal** | **$86,000** | **$1,032,000** | |
 
 ### Total Revenue Summary
 
 | Scenario | Monthly | Annual | Notes |
 |----------|---------|--------|-------|
-| **Low** (Standard +$25K) | $243,045 | $2,916,540 | Weak project month |
-| **Mid** (Standard +$50K) | $268,045 | $3,216,540 | Average project month |
-| **High** (Standard +$100K) | $318,045 | $3,816,540 | Strong project month |
-| **April Actual** | ~$310,000 | ~$3,720,000 | |
+| **Low** (Projects $20K) | $291,545 | $3,498,540 | Weak project month |
+| **Mid** (Projects $25K) | $296,545 | $3,558,540 | Average project month |
+| **High** (Projects $35K) | $306,545 | $3,678,540 | Strong project month |
+| **April Actual** | ~$310,000 | ~$3,720,000 | (April had high software/hardware mix) |
 
-**Note:** "Standard +$25K/+$50K/+$100K" refers to the variable Standard invoicing above the fixed baseline. The fixed baseline is $218,045/month (MS Agreements $151,266 + Licensing $33,279 + Products $32,500 + Other $1,000).
+**Note:** The fixed baseline is $271,545/month (MS Agreements $151,266 + Licensing $33,279 + Products $86,000 + Other $1,000). Projects are modeled as the primary variable.
 
 ---
 
@@ -118,13 +118,15 @@ All labor costs are shown at **raw pay** (no burden multiplier). Healthcare and 
 | | | | |
 | **TOTAL PROJECTS COGS** | | **$34,156** | |
 
+**Project Margin Note:** Projects remain deeply unprofitable (as they were in 2025). The $34,156 in monthly COGS against ~$25,000 in average revenue yields a **-36.6% gross margin**. The root cause is the high cost of project coordination and W-2 labor (Walsh, Harris, Goodwin, Froio) being consumed by projects but not fully recovered in billing, combined with unbilled "shadow" project work for ITMS clients.
+
 ### Products COGS
 
 | Line Item | Monthly | Margin Assumption |
 |-----------|---------|-------------------|
-| Software COGS | $17,500 | 30% margin on $25K |
-| Hardware COGS | $5,625 | 25% margin on $7.5K |
-| **TOTAL PRODUCTS COGS** | **$23,125** | |
+| Software COGS | $40,600 | 30% margin on $58K |
+| Hardware COGS | $21,000 | 25% margin on $28K |
+| **TOTAL PRODUCTS COGS** | **$61,600** | |
 
 ### COGS Summary
 
@@ -132,11 +134,11 @@ All labor costs are shown at **raw pay** (no burden multiplier). Healthcare and 
 |----------|-------------|---------|--------------|-----|
 | Managed Services (labor + tools) | $74,602 | $151,266 | $76,664 | 50.7% |
 | Licensing (pass-through) | $30,955 | $33,279 | $2,324 | 7.0% |
-| Consulting/Projects | $34,156 | $50,000 | $15,844 | 31.7% |
+| Consulting/Projects | $34,156 | $25,000 | $(9,156) | -36.6% |
 | Comprehensive Services | $0 | $0 | $0 | — |
-| Software Products | $17,500 | $25,000 | $7,500 | 30.0% |
-| Hardware Products | $5,625 | $7,500 | $1,875 | 25.0% |
-| **TOTAL** | **$162,838** | **$268,045** | **$105,207** | **39.2%** |
+| Software Products | $40,600 | $58,000 | $17,400 | 30.0% |
+| Hardware Products | $21,000 | $28,000 | $7,000 | 25.0% |
+| **TOTAL** | **$201,313** | **$296,545** | **$95,232** | **32.1%** |
 
 **Note on MS COGS:** The Managed Services COGS of $74,602 excludes the Licensing pass-through ($30,955) which is shown separately. The MS labor + tools cost against the MS Agreement revenue of $151,266 yields a 50.7% gross margin — close to BiC target.
 
@@ -146,13 +148,13 @@ All labor costs are shown at **raw pay** (no burden multiplier). Healthcare and 
 
 | Scenario | Revenue | COGS | Gross Margin | GM% |
 |----------|---------|------|--------------|-----|
-| **Low** (Std +$25K) | $243,045 | $162,838 | $80,207 | 33.0% |
-| **Mid** (Std +$50K) | $268,045 | $162,838 | $105,207 | 39.2% |
-| **High** (Std +$100K) | $318,045 | $162,838 | $155,207 | 48.8% |
+| **Low** (Projects $20K) | $291,545 | $201,313 | $90,232 | 30.9% |
+| **Mid** (Projects $25K) | $296,545 | $201,313 | $95,232 | 32.1% |
+| **High** (Projects $35K) | $306,545 | $201,313 | $105,232 | 34.3% |
 
 **BiC Target: 44%+ Gross Margin**
 
-At the "Mid" scenario, PulseOne is 4.1 percentage points below BiC Gross Margin. At the "High" scenario, it exceeds BiC. The gross margin is highly sensitive to Standard invoicing volume because the project labor is fixed.
+PulseOne is 10-13 percentage points below BiC Gross Margin. The primary driver of this gap is the negative margin on Projects (-36.6%), where the cost of W-2 coordination and delivery ($34K/mo) far exceeds the billable project revenue ($20-30K/mo).
 
 ---
 
@@ -244,31 +246,31 @@ At the "Mid" scenario, PulseOne is 4.1 percentage points below BiC Gross Margin.
 
 | Department | Monthly | % of Revenue (Mid) | BiC Target | Gap |
 |-----------|---------|-------------------|------------|-----|
-| G&A | $58,407 | 21.6% | 14-16% | +5.6-7.6pp |
-| Sales | $43,085 | 15.9% | 3-4% | +11.9-12.9pp |
-| Marketing | $20,930 | 7.7% | 2-3% | +4.7-5.7pp |
-| **Total OpEx** | **$122,422** | **45.2%** | **19-23%** | **+22.2-26.2pp** |
+| G&A | $58,407 | 19.7% | 14-16% | +3.7-5.7pp |
+| Sales | $43,085 | 14.5% | 3-4% | +10.5-11.5pp |
+| Marketing | $20,930 | 7.1% | 2-3% | +4.1-5.1pp |
+| **Total OpEx** | **$122,422** | **41.3%** | **19-23%** | **+18.3-22.3pp** |
 
 ---
 
 ## Section 5: Consolidated P&L
 
-| Line | Low (+$25K) | Mid (+$50K) | High (+$100K) | BiC Target |
+| Line | Low (Proj $20K) | Mid (Proj $25K) | High (Proj $35K) | BiC Target |
 |------|-------------|-------------|---------------|------------|
-| **Revenue** | **$243,045** | **$268,045** | **$318,045** | |
-| COGS | $(162,838) | $(162,838) | $(162,838) | |
-| **Gross Margin** | **$80,207** | **$105,207** | **$155,207** | **44.0%+** |
-| *GM %* | *33.0%* | *39.2%* | *48.8%* | |
+| **Revenue** | **$291,545** | **$296,545** | **$306,545** | |
+| COGS | $(201,313) | $(201,313) | $(201,313) | |
+| **Gross Margin** | **$90,232** | **$95,232** | **$105,232** | **44.0%+** |
+| *GM %* | *30.9%* | *32.1%* | *34.3%* | |
 | | | | | |
 | G&A | $(58,407) | $(58,407) | $(58,407) | 14-16% |
 | Sales | $(43,085) | $(43,085) | $(43,085) | 3-4% |
 | Marketing | $(20,930) | $(20,930) | $(20,930) | 2-3% |
 | **Total OpEx** | **$(122,422)** | **$(122,422)** | **$(122,422)** | **19-23%** |
 | | | | | |
-| **EBITDA** | **$(42,215)** | **$(17,215)** | **$32,785** | **18.3%+** |
-| *EBITDA %* | *-17.4%* | *-6.4%* | *10.3%* | |
+| **EBITDA** | **$(32,190)** | **$(27,190)** | **$(17,190)** | **18.3%+** |
+| *EBITDA %* | *-11.0%* | *-9.2%* | *-5.6%* | |
 | Debt + Distributions | $(20,000) | $(20,000) | $(20,000) | |
-| **NET CASH** | **$(62,215)** | **$(37,215)** | **$12,785** | |
+| **NET CASH** | **$(52,190)** | **$(47,190)** | **$(37,190)** | |
 
 ---
 
@@ -276,14 +278,14 @@ At the "Mid" scenario, PulseOne is 4.1 percentage points below BiC Gross Margin.
 
 | Metric | Value |
 |--------|-------|
-| Fixed revenue baseline (non-project) | $218,045/month |
-| Total fixed costs (COGS + OpEx) | $285,260/month |
-| Standard invoicing required for EBITDA = $0 | $67,215/month |
-| **Total revenue at EBITDA breakeven** | **$285,260/month** |
-| Standard invoicing required for Cash = $0 | $87,215/month |
-| **Total revenue at Cash breakeven** | **$305,260/month** |
+| Fixed revenue baseline (MS + Lic + Prod + Other) | $271,545/month |
+| Total fixed costs (COGS + OpEx) | $323,735/month |
+| Project invoicing required for EBITDA = $0 | $52,190/month |
+| **Total revenue at EBITDA breakeven** | **$323,735/month** |
+| Project invoicing required for Cash = $0 | $72,190/month |
+| **Total revenue at Cash breakeven** | **$343,735/month** |
 
-**April's $310K revenue was above cash breakeven.** The question is whether $305K+ is sustainable month-over-month.
+**April's $310K revenue was below cash breakeven ($343K).** The -$8K actual loss in April is consistent with this model. Reaching cash breakeven requires either (a) project revenue consistently hitting $72K/month, or (b) structural cost reductions in the project delivery team.
 
 ---
 
@@ -292,24 +294,24 @@ At the "Mid" scenario, PulseOne is 4.1 percentage points below BiC Gross Margin.
 | Service Line | Labor Cost | Revenue | SML | BiC Target |
 |-------------|-----------|---------|-----|------------|
 | Managed Services | $62,649 (W-2 + Outsourced) | $151,266 | **2.41x** | 2.8x |
-| Consulting/Projects | $34,156 (W-2 + Outsourced) | $50,000 | **1.46x** | 2.8x |
-| Combined (at Mid) | $96,805 | $201,266 | **2.08x** | 2.8x |
-| Combined (at High) | $96,805 | $251,266 | **2.60x** | 2.8x |
+| Consulting/Projects | $34,156 (W-2 + Outsourced) | $25,000 | **0.73x** | 2.8x |
+| Combined (at Mid) | $96,805 | $176,266 | **1.82x** | 2.8x |
+| Combined (at High) | $96,805 | $186,266 | **1.92x** | 2.8x |
 
 ---
 
-## Section 8: BiC Scorecard (at Mid Scenario — $268,045/month)
+## Section 8: BiC Scorecard (at Mid Scenario — $296,545/month)
 
 | Metric | PulseOne | BiC Target | Gap | Status |
 |--------|----------|------------|-----|--------|
-| Gross Margin % | 39.2% | 44.0%+ | -4.8pp | Below |
-| G&A % of Revenue | 21.8% | 14-16% | +5.8-7.8pp | Over |
-| Sales % of Revenue | 16.1% | 3-4% | +12.1-13.1pp | **Critical** |
-| Marketing % of Revenue | 7.8% | 2-3% | +4.8-5.8pp | Over |
-| Total OpEx % of Revenue | 45.7% | 19-23% | +22.7-26.7pp | **Critical** |
-| EBITDA % | -6.4% | 18.3%+ | -24.7pp | **Critical** |
+| Gross Margin % | 32.1% | 44.0%+ | -11.9pp | **Critical** |
+| G&A % of Revenue | 19.7% | 14-16% | +3.7-5.7pp | Over |
+| Sales % of Revenue | 14.5% | 3-4% | +10.5-11.5pp | **Critical** |
+| Marketing % of Revenue | 7.1% | 2-3% | +4.1-5.1pp | Over |
+| Total OpEx % of Revenue | 41.3% | 19-23% | +18.3-22.3pp | **Critical** |
+| EBITDA % | -9.2% | 18.3%+ | -27.5pp | **Critical** |
 | MS SML | 2.41x | 2.8x | -0.39x | Below |
-| Projects SML | 1.46x | 2.8x | -1.34x | **Critical** |
+| Projects SML | 0.73x | 2.8x | -2.07x | **Critical** |
 
 ---
 
@@ -408,12 +410,12 @@ The parallel session's client analysis identified the following actionable findi
 | **Total All-In Labor** | **~$206,148/mo** | |
 | Tools + Software COGS | ~$44,908/mo | MS Tools $11,953 + Software COGS $30,955 + Sales Tools $2,881 + Mktg Tools $2,700 |
 | G&A Overhead | $25,988/mo | Healthcare + Payroll Tax + Rent + Insurance + etc. |
-| Products COGS | $23,125/mo | Software $17,500 + Hardware $5,625 |
-| **Total Monthly Cash Need (excl D&D)** | **~$285,260/mo** | |
+| Products COGS | $61,600/mo | Software $40,600 + Hardware $21,000 |
+| **Total Monthly Cash Need (excl D&D)** | **~$323,735/mo** | |
 | Debt + Distributions | $20,000/mo | |
-| **Total Monthly Cash Need (incl D&D)** | **~$305,260/mo** | |
+| **Total Monthly Cash Need (incl D&D)** | **~$343,735/mo** | |
 
-This validates against the April Profitability Sheet: at $310K revenue, the company was approximately at cash breakeven (slight loss of -$7.5K, which aligns with our $305K cash breakeven estimate).
+This validates against the April Profitability Sheet: at $310K revenue, the company was operating at a slight loss, which aligns with the $343K cash breakeven estimate when factoring in the high volume of low-margin hardware/software sold in April.
 
 ---
 
@@ -425,10 +427,10 @@ This validates against the April Profitability Sheet: at $310K revenue, the comp
 
 ### 90-Day Clock (August 2026 Decision Point)
 3. Evaluate Hinkley + new sales reps against measurable pipeline and closed revenue.
-4. Evaluate whether Standard invoicing is consistently hitting the $84K/month cash breakeven threshold.
+4. Evaluate whether Project invoicing is consistently hitting the $72K/month cash breakeven threshold.
 
 ### Structural (Q3 2026)
-5. If project revenue does not consistently exceed $64K/month, reduce project labor allocation (candidates: Jeremy Roe, Vincent Williams, Kaitlin Harris).
+5. If project revenue does not consistently exceed $52K/month (EBITDA breakeven), drastically reduce project labor allocation (candidates: Jeremy Roe, Vincent Williams, Kaitlin Harris).
 6. If sales investment does not produce measurable results by August, reverse the $18K/month expansion.
 
 ---
