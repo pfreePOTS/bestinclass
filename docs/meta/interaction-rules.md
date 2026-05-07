@@ -74,3 +74,21 @@ This repository is the central knowledge base for the PulseOne Best in Class (BI
 25. **Sales commission structure:** 10% on Managed Services recurring revenue, 5% on product sales (one-time only). Use these rates when calculating sales rep cost-effectiveness.
 
 26. **MMoreira is primarily a software renewal processor.** 76% of his 2026 YTD revenue ($103K of $135K) is AvePoint and Barracuda software sales at 23-29% margin. His actual net-new Managed Services production in 2026 is approximately $2,545 total.
+
+27. **Service delivery department actual cost is $109,872/month (18 people).** This includes W-2 ($64,760), Upwork ($25,752), Payoneer ($3,780), and BILL.com ($15,580). Omar Avalos ($4,080/mo Upwork) was previously missing from models. Joel Alvarez and Breanna Copeland are confirmed gone from 2026 payroll.
+
+28. **Charlesdoone Castro is billing against a dead client.** His Upwork contract is still named "Amiri Help Desk Support" but Amiri left in 2025. He is billing $2,784/month with no corresponding client revenue.
+
+29. **When analyzing client profitability, separate Help Desk from ITMS tickets.** Help Desk tickets are the cost of the agreement (Tier 2) or should be billed per-ticket (Tier 1). ITMS tickets are project/billable work that should generate separate revenue. Do not conflate them when calculating agreement economics.
+
+30. **Client tier classifications (confirmed):** Tier 2 (all-in): Autism Behavioral Health, Virtus Financial Partners, Focus On The Masters, Connecting Dot By Dot, Daigh Rick Landscape, The Elements Agency. Tier 1 (pay per ticket): BLN Property Management, CWS Investments (hybrid, paying $55-75/workstation — well below current pricing). Product Support: Pelage Pharmaceuticals.
+
+31. **Fully burdened client cost model must include:** Tool stack ($26/endpoint), proactive maintenance labor, reactive ticket labor ($65/hr), dispatch ($6.20/ticket), management overhead (18% of tech hours @ $85/hr), and client services ($300/mo per client). Ticket-only analysis dramatically understates the true cost of unprofitable clients.
+
+32. **The canonical restructuring plan is `docs/analysis/PulseOne_Strategic_Restructuring_Plan_V2.md`.** Updated May 7, 2026. Models $40K/month savings target using: client shedding, coverage reduction (9-5 PT), contractor hour reductions, and W-2 furloughs. Current model achieves $24,657/month — gap of $15,343 to target.
+
+33. **All contractors (Upwork, BILL.com, Payoneer) are hourly — not salaried.** They can be reduced immediately without termination, severance, or notice. This is the primary flexible cost lever. Do not model them as binary fire/keep decisions.
+
+34. **Daigh Rick cannot be fired** (per user directive). Conejo Valley is already leaving and should not be counted as "new" savings.
+
+35. **User-specified furlough rates:** Walsh/Froio at 10%, Calkins at 15%, Anzalone at 10%, Harris at 20%. Do not deviate from these without user confirmation.
