@@ -103,3 +103,29 @@ This file tracks lessons learned from AI analysis sessions to improve future pro
 **Prompt improvements for future sessions:**
 - When analyzing P&L segments, always include: "Trace the Consulting Services-Cost line at the vendor/client level before allocating it to a segment."
 - When analyzing Managed Services margin, always include: "Ensure standalone product sales (M365, hardware, Adobe) are separated from MS service delivery costs."
+
+---
+
+## Session 5 — May 7, 2026: Sales Rep Performance Audit & IT Assessment Conversion
+
+**Task:** Audit sales rep performance using 2025 and 2026 won opportunity exports. Analyze sales mix, IT Assessment conversion rates, and managed services production by rep.
+
+**What worked well:**
+- Starting with raw CSV exploration before building classification logic ensured correct column mapping.
+- Iterative reclassification based on user feedback (separating Software from MS, Comprehensive from MS, IT Assessments from Projects, Hardware from ITMS/Install) produced a much more accurate picture than the raw ConnectWise categories.
+- Cross-referencing IT Assessment clients against all subsequent deal types revealed the broken conversion engine — assessments lead to hardware/projects, not MS agreements.
+- The user's domain knowledge corrections (Santa Barbara Sky refunded, Bunzl = Cool Pak location, Arc Research gone April 1) were critical to accuracy.
+
+**Lessons learned:**
+- **ConnectWise "Install Type" and "Opportunity Type" fields are unreliable for classification.** A deal marked "ITMS/Install" could be a laptop purchase, a Windows 11 refresh, or actual managed services delivery. Always classify by opportunity name content first, then fall back to Install Type.
+- **Software vendors (AvePoint, Barracuda, Microsoft) must be identified by name in the opportunity, not by Install Type.** These appear under multiple Install Types (Agreement, Procurement, Renewal) but are all fundamentally software resale.
+- **"Managed Services / Install" is a misleading category.** It contains both true MS delivery work AND hardware purchases delivered to MS clients. Must filter by opportunity name keywords (laptop, shipping, dock, monitor = hardware; firewall install, Windows refresh, onboarding = MS delivery).
+- **IT Assessments are projects, not agreements.** Even though they are a sales pipeline step toward MS, they should be categorized as a project sub-type for revenue classification purposes.
+- **Comprehensive Services (Arc Research) must be separated from standard Managed Services.** It distorts the MS production picture if combined — one $178K client makes a rep look productive when their true MS sales are $5.8K.
+- **Always ask about refunds and client status.** Won opportunity reports show deals as closed, but some may have been subsequently refunded or the client may have churned. User confirmation is essential.
+
+**Prompt improvements for future sessions:**
+- When analyzing ConnectWise won opportunity data, always include: "Classify deals by opportunity name content first (vendor keywords, service keywords), then by Install Type as a fallback. Never trust Install Type alone."
+- When calculating managed services production, always include: "Exclude hardware purchases (laptops, shipping, docks, monitors) that happen to be delivered through the ITMS channel. Only count true service delivery and agreement revenue."
+- When reporting IT Assessment conversion, always include: "A 'conversion' means the client signed a recurring Managed Services Agreement, not just that they bought hardware or a one-time project from us after the assessment."
+- When analyzing sales rep productivity, always include: "Separate software renewal processing (AvePoint, Barracuda, Microsoft) from consultative selling (IT Assessments, Projects, MS Agreements). These are fundamentally different activities with different value to the business."
