@@ -1,6 +1,6 @@
 # Interaction Rules — PulseOne Best in Class Audit
 
-*Last updated: 2026-05-01*
+*Last updated: 2026-05-07*
 *Project: pfreePOTS/bestinclass*
 
 ## Project Context
@@ -54,4 +54,23 @@ This repository is the central knowledge base for the PulseOne Best in Class (BI
 
 18. **The canonical client ticket economics analysis is `docs/analysis/PulseOne_Comprehensive_Client_Analysis.md`.** Updated May 6, 2026. Covers 2025–2026 YTD invoicing comparison, ticket economics across all boards, and bottom 10 accounts by effective hourly rate.
 
-19. **Confirmed 2026 churn:** Conejo Valley Services (~$4,130/mo) and The Sea Ranch Lodge (~$2,600/mo) are confirmed leaving. Arc Research Institute appears fully inactive since March 2026 (was ~$94K/mo in 2025). ACT dropped from $14.7K/mo to $218/mo (effectively churned).
+19. **Confirmed 2026 churn:** Conejo Valley Services (~$4,130/mo) and The Sea Ranch Lodge (~$2,600/mo) are confirmed leaving. Arc Research Institute is no longer a client as of April 1, 2026 (was ~$94K/mo in 2025). ACT dropped from $14.7K/mo to $218/mo (effectively churned).
+
+20. **Sales data source files are in `data/sales/`.** Won opportunity exports: `2025_won_opportunities.csv` and `2026_won_opportunities.csv`. Sales Review Report: `4-21-2026-SalesReviewReport.xlsx`.
+
+21. **The canonical sales performance audit is `docs/analysis/PulseOne_Sales_Audit_Report.md`.** Updated May 7, 2026. Covers 2025 full-year and 2026 YTD won opportunities by rep, revenue pace, and margin quality.
+
+22. **The canonical sales mix breakdown is `docs/analysis/PulseOne_Sales_Mix_Breakdown_v3.md`.** Updated May 7, 2026. Separates Software (AvePoint, Barracuda, Microsoft) from Managed Services, Comprehensive Services, IT Assessments, and Projects by rep.
+
+23. **The canonical IT Assessment conversion analysis is `docs/analysis/PulseOne_IT_Assessment_Conversion_v2.md`.** Updated May 7, 2026. Traces 28 IT Assessments to determine which converted to Managed Services clients. Key finding: 46% conversion rate but only $20.7K in true MS revenue from 13 converted clients.
+
+24. **Sales classification rules for won opportunities:**
+   - Software = any deal with AvePoint, Barracuda, or Microsoft in the name (regardless of Install Type)
+   - IT Assessment = any deal with "Assessment" in the name (treated as a project sub-category)
+   - Managed Services Agreement = Agreement install type with "MS" or "Managed Services" in the name (excluding software)
+   - Comprehensive Services = Arc Research Institute agreements (separate from standard MS)
+   - ITMS/Install deals that are clearly hardware (laptops, shipping, docks) must be classified as Hardware/Procurement, not Managed Services
+
+25. **Sales commission structure:** 10% on Managed Services recurring revenue, 5% on product sales (one-time only). Use these rates when calculating sales rep cost-effectiveness.
+
+26. **MMoreira is primarily a software renewal processor.** 76% of his 2026 YTD revenue ($103K of $135K) is AvePoint and Barracuda software sales at 23-29% margin. His actual net-new Managed Services production in 2026 is approximately $2,545 total.
