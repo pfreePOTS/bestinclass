@@ -15,11 +15,11 @@ All labor costs are shown at **raw pay** (no burden multiplier). Healthcare and 
 | Line Item | Monthly | Annual | Notes |
 |-----------|---------|--------|-------|
 | **Managed Services** | | | |
-| Bunzl Family (MS) | $84,823 | $1,017,876 | 15+ entities |
-| Non-Bunzl MS Clients | $66,821 | $801,852 | ~30 clients; May invoice data |
-| **MS Subtotal** | **$151,644** | **$1,819,728** | Based on May 2026 invoices |
+| Bunzl Family (MS) | $85,374 | $1,024,488 | 15+ entities |
+| Non-Bunzl MS Clients | $65,892 | $790,704 | ~30 clients; April invoice data (excl. ARC/Conejo/Sea Ranch) |
+| **MS Subtotal** | **$151,266** | **$1,815,192** | Based on validated invoice run rate |
 | | | | |
-| **Licensing Monthly (Agreement)** | **$35,773** | **$429,276** | MS365, Barracuda, AvePoint subs |
+| **Licensing Monthly (Agreement)** | **$33,279** | **$399,348** | MS365, Barracuda, AvePoint subs |
 | | | | |
 | **Consulting/Projects (Standard — variable)** | | | |
 | Projects/Labor | $25,000–$100,000 | $300K–$1.2M | Highly variable; April was ~$110K combined |
@@ -45,12 +45,12 @@ All labor costs are shown at **raw pay** (no burden multiplier). Healthcare and 
 
 | Scenario | Monthly | Annual | Notes |
 |----------|---------|--------|-------|
-| **Low** (Standard +$25K) | $245,917 | $2,951,004 | Weak project month |
-| **Mid** (Standard +$50K) | $270,917 | $3,251,004 | Average project month |
-| **High** (Standard +$100K) | $320,917 | $3,851,004 | Strong project month |
+| **Low** (Standard +$25K) | $243,045 | $2,916,540 | Weak project month |
+| **Mid** (Standard +$50K) | $268,045 | $3,216,540 | Average project month |
+| **High** (Standard +$100K) | $318,045 | $3,816,540 | Strong project month |
 | **April Actual** | ~$310,000 | ~$3,720,000 | |
 
-**Note:** "Standard +$25K/+$50K/+$100K" refers to the variable Standard invoicing above the fixed baseline. The fixed baseline is $220,917/month (MS Agreements $151,644 + Licensing $35,773 + Products $32,500 + Other $1,000).
+**Note:** "Standard +$25K/+$50K/+$100K" refers to the variable Standard invoicing above the fixed baseline. The fixed baseline is $218,045/month (MS Agreements $151,266 + Licensing $33,279 + Products $32,500 + Other $1,000).
 
 ---
 
@@ -130,15 +130,15 @@ All labor costs are shown at **raw pay** (no burden multiplier). Healthcare and 
 
 | Category | Monthly COGS | Revenue | Gross Margin | GM% |
 |----------|-------------|---------|--------------|-----|
-| Managed Services (labor + tools) | $74,602 | $151,644 | $77,042 | 50.8% |
-| Licensing (pass-through) | $30,955 | $35,773 | $4,818 | 13.5% |
+| Managed Services (labor + tools) | $74,602 | $151,266 | $76,664 | 50.7% |
+| Licensing (pass-through) | $30,955 | $33,279 | $2,324 | 7.0% |
 | Consulting/Projects | $34,156 | $50,000 | $15,844 | 31.7% |
 | Comprehensive Services | $0 | $0 | $0 | — |
 | Software Products | $17,500 | $25,000 | $7,500 | 30.0% |
 | Hardware Products | $5,625 | $7,500 | $1,875 | 25.0% |
-| **TOTAL** | **$162,838** | **$270,917** | **$108,079** | **39.9%** |
+| **TOTAL** | **$162,838** | **$268,045** | **$105,207** | **39.2%** |
 
-**Note on MS COGS:** The Managed Services COGS of $74,602 excludes the Licensing pass-through ($30,955) which is shown separately. The MS labor + tools cost against the MS Agreement revenue of $151,644 yields a 50.8% gross margin — close to BiC target.
+**Note on MS COGS:** The Managed Services COGS of $74,602 excludes the Licensing pass-through ($30,955) which is shown separately. The MS labor + tools cost against the MS Agreement revenue of $151,266 yields a 50.7% gross margin — close to BiC target.
 
 ---
 
@@ -146,9 +146,9 @@ All labor costs are shown at **raw pay** (no burden multiplier). Healthcare and 
 
 | Scenario | Revenue | COGS | Gross Margin | GM% |
 |----------|---------|------|--------------|-----|
-| **Low** (Std +$25K) | $245,917 | $162,838 | $83,079 | 33.8% |
-| **Mid** (Std +$50K) | $270,917 | $162,838 | $108,079 | 39.9% |
-| **High** (Std +$100K) | $320,917 | $162,838 | $158,079 | 49.3% |
+| **Low** (Std +$25K) | $243,045 | $162,838 | $80,207 | 33.0% |
+| **Mid** (Std +$50K) | $268,045 | $162,838 | $105,207 | 39.2% |
+| **High** (Std +$100K) | $318,045 | $162,838 | $155,207 | 48.8% |
 
 **BiC Target: 44%+ Gross Margin**
 
@@ -255,20 +255,20 @@ At the "Mid" scenario, PulseOne is 4.1 percentage points below BiC Gross Margin.
 
 | Line | Low (+$25K) | Mid (+$50K) | High (+$100K) | BiC Target |
 |------|-------------|-------------|---------------|------------|
-| **Revenue** | **$245,917** | **$270,917** | **$320,917** | |
+| **Revenue** | **$243,045** | **$268,045** | **$318,045** | |
 | COGS | $(162,838) | $(162,838) | $(162,838) | |
-| **Gross Margin** | **$83,079** | **$108,079** | **$158,079** | **44.0%+** |
-| *GM %* | *33.8%* | *39.9%* | *49.3%* | |
+| **Gross Margin** | **$80,207** | **$105,207** | **$155,207** | **44.0%+** |
+| *GM %* | *33.0%* | *39.2%* | *48.8%* | |
 | | | | | |
 | G&A | $(58,407) | $(58,407) | $(58,407) | 14-16% |
 | Sales | $(43,085) | $(43,085) | $(43,085) | 3-4% |
 | Marketing | $(20,930) | $(20,930) | $(20,930) | 2-3% |
 | **Total OpEx** | **$(122,422)** | **$(122,422)** | **$(122,422)** | **19-23%** |
 | | | | | |
-| **EBITDA** | **$(39,343)** | **$(14,343)** | **$35,657** | **18.3%+** |
-| *EBITDA %* | *-16.0%* | *-5.3%* | *11.1%* | |
+| **EBITDA** | **$(42,215)** | **$(17,215)** | **$32,785** | **18.3%+** |
+| *EBITDA %* | *-17.4%* | *-6.4%* | *10.3%* | |
 | Debt + Distributions | $(20,000) | $(20,000) | $(20,000) | |
-| **NET CASH** | **$(59,343)** | **$(34,343)** | **$15,657** | |
+| **NET CASH** | **$(62,215)** | **$(37,215)** | **$12,785** | |
 
 ---
 
@@ -276,11 +276,11 @@ At the "Mid" scenario, PulseOne is 4.1 percentage points below BiC Gross Margin.
 
 | Metric | Value |
 |--------|-------|
-| Fixed revenue baseline (non-project) | $220,917/month |
+| Fixed revenue baseline (non-project) | $218,045/month |
 | Total fixed costs (COGS + OpEx) | $285,260/month |
-| Standard invoicing required for EBITDA = $0 | $64,343/month |
+| Standard invoicing required for EBITDA = $0 | $67,215/month |
 | **Total revenue at EBITDA breakeven** | **$285,260/month** |
-| Standard invoicing required for Cash = $0 | $84,343/month |
+| Standard invoicing required for Cash = $0 | $87,215/month |
 | **Total revenue at Cash breakeven** | **$305,260/month** |
 
 **April's $310K revenue was above cash breakeven.** The question is whether $305K+ is sustainable month-over-month.
@@ -291,24 +291,24 @@ At the "Mid" scenario, PulseOne is 4.1 percentage points below BiC Gross Margin.
 
 | Service Line | Labor Cost | Revenue | SML | BiC Target |
 |-------------|-----------|---------|-----|------------|
-| Managed Services | $62,649 (W-2 + Outsourced) | $151,644 | **2.42x** | 2.8x |
+| Managed Services | $62,649 (W-2 + Outsourced) | $151,266 | **2.41x** | 2.8x |
 | Consulting/Projects | $34,156 (W-2 + Outsourced) | $50,000 | **1.46x** | 2.8x |
-| Combined (at Mid) | $96,805 | $201,644 | **2.08x** | 2.8x |
-| Combined (at High) | $96,805 | $251,644 | **2.60x** | 2.8x |
+| Combined (at Mid) | $96,805 | $201,266 | **2.08x** | 2.8x |
+| Combined (at High) | $96,805 | $251,266 | **2.60x** | 2.8x |
 
 ---
 
-## Section 8: BiC Scorecard (at Mid Scenario — $270,917/month)
+## Section 8: BiC Scorecard (at Mid Scenario — $268,045/month)
 
 | Metric | PulseOne | BiC Target | Gap | Status |
 |--------|----------|------------|-----|--------|
-| Gross Margin % | 39.9% | 44.0%+ | -4.1pp | Below |
-| G&A % of Revenue | 21.6% | 14-16% | +5.6-7.6pp | Over |
-| Sales % of Revenue | 15.9% | 3-4% | +11.9-12.9pp | **Critical** |
-| Marketing % of Revenue | 7.7% | 2-3% | +4.7-5.7pp | Over |
-| Total OpEx % of Revenue | 45.2% | 19-23% | +22.2-26.2pp | **Critical** |
-| EBITDA % | -5.3% | 18.3%+ | -23.6pp | **Critical** |
-| MS SML | 2.42x | 2.8x | -0.38x | Below |
+| Gross Margin % | 39.2% | 44.0%+ | -4.8pp | Below |
+| G&A % of Revenue | 21.8% | 14-16% | +5.8-7.8pp | Over |
+| Sales % of Revenue | 16.1% | 3-4% | +12.1-13.1pp | **Critical** |
+| Marketing % of Revenue | 7.8% | 2-3% | +4.8-5.8pp | Over |
+| Total OpEx % of Revenue | 45.7% | 19-23% | +22.7-26.7pp | **Critical** |
+| EBITDA % | -6.4% | 18.3%+ | -24.7pp | **Critical** |
+| MS SML | 2.41x | 2.8x | -0.39x | Below |
 | Projects SML | 1.46x | 2.8x | -1.34x | **Critical** |
 
 ---
@@ -323,7 +323,7 @@ The parallel session's client analysis identified the following actionable findi
 
 3. **IT Assessment Conversion Failure:** 28 IT Assessments were sold for $72K, but converted into only $20,723 in true Managed Services revenue. The assessments are being used to sell one-time hardware and projects rather than recurring agreements.
 
-4. **Bunzl Concentration Risk:** The Bunzl family represents 56% of MS Agreement revenue ($84,823 of $151,644). Any disruption to this relationship would be existential.
+4. **Bunzl Concentration Risk:** The Bunzl family represents 56% of MS Agreement revenue ($85,374 of $151,266). Any disruption to this relationship would be existential.
 
 ---
 
