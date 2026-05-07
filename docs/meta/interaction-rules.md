@@ -47,3 +47,11 @@ This repository is the central knowledge base for the PulseOne Best in Class (BI
 14. **The canonical P&L model is `scripts/build_pl_v7_corrected.py`.** This is the latest corrected version. It ties to QB total expenses within $1 (rounding). All prior versions (v1–v7.0) are superseded.
 
 15. **The canonical P&L document is `docs/analysis/PulseOne_Definitive_PL_Evaluation_2025.md`.** This is the master deliverable. Updated May 1, 2026 with v7.1 corrections.
+
+16. **Bunzl is a consolidated master agreement.** All Bunzl entities (MCR Safety, Cool Pak, Cordova Safety, Kishigo, Majestic Glove, Tingley Rubber, SAS Safety, Revco Industries, Steiner Industries, Liberty Safety, Monte Package, Tillman, Intergro, Bunzl De Mexico) are covered under a single master agreement billed at ~$100K/month across multiple billing entities. When analyzing Bunzl economics, always consolidate all entities together.
+
+17. **Three ticket boards exist in ConnectWise.** Help Desk (standard agreement-covered support), ITMS (Internal Projects Team — should generally be billable), and Bunzl (dedicated Bunzl support board). All three must be included when calculating client ticket economics.
+
+18. **The canonical client ticket economics analysis is `docs/analysis/PulseOne_Comprehensive_Client_Analysis.md`.** Updated May 6, 2026. Covers 2025–2026 YTD invoicing comparison, ticket economics across all boards, and bottom 10 accounts by effective hourly rate.
+
+19. **Confirmed 2026 churn:** Conejo Valley Services (~$4,130/mo) and The Sea Ranch Lodge (~$2,600/mo) are confirmed leaving. Arc Research Institute appears fully inactive since March 2026 (was ~$94K/mo in 2025). ACT dropped from $14.7K/mo to $218/mo (effectively churned).
