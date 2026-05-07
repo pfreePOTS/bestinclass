@@ -1,13 +1,13 @@
 # PulseOne Definitive P&L Breakdown — May 2026 Forward
 
 **Date:** May 5, 2026  
-**Status:** Authoritative (Corrected for W-2 Project Labor and Proper Invoice Categorization)  
+**Status:** Authoritative (Corrected for W-2 Project Labor, Invoice Data, and Q2 Headcount Reductions)  
 **Prepared by:** Manus (PulseOne BiC Audit)
 
 ---
 
 ## A. Objective
-To establish the true forward-looking P&L (May 2026+) based on validated 2025 resource allocation splits, properly categorized 2026 YTD invoice data, and the explicit recognition of the "invisible W-2 subsidy" dragging down project margins.
+To establish the true forward-looking P&L (May 2026+) based on validated 2025 resource allocation splits, properly categorized 2026 YTD invoice data, and the explicit recognition of the "invisible W-2 subsidy" dragging down project margins. This version incorporates the terminations of Chad Wiggins and Omar Avalos, the end of the Bunzl P2C project, and the loss of ARC.
 
 ## B. The Critical Finding: Projects is Deeply Unprofitable
 
@@ -31,39 +31,41 @@ When we allocate the actual cost of the internal W-2 and Upwork labor that perfo
 
 ## C. Consolidated Forward P&L (May 2026 Baseline)
 
-This model assumes the loss of Conejo ($3.8K) and Sea Ranch ($2.5K), the end of Bunzl P2C project management, and the addition of the 4 new sales reps ($8K/mo).
+This model assumes the loss of ARC and Conejo, the end of Bunzl P2C project management, and the addition of the 4 new sales reps ($8K/mo) plus Hinkley ($10K/mo).
 
 | Service Line | Revenue | Fully-Loaded COGS | Gross Margin | Margin % | Revenue Mix |
 |--------------|---------|-------------------|--------------|----------|-------------|
-| **Managed Services** | $154,632 | $80,426 | $74,206 | 48.5% | 52.8% |
-| **Consulting/Projects** | $25,000 | $33,445 | -$8,445 | -33.8% | 8.5% |
-| **Comprehensive Svs** (Bunzl de Mexico) | $8,600 | $6,020 | $2,580 | 30.0% | 2.9% |
-| **Software/Licensing** (Agrmt + Std) | $90,000 | $50,416 | $39,584 | 43.9% | 30.7% |
-| **Hardware/Product** | $15,000 | $11,250 | $3,750 | 25.0% | 5.1% |
-| **TOTAL GROSS MARGIN** | **$293,232** | **$181,557** | **$111,675** | **38.0%** | **100.0%** |
+| **Managed Services** | $143,045 | $60,526 | $82,519 | 57.7% | 50.3% |
+| **Consulting/Projects** | $25,000 | $33,445 | -$8,445 | -33.8% | 8.8% |
+| **Comprehensive Svs** (Bunzl MX) | $8,600 | $6,020 | $2,580 | 30.0% | 3.0% |
+| **Licensing Monthly** (Pass-thru) | $36,200 | $19,033 | $17,167 | 47.4% | 12.7% |
+| **Software/Product Sales** | $49,200 | $29,520 | $19,680 | 40.0% | 17.3% |
+| **Hardware** | $8,915 | $6,686 | $2,229 | 25.0% | 3.1% |
+| **Other Standard** | $13,186 | $5,274 | $7,912 | 60.0% | 4.6% |
+| **TOTAL GROSS MARGIN** | **$284,146** | **$160,506** | **$123,640** | **43.5%** | **100.0%** |
 
-*Note: Software/Licensing revenue is highly variable depending on renewal timing. $90K is a normalized forward estimate based on Q1 actuals.*
+*Note: Software/Product Sales revenue is highly variable depending on renewal timing. $49,200 is a normalized forward estimate based on Q1 actuals (driven by Barracuda and AvePoint renewals).*
 
 ### SG&A Structure
 
 | Department | Monthly Cost | % of Revenue | BiC Target | Status |
 |------------|--------------|--------------|------------|--------|
-| **Sales** | $40,868 | 13.9% | 3-4% | **CRITICAL OVERSPEND** |
-| **Marketing** | $21,903 | 7.5% | 2-3% | **OVERSPEND** |
-| **G&A** | $76,103 | 26.0% | 22.6% | Heavy (Owner Comp) |
-| **Total SG&A** | **$138,874** | **47.4%** | **27.4%** | **UNSUSTAINABLE** |
+| **Sales** | $40,868 | 14.4% | 3-4% | **CRITICAL OVERSPEND** |
+| **Marketing** | $21,903 | 7.7% | 2-3% | **OVERSPEND** |
+| **G&A** | $76,103 | 26.8% | 22.6% | Heavy (Owner Comp) |
+| **Total SG&A** | **$138,874** | **48.9%** | **27.4%** | **UNSUSTAINABLE** |
 
 ### Bottom Line Cash Flow
-- **EBITDA (Operating Profit):** -$27,199 / month (-9.3%)
+- **EBITDA (Operating Profit):** -$15,234 / month (-5.4%)
 - **Debt & Distributions:** -$20,000 / month
-- **Net Cash Flow:** **-$47,199 / month**
+- **Net Cash Flow:** **-$35,234 / month**
 
 ---
 
 ## D. Detailed Departmental Labor Breakdown
 
 ### 1. Service Delivery (COGS)
-*The MS engine is highly profitable (48.5% GM), but the Projects engine is severely underwater.*
+*The MS engine is profitable (57.7% GM), but the Projects engine is severely underwater.*
 
 **W-2 Labor ($47,720 burdened):**
 - Calkins (60% MS, 15% Proj): $12,888
@@ -74,18 +76,19 @@ This model assumes the loss of Conejo ($3.8K) and Sea Ranch ($2.5K), the end of 
 - Goodwin (100% MS): $4,160
 - Morte (100% MS): $2,181
 - A. Calkins (100% MS): $1,920
+*(Chad Wiggins and Joel Alvarez terminated)*
 
-**Contractors ($44,437):**
+**Contractors ($42,092):**
 - Vincent Williams (20% MS, 80% Proj): $9,000 (Upwork)
 - Matt Barnett (75% MS, 25% Proj): $7,500 (Upwork)
 - AJ + Blaine (100% MS): $13,000 (BILL)
 - Daniel (100% MS): $4,600 (Payoneer)
 - Dare Olusanjo (100% MS): $4,300 (Payoneer)
 - George Oracion (100% MS): $3,700 (Payoneer)
-- Daniyal (60% Proj): $2,337 (Payoneer)
+*(Omar Avalos terminated)*
 
 ### 2. Sales (SG&A)
-*Sales is consuming 13.9% of revenue ($40,868/mo) with minimal new MS pipeline.*
+*Sales is consuming 14.4% of revenue ($40,868/mo) with minimal new MS pipeline.*
 
 - Hinkley (Sales Leader): $10,000
 - Eric Anzalone (100% Acct Mgmt): $9,114 (burdened)
@@ -100,7 +103,7 @@ This model assumes the loss of Conejo ($3.8K) and Sea Ranch ($2.5K), the end of 
 - Stephen Calkins (5% Presales): $859 (burdened)
 
 ### 3. Marketing (SG&A)
-*Marketing is consuming 7.5% of revenue ($21,903/mo).*
+*Marketing is consuming 7.7% of revenue ($21,903/mo).*
 
 - Paul Freeman (70% Marketing): $8,225
 - Marketing Tools (HubSpot, LinkedIn, etc.): $5,180
@@ -130,8 +133,14 @@ This model assumes the loss of Conejo ($3.8K) and Sea Ranch ($2.5K), the end of 
 
 ---
 
-## E. Recommended Actions
+## E. The Math: Path to Profitability
 
-1. **Right-size the Projects Labor Pool Immediately.** You are carrying $31,686/month in internal labor for a department generating $25,000/month in revenue. Vincent Williams ($7,200/mo) and Kaitlin Harris ($7,960/mo burdened) represent nearly half this cost. If project volume does not triple immediately, this labor must be reduced or repurposed to billable work.
-2. **Cut Non-Producing Sales Spend.** Marcello and Gianpaolo ($5,807/mo) are confirmed producing zero pipeline. They must be cut immediately to preserve cash.
-3. **Establish a 90-Day Pipeline Trigger.** The $18,000/month bet on the new sales team (Hinkley + 4 reps) must generate at least $18,000 in *new monthly recurring revenue* (not one-time projects) within 90 days, or it is structurally unviable at this scale.
+To break even on a cash basis at your current revenue run rate of $284,146/month, **you must cut $35,234/month from SG&A.**
+
+**Top Candidates for Immediate Cuts:**
+1. **Marcello + Gianpaolo:** $5,807/mo (Confirmed zero pipeline)
+2. **Hinkley:** $10,000/mo (If no results within 90 days)
+3. **4 New Reps:** $8,000/mo (If no results within 90 days)
+4. **Project Labor Reduction:** ~$15,000/mo (If project volume does not triple, Kaitlin Harris and Vincent Williams are severely underutilized and must be repurposed or reduced).
+
+If all four of these cuts were executed, you would save **$38,807/month**, which would return the company to positive cash flow immediately without requiring a single new sale.
