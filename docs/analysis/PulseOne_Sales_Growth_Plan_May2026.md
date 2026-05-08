@@ -80,7 +80,7 @@ These five reps carry a $2,000/month non-recoverable base salary plus the Thrive
 
 ### E.1 The Assessment Pipeline (Months 1-4)
 
-The sales process is built around a structured funnel. Every new MS prospect must first undergo a paid technology assessment (averaging $2,000). 
+The sales process is built around a structured funnel. Every new MS prospect must first undergo a paid technology assessment ($2,500-$5,000, averaging ~$3,500). 
 - **Month N:** Assessment performed (generates immediate cash flow)
 - **Month N+1:** 50% of assessments convert to Managed Services agreements (MRR begins; onboarding month)
 - **Month N+3:** The MS Multiplier kicks in (project work begins flowing from the new client)
@@ -115,22 +115,22 @@ Revenue is categorized into five types, each with a distinct margin profile:
 
 | Month | Cal | Assessments | Projects | Hardware | Software | MS (MRR) | **Total** | Phase |
 |-------|-----|------------|----------|----------|----------|----------|----------|-------|
-| 1 | Jun 26 | $2,000 | $0 | $3,500 | $3,500 | $0 | **$9,000** | Investment phase; assessments only |
-| 2 | Jul 26 | $4,000 | $0 | $7,000 | $7,000 | $0 | **$18,000** | Investment phase; assessments only |
-| 3 | Aug 26 | $10,000 | $0 | $9,000 | $9,000 | $2,000 | **$30,000** | First MRR converts; multiplier begins |
-| 4 | Sep 26 | $16,000 | $0 | $9,000 | $9,000 | $4,000 | **$40,000** | First MRR converts; multiplier begins |
-| 5 | Oct 26 | $20,000 | $1,000 | $8,600 | $8,400 | $6,000 | **$50,000** | MRR accelerating |
-| 6 | Nov 26 | $24,000 | $3,000 | $9,300 | $8,700 | $8,000 | **$65,000** | MRR accelerating |
-| 7 | Dec 26 | $26,000 | $6,000 | $11,100 | $9,900 | $10,000 | **$83,000** | Scale phase; full team active |
-| 8 | Jan 27 | $26,000 | $10,000 | $13,500 | $11,500 | $12,000 | **$103,000** | Scale phase; full team active |
-| 9 | Feb 27 | $28,000 | $15,000 | $16,500 | $13,500 | $12,000 | **$127,000** | Mature production; BiC ratios |
-| 10 | Mar 27 | $28,000 | $21,000 | $20,100 | $15,900 | $12,000 | **$151,000** | Mature production; BiC ratios |
-| 11 | Apr 27 | $28,000 | $27,000 | $23,700 | $18,300 | $12,000 | **$175,000** | Mature production; BiC ratios |
-| 12 | May 27 | $28,000 | $33,000 | $27,300 | $20,700 | $12,000 | **$199,000** | Mature production; BiC ratios |
+| 1 | Jun 26 | $3,000 | $0 | $3,500 | $3,500 | $0 | **$10,000** | Investment phase; assessments only |
+| 2 | Jul 26 | $6,000 | $0 | $7,000 | $7,000 | $0 | **$20,000** | Investment phase; assessments only |
+| 3 | Aug 26 | $15,000 | $0 | $9,000 | $9,000 | $2,000 | **$35,000** | First MRR converts; multiplier begins |
+| 4 | Sep 26 | $24,000 | $0 | $9,000 | $9,000 | $6,000 | **$48,000** | First MRR converts; multiplier begins |
+| 5 | Oct 26 | $27,000 | $1,000 | $9,600 | $8,400 | $14,000 | **$60,000** | MRR accelerating |
+| 6 | Nov 26 | $30,000 | $3,000 | $10,300 | $7,700 | $26,000 | **$77,000** | MRR accelerating |
+| 7 | Dec 26 | $30,000 | $6,000 | $12,100 | $5,900 | $42,000 | **$96,000** | Scale phase; full team active |
+| 8 | Jan 27 | $30,000 | $10,000 | $13,500 | $8,500 | $54,000 | **$116,000** | Scale phase; full team active |
+| 9 | Feb 27 | $33,000 | $15,000 | $16,500 | $10,500 | $66,000 | **$141,000** | Mature production; BiC ratios |
+| 10 | Mar 27 | $33,000 | $21,000 | $20,100 | $12,900 | $78,000 | **$165,000** | Mature production; BiC ratios |
+| 11 | Apr 27 | $33,000 | $27,000 | $23,700 | $15,300 | $90,000 | **$189,000** | Mature production; BiC ratios |
+| 12 | May 27 | $33,000 | $33,000 | $27,300 | $17,700 | $102,000 | **$213,000** | Mature production; BiC ratios |
 
 **How to read this table:**
 
-Months 1-3 are dominated by **Assessments and Quick Starts** — these are the door-openers. Thrive reps and the Internal Team sell paid assessments ($2,500-$5,000 each) and Quick Start implementations ($5,000-$15,000) to new prospects. Hardware and software sales accompany these engagements (new firewall for the assessment, licensing cleanup, etc.). MRR is minimal because agreements haven't been signed yet.
+Months 1-3 are dominated by **Assessments and Quick Starts** — these are the door-openers. Thrive reps and the Internal Team sell paid assessments ($2,500-$5,000 each) and Quick Start implementations ($2,000-$2,500 each) to new prospects. Hardware and software sales accompany these engagements (new firewall for the assessment, licensing cleanup, etc.). MRR is minimal because agreements haven't been signed yet.
 
 Starting Month 4, assessments convert to full **Managed Services agreements** and the revenue mix shifts dramatically. The "Assessments" line drops to zero because those prospects are now MS clients. **Projects** appear as the 1.0x multiplier kicks in — these are the migrations, infrastructure upgrades, and buildouts that new MS clients need. Hardware and software continue as clients refresh equipment and add tools.
 
@@ -140,18 +140,18 @@ By Month 7+, **MS (MRR) becomes the majority** of new logo revenue (56%+), with 
 
 | Month | Cal | New Revenue | New GP | Sales Cost | Furlough Rest. | Net Contribution | Combined Revenue | EBITDA | **Net Cash** | Run Rate |
 |-------|-----|------------|--------|-----------|---------------|-----------------|-----------------|--------|-------------|----------|
-| 1 | Jun 26 | $9,000 | $4,000 | $13,207 | $0 | -$9,207 | $315,745 | $10,151 | **-$9,849** | $3.79M |
-| 2 | Jul 26 | $18,000 | $8,000 | $15,907 | $0 | -$7,907 | $324,745 | $11,451 | **-$8,549** | $3.90M |
-| 3 | Aug 26 | $30,000 | $14,340 | $17,607 | $0 | -$3,267 | $336,745 | $16,091 | **-$3,909** | $4.04M |
-| 4 | Sep 26 | $40,000 | $20,220 | $20,007 | $0 | $213 | $346,745 | $19,571 | **-$429** | $4.16M |
-| 5 | Oct 26 | $50,000 | $26,140 | $23,207 | $0 | $2,933 | $356,745 | $22,291 | **$2,291** | $4.28M |
-| 6 | Nov 26 | $65,000 | $34,500 | $26,407 | $0 | $8,093 | $371,745 | $27,451 | **$7,451** | $4.46M |
-| 7 | Dec 26 | $83,000 | $44,100 | $30,207 | $6,524 | $7,369 | $389,745 | $26,727 | **$6,727** | $4.68M |
-| 8 | Jan 27 | $103,000 | $54,540 | $34,307 | $9,099 | $11,134 | $409,745 | $30,492 | **$10,492** | $4.92M |
-| 9 | Feb 27 | $127,000 | $67,080 | $38,307 | $9,099 | $19,674 | $433,745 | $39,032 | **$19,032** | $5.20M |
-| 10 | Mar 27 | $151,000 | $79,320 | $41,707 | $9,099 | $28,514 | $457,745 | $47,872 | **$27,872** | $5.49M |
-| 11 | Apr 27 | $175,000 | $91,560 | $44,307 | $9,099 | $38,154 | $481,745 | $57,512 | **$37,512** | $5.78M |
-| 12 | May 27 | $199,000 | $103,800 | $46,807 | $9,099 | $47,894 | $505,745 | $67,252 | **$47,252** | $6.07M |
+| 1 | Jun 26 | $10,000 | $4,600 | $13,307 | $0 | -$8,707 | $316,745 | $10,651 | **-$9,349** | $3.80M |
+| 2 | Jul 26 | $20,000 | $9,200 | $16,107 | $0 | -$6,907 | $326,745 | $12,451 | **-$7,549** | $3.92M |
+| 3 | Aug 26 | $35,000 | $17,340 | $18,007 | $0 | -$667 | $341,745 | $18,691 | **-$1,309** | $4.10M |
+| 4 | Sep 26 | $48,000 | $25,020 | $20,607 | $0 | $4,413 | $354,745 | $23,771 | **$3,771** | $4.26M |
+| 5 | Oct 26 | $60,000 | $32,140 | $23,907 | $0 | $8,233 | $366,745 | $27,591 | **$7,591** | $4.40M |
+| 6 | Nov 26 | $77,000 | $41,700 | $27,307 | $6,524 | $7,869 | $383,745 | $27,227 | **$7,227** | $4.60M |
+| 7 | Dec 26 | $96,000 | $51,900 | $31,207 | $9,099 | $11,594 | $402,745 | $30,952 | **$10,952** | $4.83M |
+| 8 | Jan 27 | $116,000 | $62,340 | $35,307 | $9,099 | $17,934 | $422,745 | $37,292 | **$17,292** | $5.07M |
+| 9 | Feb 27 | $141,000 | $75,480 | $39,307 | $9,099 | $27,074 | $447,745 | $46,432 | **$26,432** | $5.37M |
+| 10 | Mar 27 | $165,000 | $87,720 | $42,707 | $9,099 | $35,914 | $471,745 | $55,272 | **$35,272** | $5.66M |
+| 11 | Apr 27 | $189,000 | $99,960 | $45,307 | $9,099 | $45,554 | $495,745 | $64,912 | **$44,912** | $5.95M |
+| 12 | May 27 | $213,000 | $112,200 | $47,807 | $9,099 | $55,294 | $519,745 | $74,652 | **$54,652** | $6.24M |
 
 ---
 
@@ -160,32 +160,32 @@ By Month 7+, **MS (MRR) becomes the majority** of new logo revenue (56%+), with 
 ### The Furlough Restoration Strategy
 The furloughs implemented in Phase 1 (totaling $9,099/mo in savings) are restored progressively based on operational necessity and cash flow. The model enforces a strict rule: **Furlough waves are only restored when net cash exceeds +$10,000/mo**, ensuring the business remains in the black throughout the growth phase.
 
-1. **Wave 1: Sales & Projects ($6,524/mo)** — Triggered in **Month 7 (Dec 2026)**
+1. **Wave 1: Sales & Projects ($6,524/mo)** — Triggered in **Month 6 (Nov 2026)**
    - *Restored:* Harris, Calkins, Goodwin, Walsh, Anzalone
    - *Why:* To support closing and onboarding the accelerating volume of new MS clients.
-2. **Wave 2: Service Desk ($1,610/mo)** — Triggered in **Month 8 (Jan 2027)**
+2. **Wave 2: Service Desk ($1,610/mo)** — Triggered in **Month 7 (Dec 2026)**
    - *Restored:* Froio, Hagen
    - *Why:* To handle the ticket volume generated by the growing MS client base.
-3. **Wave 3: Marketing & Ops ($965/mo)** — Triggered in **Month 8 (Jan 2027)**
+3. **Wave 3: Marketing & Ops ($965/mo)** — Triggered in **Month 7 (Dec 2026)**
    - *Restored:* Kyle, Lucy, Aimee
    - *Why:* To sustain pipeline generation and operational coordination.
 
 ### Milestone 1: $30K Net Cash Buffer
 - **Target:** Net Cash ≥ $30,000/month (after all furloughs are restored)
-- **Projected Achievement:** **Month 11 (April 2027)**
-- **Combined EBITDA at Achievement:** $57,512
-- **Net Cash at Achievement:** $37,512
-- **New MRR at that point:** $78,000/month cumulative
+- **Projected Achievement:** **Month 10 (March 2027)**
+- **Combined EBITDA at Achievement:** $55,272
+- **Net Cash at Achievement:** $35,272
+- **New MRR at that point:** $66,000/month cumulative
 
 ### Milestone 2: $5M Annual Run Rate
 - **Target:** $416,667/month revenue
-- **Projected Achievement:** **Month 9 (February 2027)**
-- **Combined Revenue at Achievement:** $433,745/month
-- **Annual Run Rate:** $5.20M
+- **Projected Achievement:** **Month 8 (January 2027)**
+- **Combined Revenue at Achievement:** $422,745/month
+- **Annual Run Rate:** $5.07M
 
 ### Milestone 3: Service Leadership Best in Class (15-20% Net Profit)
 - **Target:** 15-20% net profit margin
-- **Projected Achievement:** **Not reached in 12 months** (Month 12 margin reaches 9.3%)
+- **Projected Achievement:** **Not reached in 12 months** (Month 12 margin reaches 10.5%)
 
 ---
 
@@ -195,7 +195,7 @@ The furloughs implemented in Phase 1 (totaling $9,099/mo in savings) are restore
 The model projects realistic, steady growth based on the 50% conversion funnel:
 - **Total Assessments Performed:** 120 (steady state of ~10/month across all reps)
 - **New MS Clients Won:** 45
-- **Total Assessment Revenue:** $240,000
+- **Total Assessment Revenue:** $360,000 (at $3,000 blended average)
 
 ### 12-Month Multiplier Summary
 The 1.0x multiplier effect captures the true value of acquiring a new logo, generating associated project and product work two months after MS onboarding:
@@ -203,13 +203,13 @@ The 1.0x multiplier effect captures the true value of acquiring a new logo, gene
 - **Multiplier GP (at blended 45% margin):** $104,400
 
 ### Month 12 New Logo Revenue Composition
-By Month 12 (May 2027), the $199,000 in new monthly revenue is composed of:
-- **Managed Services MRR:** $90,000 (45%)
-- **Multiplier (Project/Product):** $66,000 (33%)
-- **Assessments:** $28,000 (14%)
-- **Standalone Product:** $15,000 (8%)
+By Month 12 (May 2027), the $213,000 in new monthly revenue is composed of:
+- **Managed Services MRR:** $90,000 (42%)
+- **Multiplier (Project/Product):** $66,000 (31%)
+- **Assessments:** $33,000 (16%)
+- **Standalone Product:** $24,000 (11%)
 
-**Month 12 Combined State:** $505,745/mo revenue | $67,252 EBITDA | $47,252 Net Cash | $6.07M run rate
+**Month 12 Combined State:** $519,745/mo revenue | $74,652 EBITDA | $54,652 Net Cash | $6.24M run rate
 
 This 54/46 split between recurring and non-recurring revenue aligns well with healthy MSP ratios, providing both stability and high-margin project upside.
 

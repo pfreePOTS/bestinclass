@@ -231,9 +231,9 @@ Chad Wiggins (former Director of Sales, departed 2025) left behind a Southern Ca
 **The Action:**
 - Reprice all productized offerings to target **70% gross margin** on direct delivery hours, which provides room for delivery overhead and still achieves 60%+ actual margin.
 - Alternatively, add a **$500-$1,000 delivery overhead fee** to each engagement to explicitly cover coordination, scheduling, and project management time. Examples:
-  - Quick Start: Add $500 delivery overhead → price moves from $1,500 to $2,000
+  - Quick Start ($2,000-$2,500 base): Add $500 delivery overhead → price moves to $2,500-$3,000
+  - IT Assessment ($2,500-$5,000 base): Add $500-$1,000 delivery overhead → price moves to $3,000-$6,000
   - Rapid Deployment: Add $750 delivery overhead → price moves from $3,000 to $3,750
-  - IT Assessment: Add $500 delivery overhead → price moves from $2,000 to $2,500
 - Track delivery overhead hours separately from direct delivery hours to validate pricing accuracy over time.
 - Ensure all productized offerings have a clear scope boundary with change order process for anything outside the defined deliverable.
 
@@ -252,7 +252,7 @@ Chad Wiggins (former Director of Sales, departed 2025) left behind a Southern Ca
 - Assign assessment follow-up ownership to Walsh (as part of her sales/presales role).
 
 **Financial Impact:**
-- If PulseOne sells 2-3 assessments/month at $2,500 each, and conversion improves from 29% to 50%, that is 1 additional new MS agreement per month.
+- If PulseOne sells 2-3 assessments/month at $2,500-$5,000 each (avg ~$3,500), and conversion improves from 29% to 50%, that is 1 additional new MS agreement per month.
 - At an average agreement value of $3,000/month, this adds $3,000/month in cumulative MRR each month (compounding).
 
 ### 6. P&L Restructuring for Accurate COGS
