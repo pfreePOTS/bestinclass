@@ -30,10 +30,10 @@ The growth plan begins from the post-Phase 1 stabilized state. All Phase 1 cost 
 
 | Metric | Monthly Value |
 |--------|--------------|
-| Baseline Revenue | $310,605 |
-| Baseline EBITDA | $23,218 |
+| Baseline Revenue | $306,745 |
+| Baseline EBITDA | $19,358 |
 | Debt Service + Distributions | $20,000 |
-| **Net Cash (Starting)** | **$3,218** |
+| **Net Cash (Starting)** | **-$642** |
 | Target Net Cash (Milestone 1) | $30,000+ |
 
 **The MS Multiplier Effect:**
@@ -135,18 +135,18 @@ By Month 7+, **MS (MRR) becomes the majority** of new logo revenue (56%+), with 
 
 | Month | Cal | New Revenue | of which Multiplier | New GP | Sales Cost | Net Contribution | Combined Revenue | EBITDA | **Net Cash** | Run Rate |
 |-------|-----|------------|-------------------|--------|-----------|-----------------|-----------------|--------|-------------|----------|
-| 1 | Jun 26 | $16,000 | $0 | $6,400 | $13,807 | -$7,407 | $326,605 | $15,811 | **-$4,189** | $3.92M |
-| 2 | Jul 26 | $37,500 | $0 | $15,255 | $18,057 | -$2,802 | $348,105 | $20,416 | **$416** | $4.18M |
-| 3 | Aug 26 | $59,000 | $0 | $24,960 | $20,957 | $4,003 | $369,605 | $27,221 | **$7,221** | $4.44M |
-| 4 | Sep 26 | $72,000 | $1,500 | $32,360 | $25,457 | $6,903 | $382,605 | $30,121 | **$10,121** | $4.59M |
-| 5 | Oct 26 | $84,500 | $8,000 | $40,745 | $31,082 | $9,663 | $395,105 | $32,881 | **$12,881** | $4.74M |
-| 6 | Nov 26 | $110,000 | $20,500 | $55,310 | $37,782 | $17,528 | $420,605 | $40,746 | **$20,746** | $5.05M |
-| 7 | Dec 26 | $148,500 | $38,500 | $75,775 | $45,057 | $30,718 | $459,105 | $53,936 | **$33,936** | $5.51M |
-| 8 | Jan 27 | $195,000 | $60,500 | $99,810 | $51,782 | $48,028 | $505,605 | $71,246 | **$51,246** | $6.07M |
-| 9 | Feb 27 | $246,000 | $85,000 | $125,940 | $57,757 | $68,183 | $556,605 | $91,401 | **$71,401** | $6.68M |
-| 10 | Mar 27 | $298,000 | $110,500 | $152,520 | $62,732 | $89,788 | $608,605 | $113,006 | **$93,006** | $7.30M |
-| 11 | Apr 27 | $352,000 | $137,000 | $180,120 | $66,832 | $113,288 | $662,605 | $136,506 | **$116,506** | $7.95M |
-| 12 | May 27 | $406,500 | $163,500 | $208,005 | $70,432 | $137,573 | $717,105 | $160,791 | **$140,791** | $8.61M |
+| 1 | Jun 26 | $16,000 | $0 | $6,400 | $13,807 | -$7,407 | $322,745 | $11,951 | **-$8,049** | $3.87M |
+| 2 | Jul 26 | $37,500 | $0 | $15,255 | $18,057 | -$2,802 | $344,245 | $16,556 | **-$3,444** | $4.13M |
+| 3 | Aug 26 | $59,000 | $0 | $24,960 | $20,957 | $4,003 | $365,745 | $23,361 | **$3,361** | $4.39M |
+| 4 | Sep 26 | $72,000 | $1,500 | $32,360 | $25,457 | $6,903 | $378,745 | $26,261 | **$6,261** | $4.54M |
+| 5 | Oct 26 | $84,500 | $8,000 | $40,745 | $31,082 | $9,663 | $391,245 | $29,021 | **$9,021** | $4.69M |
+| 6 | Nov 26 | $110,000 | $20,500 | $55,310 | $37,782 | $17,528 | $416,745 | $36,886 | **$16,886** | $5.00M |
+| 7 | Dec 26 | $148,500 | $38,500 | $75,775 | $45,057 | $30,718 | $455,245 | $50,076 | **$30,076** | $5.46M |
+| 8 | Jan 27 | $195,000 | $60,500 | $99,810 | $51,782 | $48,028 | $501,745 | $67,386 | **$47,386** | $6.02M |
+| 9 | Feb 27 | $246,000 | $85,000 | $125,940 | $57,757 | $68,183 | $552,745 | $87,541 | **$67,541** | $6.63M |
+| 10 | Mar 27 | $298,000 | $110,500 | $152,520 | $62,732 | $89,788 | $604,745 | $109,146 | **$89,146** | $7.26M |
+| 11 | Apr 27 | $352,000 | $137,000 | $180,120 | $66,832 | $113,288 | $658,745 | $132,646 | **$112,646** | $7.90M |
+| 12 | May 27 | $406,500 | $163,500 | $208,005 | $70,432 | $137,573 | $713,245 | $156,931 | **$136,931** | $8.56M |
 
 ---
 
@@ -157,22 +157,22 @@ The 1.0x MS Multiplier significantly accelerates the path to all milestones comp
 ### Milestone 1: Restore Furloughs + $30K Net Cash Buffer
 - **Target:** Net Cash ≥ $30,000/month (requires $50K EBITDA)
 - **Projected Achievement:** **Month 7 (December 2026)**
-- **Combined EBITDA at Achievement:** $53,936
-- **Net Cash at Achievement:** $33,936
+- **Combined EBITDA at Achievement:** $50,076
+- **Net Cash at Achievement:** $30,076
 - **New MRR at that point:** $85,000/month cumulative
 - **Multiplier Revenue at that point:** $38,500/month
 
 ### Milestone 2: $5M Annual Run Rate
 - **Target:** $416,667/month revenue
 - **Projected Achievement:** **Month 6 (November 2026)**
-- **Combined Revenue at Achievement:** $420,605/month
-- **Annual Run Rate:** $5.05M
+- **Combined Revenue at Achievement:** $416,745/month
+- **Annual Run Rate:** $5.00M
 
 ### Milestone 3: Service Leadership Best in Class (15-20% Net Profit)
 - **Target:** 15-20% net profit margin
-- **Projected Achievement:** **Month 10 (March 2027)**
-- **Net Margin at Achievement:** 15.3%
-- **Combined Revenue at Achievement:** $608,605/month
+- **Projected Achievement:** **Month 11 (April 2027)**
+- **Net Margin at Achievement:** 17.1%
+- **Combined Revenue at Achievement:** $658,745/month
 
 ---
 
@@ -190,6 +190,8 @@ By Month 12 (May 2027), the $406,500 in new monthly revenue is composed of:
 - **Managed Services MRR:** $219,000 (54%)
 - **Multiplier (Project/Product):** $163,500 (40%)
 - **Standalone Product:** $24,000 (6%)
+
+**Month 12 Combined State:** $713,245/mo revenue | $156,931 EBITDA | $136,931 Net Cash | $8.56M run rate
 
 This 54/46 split between recurring and non-recurring revenue aligns well with healthy MSP ratios, providing both stability and high-margin project upside.
 
