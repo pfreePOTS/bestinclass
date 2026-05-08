@@ -84,32 +84,37 @@ Clients who accept neither option will be offboarded.
 
 | # | Action | Category | Person/Item | Monthly Savings | Notes |
 |---|--------|----------|-------------|----------------|-------|
-| 1 | Furlough 20% | W-2 COGS | Kaitlin Harris | $1,134 | Shifts to sales support in Phase 2 |
-| 2 | Furlough 20% | W-2 COGS | Stephen Calkins | $2,120 | Retains escalation + closer role |
-| 3 | Furlough 20% | W-2 COGS | Nicole Goodwin | $1,531 | Renewals move to Ops in Phase 2 |
-| 4 | Furlough 10% | W-2 COGS | Laura Walsh | $1,010 | Shifts to full-time sales/presales |
-| 5 | Furlough 10% | W-2 COGS | James Froio | $1,034 | Retains escalation role |
-| 6 | Furlough 10% | W-2 COGS | Hagen McDonell | $576 | Local SoCal ITMS + onsite support |
-| 7 | Furlough 10% | W-2 Sales | Eric Anzalone | $729 | Takes over project management |
-| 8 | Furlough 10% | W-2 Marketing | Kyle Carey | $514 | |
-| 9 | Furlough 10% | W-2 Marketing | Lucy | $300 | |
-| 10 | Payroll tax savings | Overhead | (7.65% on above) | $567 | Automatic with pay reductions |
-| | **W-2 Subtotal** | | | **$9,515** | |
-| 11 | Eliminate | Contractor COGS | Dare Olusanjo | $4,333 | 109 tickets/mo absorbed by team |
-| 12 | Eliminate | Contractor COGS | Charlesdoone Castro | $2,716 | 84 tickets/mo — BUT $32/ticket efficiency; see capacity note |
-| 13 | Reduce 20% | Contractor COGS | Vincent Williams | $1,750 | Retains MS escalation + reduced project delivery |
-| 14 | Reduce 20% | Contractor COGS | Matt Barnett | $1,493 | Retains HD + reduced project delivery |
-| 15 | Cap at 10hr/week | Contractor COGS | Jeremy Roe | $6,261 | Project COGS only; no longer on MS |
+| 1 | Furlough 20% (2 days/pay period) | W-2 COGS | Kaitlin Harris | $1,134 | Shifts to sales support in Phase 2 |
+| 2 | Furlough 20% (2 days/pay period) | W-2 COGS | Stephen Calkins | $2,120 | Retains escalation + closer role |
+| 3 | Furlough 20% (2 days/pay period) | W-2 COGS | Nicole Goodwin | $1,531 | Renewals move to Ops in Phase 2 |
+| 4 | Furlough 10% (1 day/pay period) | W-2 COGS | Laura Walsh | $1,010 | Shifts to full-time sales/presales |
+| 5 | Furlough 10% (1 day/pay period) | W-2 COGS | James Froio | $1,034 | Retains escalation role |
+| 6 | Furlough 10% (1 day/pay period) | W-2 COGS | Hagen McDonell | $576 | Local SoCal ITMS + onsite support |
+| 7 | Furlough 10% (1 day/pay period) | W-2 Sales | Eric Anzalone | $729 | Takes over project management |
+| 8 | Raise to $30/hr + furlough (1 day/pay period) | W-2 Marketing | Kyle Carey | $418 | Rate increase from ~$29.65 to $30/hr; net savings from reduced hours |
+| 9 | Raise to $24/hr + reduce to 32 hrs/week | W-2 Marketing | Lucy | $142 | Rate increase from $20 to $24/hr; hours reduced 20%; take-home roughly flat |
+| 10 | Furlough 10% (1 day/pay period) | W-2 G&A | Aimee Brock | $405 | Operations |
+| 11 | Payroll tax savings | Overhead | (7.65% on above) | $696 | Automatic with reduced hours |
+| | **W-2 Subtotal** | | | **$9,795** | |
+| 12 | Eliminate | Contractor COGS | Dare Olusanjo | $4,333 | 109 tickets/mo absorbed by team |
+| 13 | Eliminate | Contractor COGS | Charlesdoone Castro | $2,716 | 84 tickets/mo — BUT $32/ticket efficiency; see capacity note |
+| 14 | Reduce 20% | Contractor COGS | Vincent Williams | $1,750 | Retains MS escalation + reduced project delivery |
+| 15 | Reduce 20% | Contractor COGS | Matt Barnett | $1,493 | Retains HD + reduced project delivery |
+| 16 | Cap at 10hr/week | Contractor COGS | Jeremy Roe | $6,261 | Project COGS only; no longer on MS |
 | | **Contractor Subtotal** | | | **$16,553** | |
-| 16 | Reduce $3K each | Partner Comp | Rod Hare | $3,000 | |
-| 17 | Reduce $3K each | Partner Comp | Charles Batsford | $3,000 | |
-| 18 | Reduce $3K each | Partner Comp | Paul Freeman | $3,000 | |
+| 17 | Reduce $3K each | Partner Comp | Rod Hare | $3,000 | |
+| 18 | Reduce $3K each | Partner Comp | Charles Batsford | $3,000 | |
+| 19 | Reduce $3K each | Partner Comp | Paul Freeman | $3,000 | |
 | | **Partner Subtotal** | | | **$9,000** | |
-| 19 | Tier 1 conversion | New Revenue | Bottom 8 clients (per-ticket billing) | +$6,560 | 65.6 tickets/mo × $100; no incremental COGS (team already handles these tickets) |
-| 20 | New revenue line | New Revenue | Software Dev Services (Daniyal) | +$5,000 | Custom dev/integrations/automation; COGS = $2,392 (Daniyal's existing cost reclassified) |
-| | **New Revenue Subtotal** | | | **+$11,560** | These are distinct new revenue streams, not cost savings |
+| 20 | Tool consolidation | OpEx | Subscription audit | $1,000 | Immediate cancellation of underused tools |
+| | **OpEx Subtotal** | | | **$1,000** | |
+| 21 | Tier 1 conversion | New Revenue | Bottom 8 clients (per-ticket billing) | +$6,560 | 65.6 tickets/mo × $100; no incremental COGS |
+| 22 | New revenue line | New Revenue | Software Dev Services (Daniyal) | +$5,000 | Custom dev/integrations/automation; COGS = $2,392 reclassified |
+| 23 | Project pricing improvement | New Revenue | Fixed-scope projects priced at 40%+ margin | +$5,000 | Quick Starts, Rapid Deployments, Assessments |
+| 24 | ITMS billing enforcement | New Revenue | Tighten monthly review; bill all T&M hours | +$2,500 | Process exists; reduce missed tickets |
+| | **New Revenue Subtotal** | | | **+$19,060** | Distinct new revenue streams, not cost savings |
 | | | | | | |
-| | **TOTAL PHASE 1 IMPROVEMENT** | | | **~$46,628/month** | Cost savings: $35,068 + New revenue: $11,560 |
+| | **TOTAL PHASE 1 IMPROVEMENT** | | | **~$55,408/month** | Cost savings: $36,348 + New revenue: $19,060 |
 
 **Phase 1 P&L Impact (at $291K base revenue — P&L LOW scenario):**
 
@@ -118,13 +123,15 @@ Clients who accept neither option will be offboarded.
 | Revenue (base) | $291,545 | $291,545 | — |
 | + Software Dev Services | — | +$5,000 | +$5,000 |
 | + Tier 1 per-ticket billing | — | +$6,560 | +$6,560 |
-| **Total Revenue** | **$291,545** | **$303,105** | **+$11,560** |
+| + Project pricing improvement | — | +$5,000 | +$5,000 |
+| + ITMS billing enforcement | — | +$2,500 | +$2,500 |
+| **Total Revenue** | **$291,545** | **$310,605** | **+$19,060** |
 | COGS | $201,313 | $177,355 | -$23,958 |
-| **Gross Margin** | **$90,232 (30.9%)** | **$125,750 (41.5%)** | **+$35,518** |
-| OpEx | $122,422 | $111,312 | -$11,110 |
-| **EBITDA** | **-$32,190 (-11.0%)** | **+$14,438 (4.8%)** | **+$46,628** |
+| **Gross Margin** | **$90,232 (30.9%)** | **$133,250 (42.9%)** | **+$43,018** |
+| OpEx | $122,422 | $110,032 | -$12,390 |
+| **EBITDA** | **-$32,190 (-11.0%)** | **+$23,218 (7.5%)** | **+$55,408** |
 | Debt + Distributions | -$20,000 | -$20,000 | — |
-| **Net Cash** | **-$52,190** | **-$5,562** | **+$46,628** |
+| **Net Cash** | **-$52,190** | **+$3,218** | **+$55,408** |
 
 **Key Notes:**
 
@@ -140,7 +147,9 @@ Clients who accept neither option will be offboarded.
 
 6. **Julia Morte is retained** — she handles dispatch/coordination, not ticket resolution. Removing her would create a coordination gap without reducing ticket capacity.
 
-**Remaining Gap to Target:** $30,000 net cash target minus (-$5,562 actual) = **~$35,562/month** to be addressed in Phase 2.
+**Remaining Gap to Target:** $30,000 net cash target minus $3,218 actual = **~$26,782/month** to be addressed in Phase 2.
+
+**Sensitivity (without Tier 1 revenue):** If all 8 Tier 1 clients leave, revenue drops $13,377 (lose $6,560 per-ticket + $6,817 agreements). EBITDA falls to ~$9,841 (3.2%), Net Cash = -$10,159. The plan remains EBITDA-positive even without Tier 1, but net cash goes negative.
 
 ---
 
