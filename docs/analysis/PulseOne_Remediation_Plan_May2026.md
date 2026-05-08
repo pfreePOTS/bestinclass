@@ -50,18 +50,17 @@ The following clients have been identified as operating below the cost of delive
 |--------|-----------|-----------|---------|----------------|--------------|------------|
 | Autism Behavioral Health | $1,468 | 24.4 | 28.7 | $51/hr | $96/hr | **-$1,288** |
 | BLN Property Management | $174 | 1.6 | 3.2 | $54/hr | $177/hr | **-$393** |
-| Santa Barbara Soccer Club | $45 | 0.6 | 0.7 | $64/hr | $514/hr | **-$315** |
 | Virtus Financial Partners | $969 | 7.4 | 14.9 | $65/hr | $104/hr | **-$573** |
 | Pelage Pharmaceuticals | $1,136 | 7.6 | 16.1 | $71/hr | $102/hr | **-$504** |
 | Focus On The Masters | $423 | 3.6 | 5.2 | $81/hr | $142/hr | **-$317** |
 | CWS Investments Inc | $1,420 | 8.4 | 16.7 | $85/hr | $101/hr | **-$273** |
 | Connecting Dot By Dot | $860 | 10.0 | 9.6 | $90/hr | $118/hr | **-$273** |
 | The Elements Agency, LLC | $367 | 2.6 | 3.7 | $99/hr | $166/hr | **-$246** |
-| **TOTAL** | **$6,862** | **66.2** | **98.8** | **$69/hr** | **$112/hr** | **-$4,182** |
+| **TOTAL** | **$6,817** | **65.6** | **98.1** | **$69/hr** | **$112/hr** | **-$3,867** |
 
 *Burdened cost model: Reactive labor $65/hr + Management overhead (18% of tech hours @ $85/hr) + Dispatch $6.20/ticket + Client services $300/month per client. Does not include per-endpoint tool costs ($26/endpoint), which would increase the loss further.*
 
-Every one of these clients is operating at a net loss. The blended effective ticket rate of $69/hr is 38% below the burdened cost of $112/hr. Collectively, these 9 accounts destroy **$4,182/month** ($50,184/year) in margin before tool costs are even applied.
+Every one of these clients is operating at a net loss. The blended effective ticket rate of $69/hr is 38% below the burdened cost of $112/hr. Collectively, these 8 accounts destroy **$3,867/month** ($46,404/year) in margin before tool costs are even applied.
 
 **Action:** These clients will be presented with two options:
 1. **Tier 1 Conversion:** Maintain their base agreement at the current rate, but all support requests are billed at $100-$150 per ticket on top of the base fee.
@@ -70,10 +69,10 @@ Every one of these clients is operating at a net loss. The blended effective tic
 Clients who accept neither option will be offboarded.
 
 **Impact Scenarios:**
-- If all 9 clients stay on Tier 1 at $100/ticket: +$6,660/month in new per-ticket revenue (66.6 tickets × $100)
-- If all 9 clients stay on Tier 1 at $150/ticket: +$9,990/month in new per-ticket revenue
-- If 5 stay and 4 leave: +$3,700/month revenue, plus ~40 tickets/month of freed capacity
-- If all leave: -$6,862/month revenue lost, but 99 hours/month of capacity freed (worth ~$7,000-$10,000 at delivery cost)
+- If all 8 clients stay on Tier 1 at $100/ticket: +$6,560/month in new per-ticket revenue (65.6 tickets × $100)
+- If all 8 clients stay on Tier 1 at $150/ticket: +$9,840/month in new per-ticket revenue
+- If 5 stay and 3 leave: +$4,100/month revenue, plus ~25 tickets/month of freed capacity
+- If all leave: -$6,817/month agreement revenue lost, but 98 hours/month of capacity freed (worth ~$7,000-$10,000 at delivery cost)
 
 ### 5. Software Development Services Reallocation
 - **Action:** Daniyal's capacity (previously buried as an unrecovered cost in the project pool) is reallocated to a dedicated Software Development Services line.
@@ -106,27 +105,30 @@ Clients who accept neither option will be offboarded.
 | 17 | Reduce $3K each | Partner Comp | Charles Batsford | $3,000 | |
 | 18 | Reduce $3K each | Partner Comp | Paul Freeman | $3,000 | |
 | | **Partner Subtotal** | | | **$9,000** | |
-| 19 | Tier 1 conversion | Revenue | Bottom 9 clients | +$6,660 | At $100/ticket; assumes all stay (see attrition scenarios below) |
-| 20 | New revenue line | Revenue | Software Dev Services | +$5,000 | Daniyal reclassified; $2,608 net margin after his COGS |
-| | **Revenue Subtotal** | | | **+$11,660** | |
+| 19 | Tier 1 conversion | New Revenue | Bottom 8 clients (per-ticket billing) | +$6,560 | 65.6 tickets/mo × $100; no incremental COGS (team already handles these tickets) |
+| 20 | New revenue line | New Revenue | Software Dev Services (Daniyal) | +$5,000 | Custom dev/integrations/automation; COGS = $2,392 (Daniyal's existing cost reclassified) |
+| | **New Revenue Subtotal** | | | **+$11,560** | These are distinct new revenue streams, not cost savings |
 | | | | | | |
-| | **TOTAL PHASE 1 IMPROVEMENT** | | | **~$46,728/month** | |
+| | **TOTAL PHASE 1 IMPROVEMENT** | | | **~$46,628/month** | Cost savings: $35,068 + New revenue: $11,560 |
 
-**Phase 1 P&L Impact (at $280K base revenue):**
+**Phase 1 P&L Impact (at $291K base revenue — P&L LOW scenario):**
 
 | Metric | Before Phase 1 | After Phase 1 | Change |
 |--------|---------------|--------------|--------|
-| Revenue | $280,545 | $291,205 | +$10,660 |
-| COGS | $194,863 | $168,310 | -$26,553 |
-| Gross Margin | $85,682 (30.5%) | $122,895 (42.2%) | +$37,213 |
-| OpEx | $122,422 | $112,907 | -$9,515 |
-| **EBITDA** | **-$36,740** | **+$9,988 (3.4%)** | **+$46,728** |
+| Revenue (base) | $291,545 | $291,545 | — |
+| + Software Dev Services | — | +$5,000 | +$5,000 |
+| + Tier 1 per-ticket billing | — | +$6,560 | +$6,560 |
+| **Total Revenue** | **$291,545** | **$303,105** | **+$11,560** |
+| COGS | $201,313 | $177,355 | -$23,958 |
+| **Gross Margin** | **$90,232 (30.9%)** | **$125,750 (41.5%)** | **+$35,518** |
+| OpEx | $122,422 | $111,312 | -$11,110 |
+| **EBITDA** | **-$32,190 (-11.0%)** | **+$14,438 (4.8%)** | **+$46,628** |
 | Debt + Distributions | -$20,000 | -$20,000 | — |
-| **Net Cash** | **-$56,740** | **-$10,012** | **+$46,728** |
+| **Net Cash** | **-$52,190** | **-$5,562** | **+$46,628** |
 
 **Key Notes:**
 
-1. **Tier 1 revenue is uncertain.** The $6,660 assumes all 9 clients stay and pay $100/ticket. If half leave, revenue drops by ~$3,400 but capacity pressure also eases. Worst case (all leave): revenue drops $6,862 but 99 hours/month of delivery capacity is freed.
+1. **Tier 1 revenue is uncertain.** The $6,560 assumes all 8 clients stay and pay $100/ticket. If half leave, revenue drops by ~$3,300 but capacity pressure also eases. Worst case (all leave): revenue drops $6,817 but 98 hours/month of delivery capacity is freed.
 
 2. **Charlesdoone elimination carries capacity risk.** He is the 3rd most efficient tech at $32/ticket. His 84 tickets/month must be absorbed by George, AJ/Blaine, Hagen, Matt, and Brendan. This works only because departing clients (ARC, Conejo, Sea Ranch) remove 39 tickets/month and the Tier 1 clients can be served at lower priority.
 
@@ -138,7 +140,7 @@ Clients who accept neither option will be offboarded.
 
 6. **Julia Morte is retained** — she handles dispatch/coordination, not ticket resolution. Removing her would create a coordination gap without reducing ticket capacity.
 
-**Remaining Gap to Target:** ~$30,000 net cash target minus (-$10,012 actual) = **~$40,012/month** to be addressed in Phase 2.
+**Remaining Gap to Target:** $30,000 net cash target minus (-$5,562 actual) = **~$35,562/month** to be addressed in Phase 2.
 
 ---
 
