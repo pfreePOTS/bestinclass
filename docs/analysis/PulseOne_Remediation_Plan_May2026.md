@@ -26,9 +26,11 @@ To right-size the W-2 labor pool against current demand without eliminating core
 - James Froio: 10% reduction ($1,034/mo)
 - Hagen McDonell: 10% reduction ($576/mo)
 - Eric Anzalone: 10% reduction ($729/mo)
-- Kyle Carey: 10% reduction ($514/mo)
-- Lucy: 10% reduction ($300/mo)
-*Note: Includes associated 7.65% payroll tax savings.*
+- Kyle Carey: Rate increase to $30/hr + 1 furlough day per pay period ($418/mo net savings)
+- Lucy: Rate increase to $24/hr + reduced to 32 hrs/week ($142/mo net savings)
+- Aimee Brock: 10% reduction ($405/mo)
+
+*Note: Kyle and Lucy receive hourly rate increases as a retention investment. The furlough (reduced hours, not reduced rate) brings PulseOne's cost below current levels. When hours are restored, the rate increase becomes a real raise. Includes associated 7.65% payroll tax savings on all reduced hours.*
 
 ### 2. Contractor Eliminations & Reductions ($16,553/month savings)
 The outsourced delivery layer is being compressed to match the true volume of profitable project and MS work:
