@@ -419,7 +419,88 @@ This validates against the April Profitability Sheet: at $310K revenue, the comp
 
 ---
 
-## Section 12: Action Framework
+
+## Section 12: Phase 1 Profitability Recovery Plan (May 2026)
+
+This section details the specific, committed actions to recover profitability and move toward the 0K/month net cash target, based on May 2026 analysis.
+
+### 12.1 Revised Cut Plan (Phase 1)
+
+**W-2 Furloughs (10-20% reduction):**
+- Kaitlin Harris (20%)
+- Stephen Calkins (20%)
+- Laura Walsh (10%)
+- James Froio (10%)
+- Hagen McDonell (10%)
+- Eric Anzalone (10%)
+- Kyle Carey (10%)
+- Lucy (10%)
+- Nicole Goodwin (20%)
+*Total W-2 Furlough Savings (incl. taxes): ,984/month*
+
+**W-2 Eliminations:**
+- *(Note: Breanna Copeland is already removed from the baseline cost. Julia Morte is retained for dispatch.)*
+*Total W-2 Elimination Savings: bash/month*
+
+**Partner Compensation Reductions:**
+- Rod Hare, Charles Batsford, Paul Freeman (-,000 each)
+*Total Partner Comp Savings: ,000/month*
+
+**Contractor Eliminations & Reductions:**
+- Dare Olusanjo (Eliminate): ,333/month
+- Charlesdoone Castro (Eliminate): ,716/month
+- Vincent Williams (20% reduction): ,750/month
+- Matt Barnett (20% reduction): ,493/month
+- Jeremy Roe (Cap at 10hr/week retainer for projects): ,261/month
+*Total Contractor Savings: 6,553/month*
+*(Note: AJ and Blaine are retained to handle Bunzl MS volume)*
+
+### 12.2 Revenue Adjustments
+
+**Tier 1 Client Conversion (Bottom 8):**
+The bottom 8 MS clients (generating <,000/mo each) consume ~123 hours/month. Instead of shedding them entirely, they will be converted to a "Tier 1" model: maintaining their base agreement but paying per-ticket (e.g., 00/ticket).
+- Projected new revenue (assuming all stay): +,800/month
+- *Note: If clients churn due to this change, revenue will drop but capacity will be freed. The model assumes full retention for calculation purposes.*
+
+**Software Development Services:**
+- Daniyal's capacity (previously buried in project COGS) is reallocated to a dedicated Software Dev Services line.
+- Projected new revenue: +,000/month
+
+### 12.3 Phase 1 Financial Impact
+
+| Category | Monthly Impact |
+|----------|---------------|
+| COGS Savings | 2,922 |
+| OpEx Savings | 0,495 |
+| New Revenue (Tier 1 + SW Dev) | 3,800 |
+| **Total EBITDA Improvement** | **7,217/month** |
+
+**Revised P&L (Post-Phase 1):**
+- **Revenue:** 01,345
+- **COGS:** 71,941
+- **Gross Margin:** 29,404 (42.9%)
+- **OpEx:** 11,927
+- **EBITDA:** 7,477 (5.8%)
+- **Net Cash:** -,523/month
+
+*Gap to 0K net cash target: ~2,523/month remaining.*
+
+### 12.4 Ticket Capacity Assessment
+
+After the proposed cuts, the Help Desk capacity was analyzed to ensure service delivery remains viable:
+
+- **Demand:** ~629 tickets/month (Jan-May 2026 avg)
+- **Departing Clients:** ARC, Conejo, Sea Ranch will remove ~39 tickets/month.
+- **Adjusted Demand:** ~590 tickets/month (assuming Tier 1 clients stay and generate tickets).
+
+- **Capacity Lost:** Dare (109 tix/mo) + Charlesdoone (84 tix/mo) = 193 tickets/month lost.
+- **Remaining Capacity:** George (142), AJ (88), Blaine (98), Hagen (56), Matt B. (45), Brendan (54), plus escalations = ~530 tickets/month.
+
+**Conclusion:** The remaining team can handle ~530 tickets/month against a demand of ~590. This creates a ~60 ticket/month deficit. However, because the bottom 8 clients (88 tickets/month) are moving to a pay-per-ticket Tier 1 model, their tickets can be prioritized lower (best effort/longer SLA), allowing the core MS agreement clients to receive full SLA coverage within the 530-ticket capacity.
+
+---
+
+## Section 13: Action Framework
 
 ### Immediate (May 2026)
 1. Enforce ITMS billing boundaries to capture ~$8,600/month in unbilled project work.
