@@ -426,64 +426,70 @@ This section details the specific, committed actions to recover profitability an
 
 ### 12.1 Revised Cut Plan (Phase 1)
 
-**W-2 Furloughs (10-20% reduction):**
-- Kaitlin Harris (20%)
-- Stephen Calkins (20%)
-- Laura Walsh (10%)
-- James Froio (10%)
-- Hagen McDonell (10%)
-- Eric Anzalone (10%)
-- Kyle Carey (10%)
-- Lucy (10%)
-- Nicole Goodwin (20%)
-*Total W-2 Furlough Savings (incl. taxes): ,984/month*
+**W-2 Furloughs (reduced hours, not reduced rates):**
+- Kaitlin Harris (20% — 2 days/pay period)
+- Stephen Calkins (20% — 2 days/pay period)
+- Laura Walsh (10% — 1 day/pay period)
+- James Froio (10% — 1 day/pay period)
+- Hagen McDonell (10% — 1 day/pay period)
+- Eric Anzalone (10% — 1 day/pay period)
+- Kyle Carey: Rate increase to $30/hr + 1 furlough day per pay period (net savings $418/mo)
+- Lucy: Rate increase to $24/hr + reduced to 32 hrs/week (net savings $142/mo)
+- Nicole Goodwin (20% — 2 days/pay period)
+- Aimee Brock (10% — 1 day/pay period)
+
+*Note: Kyle and Lucy receive hourly rate increases as a retention investment. The furlough (reduced hours) brings PulseOne's cost below current levels. When hours are restored, the rate increase becomes a real raise.*
+
+*Total W-2 Furlough Savings (incl. 7.65% payroll tax): $9,795/month*
 
 **W-2 Eliminations:**
 - *(Note: Breanna Copeland is already removed from the baseline cost. Julia Morte is retained for dispatch.)*
-*Total W-2 Elimination Savings: bash/month*
+*Total W-2 Elimination Savings: $0/month (no new eliminations — Breanna already gone, Julia retained)*
 
 **Partner Compensation Reductions:**
-- Rod Hare, Charles Batsford, Paul Freeman (-,000 each)
-*Total Partner Comp Savings: ,000/month*
+- Rod Hare, Charles Batsford, Paul Freeman (-$3,000 each)
+*Total Partner Comp Savings: $9,000/month*
 
 **Contractor Eliminations & Reductions:**
-- Dare Olusanjo (Eliminate): ,333/month
-- Charlesdoone Castro (Eliminate): ,716/month
-- Vincent Williams (20% reduction): ,750/month
-- Matt Barnett (20% reduction): ,493/month
-- Jeremy Roe (Cap at 10hr/week retainer for projects): ,261/month
-*Total Contractor Savings: 6,553/month*
+- Dare Olusanjo (Eliminate): $4,333/month
+- Charlesdoone Castro (Eliminate): $2,716/month
+- Vincent Williams (20% reduction): $1,750/month
+- Matt Barnett (20% reduction): $1,493/month
+- Jeremy Roe (Cap at 10hr/week retainer for projects): $6,261/month
+*Total Contractor Savings: $16,553/month*
 *(Note: AJ and Blaine are retained to handle Bunzl MS volume)*
 
 ### 12.2 Revenue Adjustments
 
 **Tier 1 Client Conversion (Bottom 8):**
-The bottom 8 MS clients (generating <,000/mo each) consume ~123 hours/month. Instead of shedding them entirely, they will be converted to a "Tier 1" model: maintaining their base agreement but paying per-ticket (e.g., 00/ticket).
-- Projected new revenue (assuming all stay): +,800/month
+The bottom 8 MS clients (generating <$2,000/mo each) consume ~123 hours/month. Instead of shedding them entirely, they will be converted to a "Tier 1" model: maintaining their base agreement but paying per-ticket (e.g., $100/ticket).
+- Projected new revenue (assuming all stay): +$6,560/month
 - *Note: If clients churn due to this change, revenue will drop but capacity will be freed. The model assumes full retention for calculation purposes.*
 
 **Software Development Services:**
 - Daniyal's capacity (previously buried in project COGS) is reallocated to a dedicated Software Dev Services line.
-- Projected new revenue: +,000/month
+- Projected new revenue: +$5,000/month
 
 ### 12.3 Phase 1 Financial Impact
 
 | Category | Monthly Impact |
 |----------|---------------|
-| COGS Savings | 2,922 |
-| OpEx Savings | 0,495 |
-| New Revenue (Tier 1 + SW Dev) | 3,800 |
-| **Total EBITDA Improvement** | **7,217/month** |
+| COGS Savings (W-2 furloughs + contractors) | $23,958 |
+| OpEx Savings (partners + furloughs + tools + payroll tax) | $12,390 |
+| New Revenue (Tier 1 + SW Dev + Project Pricing + ITMS) | +$19,060 |
+| **Total EBITDA Improvement** | **$55,408/month** |
 
-**Revised P&L (Post-Phase 1):**
-- **Revenue:** 01,345
-- **COGS:** 71,941
-- **Gross Margin:** 29,404 (42.9%)
-- **OpEx:** 11,927
-- **EBITDA:** 7,477 (5.8%)
-- **Net Cash:** -,523/month
+**Revised P&L (Post-Phase 1, at $291K base revenue):**
+- **Revenue:** $310,605
+- **COGS:** $177,355
+- **Gross Margin:** $133,250 (42.9%)
+- **OpEx:** $110,032
+- **EBITDA:** +$23,218 (7.5%)
+- **Net Cash:** +$3,218/month
 
-*Gap to 0K net cash target: ~2,523/month remaining.*
+*Gap to $30K net cash target: ~$26,782/month remaining (to be addressed in Phase 2).*
+
+*Sensitivity: Without Tier 1 revenue (all 8 clients leave), EBITDA falls to ~$9,841 (3.2%), Net Cash = -$10,159. Plan remains EBITDA-positive even in worst case.*
 
 ### 12.4 Ticket Capacity Assessment
 
