@@ -43,9 +43,37 @@ The outsourced delivery layer is being compressed to match the true volume of pr
 - Rod Hare, Charles Batsford, and Paul Freeman will each take a $3,000/month reduction in guaranteed payments.
 
 ### 4. Bottom-Tier Client Conversion (Tier 1 Model)
-The bottom 8 Managed Services clients (generating <$2,000/month each) currently consume ~123 hours of technical labor monthly. 
-- **Action:** These clients will be converted to a "Tier 1" model. They will maintain their base agreement but will be billed per-ticket (e.g., $100-$150/ticket) for all support requests.
-- **Impact:** If all clients stay, this generates ~$8,800/month in new revenue. If clients churn, it frees up to 88 tickets/month of capacity, easing the burden on the reduced Help Desk team.
+
+The following clients have been identified as operating below the cost of delivery. Their effective hourly rate (agreement revenue divided by hours of support consumed) is well below PulseOne's blended delivery cost of ~$100-$120/hour. These clients are consuming capacity at a loss.
+
+| Client | Mo Revenue | Mo Tickets | Mo Hours | Eff Ticket Rate | Burdened Cost | Monthly P/L |
+|--------|-----------|-----------|---------|----------------|--------------|------------|
+| Autism Behavioral Health | $1,468 | 24.4 | 28.7 | $51/hr | $96/hr | **-$1,288** |
+| BLN Property Management | $174 | 1.6 | 3.2 | $54/hr | $177/hr | **-$393** |
+| Santa Barbara Soccer Club | $45 | 0.6 | 0.7 | $64/hr | $514/hr | **-$315** |
+| Virtus Financial Partners | $969 | 7.4 | 14.9 | $65/hr | $104/hr | **-$573** |
+| Pelage Pharmaceuticals | $1,136 | 7.6 | 16.1 | $71/hr | $102/hr | **-$504** |
+| Focus On The Masters | $423 | 3.6 | 5.2 | $81/hr | $142/hr | **-$317** |
+| CWS Investments Inc | $1,420 | 8.4 | 16.7 | $85/hr | $101/hr | **-$273** |
+| Connecting Dot By Dot | $860 | 10.0 | 9.6 | $90/hr | $118/hr | **-$273** |
+| The Elements Agency, LLC | $367 | 2.6 | 3.7 | $99/hr | $166/hr | **-$246** |
+| **TOTAL** | **$6,862** | **66.2** | **98.8** | **$69/hr** | **$112/hr** | **-$4,182** |
+
+*Burdened cost model: Reactive labor $65/hr + Management overhead (18% of tech hours @ $85/hr) + Dispatch $6.20/ticket + Client services $300/month per client. Does not include per-endpoint tool costs ($26/endpoint), which would increase the loss further.*
+
+Every one of these clients is operating at a net loss. The blended effective ticket rate of $69/hr is 38% below the burdened cost of $112/hr. Collectively, these 9 accounts destroy **$4,182/month** ($50,184/year) in margin before tool costs are even applied.
+
+**Action:** These clients will be presented with two options:
+1. **Tier 1 Conversion:** Maintain their base agreement at the current rate, but all support requests are billed at $100-$150 per ticket on top of the base fee.
+2. **Rate Increase:** Increase their monthly agreement to a level that covers the actual cost of delivery (effectively doubling or tripling their current rate).
+
+Clients who accept neither option will be offboarded.
+
+**Impact Scenarios:**
+- If all 9 clients stay on Tier 1 at $100/ticket: +$6,660/month in new per-ticket revenue (66.6 tickets × $100)
+- If all 9 clients stay on Tier 1 at $150/ticket: +$9,990/month in new per-ticket revenue
+- If 5 stay and 4 leave: +$3,700/month revenue, plus ~40 tickets/month of freed capacity
+- If all leave: -$6,862/month revenue lost, but 99 hours/month of capacity freed (worth ~$7,000-$10,000 at delivery cost)
 
 ### 5. Software Development Services Reallocation
 - **Action:** Daniyal's capacity (previously buried as an unrecovered cost in the project pool) is reallocated to a dedicated Software Development Services line.
@@ -59,32 +87,169 @@ The bottom 8 Managed Services clients (generating <$2,000/month each) currently 
 
 ---
 
-## D. Phase 2: Revenue & Margin Recovery (June-July 2026)
+## D. Phase 2: Operational Efficiency & Revenue Recovery (June-July 2026)
 
-To close the remaining $32,500 gap, the following operational and pricing levers must be pulled.
+Phase 2 addresses the remaining $32,500 gap through a combination of territory restructuring, operational discipline improvements, and pricing adjustments. Unlike Phase 1 (which is primarily cost reduction), Phase 2 focuses on extracting more revenue and margin from the existing operation.
 
-### 1. ITMS Billing Enforcement ($3,000 - $5,000/month)
-**The Issue:** An analysis of 2026 YTD data reveals 161.5 hours of external ITMS (project/T&M) work performed for non-Bunzl clients over 5 months. While many of these clients received "Standard" invoices during this period, those invoices were predominantly for hardware/software purchases, meaning the ITMS labor itself was largely unbilled.
-**The Action:** 
-- Implement a hard stop on the ITMS board. No ITMS ticket can be closed without an associated ConnectWise invoice for the labor, unless explicitly overridden by a manager as covered under the MSA.
-- At $150/hour, capturing this existing T&M work represents a realistic recovery of $3,000-$5,000/month in high-margin revenue.
+### 1. Territory Restructuring: Chad Wiggins' SoCal Territory
 
-### 2. MS Agreement Rate Increases ($5,000 - $7,500/month)
+Chad Wiggins (former Director of Sales, departed 2025) left behind a Southern California territory with active prospects and relationships that have gone unworked. The following role reassignments activate this territory without adding headcount:
+
+**Eric Anzalone → Project Management:**
+- Anzalone takes over project coordination responsibilities currently consuming Walsh and Harris time.
+- This frees Walsh from project management overhead and allows her to focus on sales/presales activity.
+- Anzalone's existing client relationships and operational knowledge make him the natural fit for PM duties.
+
+**Operations (Emily/Aimee) → Renewals:**
+- The renewals process (currently handled by Nicole Goodwin) transfers to the Operations team.
+- This is administrative work — tracking renewal dates, generating quotes, sending notices — that belongs in Operations, not on a technician.
+- Frees Goodwin's remaining capacity for sales support and technical presales.
+
+**Harris + Goodwin → Sales Support / SoCal Prospecting:**
+- Harris and Goodwin will work together to engage Southern California prospects from Chad's former territory.
+- Their role: identify prospects, initiate contact, and schedule qualified meetings for Walsh, Charlie Batsford, and Steve Calkins to attend.
+- This converts two people currently classified as COGS (with furloughed hours) into revenue-generating sales support.
+- Harris in particular shifts from 90% Projects (unrecovered coordination overhead) to a split between sales support and minimal project coordination.
+
+**Walsh/Batsford/Calkins → Closers:**
+- Walsh, Charlie Batsford, and Steve Calkins attend the meetings set by Harris/Goodwin and close new managed services agreements.
+- Walsh's 50% Sales allocation becomes directly productive (meeting prospects vs. managing projects).
+
+**Financial Impact:**
+- No incremental cost (all existing headcount, some already furloughed).
+- Revenue upside: Each new MS agreement closed from this territory adds $2,000-$5,000/month in high-margin recurring revenue.
+- Target: 2-3 new MS agreements per quarter from the SoCal territory = $4,000-$15,000/month in new MRR by Q4 2026.
+
+### 2. Technician Time Tracking Improvement
+
+**The Issue:** Without accurate time tracking, PulseOne cannot measure true agreement profitability, identify scope creep, or capture all billable hours. Technicians who do not log time against tickets create invisible labor that distorts client P&L and makes it impossible to enforce billing boundaries.
+
+**The Action:**
+- Mandate 100% time entry for all scheduled technicians. Every technician must log 8 hours of time daily in ConnectWise, allocated to specific tickets or internal categories.
+- Implement a daily time entry compliance report. Any technician below 95% compliance gets flagged to their manager.
+- Weekly review of time entry by Julia (dispatch) to identify gaps and enforce corrections.
+- Time entries must be categorized correctly: Help Desk, ITMS (billable T&M), Projects, or Internal/Admin.
+
+**Financial Impact:**
+- Enables accurate measurement of agreement profitability by client.
+- Surfaces hidden scope creep (clients consuming more hours than their agreement covers).
+- Provides the data foundation for all other operational improvements in this section.
+- Estimated revenue recovery from surfaced unbilled work: $1,000-$3,000/month.
+
+### 3. ITMS Billing Improvement
+
+**The Issue:** ITMS tickets represent T&M project work (onboarding, offboarding, deployments, network changes) that should be billed hourly. PulseOne has an existing monthly review process to bill these tickets, but leakage occurs when tickets are missed, hours are not logged, or the review is incomplete. In 2026 YTD, 161.5 hours of external ITMS work was performed for non-Bunzl clients over 5 months — much of which was not invoiced as labor.
+
+**The Action:**
+- Tighten the monthly ITMS billing review. Every external ITMS ticket must be reconciled against a ConnectWise invoice before month-end close.
+- Implement a hard stop: No ITMS ticket can be closed without time entries. No time entry on an external ITMS ticket can exist without an associated billing event (invoice or explicit manager override noting it is covered under the MSA).
+- Assign ownership of the monthly ITMS billing review to a specific person (Operations or Julia) with a checklist and deadline.
+- At $150/hour, capturing the existing leakage represents $3,000-$5,000/month in high-margin revenue.
+
+**Financial Impact:** $3,000-$5,000/month in recovered T&M revenue at near-100% margin (labor is already being spent).
+
+### 4. Fixed-Scope Project Profitability (Quick Starts, Rapid Deployments, Assessments)
+
+**The Issue:** PulseOne offers productized project offerings (Quick Starts, Rapid Deployments, IT Assessments) that should operate at 50%+ gross margin because they have defined scope, fixed pricing, and repeatable delivery. However, without strict scope enforcement and time tracking, these engagements frequently overrun their budgeted hours, destroying the margin.
+
+**The Action:**
+- Define a maximum hour budget for each productized offering. Examples:
+  - Quick Start: 8 hours maximum delivery
+  - Rapid Deployment: 16 hours maximum delivery
+  - IT Assessment: 12 hours maximum delivery
+- Any hours beyond the budgeted maximum require a change order (additional billing) before work continues.
+- Price all fixed-scope offerings at a minimum 60% gross margin on budgeted hours (to absorb minor overruns and still hit 50% actual).
+- Track actual hours vs. budgeted hours on every engagement. Report monthly variance.
+
+**Financial Impact:**
+- Current project revenue: ~$25,000/month. If 40% of that ($10,000) is fixed-scope productized work, improving margin from 30% to 50% adds $2,000/month.
+- More importantly, this discipline prevents the margin destruction that made Projects a -36.6% segment in the past.
+
+### 5. Assessment Conversion Rate Improvement
+
+**The Issue:** In 2025, PulseOne sold 28 IT Assessments generating $72,000 in one-time revenue, but only $20,723 converted to new MRR (managed services agreements). That is a 29% conversion rate on assessments that are specifically designed to identify gaps and sell ongoing services. Best-in-class MSPs convert 50-70% of assessments to agreements.
+
+**The Action:**
+- Every assessment must include a standardized "Findings & Recommendations" deliverable that explicitly maps identified gaps to PulseOne service offerings with pricing.
+- Implement a 30-day follow-up cadence after assessment delivery: Day 7 (review meeting), Day 14 (proposal delivery), Day 30 (decision deadline).
+- Track conversion rate monthly. Target: 50% of assessments convert to an MS agreement within 60 days.
+- Assign assessment follow-up ownership to Walsh (as part of her sales/presales role).
+
+**Financial Impact:**
+- If PulseOne sells 2-3 assessments/month at $2,500 each, and conversion improves from 29% to 50%, that is 1 additional new MS agreement per month.
+- At an average agreement value of $3,000/month, this adds $3,000/month in cumulative MRR each month (compounding).
+
+### 6. P&L Restructuring for Accurate COGS
+
+**The Issue:** The current P&L model allocates W-2 labor to COGS based on estimated time splits (e.g., Walsh 35% Projects, 50% Sales, 15% MS). These allocations are based on management estimates, not measured time. If the allocations are wrong, the P&L shows incorrect margins by service line — which leads to bad decisions about where to invest or cut.
+
+**The Action:**
+- Once time tracking is enforced (Item #2 above), use actual ConnectWise time data to determine the real labor allocation by service line.
+- Rebuild COGS allocations quarterly based on trailing 90-day actual time data.
+- Separate coordination/management time from billable delivery time in the P&L. Walsh and Harris time on projects should be visible as "Project Coordination Overhead" — not blended into delivery COGS where it looks like the delivery team is inefficient.
+- Create distinct P&L views for: Managed Services, Projects (delivery), Projects (coordination overhead), Software Dev Services, and Products.
+
+**Financial Impact:**
+- No direct revenue impact, but enables accurate decision-making about which service lines to grow, shrink, or eliminate.
+- Prevents future situations where unprofitable segments are hidden inside blended margins.
+
+### 7. Purchase Order Enforcement on Projects
+
+**The Issue:** Projects have historically been delivered without formal purchase orders, leading to situations where work is completed but never billed (because there was no billing mechanism triggered), or where scope creep occurs without a change order because no one is tracking against an original PO.
+
+**The Action:**
+- No project work (including ITMS T&M work) begins without a signed Purchase Order or Statement of Work in ConnectWise.
+- The PO must specify: scope, maximum hours, billing rate, and total not-to-exceed amount.
+- Any work beyond the PO scope requires a change order (new PO) before additional hours are logged.
+- Eric Anzalone (new PM role) is responsible for PO creation and enforcement.
+- Monthly audit: compare all project time entries against active POs. Any time logged without a PO is flagged for immediate billing or write-off decision.
+
+**Financial Impact:**
+- Eliminates the "work delivered but never billed" problem that created the historical ITMS leakage.
+- Provides clear audit trail for project profitability measurement.
+- Estimated recovery from enforced billing: $2,000-$4,000/month (overlaps with ITMS improvement above).
+
+### 8. MS Agreement Rate Increases ($5,000 - $7,500/month)
+
 **The Issue:** Managed Services gross margin is currently 50.7%, below the Best-in-Class target of 55-60%. Labor and tool costs have increased without corresponding rate adjustments.
+
 **The Action:**
 - Implement a 5% to 8% rate increase on the ~30 non-Bunzl Managed Services agreements.
 - A 5% increase on the $65,892 non-Bunzl MS base yields ~$3,300/month.
 - A 5% increase on the $33,279 Licensing base (passing through vendor cost increases) yields ~$1,600/month.
 - *Bunzl ($85,374/mo) is excluded from this immediate increase due to concentration risk, to be addressed at contract renewal.*
+- Communicate the increase as an annual adjustment reflecting increased cybersecurity complexity, tool costs, and labor market conditions.
 
-### 3. Tool Consolidation ($3,000 - $5,000/month)
+**Financial Impact:** $5,000-$7,500/month in pure margin improvement.
+
+### 9. Tool Consolidation ($3,000 - $5,000/month)
+
 **The Issue:** The MS tools stack includes $11,953/month in costs, notably $5,374 for Flexis (scheduling/PSA).
+
 **The Action:**
-- Evaluate the necessity of Flexis versus native ConnectWise capabilities. 
+- Evaluate the necessity of Flexis versus native ConnectWise capabilities.
 - Audit the remaining $2,579 in "Other Tools" for redundant subscriptions.
+- Eliminate any tool that does not have a clear, measurable operational purpose.
+
+**Financial Impact:** $3,000-$5,000/month in direct cost reduction.
 
 ### Phase 2 Summary
-If successfully executed, Phase 2 levers provide **$11,000 to $17,500** in additional monthly EBITDA, bringing net cash generation to approximately **+$10,000 to +$15,000/month**.
+
+Phase 2 combines structural role changes (territory restructuring), process discipline (time tracking, PO enforcement, billing tightening), revenue recovery (rate increases, assessment conversion), and cost reduction (tools). The financial impact is both immediate and compounding:
+
+| Lever | Monthly Impact | Timeline |
+|-------|---------------|----------|
+| Territory restructuring (new MRR) | $0 initially, $4,000-$15,000 by Q4 | 90-180 days |
+| Time tracking improvement | $1,000-$3,000 | 30-60 days |
+| ITMS billing improvement | $3,000-$5,000 | 30 days |
+| Fixed-scope project profitability | $2,000 | 60 days |
+| Assessment conversion improvement | $3,000/mo cumulative | 60-90 days |
+| P&L restructuring | $0 (enables decisions) | 90 days |
+| Purchase order enforcement | $2,000-$4,000 | 30 days |
+| MS rate increases | $5,000-$7,500 | 30-60 days |
+| Tool consolidation | $3,000-$5,000 | 30-60 days |
+| **Total (conservative, Month 1-2)** | **$14,000-$22,500** | |
+| **Total (with compounding MRR, by Q4)** | **$22,000-$40,000** | |
 
 ---
 
