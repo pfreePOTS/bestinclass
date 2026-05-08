@@ -53,7 +53,6 @@ Every dollar of MRR closed by this team drops directly to the bottom line at the
 |------|-----------|----------|
 | Prospecting | Harris & Goodwin | Working together in SoCal (Chad Wiggins' former territory); scheduling meetings |
 | Closing | Walsh, Batsford, & Calkins | Converting qualified prospects into signed MS agreements and project SOWs |
-| Sales Support | Anzalone | Coordination, proposal preparation, administrative support |
 | Management | Hinkley | Oversight, coaching, process enforcement — not a direct revenue contributor |
 
 ### D.2 Thrive Team (Commissioned)
@@ -94,9 +93,44 @@ By month 7, all reps should be in a steady production cadence. The Thrive team's
 
 ## F. 12-Month Financial Projection
 
-The following table shows the month-by-month projection incorporating the 1.0x MS Multiplier effect.
+The following tables show the month-by-month projection incorporating the 1.0x MS Multiplier effect. The first table breaks down revenue by type to show exactly what kind of work is expected each month.
 
-### F.1 Revenue Build (New Logo Only)
+### F.1 Revenue by Type (New Logo Only)
+
+Revenue is categorized into five types, each with a distinct margin profile:
+
+| Revenue Type | Description | Target GM |
+|-------------|-------------|----------|
+| Assessments / Quick Starts | Paid technology assessments, onboarding projects, initial implementations | 60% |
+| Projects | Migrations, network builds, expansions, infrastructure upgrades (includes multiplier-driven work) | 60% |
+| Hardware | Servers, workstations, networking equipment, peripherals | 25% |
+| Software / Licensing | Microsoft 365, security tools, LOB applications, seat expansions | 30% |
+| Managed Services (MRR) | Monthly recurring agreements — the core growth engine | 57% |
+
+| Month | Assessments | Projects | Hardware | Software | MS (MRR) | **Total** | Phase |
+|-------|------------|----------|----------|----------|----------|----------|-------|
+| 1 | $31,200 | $0 | $13,000 | $7,800 | $2,000 | **$54,000** | Ramp: assessments + Quick Starts dominate |
+| 2 | $34,200 | $0 | $14,250 | $8,550 | $5,000 | **$62,000** | Ramp: pipeline building, product-heavy |
+| 3 | $37,800 | $1,000 | $16,350 | $9,850 | $12,000 | **$77,000** | First MRR converts; multiplier begins |
+| 4 | $0 | $20,500 | $15,000 | $14,500 | $24,000 | **$74,000** | MRR growing; shift to projects |
+| 5 | $0 | $18,000 | $12,600 | $11,400 | $40,500 | **$82,500** | MRR acceleration; multiplier ramping |
+| 6 | $0 | $20,800 | $13,800 | $11,400 | $60,000 | **$106,000** | Full production; MS approaching majority |
+| 7 | $0 | $29,050 | $18,750 | $14,700 | $80,000 | **$142,500** | Scale phase; multiplier fully engaged |
+| 8 | $0 | $38,800 | $24,600 | $18,600 | $103,000 | **$185,000** | Scale phase; multiplier fully engaged |
+| 9 | $0 | $48,800 | $30,600 | $22,600 | $126,000 | **$228,000** | Commission decay improving margins |
+| 10 | $0 | $60,300 | $37,500 | $27,200 | $152,000 | **$277,000** | Commission decay improving margins |
+| 11 | $0 | $71,800 | $44,400 | $31,800 | $178,000 | **$326,000** | Mature production; BiC ratios achieved |
+| 12 | $0 | $84,800 | $52,200 | $37,000 | $204,000 | **$378,000** | Mature production; BiC ratios achieved |
+
+**How to read this table:**
+
+Months 1-3 are dominated by **Assessments and Quick Starts** — these are the door-openers. Thrive reps and the Internal Team sell paid assessments ($2,500-$5,000 each) and Quick Start implementations ($5,000-$15,000) to new prospects. Hardware and software sales accompany these engagements (new firewall for the assessment, licensing cleanup, etc.). MRR is minimal because agreements haven't been signed yet.
+
+Starting Month 4, assessments convert to full **Managed Services agreements** and the revenue mix shifts dramatically. The "Assessments" line drops to zero because those prospects are now MS clients. **Projects** appear as the 1.0x multiplier kicks in — these are the migrations, infrastructure upgrades, and buildouts that new MS clients need. Hardware and software continue as clients refresh equipment and add tools.
+
+By Month 7+, **MS (MRR) becomes the majority** of new logo revenue (56%+), with Projects, Hardware, and Software flowing naturally from the installed base at the 1.0x multiplier ratio.
+
+### F.2 Combined P&L Impact
 
 | Month | New Revenue | of which Multiplier | New GP | Sales Cost | Net Contribution | Combined Revenue | EBITDA | **Net Cash** | Run Rate |
 |-------|------------|-------------------|--------|-----------|-----------------|-----------------|--------|-------------|----------|
