@@ -358,4 +358,8 @@ A key risk of the Phase 1 cuts is whether the remaining Help Desk team can suppo
 - Remaining capacity (George, AJ, Blaine, Hagen, Matt, Brendan, escalations): **~530 tickets/month**
 
 **Conclusion:**
-There is a ~60 ticket/month deficit. However, the conversion of the bottom 8 clients (88 tickets/month) to the Tier 1 pay-per-ticket model mitigates this risk. Because Tier 1 clients are no longer on flat-fee MS agreements, their tickets can be managed at a lower priority (longer SLA), ensuring the 530-ticket capacity is fully dedicated to protecting the SLAs of the core, profitable MS agreement clients.
+There is a ~60 ticket/month deficit. However, the three-option approach to the bottom 8 clients (88 tickets/month) resolves this either way:
+- **If they pay their fair share** (Option 1: fee increase, or Option 2: Tier 1 with per-ticket fees): The increased revenue funds additional help desk capacity to handle their ticket volume properly.
+- **If they leave** (Option 3: offboard): Their 88 tickets/month disappear entirely, converting the 60-ticket deficit into a ~28-ticket surplus that can absorb new client onboarding.
+
+Either outcome is positive. The business either gains revenue to fund capacity, or gains capacity directly.
