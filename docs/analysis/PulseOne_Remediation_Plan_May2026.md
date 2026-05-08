@@ -226,20 +226,20 @@ Chad Wiggins (former Director of Sales, departed 2025) left behind a Southern Ca
 
 ### 4. Fixed-Scope Project Profitability (Quick Starts, Rapid Deployments, Assessments)
 
-**The Issue:** PulseOne offers productized project offerings (Quick Starts, Rapid Deployments, IT Assessments) that should operate at 50%+ gross margin because they have defined scope, fixed pricing, and repeatable delivery. However, without strict scope enforcement and time tracking, these engagements frequently overrun their budgeted hours, destroying the margin.
+**The Issue:** PulseOne offers productized project offerings (Quick Starts, Rapid Deployments, IT Assessments) that should operate at 60-70% gross margin because they have defined scope, fixed pricing, and repeatable delivery. However, the current pricing does not adequately account for delivery overhead — the coordination, scheduling, project management, and administrative time required to execute these engagements. The direct labor hours may be on budget, but the unpriced overhead erodes the margin.
 
 **The Action:**
-- Define a maximum hour budget for each productized offering. Examples:
-  - Quick Start: 8 hours maximum delivery
-  - Rapid Deployment: 16 hours maximum delivery
-  - IT Assessment: 12 hours maximum delivery
-- Any hours beyond the budgeted maximum require a change order (additional billing) before work continues.
-- Price all fixed-scope offerings at a minimum 60% gross margin on budgeted hours (to absorb minor overruns and still hit 50% actual).
-- Track actual hours vs. budgeted hours on every engagement. Report monthly variance.
+- Reprice all productized offerings to target **70% gross margin** on direct delivery hours, which provides room for delivery overhead and still achieves 60%+ actual margin.
+- Alternatively, add a **$500-$1,000 delivery overhead fee** to each engagement to explicitly cover coordination, scheduling, and project management time. Examples:
+  - Quick Start: Add $500 delivery overhead → price moves from $1,500 to $2,000
+  - Rapid Deployment: Add $750 delivery overhead → price moves from $3,000 to $3,750
+  - IT Assessment: Add $500 delivery overhead → price moves from $2,000 to $2,500
+- Track delivery overhead hours separately from direct delivery hours to validate pricing accuracy over time.
+- Ensure all productized offerings have a clear scope boundary with change order process for anything outside the defined deliverable.
 
 **Financial Impact:**
-- Current project revenue: ~$25,000/month. If 40% of that ($10,000) is fixed-scope productized work, improving margin from 30% to 50% adds $2,000/month.
-- More importantly, this discipline prevents the margin destruction that made Projects a -36.6% segment in the past.
+- Current project revenue: ~$25,000/month. If 40% of that ($10,000) is fixed-scope productized work, adding $500-$750 in delivery overhead per engagement (at ~5 engagements/month) adds $2,500-$3,750/month in revenue at near-100% margin (the overhead cost is already being incurred).
+- As the sales plan ramps assessments to 10-14/month, properly pricing delivery overhead at $500-$1,000 each adds $5,000-$14,000/month in revenue that covers costs currently being absorbed invisibly.
 
 ### 5. Assessment Conversion Rate Improvement
 
