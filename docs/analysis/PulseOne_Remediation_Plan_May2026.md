@@ -64,17 +64,25 @@ The following clients have been identified as operating below the cost of delive
 
 Every one of these clients is operating at a net loss. The blended effective ticket rate of $69/hr is 38% below the burdened cost of $112/hr. Collectively, these 8 accounts destroy **$3,867/month** ($46,404/year) in margin before tool costs are even applied.
 
-**Action:** These clients will be presented with two options:
-1. **Tier 1 Conversion:** Maintain their base agreement at the current rate, but all support requests are billed at $100-$150 per ticket on top of the base fee.
-2. **Rate Increase:** Increase their monthly agreement to a level that covers the actual cost of delivery (effectively doubling or tripling their current rate).
+**Action:** These clients will be presented with three distinct options to remediate the loss. This framework forces a decision while offering a "soft landing" for clients who cannot afford the full rate increase.
 
-Clients who accept neither option will be offboarded.
+**Option 1: Fee Increase (Cover Delivery Cost)**
+Increase their flat-fee monthly agreement to a level that covers the actual burdened cost of delivery ($112/hr). 
+- **Impact:** Eliminates the $3,867/mo loss entirely. Requires an average fee increase of 61% across the group (ranging from 13% to 119%), which carries significant sticker-shock risk.
+- **Financials (if all accept):** +$4,170/mo new revenue.
 
-**Impact Scenarios:**
-- If all 8 clients stay on Tier 1 at $100/ticket: +$6,560/month in new per-ticket revenue (65.6 tickets × $100)
-- If all 8 clients stay on Tier 1 at $150/ticket: +$9,840/month in new per-ticket revenue
-- If 5 stay and 3 leave: +$4,100/month revenue, plus ~25 tickets/month of freed capacity
-- If all leave: -$6,817/month agreement revenue lost, but 98 hours/month of capacity freed (worth ~$7,000-$10,000 at delivery cost)
+**Option 2: Tier 1 Conversion (10% Base Reduction + Pay-Per-Ticket)**
+Reduce their current monthly base fee by 10%, but all support requests are billed at $100 per ticket. This shifts the risk of high utilization back to the client.
+- **Impact:** Base revenue drops by $682/mo, but per-ticket revenue adds $6,560/mo (at current volume). Crucially, ticket volume typically drops 30-50% when clients must pay per request.
+- **Financials (assuming 50% ticket drop):** +$2,598/mo net new revenue, plus 49 hours/month of freed delivery capacity.
+
+**Option 3: Offboard at Current Rate (June Target)**
+If the client rejects Options 1 and 2, PulseOne will offboard them by June.
+- **Impact:** PulseOne loses $6,817/mo in top-line revenue, but saves ~$10,684/mo in delivery costs. 
+- **Financials (if all leave):** The $3,867/mo loss is eliminated (a net positive to EBITDA). 98 hours/month of capacity is freed, which can be redeployed to profitable clients or new logos (valued at ~$10,987/mo at burdened rates).
+
+**Likely Scenario (Mixed Outcome):**
+Assuming a mix where 3 clients accept the fee increase, 3 move to Tier 1, and 2 offboard, PulseOne would see an estimated **+$2,794/mo in new revenue** and a net **EBITDA improvement of ~$2,700/mo**, while freeing up roughly 30-40 hours of monthly capacity. For conservative planning, the Phase 1 P&L model below assumes a flat +$2,700/mo net improvement from this cohort (replacing the previous $6,560 assumption).
 
 ### 5. Software Development Services Reallocation
 - **Action:** Daniyal's capacity (previously buried as an unrecovered cost in the project pool) is reallocated to a dedicated Software Development Services line.
@@ -110,13 +118,13 @@ Clients who accept neither option will be offboarded.
 | | **Partner Subtotal** | | | **$9,000** | |
 | 20 | Tool consolidation | OpEx | Subscription audit | $1,000 | Immediate cancellation of underused tools |
 | | **OpEx Subtotal** | | | **$1,000** | |
-| 21 | Tier 1 conversion | New Revenue | Bottom 8 clients (per-ticket billing) | +$6,560 | 65.6 tickets/mo × $100; no incremental COGS |
+| 21 | Bottom-tier remediation | New Revenue | Mix of Option 1 and Option 2 | +$2,700 | Conservative estimate of mixed outcome; eliminates $3.8K loss |
 | 22 | New revenue line | New Revenue | Software Dev Services (Daniyal) | +$5,000 | Custom dev/integrations/automation; COGS = $2,392 reclassified |
 | 23 | Project pricing improvement | New Revenue | Fixed-scope projects priced at 40%+ margin | +$5,000 | Quick Starts, Rapid Deployments, Assessments |
 | 24 | ITMS billing enforcement | New Revenue | Tighten monthly review; bill all T&M hours | +$2,500 | Process exists; reduce missed tickets |
-| | **New Revenue Subtotal** | | | **+$19,060** | Distinct new revenue streams, not cost savings |
+| | **New Revenue Subtotal** | | | **+$15,200** | Distinct new revenue streams, not cost savings |
 | | | | | | |
-| | **TOTAL PHASE 1 IMPROVEMENT** | | | **~$55,408/month** | Cost savings: $36,348 + New revenue: $19,060 |
+| | **TOTAL PHASE 1 IMPROVEMENT** | | | **~$51,548/month** | Cost savings: $36,348 + New revenue: $15,200 |
 
 **Phase 1 P&L Impact (at $291K base revenue — P&L LOW scenario):**
 
@@ -124,20 +132,20 @@ Clients who accept neither option will be offboarded.
 |--------|---------------|--------------|--------|
 | Revenue (base) | $291,545 | $291,545 | — |
 | + Software Dev Services | — | +$5,000 | +$5,000 |
-| + Tier 1 per-ticket billing | — | +$6,560 | +$6,560 |
+| + Bottom-tier remediation | — | +$2,700 | +$2,700 |
 | + Project pricing improvement | — | +$5,000 | +$5,000 |
 | + ITMS billing enforcement | — | +$2,500 | +$2,500 |
-| **Total Revenue** | **$291,545** | **$310,605** | **+$19,060** |
+| **Total Revenue** | **$291,545** | **$306,745** | **+$15,200** |
 | COGS | $201,313 | $177,355 | -$23,958 |
-| **Gross Margin** | **$90,232 (30.9%)** | **$133,250 (42.9%)** | **+$43,018** |
+| **Gross Margin** | **$90,232 (30.9%)** | **$129,390 (42.2%)** | **+$39,158** |
 | OpEx | $122,422 | $110,032 | -$12,390 |
-| **EBITDA** | **-$32,190 (-11.0%)** | **+$23,218 (7.5%)** | **+$55,408** |
+| **EBITDA** | **-$32,190 (-11.0%)** | **+$19,358 (6.3%)** | **+$51,548** |
 | Debt + Distributions | -$20,000 | -$20,000 | — |
-| **Net Cash** | **-$52,190** | **+$3,218** | **+$55,408** |
+| **Net Cash** | **-$52,190** | **-$642** | **+$51,548** |
 
 **Key Notes:**
 
-1. **Tier 1 revenue is uncertain.** The $6,560 assumes all 8 clients stay and pay $100/ticket. If half leave, revenue drops by ~$3,300 but capacity pressure also eases. Worst case (all leave): revenue drops $6,817 but 98 hours/month of delivery capacity is freed.
+1. **Bottom-tier remediation is a net win regardless of outcome.** Whether clients accept the fee increase (+$4K rev), move to Tier 1 (+$2.5K rev + freed capacity), or offboard (loss eliminated + 98 hours freed), the EBITDA impact is positive. The model uses a conservative +$2,700/mo revenue assumption for a mixed outcome.
 
 2. **Charlesdoone elimination carries capacity risk.** He is the 3rd most efficient tech at $32/ticket. His 84 tickets/month must be absorbed by George, AJ/Blaine, Hagen, Matt, and Brendan. This works only because departing clients (ARC, Conejo, Sea Ranch) remove 39 tickets/month and the Tier 1 clients can be served at lower priority.
 
