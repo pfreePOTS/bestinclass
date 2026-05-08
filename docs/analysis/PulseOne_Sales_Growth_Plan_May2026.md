@@ -78,13 +78,18 @@ These five reps carry a $2,000/month non-recoverable base salary plus the Thrive
 
 ## E. Revenue Ramp Assumptions
 
-### E.1 Product-Heavy Early Phase (Months 1-3)
+### E.1 The Assessment Pipeline (Months 1-4)
 
-During the first three months, new reps focus on activities that generate immediate revenue without requiring long sales cycles: paid technology assessments ($2,500-$5,000 each) and Quick Start implementations ($5,000-$15,000). This generates cash flow to offset base salaries and builds client relationships that convert to MRR. QuickBase data confirms median deal sizes around $5,000.
+The sales process is built around a structured funnel. Every new MS prospect must first undergo a paid technology assessment (averaging $2,000). 
+- **Month N:** Assessment performed (generates immediate cash flow)
+- **Month N+1:** 50% of assessments convert to Managed Services agreements (MRR begins; onboarding month)
+- **Month N+3:** The MS Multiplier kicks in (project work begins flowing from the new client)
 
-### E.2 MRR Conversion Phase (Months 4-6)
+During the first 3-4 months, new reps focus heavily on selling assessments. This generates cash flow to offset base salaries and builds the pipeline that will convert to MRR.
 
-Assessments and Quick Starts performed in months 1-3 begin converting to Managed Services agreements. The Internal Team, working warmer leads, begins producing MRR earlier (month 1-2) while the Thrive team's first meaningful MRR conversions arrive in months 3-5. As MRR builds, the **MS Multiplier** begins generating additional project/product revenue.
+### E.2 MRR Conversion & Multiplier Phase (Months 5-8)
+
+As the assessment pipeline matures, the 50% conversion rate begins producing steady MRR additions (averaging $2,000/mo per new client). Two months after each new MS client signs, the **MS Multiplier** begins generating additional project/product revenue at a 1.0x ratio to their MRR.
 
 ### E.3 Stabilized Production (Months 7-12)
 
@@ -110,18 +115,18 @@ Revenue is categorized into five types, each with a distinct margin profile:
 
 | Month | Cal | Assessments | Projects | Hardware | Software | MS (MRR) | **Total** | Phase |
 |-------|-----|------------|----------|----------|----------|----------|----------|-------|
-| 1 | Jun 26 | $9,600 | $0 | $4,000 | $2,400 | $0 | **$16,000** | Ramp: early product only |
-| 2 | Jul 26 | $21,600 | $0 | $9,000 | $5,400 | $1,500 | **$37,500** | First MRR from Paolo |
-| 3 | Aug 26 | $30,600 | $0 | $12,750 | $7,650 | $6,500 | **$59,000** | Internal team first MRR |
-| 4 | Sep 26 | $0 | $20,750 | $15,450 | $15,300 | $12,500 | **$72,000** | MRR accelerating; multiplier begins |
-| 5 | Oct 26 | $0 | $19,200 | $13,800 | $13,000 | $18,000 | **$84,500** | MRR accelerating; multiplier begins |
-| 6 | Nov 26 | $0 | $21,850 | $14,850 | $12,800 | $22,000 | **$110,000** | Scale phase; full team active |
-| 7 | Dec 26 | $0 | $29,250 | $19,050 | $15,200 | $24,500 | **$148,500** | Scale phase; full team active |
-| 8 | Jan 27 | $0 | $39,850 | $25,350 | $19,300 | $25,500 | **$195,000** | Scale phase; full team active |
-| 9 | Feb 27 | $0 | $52,100 | $32,700 | $24,200 | $26,500 | **$246,000** | Mature production; BiC ratios |
-| 10 | Mar 27 | $0 | $64,850 | $40,350 | $29,300 | $26,500 | **$298,000** | Mature production; BiC ratios |
-| 11 | Apr 27 | $0 | $78,100 | $48,300 | $34,600 | $27,500 | **$352,000** | Mature production; BiC ratios |
-| 12 | May 27 | $0 | $91,350 | $56,250 | $39,900 | $28,000 | **$406,500** | Mature production; BiC ratios |
+| 1 | Jun 26 | $2,000 | $0 | $3,500 | $3,500 | $0 | **$9,000** | Investment phase; assessments only |
+| 2 | Jul 26 | $4,000 | $0 | $7,000 | $7,000 | $0 | **$18,000** | Investment phase; assessments only |
+| 3 | Aug 26 | $10,000 | $0 | $9,000 | $9,000 | $2,000 | **$30,000** | First MRR converts; multiplier begins |
+| 4 | Sep 26 | $16,000 | $0 | $9,000 | $9,000 | $4,000 | **$40,000** | First MRR converts; multiplier begins |
+| 5 | Oct 26 | $20,000 | $1,000 | $8,600 | $8,400 | $6,000 | **$50,000** | MRR accelerating |
+| 6 | Nov 26 | $24,000 | $3,000 | $9,300 | $8,700 | $8,000 | **$65,000** | MRR accelerating |
+| 7 | Dec 26 | $26,000 | $6,000 | $11,100 | $9,900 | $10,000 | **$83,000** | Scale phase; full team active |
+| 8 | Jan 27 | $26,000 | $10,000 | $13,500 | $11,500 | $12,000 | **$103,000** | Scale phase; full team active |
+| 9 | Feb 27 | $28,000 | $15,000 | $16,500 | $13,500 | $12,000 | **$127,000** | Mature production; BiC ratios |
+| 10 | Mar 27 | $28,000 | $21,000 | $20,100 | $15,900 | $12,000 | **$151,000** | Mature production; BiC ratios |
+| 11 | Apr 27 | $28,000 | $27,000 | $23,700 | $18,300 | $12,000 | **$175,000** | Mature production; BiC ratios |
+| 12 | May 27 | $28,000 | $33,000 | $27,300 | $20,700 | $12,000 | **$199,000** | Mature production; BiC ratios |
 
 **How to read this table:**
 
@@ -135,18 +140,18 @@ By Month 7+, **MS (MRR) becomes the majority** of new logo revenue (56%+), with 
 
 | Month | Cal | New Revenue | of which Multiplier | New GP | Sales Cost | Net Contribution | Combined Revenue | EBITDA | **Net Cash** | Run Rate |
 |-------|-----|------------|-------------------|--------|-----------|-----------------|-----------------|--------|-------------|----------|
-| 1 | Jun 26 | $16,000 | $0 | $6,400 | $13,807 | -$7,407 | $322,745 | $11,951 | **-$8,049** | $3.87M |
-| 2 | Jul 26 | $37,500 | $0 | $15,255 | $18,057 | -$2,802 | $344,245 | $16,556 | **-$3,444** | $4.13M |
-| 3 | Aug 26 | $59,000 | $0 | $24,960 | $20,957 | $4,003 | $365,745 | $23,361 | **$3,361** | $4.39M |
-| 4 | Sep 26 | $72,000 | $1,500 | $32,360 | $25,457 | $6,903 | $378,745 | $26,261 | **$6,261** | $4.54M |
-| 5 | Oct 26 | $84,500 | $8,000 | $40,745 | $31,082 | $9,663 | $391,245 | $29,021 | **$9,021** | $4.69M |
-| 6 | Nov 26 | $110,000 | $20,500 | $55,310 | $37,782 | $17,528 | $416,745 | $36,886 | **$16,886** | $5.00M |
-| 7 | Dec 26 | $148,500 | $38,500 | $75,775 | $45,057 | $30,718 | $455,245 | $50,076 | **$30,076** | $5.46M |
-| 8 | Jan 27 | $195,000 | $60,500 | $99,810 | $51,782 | $48,028 | $501,745 | $67,386 | **$47,386** | $6.02M |
-| 9 | Feb 27 | $246,000 | $85,000 | $125,940 | $57,757 | $68,183 | $552,745 | $87,541 | **$67,541** | $6.63M |
-| 10 | Mar 27 | $298,000 | $110,500 | $152,520 | $62,732 | $89,788 | $604,745 | $109,146 | **$89,146** | $7.26M |
-| 11 | Apr 27 | $352,000 | $137,000 | $180,120 | $66,832 | $113,288 | $658,745 | $132,646 | **$112,646** | $7.90M |
-| 12 | May 27 | $406,500 | $163,500 | $208,005 | $70,432 | $137,573 | $713,245 | $156,931 | **$136,931** | $8.56M |
+| 1 | Jun 26 | $9,000 | $0 | $4,000 | $13,207 | -$9,207 | $315,745 | $10,151 | **-$9,849** | $3.79M |
+| 2 | Jul 26 | $18,000 | $0 | $8,000 | $15,907 | -$7,907 | $324,745 | $11,451 | **-$8,549** | $3.90M |
+| 3 | Aug 26 | $30,000 | $0 | $14,340 | $17,607 | -$3,267 | $336,745 | $16,091 | **-$3,909** | $4.04M |
+| 4 | Sep 26 | $40,000 | $0 | $20,220 | $20,007 | $213 | $346,745 | $19,571 | **-$429** | $4.16M |
+| 5 | Oct 26 | $50,000 | $2,000 | $26,140 | $23,207 | $2,933 | $356,745 | $22,291 | **$2,291** | $4.28M |
+| 6 | Nov 26 | $65,000 | $6,000 | $34,500 | $26,407 | $8,093 | $371,745 | $27,451 | **$7,451** | $4.46M |
+| 7 | Dec 26 | $83,000 | $12,000 | $44,100 | $30,207 | $13,893 | $389,745 | $33,251 | **$13,251** | $4.68M |
+| 8 | Jan 27 | $103,000 | $20,000 | $54,540 | $34,307 | $20,233 | $409,745 | $39,591 | **$19,591** | $4.92M |
+| 9 | Feb 27 | $127,000 | $30,000 | $67,080 | $38,307 | $28,773 | $433,745 | $48,131 | **$28,131** | $5.20M |
+| 10 | Mar 27 | $151,000 | $42,000 | $79,320 | $41,707 | $37,613 | $457,745 | $56,971 | **$36,971** | $5.49M |
+| 11 | Apr 27 | $175,000 | $54,000 | $91,560 | $44,307 | $47,253 | $481,745 | $66,611 | **$46,611** | $5.78M |
+| 12 | May 27 | $199,000 | $66,000 | $103,800 | $46,807 | $56,993 | $505,745 | $76,351 | **$56,351** | $6.07M |
 
 ---
 
@@ -156,42 +161,45 @@ The 1.0x MS Multiplier significantly accelerates the path to all milestones comp
 
 ### Milestone 1: Restore Furloughs + $30K Net Cash Buffer
 - **Target:** Net Cash ≥ $30,000/month (requires $50K EBITDA)
-- **Projected Achievement:** **Month 7 (December 2026)**
-- **Combined EBITDA at Achievement:** $50,076
-- **Net Cash at Achievement:** $30,076
-- **New MRR at that point:** $85,000/month cumulative
-- **Multiplier Revenue at that point:** $38,500/month
+- **Projected Achievement:** **Month 10 (March 2027)**
+- **Combined EBITDA at Achievement:** $56,971
+- **Net Cash at Achievement:** $36,971
+- **New MRR at that point:** $66,000/month cumulative
+- **Multiplier Revenue at that point:** $42,000/month
 
 ### Milestone 2: $5M Annual Run Rate
 - **Target:** $416,667/month revenue
-- **Projected Achievement:** **Month 6 (November 2026)**
-- **Combined Revenue at Achievement:** $416,745/month
-- **Annual Run Rate:** $5.00M
+- **Projected Achievement:** **Month 9 (February 2027)**
+- **Combined Revenue at Achievement:** $433,745/month
+- **Annual Run Rate:** $5.20M
 
 ### Milestone 3: Service Leadership Best in Class (15-20% Net Profit)
 - **Target:** 15-20% net profit margin
-- **Projected Achievement:** **Month 11 (April 2027)**
-- **Net Margin at Achievement:** 17.1%
-- **Combined Revenue at Achievement:** $658,745/month
+- **Projected Achievement:** **Not reached in 12 months** (Month 12 margin reaches 11.1%)
 
 ---
 
-## H. The Multiplier Impact & Internal Team Value
+## H. Pipeline Performance & Revenue Composition
+
+### 12-Month Assessment Pipeline Results
+The model projects realistic, steady growth based on the 50% conversion funnel:
+- **Total Assessments Performed:** 120 (steady state of ~10/month across all reps)
+- **New MS Clients Won:** 45
+- **Total Assessment Revenue:** $240,000
 
 ### 12-Month Multiplier Summary
-The 1.0x multiplier effect fundamentally changes the economics of the growth plan. By recognizing that new MS clients bring associated project and product work, the model captures the true value of acquiring a new logo.
-
-- **Total Multiplier Revenue (12 months):** $625,000
-- **Multiplier GP (at blended 45% margin):** $281,250
-- **Net Multiplier Contribution to EBITDA:** ~$250,000 (after Thrive commissions)
+The 1.0x multiplier effect captures the true value of acquiring a new logo, generating associated project and product work two months after MS onboarding:
+- **Total Multiplier Revenue (12 months):** $232,000
+- **Multiplier GP (at blended 45% margin):** $104,400
 
 ### Month 12 New Logo Revenue Composition
-By Month 12 (May 2027), the $406,500 in new monthly revenue is composed of:
-- **Managed Services MRR:** $219,000 (54%)
-- **Multiplier (Project/Product):** $163,500 (40%)
-- **Standalone Product:** $24,000 (6%)
+By Month 12 (May 2027), the $199,000 in new monthly revenue is composed of:
+- **Managed Services MRR:** $90,000 (45%)
+- **Multiplier (Project/Product):** $66,000 (33%)
+- **Assessments:** $28,000 (14%)
+- **Standalone Product:** $15,000 (8%)
 
-**Month 12 Combined State:** $713,245/mo revenue | $156,931 EBITDA | $136,931 Net Cash | $8.56M run rate
+**Month 12 Combined State:** $505,745/mo revenue | $76,351 EBITDA | $56,351 Net Cash | $6.07M run rate
 
 This 54/46 split between recurring and non-recurring revenue aligns well with healthy MSP ratios, providing both stability and high-margin project upside.
 
