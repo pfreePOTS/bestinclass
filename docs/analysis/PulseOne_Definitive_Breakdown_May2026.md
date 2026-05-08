@@ -52,7 +52,7 @@ When all resources (W-2, Upwork, Payoneer, BILL) are fully loaded into their res
 | G&A | $72,577 | 25.5% | 22.6% |
 | **Total SG&A** | **$138,017** | **48.6%** | 27.4% |
 | **EBITDA (Operating Profit)** | **$21,136** | **7.4%** | 18.3% |
-| Debt + Distributions | -$20,000 | — | — |
+| Debt + Cash Flow Buffer | -$20,000 | — | — |
 | **NET CASH FLOW** | **+$1,136** | — | — |
 
 *Note: The company is essentially exactly at cash breakeven at $284K revenue, but only because it is running a massive 56% Gross Margin that masks the 48.6% SG&A bloat.*

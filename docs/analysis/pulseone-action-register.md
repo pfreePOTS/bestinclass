@@ -65,7 +65,7 @@ Each action is tagged with a **Priority** (P1 = Immediate / P2 = Urgent / P3 = S
 | SGA-03 | Confirm Microsoft Azure ($19,041) classification: client-hosted (COGS) or internal (SGA) | P2 | Metric clarity | Paul | NOT STARTED | Audit Software Resale |
 | SGA-04 | ~~Confirm GoDaddy ($2,880) classification~~ | P2 | Metric clarity | Paul | **RESOLVED** — Owner confirmed internal SGA | Audit Software Resale |
 | SGA-05 | Rebalance Sales & Marketing: fix ROI failure on $358K S&M spend (6.9% of rev) which produced a 16.2% decline in MS revenue | P2 | Structural | Paul | NOT STARTED | Profit Waterfall 2025 |
-| SGA-06 | Halt all non-salary owner distributions to rebuild cash reserves (current ratio 0.10) | P1 | Liquidity | Paul | NOT STARTED | BIC Audit Report |
+| SGA-06 | Halt all non-salary owner draws to rebuild cash reserves (current ratio 0.10) | P1 | Liquidity | Paul | NOT STARTED | BIC Audit Report |
 
 ---
 

@@ -2,13 +2,13 @@
 
 ## A. Objective
 
-This document outlines the specific, phased actions required to close the gap between PulseOne's current financial trajectory and the target state of $30,000/month in net cash generation (after debt and distributions). It supersedes all previous high-level action frameworks and serves as the definitive execution plan based on the May 2026 data reconciliation.
+This document outlines the specific, phased actions required to close the gap between PulseOne's current financial trajectory and the target state of $30,000/month in net cash generation (after debt service and cash flow buffer). It supersedes all previous high-level action frameworks and serves as the definitive execution plan based on the May 2026 data reconciliation.
 
 ## B. The Financial Gap
 
 Based on the May 2026 baseline at ~$280,000/month in revenue:
 - **Current EBITDA:** ~$29,740 loss per month
-- **Debt & Distributions:** $20,000 cash requirement per month
+- **Debt Service + Cash Flow Buffer:** $20,000 cash requirement per month
 - **Net Cash Generation:** ~$49,740 burn per month
 - **Target State:** +$30,000 net cash per month
 - **Total Improvement Required:** ~$80,000 per month
@@ -140,7 +140,7 @@ Assuming a mix where 3 clients accept the fee increase, 3 move to Tier 1, and 2 
 | **Gross Margin** | **$90,232 (30.9%)** | **$129,390 (42.2%)** | **+$39,158** |
 | OpEx | $122,422 | $110,032 | -$12,390 |
 | **EBITDA** | **-$32,190 (-11.0%)** | **+$19,358 (6.3%)** | **+$51,548** |
-| Debt + Distributions | -$20,000 | -$20,000 | — |
+| Debt + Cash Flow Buffer | -$20,000 | -$20,000 | — |
 | **Net Cash** | **-$52,190** | **-$642** | **+$51,548** |
 
 **Key Notes:**

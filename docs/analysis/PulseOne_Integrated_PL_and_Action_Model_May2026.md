@@ -269,7 +269,7 @@ PulseOne is 10-13 percentage points below BiC Gross Margin. The primary driver o
 | | | | | |
 | **EBITDA** | **$(32,190)** | **$(27,190)** | **$(17,190)** | **18.3%+** |
 | *EBITDA %* | *-11.0%* | *-9.2%* | *-5.6%* | |
-| Debt + Distributions | $(20,000) | $(20,000) | $(20,000) | |
+| Debt + Cash Flow Buffer | $(20,000) | $(20,000) | $(20,000) | |
 | **NET CASH** | **$(52,190)** | **$(47,190)** | **$(37,190)** | |
 
 ---
@@ -411,9 +411,9 @@ The parallel session's client analysis identified the following actionable findi
 | Tools + Software COGS | ~$44,908/mo | MS Tools $11,953 + Software COGS $30,955 + Sales Tools $2,881 + Mktg Tools $2,700 |
 | G&A Overhead | $25,988/mo | Healthcare + Payroll Tax + Rent + Insurance + etc. |
 | Products COGS | $61,600/mo | Software $40,600 + Hardware $21,000 |
-| **Total Monthly Cash Need (excl D&D)** | **~$323,735/mo** | |
-| Debt + Distributions | $20,000/mo | |
-| **Total Monthly Cash Need (incl D&D)** | **~$343,735/mo** | |
+| **Total Monthly Cash Need (excl Debt/Buffer)** | **~$323,735/mo** | |
+| Debt + Cash Flow Buffer | $20,000/mo | |
+| **Total Monthly Cash Need (incl Debt/Buffer)** | **~$343,735/mo** | |
 
 This validates against the April Profitability Sheet: at $310K revenue, the company was operating at a slight loss, which aligns with the $343K cash breakeven estimate when factoring in the high volume of low-margin hardware/software sold in April.
 

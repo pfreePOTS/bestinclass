@@ -32,7 +32,7 @@ The growth plan begins from the post-Phase 1 stabilized state. All Phase 1 cost 
 |--------|--------------|
 | Baseline Revenue | $306,745 |
 | Baseline EBITDA | $19,358 |
-| Debt Service + Distributions | $20,000 |
+| Debt Service + Cash Flow Buffer | $20,000 |
 | **Net Cash (Starting)** | **-$642** |
 | Target Net Cash (Milestone 1) | $30,000+ |
 
