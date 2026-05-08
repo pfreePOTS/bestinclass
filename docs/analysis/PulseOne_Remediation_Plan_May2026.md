@@ -80,10 +80,65 @@ Clients who accept neither option will be offboarded.
 - **Impact:** Projected +$5,000/month in distinct revenue against his existing $3,987 cost.
 
 ### Phase 1 Summary
-**Total Phase 1 EBITDA Improvement: ~$47,217/month**
-- New EBITDA Run Rate: +$17,477/month (5.8% margin)
-- New Net Cash Run Rate: -$2,523/month
-- **Remaining Gap to Target:** ~$32,523/month
+
+**All Phase 1 Actions — Consolidated:**
+
+| # | Action | Category | Person/Item | Monthly Savings | Notes |
+|---|--------|----------|-------------|----------------|-------|
+| 1 | Furlough 20% | W-2 COGS | Kaitlin Harris | $1,134 | Shifts to sales support in Phase 2 |
+| 2 | Furlough 20% | W-2 COGS | Stephen Calkins | $2,120 | Retains escalation + closer role |
+| 3 | Furlough 20% | W-2 COGS | Nicole Goodwin | $1,531 | Renewals move to Ops in Phase 2 |
+| 4 | Furlough 10% | W-2 COGS | Laura Walsh | $1,010 | Shifts to full-time sales/presales |
+| 5 | Furlough 10% | W-2 COGS | James Froio | $1,034 | Retains escalation role |
+| 6 | Furlough 10% | W-2 COGS | Hagen McDonell | $576 | Local SoCal ITMS + onsite support |
+| 7 | Furlough 10% | W-2 Sales | Eric Anzalone | $729 | Takes over project management |
+| 8 | Furlough 10% | W-2 Marketing | Kyle Carey | $514 | |
+| 9 | Furlough 10% | W-2 Marketing | Lucy | $300 | |
+| 10 | Payroll tax savings | Overhead | (7.65% on above) | $567 | Automatic with pay reductions |
+| | **W-2 Subtotal** | | | **$9,515** | |
+| 11 | Eliminate | Contractor COGS | Dare Olusanjo | $4,333 | 109 tickets/mo absorbed by team |
+| 12 | Eliminate | Contractor COGS | Charlesdoone Castro | $2,716 | 84 tickets/mo — BUT $32/ticket efficiency; see capacity note |
+| 13 | Reduce 20% | Contractor COGS | Vincent Williams | $1,750 | Retains MS escalation + reduced project delivery |
+| 14 | Reduce 20% | Contractor COGS | Matt Barnett | $1,493 | Retains HD + reduced project delivery |
+| 15 | Cap at 10hr/week | Contractor COGS | Jeremy Roe | $6,261 | Project COGS only; no longer on MS |
+| | **Contractor Subtotal** | | | **$16,553** | |
+| 16 | Reduce $3K each | Partner Comp | Rod Hare | $3,000 | |
+| 17 | Reduce $3K each | Partner Comp | Charles Batsford | $3,000 | |
+| 18 | Reduce $3K each | Partner Comp | Paul Freeman | $3,000 | |
+| | **Partner Subtotal** | | | **$9,000** | |
+| 19 | Tier 1 conversion | Revenue | Bottom 9 clients | +$6,660 | At $100/ticket; assumes all stay (see attrition scenarios below) |
+| 20 | New revenue line | Revenue | Software Dev Services | +$5,000 | Daniyal reclassified; $2,608 net margin after his COGS |
+| | **Revenue Subtotal** | | | **+$11,660** | |
+| | | | | | |
+| | **TOTAL PHASE 1 IMPROVEMENT** | | | **~$46,728/month** | |
+
+**Phase 1 P&L Impact (at $280K base revenue):**
+
+| Metric | Before Phase 1 | After Phase 1 | Change |
+|--------|---------------|--------------|--------|
+| Revenue | $280,545 | $291,205 | +$10,660 |
+| COGS | $194,863 | $168,310 | -$26,553 |
+| Gross Margin | $85,682 (30.5%) | $122,895 (42.2%) | +$37,213 |
+| OpEx | $122,422 | $112,907 | -$9,515 |
+| **EBITDA** | **-$36,740** | **+$9,988 (3.4%)** | **+$46,728** |
+| Debt + Distributions | -$20,000 | -$20,000 | — |
+| **Net Cash** | **-$56,740** | **-$10,012** | **+$46,728** |
+
+**Key Notes:**
+
+1. **Tier 1 revenue is uncertain.** The $6,660 assumes all 9 clients stay and pay $100/ticket. If half leave, revenue drops by ~$3,400 but capacity pressure also eases. Worst case (all leave): revenue drops $6,862 but 99 hours/month of delivery capacity is freed.
+
+2. **Charlesdoone elimination carries capacity risk.** He is the 3rd most efficient tech at $32/ticket. His 84 tickets/month must be absorbed by George, AJ/Blaine, Hagen, Matt, and Brendan. This works only because departing clients (ARC, Conejo, Sea Ranch) remove 39 tickets/month and the Tier 1 clients can be served at lower priority.
+
+3. **AJ/Blaine ($13,000/month) are retained** despite being the most expensive HD resource ($66-74/ticket) because they are dedicated to Bunzl — PulseOne's largest client at $85,374/month in MS revenue. Losing Bunzl SLA quality is not an acceptable risk.
+
+4. **Jeremy Roe's 10hr/week retainer** means he is available for project delivery only. His cost ($2,080/month estimated) is charged entirely to Projects COGS. If project revenue does not materialize, he can be eliminated entirely in Phase 3.
+
+5. **Breanna Copeland is already gone** — her cost is not in the current baseline, so no savings are counted.
+
+6. **Julia Morte is retained** — she handles dispatch/coordination, not ticket resolution. Removing her would create a coordination gap without reducing ticket capacity.
+
+**Remaining Gap to Target:** ~$30,000 net cash target minus (-$10,012 actual) = **~$40,012/month** to be addressed in Phase 2.
 
 ---
 
